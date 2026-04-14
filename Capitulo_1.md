@@ -1,0 +1,20 @@
+# Introduccion 
+## 1.1 Startup Profile
+### 1.1.1 Descripción de la Startup
+
+Somos una startup peruana denominada **Veltrix**, creada por estudiantes de la carrera de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas (UPC), que tiene como objetivo principal optimizar la gestión y control de dispositivos electrónicos en hogares y pequeñas empresas mediante el uso de tecnología IoT.
+
+Nuestra misión es lograr que ninguna persona o negocio gestione sus dispositivos eléctricos de forma manual o desorganizada, promoviendo un control centralizado, automatizado y accesible que permita mejorar la eficiencia energética, la seguridad y la comodidad en el día a día.
+
+Para cumplir con este propósito, hemos desarrollado el proyecto **DomotiCore**, una plataforma web de domótica que permite a los usuarios gestionar, monitorear y automatizar dispositivos electrónicos de manera centralizada. La solución ofrece control en tiempo real, programación de horarios, monitoreo del estado de los dispositivos y una interfaz intuitiva que facilita la interacción del usuario sin necesidad de conocimientos técnicos avanzados.
+
+### 1.1.2. Perfiles de los Miembros del Equipo
+
+docs: update formatting and improve table structure in readme.
+| Foto | Apellido y Nombre | 
+| --- | --- | 
+![oscar](imagenes/) | *Checa Buga Oscar Diego - u20231e492* Soy estudiante de la carrera de ingeniería de software de 5to ciclo, interesado en el desarrollo de soluciones tecnológicas. Destaco por mi trabajo en equipo y comunicación constante. Tengo conocimiento en base de datos, desarrollo de aplicaciones y programación. Me gusta ir adaptándome a las nuevas tecnologías y aprender de estas, para poder desarrollar más en el ámbito profesional.
+![diego](imagenes/diego.jpeg) | *Esquicha Alcántara Diego Alonso - u202411799* Soy un estudiante de la carrera de ingeniería de software de quinto ciclo, me destaco por mis habilidades de comunicación y liderazgo para trabajar en equipo. Una de mis fortalezas es el desarrollo de la documentación necesaria para dar a marcha un proyecto o trabajo grupal y la comodidad de aprender de manera rápida y eficiente alguna herramienta tecnológica.  
+![cesar](imagenes/cesar.jpeg) | *Quispe Llacsahuanga César Agusto - u202417405* Soy estudiante de Ingeniería de Software, interesado en el desarrollo de soluciones tecnológicas y el aprendizaje continuo en herramientas de programación. Cuento con conocimientos en lógica de programación, bases de datos y desarrollo de aplicaciones, lo que me permite contribuir en la construcción de sistemas eficientes. Me caracterizo por ser responsable, proactivo y con buena disposición para el trabajo en equipo, adaptándome a nuevos retos y aportando en el cumplimiento de los objetivos del proyecto. 
+![alvaro](imagenes/alvaro.png) | *Rocha Cotrina Alvaro - u202411243* Soy estudiante de Ingeniería de Software, con enfoque en el desarrollo backend, bases de datos y lógica de programación. Cuento con experiencia en la creación de aplicaciones y resolución de problemas mediante programación, especialmente en lenguajes como C++ y el diseño de sistemas estructurados. Me caracterizo por ser organizado, responsable y comprometido con el trabajo en equipo, aportando en la construcción de soluciones eficientes y en la correcta estructuración de la arquitectura del sistema. Además, tengo una gran capacidad de aprendizaje y adaptación a nuevas tecnologías, lo que me permite contribuir activamente en el desarrollo del proyecto.
+![fabrizio](imagenes/) | *Tello Palacios Fabrizio Rafael - u202417423*  (Falta)
