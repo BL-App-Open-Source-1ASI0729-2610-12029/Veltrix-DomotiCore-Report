@@ -28,6 +28,8 @@
 | Rocha Cotrina, Alvaro                | U202411243 |
 | Esquicha Alcántara, Diego Alonso     | U202411799 |
 | Quispe llacsahuanga, César Agusto    | U202417405 |
+| Tello Palacios, Fabrizio Rafael      | U202113310 |
+| Checa Burga, Oscar                   | U202417405 |
 
 
 
