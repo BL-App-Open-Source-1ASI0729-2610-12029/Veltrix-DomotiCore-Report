@@ -29,6 +29,8 @@
 | Esquicha Alcántara, Diego Alonso     | U202411799 |
 | Quispe llacsahuanga, César Agusto    | U202417405 |
 | Tello Palacios, Fabrizio Rafael      | U202113310 |
+| Checa Burga, Oscar Diego             | U20231E492 |
+
 
 
 
