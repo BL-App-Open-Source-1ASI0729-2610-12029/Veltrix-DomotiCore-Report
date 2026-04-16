@@ -20,29 +20,6 @@ docs: update formatting and improve table structure in readme.
 ![fabrizio](imagenes/Fabrizio.png) | *Tello Palacios Fabrizio Rafael - u202113310*  Soy estudiante de la carrera de Ingeniería de Software. Considero que soy una persona comprometida en cada trabajo y tarea y siempre trato de dar lo mejor de mi en cada situación. A veces tengo complicaciones con la organización de mi tiempo, pero siempre estoy atento a cualquier problema dentro del equipo para poder pensar en soluciones y llegar a la mejor posible. Me gustan los retos, porque son esos retos los que me motivan a ser mejor como persona y como estudiante. Tengo muchas  cosas en las que mejorar y sé que lo lograré con disciplina y perseverancia.
 
 
-## 1.2 Solution Profile
-### 1.2.1 Antecedentes y Problemática
-
-#### What / ¿QUÉ?
-Se presenta una falta de control centralizado y automatización en la gestión de dispositivos electrónicos, lo que genera ineficiencia en el uso de energía y dependencia de procesos manuales en hogares y pequeñas empresas.
-
-#### When / ¿CUÁNDO?
-El problema se manifiesta de manera crítica cuando los usuarios olvidan apagar dispositivos, requieren activarlos de forma remota o necesitan programar su funcionamiento en horarios específicos sin intervención manual.
-
-#### Where / ¿DÓNDE?
-Se observa principalmente en entornos domésticos y pequeños negocios donde múltiples dispositivos eléctricos operan de forma independiente sin integración en un sistema centralizado.
-
-#### Who / ¿QUIÉN?
-Afecta a propietarios de viviendas, emprendedores y administradores de pequeños negocios que buscan optimizar el control de sus dispositivos eléctricos y reducir costos operativos.
-
-#### Why / ¿POR QUÉ?
-Sucede debido a la ausencia de soluciones accesibles y centralizadas que integren dispositivos IoT en una sola plataforma, generando procesos manuales, falta de automatización y desperdicio energético.
-
-#### How / ¿CÓMO?
-A diferencia de un sistema automatizado donde los dispositivos responden a configuraciones inteligentes, el problema se presenta como una gestión manual constante, provocando ineficiencia operativa y pérdida de control.
-
-#### How Much / ¿CUÁNTO?
-Los usuarios pueden perder entre un 15% y 25% de eficiencia energética debido al uso manual e inadecuado de dispositivos, lo que se traduce en mayores costos de electricidad y menor optimización de recursos.
 
 
 ## 1.2 Solution Profile
