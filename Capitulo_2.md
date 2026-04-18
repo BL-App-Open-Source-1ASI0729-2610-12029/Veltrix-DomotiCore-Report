@@ -337,3 +337,52 @@ El control de estos dispositivos es completamente manual y depende de la respons
   </tr>
 </tbody>
 </table>
+
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2">Entrevista #3<br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Carmen</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Salazar de Paz</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>60 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>San Isidro</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="imagenes/interview-of-carmen-salazar open.png" alt="Entrevista a Carmen Salazar"></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411799_upc_edu_pe/IQB5GgikCDjsTbmOHFrspHwfAYEuBw9UKbjPFyPcGFoJPOs?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=G9ilSC" title="Title">Microsoft Stream</p></td>
+  </tr>
+  <tr>
+    <td>Duracion<br></td>
+    <td>0:00 min - 06-15 min</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td>
+		Carmen Salazar de Paz es propietaria de una pequeña bodega familiar en la que trabajan cuatro personas. En su negocio utilizan dispositivos eléctricos básicos como congeladora, refrigeradora, ventilador, aire acondicionado y una cámara de seguridad, los cuales se controlan casi en su totalidad de forma manual, salvo la cámara que se supervisa desde el celular.
+
+Ha experimentado en varias ocasiones olvidos de equipos encendidos, principalmente ventiladores, lo que ha generado incrementos inesperados en el consumo de energía y en el recibo de luz. Aunque no utiliza herramientas digitales para la gestión del negocio, reconoce que una solución tecnológica simple podría ayudarle a mejorar el control, especialmente cuando no está presente.
+Carmen mostró interés en una aplicación web sencilla que le permita encender y apagar luces y dispositivos de forma remota, siempre que sea fácil de usar y no requiera conocimientos técnicos avanzados.
+</td>
+  </tr>
+</tbody>
+</table>
