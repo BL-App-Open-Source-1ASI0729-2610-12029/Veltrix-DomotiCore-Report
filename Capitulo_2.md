@@ -190,6 +190,55 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
 </tbody>
 </table>
 
+
+<table>
+  <colgroup>
+  </colgroup>
+  <thead>
+    <tr>
+      <th colspan="2">Entrevista #2<br></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <td>Nombre</td>
+      <td>Fabio Joaquin</td>
+    </tr>
+    <tr>
+      <td>Apellidos</td>
+      <td>Córdova Valdivia</td>
+    </tr>
+    <tr>
+      <td>Edad</td>
+      <td>22 años</td>
+    </tr>
+    <tr>
+      <td>Distrito</td>
+      <td>Comas</td>
+    </tr>
+    <tr>
+      <td>Evidencia</td>
+      <td><div align="center"><img src="imagenes/interview-of-Fabio-Cordova open.png" alt="Entrevista a Fabio Cordova"></td>
+    </tr>
+    <tr>
+      <td>Link</td>
+      <td><p><a target ="_blank" href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411799_upc_edu_pe/IQAUOHGLrCUIR527GO5SWTG5AbI5zz-ehj7E7MfOU94RLng?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=K96Sr0">Microsoft Stream</p></td>
+    </tr>
+    <tr>
+      <td>Duración</td>
+      <td>0:00 min - 03:13 min</td>
+    </tr>
+    <tr>
+      <td>Resumen</td>
+      <td>Fabio Cordova es un usuario de hogar inteligente y vive con 4 personas quienes también están familiarizados con el uso de tecnología en su día a día; como celulares, smart TVs, aspiradora inteligente. Fabio comenta que el consumo energético en estos últimos dos meses han aumnentado considerablemente y considera que tener una app o tecnología que permita ver el consumo energético en tiempo real de sus dispositivos sería de mucha ayuda, ya que podría ver el consumo de luz que tiene cada dispositivo con más exactitud y disminuir su uso cotidiano si fuese necesario.
+      Él ya ah usado anteriormente asistentes inteligentes como Alexa, que controlan ciertos dispositivos del hogar. Comenta que Alexa le ah sido un asistente muy útil porque le ahorraba tiempo en hacer ciertas cosas en su casa, sin embargo, un equipo como este requiere de una inversión alta y que los dispositvos del hogar tengan compatibilidad con la conexión a Alexa. 
+      Fabio concluye diciendo que una aplicación web que le permita a un usuario ver en tiempo real el consumo de luz de sus dispositivos inteligentes es una idea innovadora y muy accesible. Ayudaría en el ahorro de energía del hogar y sobretodo reducir la huella de carbono que producimos al usar dispositivos electrónicos.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 **Segmento 2:**
 
 <table>
