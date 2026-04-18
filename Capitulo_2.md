@@ -189,3 +189,54 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
   </tr>
 </tbody>
 </table>
+
+**Segmento 2:**
+
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2">Entrevista #1<br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Victor Hugo</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Esquicha Paz</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>53 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Barranco</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="imagenes/interview-of-victor-esquicha open.png" alt="Entrevista a 
+    Victor Esquicha"></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411799_upc_edu_pe/IQBVnjN_asilSKWTRLAItnUbAZWz02cRmOouD4JmiujHBQA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Q1RfmU" title="Title">Microsoft Stream</p></td>
+  </tr>
+  <tr>
+    <td>Duracion<br></td>
+    <td>0:00 min - 11:23 min</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td>
+		Victor Hugo Esquicha Paz es dueño de una consultora de software orientada a PYMES, en la que trabajan aproximadamente 10 personas. En su negocio se utilizan principalmente laptops, tablets, impresoras y algunos artefactos domésticos como refrigeradora y televisor, los cuales se controlan de manera manual por cada trabajador. Debido a la cantidad de equipos, el consumo de energía es elevado, alcanzando cerca de 1000 soles mensuales, y es común que los dispositivos y luces queden encendidos fuera del horario laboral.
+
+El control del negocio se basa en objetivos y seguimiento diario mediante reuniones y herramientas de gestión de proyectos como Jira, ya que el trabajo puede realizarse tanto de forma presencial como remota. Victor mostró interés en una solución tecnológica que le permita controlar dispositivos eléctricos de forma remota, verificar que estén apagados fuera del horario laboral y monitorear el consumo energético por equipo para optimizar costos.
+</td>
+  </tr>
+</tbody>
+</table>
