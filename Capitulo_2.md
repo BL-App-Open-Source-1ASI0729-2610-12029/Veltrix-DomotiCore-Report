@@ -240,3 +240,51 @@ El control del negocio se basa en objetivos y seguimiento diario mediante reunio
   </tr>
 </tbody>
 </table>
+
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="2">Entrevista #2<br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Katherine</td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Herrera Cotrina</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>37 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>Ancón</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="imagenes/interview-of-katherine-herrera open.png" alt="Entrevista a Katherine Herrera"></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411243_upc_edu_pe/IQBZ2XZj2i_dRoQDVxm0Ac37AahI-hx47Q8baL5uULz5hyQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=RoiamO" title="Title">Microsoft Stream</p></td>
+  </tr>
+  <tr>
+    <td>Duracion<br></td>
+    <td>0:00 min - 07:47 min</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td>
+		Katherine Herrera es propietaria de una farmacia pequeña donde trabajan tres personas. En su negocio se utilizan diversos dispositivos eléctricos como luces, una refrigeradora para medicamentos (que debe permanecer encendida), computadora, POS, ventiladores, aire acondicionado y cargadores, los cuales funcionan muchas horas al día.
+
+El control de estos dispositivos es completamente manual y depende de la responsabilidad del personal. Esto ha generado problemas frecuentes, como equipos olvidados encendidos durante la noche, lo que incrementa el consumo de energía y los gastos mensuales, además de preocupaciones por seguridad y desgaste de los equipos. Identifica como principal problema la falta de un control centralizado de los dispositivos y la dependencia total de las personas.
+</td>
+  </tr>
+</tbody>
+</table>
