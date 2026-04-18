@@ -386,3 +386,69 @@ Carmen mostró interés en una aplicación web sencilla que le permita encender 
   </tr>
 </tbody>
 </table>
+
+### 2.2.3 Análisis de Entrevistas
+
+**Segmento 1: Usuarios de Hogares Inteligentes**
+
+Se analizaron 3 entrevistas a usuarios de hogares, con distintos niveles de familiaridad tecnológica, que utilizan dispositivos electrónicos de manera cotidiana en sus viviendas. La información recopilada permitió identificar patrones comunes relacionados con el uso, control y problemas asociados a dispositivos eléctricos, así como oportunidades de mejora mediante soluciones de domótica. Estos hallazgos sirven como base para la definición de arquetipos del segmento.
+
+| Característica | Mención | % | Evidencia |
+| :--- | :---: | :---: | :--- |
+| **Uso diario de múltiples dispositivos electrónicos en el hogar** | 3/3 | 100% | Todos utilizan celulares, televisores, laptops, cargadores y otros equipos de forma constante. |
+| **Control manual de dispositivos eléctricos** | 3/3 | 100% | Los entrevistados encienden y apagan luces y equipos de manera manual mediante interruptores o controles. |
+| **Olvido frecuente de dispositivos encendidos** | 3/3 | 100% | Mencionan dejar luces, televisores, laptops o cargadores encendidos al salir de casa. |
+| **Preocupación por el consumo de energía eléctrica** | 3/3 | 100% | Relacionan los descuidos con recibos de luz elevados y gasto innecesario. |
+| **Uso del celular como dispositivo principal** | 3/3 | 100% | El celular es el dispositivo más utilizado y considerado clave para una posible solución. |
+| **Interés en el control remoto de dispositivos** | 3/3 | 100% | Expresan que les gustaría apagar o revisar dispositivos cuando no están en casa.|
+| **Baja adopción actual de tecnología domótica** | 2/3 | 66,6% | Solo uno ha tenido contacto previo con asistentes inteligentes como Alexa, pero no los usa activamente. |
+| **Valoración de soluciones simples e intuitivas** | 3/3 | 100% | Todos enfatizan que la solución debe ser intuitiva y no complicada. |
+| **Interés en monitorear el consumo por dispositivo** | 2/3 | 66,6% | Fabio y Magali consideran importante ver el consumo individual. |
+| **Disposición a adoptar una plataforma digital de control** | 3/3 | 100% | Aceptarían una aplicación si mejora seguridad, ahorro de tiempo y control del hogar. |
+
+**Insights Destacados**
+
+* **El principal problema no es la falta de dispositivos, sino la falta de control:**
+Los usuarios ya cuentan con múltiples dispositivos electrónicos, pero carecen de una forma centralizada de gestión, lo que genera olvidos, consumo innecesario y preocupación por la seguridad.
+* **El celular es el canal clave para la adopción de domótica:**
+El 100% de los entrevistados considera al celular como la herramienta ideal para controlar su hogar, lo que refuerza la necesidad de una plataforma móvil o web responsive.
+* **La simplicidad es un factor decisivo de adopción:**
+Todos los usuarios coinciden en que una solución compleja o difícil de aprender no sería utilizada, incluso si ofrece beneficios importantes.
+* **El ahorro energético y la seguridad son los principales motivadores:**
+Más allá de la comodidad, los usuarios valoran principalmente reducir el gasto eléctrico y evitar riesgos como sobrecalentamiento o equipos encendidos innecesariamente.
+* **Existe apertura a la domótica, pero con barreras de entrada claras:**
+Aunque el interés es alto, la adopción depende de que la solución sea accesible, intuitiva y percibida como útil en la vida diaria, lo que representa una oportunidad directa para DomotiCore.
+---
+
+**Segmento 2: Pequeños Negocios y Emprendedores**
+
+Se analizaron 3 entrevistas a propietarios y responsables de pequeños negocios que gestionan operaciones diarias con múltiples dispositivos eléctricos. La información obtenida permitió identificar características objetivas y subjetivas comunes relacionadas con el control operativo, consumo energético y adopción de soluciones tecnológicas, las cuales sirven como base para la construcción de los arquetipos del segmento.
+
+| Característica | Mención | % | Evidencia |
+| :--- | :---: | :---: | :--- |
+| **Gestión de un negocio con equipos eléctricos operativos diariamente** | 3/3 | 100% | Todos utilizan dispositivos como laptops, refrigeradoras, luces, ventiladores, impresoras y otros equipos esenciales. |
+| **Control manual del uso de dispositivos eléctricos** | 3/3 | 100% | Los entrevistados indican que el encendido y apagado depende de las personas y no de un sistema automatizado. |
+| **Problemas por consumo elevado de energía eléctrica** | 3/3 | 100% | Reportan recibos de luz altos o gastos no planificados asociados a equipos encendidos innecesariamente. |
+| **Olvido frecuente de equipos encendidos fuera del horario laboral** | 3/3 | 100% | Mencionan cargadores, luces, ventiladores y computadoras que quedan encendidos al cerrar el negocio. |
+| **Uso del celular como principal medio de supervisión remota** | 3/3 | 100% | Supervisan el negocio mediante llamadas o WhatsApp cuando no están presentes. |
+| **Falta de control centralizado de dispositivos** | 3/3 | 100% | No cuentan con una plataforma única para monitorear y controlar los equipos eléctricos.|
+| **Interés en el control remoto de dispositivos eléctricos** | 3/3 | 100% | Expresan la necesidad de apagar luces, equipos o artefactos desde fuera del negocio. |
+| **Necesidad de monitorear el consumo energético por dispositivo** | 2/3 | 66,6% | Victor y Katherine consideran importante identificar qué equipos consumen más energía. |
+| **Valoración de soluciones tecnológicas simples y prácticas** | 3/3 | 100% | Recalcan que la herramienta debe ser fácil de usar y no requerir capacitación compleja. |
+| **Disposición a adoptar soluciones digitales si generan ahorro real** | 3/3 | 100% | Usarían una plataforma si ayuda a reducir costos, mejorar control y no representa un gasto excesivo. |
+
+**Insights Destacados**
+
+* **Alto nivel de dependencia del control manual genera ineficiencias operativas:**
+El 100% de los entrevistados gestiona el uso de los dispositivos eléctricos de forma manual, lo que incrementa la probabilidad de errores humanos como olvidar equipos encendidos, generando consumo innecesario de energía y falta de control cuando el responsable no se encuentra presente en el negocio.
+* **El consumo energético representa un costo sensible para el negocio:**
+Todos los entrevistados manifestaron preocupación por los recibos de electricidad elevados o variables. La falta de visibilidad sobre qué dispositivos generan mayor consumo impide tomar decisiones informadas para optimizar gastos, afectando directamente la rentabilidad del negocio.
+* **Ausencia de control centralizado limita la supervisión remota:**
+Aunque los dueños utilizan el celular como principal medio de comunicación y supervisión, no cuentan con una herramienta que les permita verificar en tiempo real el estado de los dispositivos. Esto genera incertidumbre, dependencia del personal y menor capacidad de reacción ante errores o descuidos.
+* **Alta disposición a adoptar tecnología si es simple y accesible:**
+El 100% de los entrevistados estaría dispuesto a usar una solución tecnológica siempre que sea fácil de usar, práctica y no requiera conocimientos técnicos avanzados. La simplicidad de la interfaz y la facilidad de adopción son factores clave para la aceptación de la solución.
+* **El ahorro económico es el principal motivador para la adopción tecnológica:**
+Los entrevistados consideran viable invertir en una plataforma digital solo si esta genera un ahorro real y tangible en el consumo eléctrico. Esto evidencia que la propuesta de valor debe enfocarse en la reducción de costos, control eficiente y beneficios económicos claros.
+* **La seguridad y confiabilidad influyen en la confianza digital:**
+Existe preocupación por el uso de soluciones externas, especialmente en negocios relacionados con tecnología. Los usuarios valoran plataformas confiables, seguras y preferiblemente certificadas, lo que resalta la importancia de garantizar altos estándares de seguridad en la solución propuesta.
+---
