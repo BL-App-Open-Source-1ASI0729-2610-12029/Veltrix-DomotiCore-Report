@@ -239,7 +239,6 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
   </tbody>
 </table>
 
-**Segmento 1:**
 
 <table>
 <colgroup>
@@ -577,3 +576,16 @@ El control del consumo energético y la necesidad de reducir gastos operativos a
 
 * Necesidad de Presencia Remota:
 La supervisión del negocio cuando el propietario no está presente destaca como una tarea frecuente y relevante, evidenciando una fuerte necesidad de visibilidad remota y tranquilidad operativa. La falta de esta visibilidad genera estrés, incertidumbre y riesgo de errores humanos.
+
+### 2.3.3. User Journey Mapping
+
+En esta sección se presentan los User Journey Maps en su estado actual (As-Is), los cuales describen cómo los usuarios interactúan y gestionan sus dispositivos electrónicos antes de contar con DomotiCore. Este análisis permite comprender el flujo real de sus actividades, desde la identificación de una necesidad (control, seguridad, ahorro energético o supervisión) hasta la ejecución de acciones y la resolución de problemas cotidianos.
+A lo largo del recorrido se identifican las etapas clave, las acciones que realizan los usuarios, los puntos de contacto con dispositivos y herramientas actuales, así como las decisiones que toman de manera manual o reactiva. Asimismo, se evidencian los problemas derivados del uso de soluciones fragmentadas, controles individuales por dispositivo, falta de automatización y ausencia de monitoreo centralizado.
+
+**Segmento 1**
+
+![User-Journey-Map-1](imagenes/User%20Journey%20Map%20of%20Magali%20Alcántara.png)
+
+**Segmento 2**
+
+![User-Journey-Map-2](imagenes/User%20Journey%20Map%20of%20Victor%20Esquicha.png)
