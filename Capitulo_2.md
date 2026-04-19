@@ -500,3 +500,21 @@ Los entrevistados consideran viable invertir en una plataforma digital solo si e
 * **La seguridad y confiabilidad influyen en la confianza digital:**
 Existe preocupación por el uso de soluciones externas, especialmente en negocios relacionados con tecnología. Los usuarios valoran plataformas confiables, seguras y preferiblemente certificadas, lo que resalta la importancia de garantizar altos estándares de seguridad en la solución propuesta.
 ---
+## 2.3 Needfinding
+
+### 2.3.1. User Personas
+En esta sección se describen dos User Personas que representan los principales segmentos a los que está dirigida la solución DomotiCore, desarrollada por la startup Veltrix: por un lado, los usuarios de hogares inteligentes que buscan mejorar su calidad de vida mediante la automatización y el control remoto de sus dispositivos; y por otro, los propietarios y gestores de pequeños negocios que requieren optimizar el uso de sus recursos eléctricos y mantener un mayor control operativo. A través de la construcción de estos perfiles, se busca comprender en profundidad sus necesidades, motivaciones, frustraciones y comportamientos, con el objetivo de diseñar una plataforma que simplifique la gestión de dispositivos, incremente la visibilidad del estado de los equipos en tiempo real y facilite una toma de decisiones más eficiente, segura y oportuna tanto en el hogar como en el entorno comercial.
+
+**Segmento 1**
+
+![User-Persona-1](imagenes/Magali%20Alcántara.png)
+
+El User Persona de Magali Alcántara revela una tensión constante entre su rutina multifuncional y la gestión manual de los dispositivos electrónicos en su hogar. Aunque Magali posee una buena capacidad organizativa y un uso frecuente de la tecnología en su día a día, su entorno doméstico carece de un sistema centralizado que le permita ejercer un control eficiente sobre el consumo energético y el estado de sus dispositivos. Esta situación genera pequeñas ineficiencias acumulativas, como el olvido de cargadores conectados o equipos encendidos innecesariamente, que no solo incrementan los gastos de energía, sino que también añaden una carga mental adicional a una usuaria ya expuesta a múltiples responsabilidades laborales y personales.
+
+**Segmento 2**
+
+![User-Persona-2](imagenes/Victor%20Esquicha%20(2).png)
+
+El User Persona de Victor Esquicha evidencia una tensión constante entre su enfoque racional orientado a la eficiencia y la carga operativa que implica gestionar manualmente un entorno tecnológico cada vez más complejo. Como ingeniero de sistemas y dueño de una consultora de software, Víctor posee una alta competencia técnica y una clara orientación a resultados: reducir tiempos, optimizar recursos y entregar valor sostenido a sus clientes. Sin embargo, esta capacidad estratégica se ve limitada por la falta de automatización en la gestión de los dispositivos electrónicos tanto en su espacio laboral como doméstico.
+
+Para un perfil que valora el control, la predictibilidad y el uso inteligente de la tecnología, depender de procesos manuales como verificar equipos encendidos fuera del horario laboral o no tener visibilidad clara del consumo energético no solo genera ineficiencia operativa, sino también una sobrecarga innecesaria que desvía su atención de decisiones de mayor impacto.
