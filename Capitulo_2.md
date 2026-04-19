@@ -589,3 +589,15 @@ A lo largo del recorrido se identifican las etapas clave, las acciones que reali
 **Segmento 2**
 
 ![User-Journey-Map-2](imagenes/User%20Journey%20Map%20of%20Victor%20Esquicha.png)
+
+### 2.3.4. Empathy Mapping
+
+Se ha elaborado el Empathy Map para cada uno de nuestros User Personas con el fin de profundizar en su realidad cotidiana, logrando así una comprensión genuina de sus necesidades. Este análisis nos permite conectar con sus motivaciones más profundas y visualizar los obstáculos que enfrentan, garantizando que las soluciones propuestas no solo sean técnicas, sino que respondan verdaderamente a sus frustraciones y metas personales.
+
+**Segmento 1**
+
+![Empathy-Map-1](imagenes/PERSONA_%20Magali%20Alcántara.png)
+
+**Segmento 2**
+
+![Empathy-Map-2](imagenes/PERSONA_%20Victor%20Esquicha.png)
