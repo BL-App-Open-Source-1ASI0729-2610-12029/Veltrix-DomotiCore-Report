@@ -635,3 +635,29 @@ Fase donde se mitiga el desperdicio energético del 15% al 25% identificado en l
 Garantizar que el ecosistema IoT permanezca funcional y seguro.
 - **Maintenance alert generated:** El Support Specialist atiende fallos de conexión o hardware para mantener la integridad del sistema.
 - **Ecosystem optimized:** El ciclo se cierra con la actualización de reglas de automatización basadas en el historial de ahorro acumulado.
+
+## 2.5 Ubiquitous Language
+
+Establece un lenguaje común entre todos los miembros del equipo, facilitando la comunicación, asegurando una comprensión clara de los conceptos clave y el monitoreo.
+
+| Term | Definition |
+| :--- | :--- |
+| **Node** | Any individual physical device (light bulb, plug, sensor) connected to the platform that can be controlled or monitored. |
+| **Gateway** | The software component or access point that acts as a bridge to communicate local devices with the DomotiCore cloud server. |
+| **User** | The individual who manages home or business devices through the platform to optimize energy consumption and security. |
+| **Dashboard** | The centralized visual interface where the user monitors node status, energy metrics, and real-time data. |
+| **Scene** | A predefined configuration that groups the actions of multiple nodes to be executed simultaneously (e.g., "Business Closing Mode"). |
+| **Automation** | A programmed logical rule that triggers a device action automatically based on time, sensor data, or specific events. |
+| **Energy Consumption** | The measurement of electrical power usage (in Watts or Kilowatts) reported by a node over a specific period. |
+| **Alert** | A notification generated and sent to the user when an anomaly is detected, such as a device left on or a power spike. |
+| **Device Status** | The current state of a node, indicating whether it is On, Off, or Offline. |
+| **Real-time Monitoring** | The platform's capability to receive and display telemetry data from devices without perceptible delays. |
+| **Telemetry** | The continuous flow of technical data (consumption, status, health) sent from nodes to the system for processing and analysis. |
+| **Smart Plug** | A specific type of node used to control the power flow of conventional appliances and measure their individual energy usage. |
+
+________________________________________
+Implementation example:
+- When a **User** pairs a new **Smart Plug**, it is registered as an active **Node** within their personal **Dashboard**.
+- The development team ensures that the **Telemetry** sent by the **Gateway** is correctly processed to trigger an **Alert** if consumption limits are exceeded.
+- By activating a "Energy Saving" **Scene**, the configured **Automation** changes the **Device Status** of all non-essential nodes to "Off".
+- The user relies on **Real-time Monitoring** to verify that the **Energy Consumption** of their facility has successfully decreased after business hours.
