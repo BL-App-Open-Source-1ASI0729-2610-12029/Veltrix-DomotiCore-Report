@@ -518,3 +518,62 @@ El User Persona de Magali Alcántara revela una tensión constante entre su ruti
 El User Persona de Victor Esquicha evidencia una tensión constante entre su enfoque racional orientado a la eficiencia y la carga operativa que implica gestionar manualmente un entorno tecnológico cada vez más complejo. Como ingeniero de sistemas y dueño de una consultora de software, Víctor posee una alta competencia técnica y una clara orientación a resultados: reducir tiempos, optimizar recursos y entregar valor sostenido a sus clientes. Sin embargo, esta capacidad estratégica se ve limitada por la falta de automatización en la gestión de los dispositivos electrónicos tanto en su espacio laboral como doméstico.
 
 Para un perfil que valora el control, la predictibilidad y el uso inteligente de la tecnología, depender de procesos manuales como verificar equipos encendidos fuera del horario laboral o no tener visibilidad clara del consumo energético no solo genera ineficiencia operativa, sino también una sobrecarga innecesaria que desvía su atención de decisiones de mayor impacto.
+
+### 2.3.2. User Task Matrix
+En esta sección se presenta el User Task Matrix, el cual identifica y organiza las principales tareas que realizan los User Personas que representan a los segmentos objetivo de la solución DomotiCore.
+Los segmentos considerados son:
+
+* Segmento 1: Usuarios de hogares inteligentes.<br>
+* Segmento 2: Pequeños negocios y emprendedores.
+
+Las tareas descritas corresponden a actividades habituales que los usuarios realizan para alcanzar sus objetivos de control, seguridad y eficiencia energética, independientemente de la existencia de una solución digital. Este análisis permite comprender cómo operan actualmente, identificar puntos de fricción y detectar oportunidades donde DomotiCore puede aportar valor.
+
+**Segmento 1**
+|     Task   | Frequency | Importance |
+|-------------------------------------------------------------|----------|------------|
+| Encender y apagar dispositivos electrónicos del hogar                        | Daily       | Critical   |
+| Verificar que los dispositivos queden apagados al salir de casa                     | Daily       | High       |
+| Supervisar el estado de los dispositivos desde el hogar | Daily      | High   |
+| Controlar el consumo de energía eléctrica.                | Weekly      | High     |
+| Organizar horarios de uso de luces y electrodomésticos| Weekly       | Medium       |
+| Resolver olvidos de dispositivos encendidos                 | Daily    | Critical      |
+| Supervisar el hogar cuando no hay personas presentes                    |Occasionally      | High     |
+| Ajustar el uso de dispositivos según rutinas diarias       |Weekly | Medium      |
+| Buscar formas de reducir gastos innecesarios de energía       | Monthly| High   |
+
+**Análisis**
+
+* Foco en el control cotidiano del hogar:
+La alta frecuencia y criticidad de tareas como encender/apagar dispositivos, verificar su estado al salir de casa y resolver olvidos diarios evidencian que el bienestar del usuario depende de mantener un control constante sobre los aparatos electrónicos del hogar.
+
+* Conflicto entre comodidad y carga mental:
+Existe una contradicción clara entre el deseo de comodidad y ahorro energético y la necesidad de supervisión manual frecuente. Aunque tareas como organizar horarios o ajustar rutinas tienen una importancia media, su ejecución constante genera una carga cognitiva innecesaria que afecta la experiencia del usuario.
+
+* Prioridad estratégica en el ahorro y la seguridad:
+La matriz revela que el valor principal para este segmento no es únicamente la automatización, sino la tranquilidad de saber que el hogar es seguro y eficiente, incluso cuando no hay personas presentes, reduciendo gastos innecesarios y riesgos asociados a dispositivos encendidos.
+
+**Segmento 2**
+|     Task   | Frequency | Importance |
+|-------------------------------------------------------------|----------|------------|
+| Encender y apagar dispositivos del local comercial                       | Daily       | Critical   |
+| Verificar que los equipos queden apagados fuera del horario laboral                     | Daily       | Critical       |
+| Supervisar el estado de los dispositivos del negocio | Daily      | High   |
+| Controlar el consumo de energía eléctrica eléctrica.                | Weekly      | Critical     |
+| Gestionar dispositivos en distintos espacios del local| Daily       | High       |
+| Resolver fallos o descuidos operativos (luces, equipos, sistemas)    | Daily    | Critical      |
+| Supervisar el negocio cuando el propietario no está presente                    |Daily     | High     |
+| Reducir costos operativos asociados al consumo eléctrico     |Monthly | Critical     |
+| Garantizar la continuidad operativa del negocio    | Daily| Critical   |
+
+**Análisis**
+* Foco en la Operación Diaria:
+La alta frecuencia y criticidad de tareas como encender/apagar dispositivos, supervisar equipos y resolver descuidos operativos evidencian que el éxito del pequeño negocio depende del control constante de su operación cotidiana. Cualquier falla, por mínima que sea, impacta directamente en costos, seguridad o continuidad del negocio.
+
+* Dependencia del Control Manual:
+Existe una carga operativa significativa en tareas repetitivas que hoy se realizan de forma manual o basada en la memoria del emprendedor. Aunque estas tareas son críticas, consumen tiempo que podría destinarse a actividades estratégicas como ventas, atención al cliente o crecimiento del negocio.
+
+* Presión por la Reducción de Costos:
+El control del consumo energético y la necesidad de reducir gastos operativos aparecen como tareas de alta importancia, especialmente a mediano plazo. Esto refleja que el margen financiero es limitado y que una mala gestión de los dispositivos puede afectar directamente la rentabilidad del negocio.
+
+* Necesidad de Presencia Remota:
+La supervisión del negocio cuando el propietario no está presente destaca como una tarea frecuente y relevante, evidenciando una fuerte necesidad de visibilidad remota y tranquilidad operativa. La falta de esta visibilidad genera estrés, incertidumbre y riesgo de errores humanos.
