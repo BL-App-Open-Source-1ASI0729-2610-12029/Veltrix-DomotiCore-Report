@@ -601,3 +601,37 @@ Se ha elaborado el Empathy Map para cada uno de nuestros User Personas con el fi
 **Segmento 2**
 
 ![Empathy-Map-2](imagenes/PERSONA_%20Victor%20Esquicha.png)
+
+## 2.4 Big Picture EventStorming
+
+En esta sección, se presenta el resultado de la sesión colaborativa de Big Picture Event Storming, diseñada para explorar el "landscape" del negocio de automatización y eficiencia energética.
+### **Big Picture Event Storming: Actor-Event Sequence**
+
+![EventStorming](imagenes/Imagenes_Cap2/big_picture.png)
+
+**Explicación de las Etapas del Event Storming:**
+
+**Etapa 1: Onboarding e Integración de Infraestructura** <br>
+Es el punto de entrada donde se establece la conexión física y digital del entorno del usuario.
+- **Energy efficiency need identified & Smart hardware acquired:** El User identifica la necesidad de reducir su gasto eléctrico. DomotiCore actúa como el receptor central para gestionar estos dispositivos.
+- **Gateway registered in platform:** El Administrator formaliza la entidad del puente de conexión, habilitando la comunicación entre el hogar/negocio y la nube.
+
+**Etapa 2: Configuración y Sincronización de Dispositivos** <br>
+Aquí el sistema se asegura de que los nodos cumplan con los estándares de red y se visualicen correctamente.
+- **Device technical specifications received & Connection standard validated:** Se valida que el nodo (enchufe o foco) sea compatible con los protocolos de seguridad y comunicación de Veltrix.
+- **Node status synchronized with Dashboard:** El estado físico del dispositivo se refleja digitalmente, eliminando la incertidumbre sobre si un equipo quedó encendido.
+
+**Etapa 3: Operación y Captura de Telemetría** <br>
+Esta es la fase operativa donde la plataforma recolecta datos para la toma de decisiones.
+- **Automation rule assigned:** El User establece horarios o reglas lógicas de ahorro.
+- **Telemetry data started & Consumption registered:** Los nodos envían flujos de datos constantes. Este evento es vital porque alimenta el Dashboard en tiempo real para un control preciso.
+
+**Etapa 4: Control, Alertas y Valor de Negocio** <br>
+Fase donde se mitiga el desperdicio energético del 15% al 25% identificado en la problemática.
+- **Anomalous consumption detected & Remote command executed:** El System identifica un consumo inusual y el User ejecuta el apagado remoto, recuperando el control de su gasto operativo.
+- **Monthly savings report generated:** Se consolida el ahorro mensual, transformando la telemetría en valor económico tangible para el usuario.
+
+**Etapa 5: Mantenimiento y Continuidad Operativa** <br>
+Garantizar que el ecosistema IoT permanezca funcional y seguro.
+- **Maintenance alert generated:** El Support Specialist atiende fallos de conexión o hardware para mantener la integridad del sistema.
+- **Ecosystem optimized:** El ciclo se cierra con la actualización de reglas de automatización basadas en el historial de ahorro acumulado.
