@@ -239,6 +239,54 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
   </tbody>
 </table>
 
+**Segmento 1:**
+
+<table>
+<colgroup>
+</colgroup>
+<thead>
+  <tr>
+    <th colspan="3">Entrevista #3<br></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Nombre</td>
+    <td>Adriana </td>
+  </tr>
+  <tr>
+    <td>Apellidos</td>
+    <td>Gonzalez</td>
+  </tr>
+  <tr>
+    <td>Edad</td>
+    <td>25 años</td>
+  </tr>
+  <tr>
+    <td>Distrito</td>
+    <td>San Juan de Lurigancho</td>
+  </tr>
+  <tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="imagenes/imagen-seg1_OpenSource.png" alt="Entrevista a Magali Alcántara"></td>
+  </tr>
+  <tr>
+    <td>Link</td>
+    <td><p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417405_upc_edu_pe/IQAli4YH3vKLSrCRpt4ZgL63AYBFawejFcL6UOtXQU1LtB4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=mFIsWF" title="Title">Microsoft Stream</p></td>
+  </tr>
+  <tr>
+    <td>Duracion<br></td>
+    <td>0:00 min - 08:15 min</td>
+  </tr>
+  <tr>
+    <td>Resumen</td>
+    <td>
+		Adriana Gonzalez es un Usuario de 25 años residente en San Juan de Lurigancho que vive con sus padres y mantiene una rutina diaria muy dinámica, dividiendo su tiempo entre el estudio y su trabajo en una empresa de consultoría legal. Utiliza con alta frecuencia dispositivos electrónicos como el celular, la computadora y una tablet para sus actividades diarias y entretenimiento. Actualmente, controla todos sus artefactos y luminarias de manera manual, lo cual le ha causado inconvenientes previos, como olvidar luces encendidas o incluso dañar un hervidor eléctrico al dejarlo conectado por error. Considera que el ahorro de energía es fundamental, principalmente por su impacto directo en el costo de los recibos de luz y la economía familiar. A pesar de no contar con asistentes virtuales integrados en su hogar, muestra un gran interés en soluciones de automatización que le permitan controlar su casa de forma remota a través del celular. Para Adriana, la seguridad, la tranquilidad de saber que todo está apagado y la comodidad de programar horarios son las mayores motivaciones para adoptar esta tecnología. Está totalmente dispuesta a utilizar una plataforma web o aplicación, siempre que sea intuitiva, visualmente atractiva y simplifique su estilo de vida, aprovechando su constante acceso a internet y su comodidad con las nuevas tecnologías.
+</td>
+  </tr>
+</tbody>
+</table>
+
 **Segmento 2:**
 
 <table>
