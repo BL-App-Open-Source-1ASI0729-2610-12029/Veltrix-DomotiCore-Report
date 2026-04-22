@@ -53,3 +53,67 @@ En esta sección se verán las historias de usuario que ayudarán en el desarrol
 | EP04 / US48 | Visualización de consumo por dispositivo | **Como** usuario, **quiero** ver el consumo individual de cada dispositivo **para** identificar cuál consume más energía. | Scenario 1: Visualización. **Dado que** existen datos de consumo, **cuando** el usuario accede al detalle, **entonces** el sistema muestra el consumo por dispositivo. <br>Scenario 2: Sin datos. **Dado que** no hay información registrada, **cuando** accede, **entonces** el sistema muestra mensaje de ausencia de datos. | EP04: Energy Monitoring |
 | EP03 / US49 | Activación manual de modo ahorro | **Como** usuario, **quiero** activar un modo ahorro manualmente **para** reducir el consumo energético de mis dispositivos. | Scenario 1: Activación exitosa. **Dado que** existen dispositivos encendidos, **cuando** el usuario activa el modo ahorro, **entonces** el sistema reduce el consumo (apagando o limitando dispositivos). <br>Scenario 2: Sin dispositivos activos. **Dado que** no hay dispositivos encendidos, **cuando** activa el modo ahorro, **entonces** el sistema muestra que no hay acciones a realizar. | EP03: Automation |
 | EP06 / US50 | Registro de último estado del dispositivo | **Como** usuario, **quiero** ver el último estado registrado de un dispositivo **para** saber su condición reciente. | Scenario 1: Visualización de estado. **Dado que** el dispositivo tiene registros, **cuando** el usuario accede al detalle, **entonces** el sistema muestra el último estado con fecha y hora. <br>Scenario 2: Sin registros. **Dado que** no existe historial del dispositivo, **cuando** el usuario accede, **entonces** el sistema muestra que no hay información disponible. | EP06: Security & Logs |
+---
+### 3.2. Impact Mapping
+
+El Impact Mapping es una herramienta que nos permitió estructurar y visualizar de manera clara la relación entre los objetivos del proyecto, los actores involucrados y las funcionalidades propuestas en la solución. A partir de la información recopilada en las entrevistas y el análisis de necesidades, se identificaron los principales problemas que enfrentan los usuarios.
+
+### IMPACT MAPPING 1
+![Impact Mapping](imagenes/Impact%20map%201.png)
+
+### IMPACT MAPPING 2
+![Impact Mapping](imagenes/Impact%20map%202.png)
+
+### 3.3. Product Backlog
+| # Orden | User Story Id | Título | Descripción | Story Points (1/2/3/5/8) |
+| :--- | :--- | :--- | :--- | :--- |
+| **1** | **US01** | Vinculación de Gateway | **Como** usuario, **quiero** vincular el gateway a la plataforma **para** conectar mis dispositivos a la nube. | 5 |
+| **2** | **US02** | Registro de dispositivos | **Como** usuario, **quiero** registrar dispositivos inteligentes **para** controlarlos desde la plataforma. | 5 |
+| **3** | **US03** | Control remoto | **Como** usuario, **quiero** encender y apagar dispositivos remotamente **para** gestionarlos a distancia. | 3 |
+| **4** | **US04** | Programación de horarios | **Como** usuario, **quiero** programar horarios de encendido y apagado **para** automatizar el uso energético. | 5 |
+| **5** | **US05** | Escenas grupales | **Como** usuario, **quiero** crear escenas de dispositivos **para** ejecutar acciones múltiples rápidamente. | 5 |
+| **6** | **US06** | Monitoreo en tiempo real | **Como** usuario, **quiero** ver el consumo en watts en tiempo real **para** entender mi gasto energético. | 5 |
+| **7** | **US07** | Reporte mensual de consumo | **Como** usuario, **quiero** ver reportes mensuales de consumo **para** analizar mi ahorro energético. | 3 |
+| **8** | **US08** | Alertas de consumo alto | **Como** usuario, **quiero** recibir alertas cuando el consumo sea alto **para** prevenir gastos excesivos. | 3 |
+| **9** | **US09** | Notificación fuera de horario | **Como** usuario, **quiero** recibir alertas si un dispositivo queda encendido fuera de horario **para** evitar desperdicios. | 3 |
+| **10** | **US10** | Historial de eventos | **Como** administrador, **quiero** ver el historial de acciones **para** auditar el sistema. | 3 |
+| **11** | **US11** | Dashboard general | **Como** usuario, **quiero** ver un resumen general del estado de mis dispositivos **para** una vista rápida. | 2 |
+| **12** | **US12** | Organización por ambientes | **Como** usuario, **quiero** asignar dispositivos a ambientes **para** organizar mejor mi hogar o negocio. | 2 |
+| **13** | **US13** | Usuarios secundarios | **Como** administrador, **quiero** crear usuarios secundarios **para** compartir el control del sistema. | 5 |
+| **14** | **US14** | Gestión de permisos | **Como** administrador, **quiero** modificar permisos de usuarios **para** mantener la seguridad. | 5 |
+| **15** | **US15** | Historial de consumo | **Como** usuario, **quiero** revisar el consumo histórico **para** analizar patrones de uso. | 3 |
+| **16** | **US16** | Descarga de reportes | **Como** usuario, **quiero** descargar reportes de consumo **para** uso externo. | 3 |
+| **17** | **US17** | Información del producto | **Como** visitante, **quiero** ver información clara del producto **para** entender su valor. | 1 |
+| **18** | **US18** | Formulario de contacto | **Como** visitante, **quiero** enviar consultas **para** obtener más información del servicio. | 1 |
+| **19** | **US19** | Autenticación de API | **Como** developer, **quiero** autenticar la API **para** proteger el acceso a los datos. | 5 |
+| **20** | **US20** | Consulta API de dispositivos | **Como** developer, **quiero** consultar el estado de dispositivos vía API **para** integraciones externas. | 5 |
+| **21** | **US21** | Encendido masivo | **Como** usuario, **quiero** encender todos los dispositivos **para** activarlos rápidamente. | 3 |
+| **22** | **US22** | Apagado masivo | **Como** usuario, **quiero** apagar todos los dispositivos **para** reducir el consumo rápidamente. | 3 |
+| **23** | **US23** | Dispositivos conectados | **Como** usuario, **quiero** ver qué dispositivos están conectados **para** conocer su estado. | 2 |
+| **24** | **US24** | Dispositivos desconectados | **Como** usuario, **quiero** ver dispositivos desconectados **para** detectar fallas. | 2 |
+| **25** | **US25** | Actualizar estado | **Como** usuario, **quiero** refrescar el estado de los dispositivos **para** ver información actualizada. | 2 |
+| **26** | **US26** | Consumo total | **Como** usuario, **quiero** ver el consumo total de todos mis dispositivos **para** tener una visión general. | 3 |
+| **27** | **US27** | Confirmación de acciones | **Como** usuario, **quiero** confirmar acciones críticas **para** evitar errores. | 2 |
+| **28** | **US28** | Mensajes de feedback | **Como** usuario, **quiero** ver mensajes de éxito o error **para** saber el resultado de mis acciones. | 1 |
+| **29** | **US29** | Eliminación de dispositivos | **Como** usuario, **quiero** eliminar dispositivos **para** mantener organizada la red. | 2 |
+| **30** | **US30** | Renombrar dispositivos | **Como** usuario, **quiero** cambiar el nombre de dispositivos **para** identificarlos fácilmente. | 2 |
+| **31** | **US31** | Historial de mantenimiento | **Como** usuario, **quiero** ver el historial de mantenimiento **para** controlar el estado del dispositivo. | 3 |
+| **32** | **US32** | Registro de mantenimiento | **Como** usuario, **quiero** registrar mantenimientos realizados **para** actualizar el sistema. | 3 |
+| **33** | **US33** | Integraciones externas | **Como** usuario, **quiero** integrar servicios externos **para** ampliar funcionalidades. | 8 |
+| **34** | **US34** | Sincronización automática | **Como** usuario, **quiero** que las integraciones se sincronicen automáticamente **para** mantener datos actualizados. | 5 |
+| **35** | **US35** | Optimización automática | **Como** usuario, **quiero** que el sistema optimice el consumo **para** reducir gastos. | 8 |
+| **36** | **US36** | Sugerencias de ahorro | **Como** usuario, **quiero** recibir sugerencias personalizadas **para** ahorrar energía. | 5 |
+| **37** | **US37** | Detección de anomalías | **Como** usuario, **quiero** detectar consumos anómalos **para** prevenir fallas. | 5 |
+| **38** | **US38** | Alertas inteligentes | **Como** usuario, **quiero** recibir alertas inteligentes **para** anticipar problemas de consumo. | 5 |
+| **39** | **US39** | Exportación avanzada | **Como** administrador, **quiero** exportar datos avanzados **para** análisis externo. | 5 |
+| **40** | **US40** | Formato de exportación | **Como** administrador, **quiero** elegir el formato de exportación **para** adaptarlo a mis necesidades. | 3 |
+| **41** | **US41** | Backup de datos | **Como** administrador, **quiero** respaldar los datos **para** evitar pérdidas de información. | 5 |
+| **42** | **US42** | Restauración de datos | **Como** administrador, **quiero** restaurar datos desde un backup **para** recuperar el sistema. | 5 |
+| **43** | **US43** | Monitoreo del sistema | **Como** administrador, **quiero** monitorear el estado del sistema **para** garantizar su disponibilidad. | 3 |
+| **44** | **US44** | Logs del sistema | **Como** administrador, **quiero** acceder a logs del sistema **para** diagnóstico técnico. | 3 |
+| **45** | **US45** | Configuración de alertas | **Como** usuario, **quiero** configurar alertas personalizadas **para** mis dispositivos. | 3 |
+| **46** | **US46** | Umbrales de consumo | **Como** usuario, **quiero** definir límites de consumo **para** recibir alertas preventivas. | 3 |
+| **47** | **US47** | Modo ahorro | **Como** usuario, **quiero** activar un modo ahorro **para** reducir consumo automáticamente. | 5 |
+| **48** | **US48** | Estadísticas avanzadas | **Como** usuario, **quiero** ver estadísticas avanzadas **para** un análisis detallado. | 5 |
+| **49** | **US49** | Seguridad de sesiones | **Como** administrador, **quiero** asegurar las sesiones de usuario **para** proteger el sistema. | 5 |
+| **50** | **US50** | Último estado del dispositivo | **Como** usuario, **quiero** ver el último estado registrado de un dispositivo **para** conocer su condición reciente. | 2 |
