@@ -352,10 +352,133 @@ La interfaz se adapta a distintos dispositivos (desktop, tablet, móvil), reorga
 
 **Versión Mobile Mockups - Usuarios de Hogares Inteligentes**
 
+  <div style="text-align:center;">
+  <img src="images/chapter-4/mockups-smart-home-users-mobile/mobile-dashboard-domoticore.png"
+       alt="Dashboard">
+
+  <div style="text-align:center;">
+  <img src="images/chapter-4/mockups-smart-home-users-mobile/mobile-alerts-domoticore.png"
+       alt="Alerts">
+
+  <div style="text-align:center;">
+  <img src="images/chapter-4/mockups-smart-home-users-mobile/mobile-devices-domoticore.png"
+       alt="Devices">
+
+  <div style="text-align:center;">
+  <img src="images/chapter-4/mockups-smart-home-users-mobile/mobile-automation-builder.png"
+       alt="Automation Builder">
+
+  <div style="text-align:center;">
+  <img src="images/chapter-4/mockups-smart-home-users-mobile/mobile-automations.png"
+       alt="Automation">
+
+  <div style="text-align:center;">
+  <img src="images/chapter-4/mockups-smart-home-users-mobile/mobile-energy-analytics.png"
+       alt=" Energy Analytics">
+
+  <div style="text-align:center;">
+  <img src="images/chapter-4/mockups-smart-home-users-mobile/mobile-ac-control.png"
+       alt="AC Control">
+
+  <div style="text-align:center;">
+  <img src="images/chapter-4/mockups-smart-home-users-mobile/mobile-security-hub.png"
+       alt="Security Hub">
+
+  <div style="text-align:center;">
+  <img src="images/chapter-4/mockups-smart-home-users-mobile/mobile-profile-settings.png"
+       alt="Profile & Settings">
+
+  <div style="text-align:center;">
+  <img src="images/chapter-4/mockups-smart-home-users-mobile/mobile-history-log.png"
+       alt="History Log">
+
+  <div style="text-align:center;">
+  <img src="images/chapter-4/mockups-smart-home-users-mobile/mobile-living-room-view.png"
+       alt="Living Room View">
   
 **Versión Desktop Mockups - Pequeños Negocios y Emprendedores** 
 
+  <div style="text-align:center;">
+  <img src="images/chapter-4/mockups-small-business-web/sme-dashboard.png"
+       alt="Dashboard">
+
+  <div style="text-align:center;">
+  <img src="images/chapter-4/mockups-small-business-web/business-automations.png"
+       alt="Business Automations">
+  
+  <div style="text-align:center;">
+  <img src="images/chapter-4/mockups-small-business-web/energy-reports.png"
+       alt="Energy Reports">
+
+  <div style="text-align:center;">
+  <img src="images/chapter-4/mockups-small-business-web/bulk-device-management.png"
+       alt="Device Management">
+
+  <div style="text-align:center;">
+  <img src="images/chapter-4/mockups-small-business-web/team-management.png"
+       alt="Team Management">
+
+  <div style="text-align:center;">
+  <img src="images/chapter-4/mockups-small-business-web/zone-configuration.png"
+       alt="Zone Configuration">
+
+  <div style="text-align:center;">
+  <img src="images/chapter-4/mockups-small-business-web/cost-deep-dive.png"
+       alt="Cost Deep-Dive">
+
+  <div style="text-align:center;">
+  <img src="images/chapter-4/mockups-small-business-web/sme-alert-history.png"
+       alt="Alert History">
+
+  <div style="text-align:center;">
+  <img src="images/chapter-4/mockups-small-business-web/full-device-inventory.png"
+       alt="Device Inventory">
+
+  <div style="text-align:center;">
+  <img src="images/chapter-4/mockups-small-business-web/business-integration-settings.png"
+       alt="Business Integration Settings">
+       
 **Versión Mobile Mockups - Pequeños Negocios y Emprendedores**
+
+  <div style="text-align:center;">
+  <img src="images/chapter-4/mockups-small-business-mobile/bulk-device-control.png"
+       alt="Device Control">
+
+  <div style="text-align:center;">
+  <img src="images/chapter-4/mockups-small-business-mobile/sme-mobile-dashboard.png"
+       alt="Dashboard">
+
+  <div style="text-align:center;">
+  <img src="images/chapter-4/mockups-small-business-mobile/business-alert-center.png"
+       alt="Alert Center">
+
+  <div style="text-align:center;">
+  <img src="images/chapter-4/mockups-small-business-mobile/reports-summary.png"
+       alt="Reports Summary">
+
+  <div style="text-align:center;">
+  <img src="images/chapter-4/mockups-small-business-mobile/zone-monitoring.png"
+       alt="Zone Monitoring">
+
+  <div style="text-align:center;">
+  <img src="images/chapter-4/mockups-small-business-mobile/automation-rules.png"
+       alt="Automation Rules">
+
+  <div style="text-align:center;">
+  <img src="images/chapter-4/mockups-small-business-mobile/role-team-access.png"
+       alt="Role & Team Access">
+
+  <div style="text-align:center;">
+  <img src="images/chapter-4/mockups-small-business-mobile/inventory-explorer.png"
+       alt="Inventory Explorer">
+
+  <div style="text-align:center;">
+  <img src="images/chapter-4/mockups-small-business-mobile/utility-api-status.png"
+       alt="Utility & API Status">
+
+  <div style="text-align:center;">
+  <img src="images/chapter-4/mockups-small-business-mobile/business-settings.png"
+       alt="Business Settings">
 
 ## 4.4.4. Web Applications User Flow Diagrams
 ## 4.5. Web Applications Prototyping
@@ -369,7 +492,7 @@ La interfaz se adapta a distintos dispositivos (desktop, tablet, móvil), reorga
 ## 4.7.1. Class Diagrams
 
 <div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/DiagramaClases.png"
+  <img src="images/chapter-4/DiagramaClases.png"
        alt="texto">
 </div>
 
@@ -378,7 +501,7 @@ La interfaz se adapta a distintos dispositivos (desktop, tablet, móvil), reorga
 ## 4.8.1. Database Diagrams
 
 <div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/4.8 Open Source.png"
+  <img src="images/chapter-4/4.8 Open Source.png"
        alt="texto">
 </div>
 
