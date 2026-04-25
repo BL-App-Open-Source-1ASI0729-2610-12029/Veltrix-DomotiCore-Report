@@ -17,9 +17,9 @@
 
 ### Informe de Trabajo Final
 
-**Nombre del startup:** Voltia
+**Nombre del startup:** Veltrix
 
-**Nombre del producto:** DeepEnergy 
+**Nombre del producto:** DomotiCore
 
 #### Relación de integrantes
 
