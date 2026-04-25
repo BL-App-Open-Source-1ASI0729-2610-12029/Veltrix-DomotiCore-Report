@@ -1,11 +1,11 @@
 
-## 4.1. Style Guidelines.
+## 4.1. Style Guidelines
 
 El diseño de la plataforma se enfoca en ofrecer una interfaz intuitiva que facilite la exploración, selección y contribución de manera visual en DomotiCore. Se busca garantizar una experiencia fluida para desarrolladores de distintos niveles.
 
 La plataforma está pensada para manejar múltiples proyectos, usuarios y contribuciones de forma organizada, manteniendo un entorno accesible, escalable y centrado en la colaboración.
 
-## 4.1.1. General Style Guidelines.
+## 4.1.1. General Style Guidelines
 
 En este apartado se detallan las decisiones de estilo que definen la identidad visual de la plataforma, orientada a conectar desarrolladores con proyectos y facilitar su participación en tareas reales. Las decisiones relacionadas con branding, tipografía, colores, espaciado y lenguaje buscan transmitir accesibilidad, colaboración, claridad y dinamismo, elementos clave dentro de comunidades tecnológicas.
 
@@ -124,7 +124,7 @@ El diseño visual considera elementos fundamentales:
 
 Estos elementos contribuyen a una experiencia clara y eficiente.
 
-## 4.1.2. Web Style Guidelines.
+## 4.1.2. Web Style Guidelines
 
 La plataforma será desarrollada como una aplicación web adaptable (Responsive Web Design), permitiendo su uso en distintos dispositivos como laptops, tablets y smartphones.
 
@@ -144,13 +144,13 @@ Además, se prioriza el uso de dashboards y vistas estructuradas para mostrar:
 
 El diseño dirige la atención del usuario hacia acciones clave como explorar, seleccionar y contribuir.
 
-## 4.2. Information Architecture.
+## 4.2. Information Architecture
 
 La arquitectura de la información de la plataforma se centra en facilitar la exploración eficiente de proyectos y identificar las oportunidades de contribución. Se prioriza que el usuario pueda comprender el ecosistema de proyectos, evaluar su nivel de dificultad y acceder a tareas concretas sin fricción.
 
 El diseño de la información está orientado a guiar al usuario desde la exploración inicial hasta la contribución, manteniendo una estructura clara, escalable y alineada con las dinámicas reales del desarrollo colaborativo.
 
-## 4.2.1. Organization Systems.
+## 4.2.1. Organization Systems
 
 En la plataforma se emplea principalmente una **organización jerárquica**, en la cual los elementos más relevantes para el usuario, como proyectos recomendados, issues destacados y oportunidades de contribución inmediata, se presentan con mayor prioridad visual dentro de la interfaz. Esta jerarquía permite que los desarrolladores identifiquen rápidamente dónde pueden participar, especialmente en el caso de usuarios principiantes que buscan su primera experiencia en Open Source.
 
@@ -162,7 +162,7 @@ En cuanto a la organización temporal, la plataforma utiliza un enfoque **cronol
 
 Finalmente, la información también se organiza considerando el **perfil del usuario**, adaptando recomendaciones y contenido según su nivel (principiante, intermedio o avanzado), historial de contribuciones e intereses tecnológicos. Esto permite una experiencia más personalizada y eficiente.
 
-## 4.2.2. Labeling Systems.
+## 4.2.2. Labeling Systems
 
 Se prioriza el uso de etiquetas cortas, precisas y comprensibles, con el objetivo de reducir la carga cognitiva del usuario y facilitar la navegación dentro del sistema.
 
@@ -193,7 +193,7 @@ Se prioriza el uso de etiquetas cortas, precisas y comprensibles, con el objetiv
 
 Estas etiquetas permiten clasificar la información de manera eficiente y facilitar la toma de decisiones del usuario.
 
-## 4.2.3. SEO Tags and Meta Tags.
+## 4.2.3. SEO Tags and Meta Tags
 
 Para asegurar que la plataforma *DomotiCore*, sea funcional, se han configurado los siguientes meta tags técnicos. Estos permiten posicionar la solución como una plataforma de domótica orientada al control inteligente de dispositivos electrónicos en hogares y pequeñas empresas.
 
@@ -218,7 +218,7 @@ Para asegurar que la plataforma *DomotiCore*, sea funcional, se han configurado 
 * **Robots:** en html:  
     `<meta name="robots" content="index, follow">`
 
-## 4.2.4. Searching Systems.
+## 4.2.4. Searching Systems
 
 Dado que la plataforma puede manejar múltiples dispositivos electrónicos, sensores y reglas automatizadas, se han implementado mecanismos de búsqueda y filtrado que permiten acceder de manera directa a la información crítica.
 
@@ -252,7 +252,7 @@ Esto facilita el monitoreo y análisis del comportamiento del sistema.
 **Búsqueda contextual:**  
 Dentro de cada módulo (dispositivos, automatización, historial), el usuario puede realizar búsquedas específicas relacionadas únicamente con ese entorno, mejorando la precisión y reduciendo la complejidad.
 
-## 4.2.5. Navigation Systems.
+## 4.2.5. Navigation Systems
 
 Se busca que el usuario nunca esté a más de tres interacciones de realizar una acción clave, como encender un dispositivo, configurar una automatización o revisar una alerta.
 
@@ -299,4 +299,36 @@ Estas acciones están diseñadas para minimizar el número de pasos y mejorar la
 **Navegación adaptativa (Responsive):**  
 La interfaz se adapta a distintos dispositivos (desktop, tablet, móvil), reorganizando los elementos de navegación para mantener la usabilidad en cualquier entorno, permitiendo el control remoto en tiempo real desde cualquier lugar.
 
-## 4.3. Landing Page UI Design.
+## 4.3. Landing Page UI Design
+
+## 4.3.1. Landing Page Wireframe
+## 4.3.2. Landing Page Mock-up
+## 4.4. Web Applications UX/UI Design
+## 4.4.1. Web Applications Wireframes
+## 4.4.2. Web Applications Wireflow Diagrams
+## 4.4.2. Web Applications Mock-ups
+## 4.4.3. Web Applications User Flow Diagrams
+## 4.5. Web Applications Prototyping
+## 4.6. Domain-Driven Software Architecture
+## 4.6.1. Design-Level EventStorming
+## 4.6.2. Software Architecture Context Diagram
+## 4.6.3. Software Architecture Container Diagrams
+## 4.6.4. Software Architecture Components Diagrams
+## 4.7. Software Object-Oriented Design
+
+## 4.7.1. Class Diagrams
+
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/DiagramaClases.png"
+       alt="texto">
+</div>
+
+## 4.8. Database Design
+
+## 4.8.1. Database Diagrams
+
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/4.8 Open Source.png"
+       alt="texto">
+</div>
+
