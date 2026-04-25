@@ -306,8 +306,58 @@ La interfaz se adapta a distintos dispositivos (desktop, tablet, móvil), reorga
 ## 4.4. Web Applications UX/UI Design
 ## 4.4.1. Web Applications Wireframes
 ## 4.4.2. Web Applications Wireflow Diagrams
-## 4.4.2. Web Applications Mock-ups
-## 4.4.3. Web Applications User Flow Diagrams
+## 4.4.3. Web Applications Mock-ups
+
+**Versión Desktop Mockups - Usuarios de Hogares Inteligentes** 
+
+  <div style="text-align:center;">
+  <img src="images/chapter-4/mockups-smart-home-users-web/dashboard-domoticore.png"
+       alt="Dashboard ">
+
+  <div style="text-align:center;">
+  <img src="images/chapter-4/mockups-smart-home-users-web/energy-monitoring-domoticore.png"
+       alt="Energy Monitoring">
+
+  <div style="text-align:center;">
+  <img src="images/chapter-4/mockups-smart-home-users-web/devices-domoticore.png"
+       alt="Devices ">
+
+  <div style="text-align:center;">
+  <img src="images/chapter-4/mockups-smart-home-users-web/automation-domoticore.png"
+       alt="Automation">
+    
+  <div style="text-align:center;">
+  <img src="images/chapter-4/mockups-smart-home-users-web/device-details-ac-domoticore.png"
+       alt="Device Details">
+
+  <div style="text-align:center;">
+  <img src="images/chapter-4/mockups-smart-home-users-web/security-access-domoticore.png"
+       alt="Security & Access">
+
+  <div style="text-align:center;">
+  <img src="images/chapter-4/mockups-smart-home-users-web/history-log-domoticore.png"
+       alt="History Log ">
+
+  <div style="text-align:center;">
+  <img src="images/chapter-4/mockups-smart-home-users-web/notifications-domoticore.png"
+       alt="Notifications ">
+
+  <div style="text-align:center;">
+  <img src="images/chapter-4/mockups-smart-home-users-web/settings-domoticore.png"
+       alt="Settings ">
+
+  <div style="text-align:center;">
+  <img src="images/chapter-4/mockups-smart-home-users-web/automation-builder-domoticore.png"
+       alt="Automation Builder">
+
+**Versión Mobile Mockups - Usuarios de Hogares Inteligentes**
+
+  
+**Versión Desktop Mockups - Pequeños Negocios y Emprendedores** 
+
+**Versión Mobile Mockups - Pequeños Negocios y Emprendedores**
+
+## 4.4.4. Web Applications User Flow Diagrams
 ## 4.5. Web Applications Prototyping
 ## 4.6. Domain-Driven Software Architecture
 ## 4.6.1. Design-Level EventStorming
