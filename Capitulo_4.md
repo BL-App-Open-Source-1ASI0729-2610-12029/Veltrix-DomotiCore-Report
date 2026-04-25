@@ -300,3 +300,6 @@ Estas acciones están diseñadas para minimizar el número de pasos y mejorar la
 La interfaz se adapta a distintos dispositivos (desktop, tablet, móvil), reorganizando los elementos de navegación para mantener la usabilidad en cualquier entorno, permitiendo el control remoto en tiempo real desde cualquier lugar.
 
 ## 4.3. Landing Page UI Design.
+
+
+
