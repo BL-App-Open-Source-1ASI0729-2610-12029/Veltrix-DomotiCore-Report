@@ -301,7 +301,8 @@ La interfaz se adapta a distintos dispositivos (desktop, tablet, móvil), reorga
 
 ## 4.3. Landing Page UI Design.
 
-## 4.3.1 Web Applications Wireframes.
+## 4.3.1 Landing Page Wireframe.
+
 La landing page de DomotiCore presenta una estructura clara y orientada a la conversión, iniciando con una sección principal que introduce la solución como una plataforma IoT capaz de centralizar y automatizar el control de dispositivos eléctricos, resaltando beneficios como el monitoreo en tiempo real, el ahorro energético y la facilidad de uso sin conocimientos técnicos. A continuación, la sección “Nosotros” contextualiza el proyecto, destacando su origen como iniciativa de estudiantes peruanos y su enfoque en brindar soluciones accesibles y sostenibles para hogares y pequeñas empresas.
 
 Seguidamente, la sección de “Funciones” describe las capacidades clave del sistema, incluyendo el control remoto de dispositivos, la programación automatizada, el monitoreo del consumo energético, las alertas inteligentes y la gestión de usuarios, evidenciando un enfoque integral en eficiencia y seguridad. Posteriormente, en “Plataforma”, se muestra una representación del dashboard, donde se visualiza la organización de dispositivos, métricas de consumo y estados en tiempo real, reforzando la idea de una interfaz intuitiva y fácil de utilizar.
@@ -316,3 +317,14 @@ Finalmente, la landing concluye con una sección de contacto que integra un form
 <div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframe_4.png" alt="texto"></div>
 <div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframe_5.png" alt="texto"></div>
 
+## 4.3.2 Landing Page Mock-up.
+
+El wireframe de la landing page en su versión de escritorio ha permitido organizar de forma clara y jerárquica los elementos principales de DomotiCore, facilitando la presentación de la propuesta de valor centrada en el control y automatización de dispositivos eléctricos. A partir de esta estructura inicial, se desarrolló el mockup de la interfaz, manteniendo coherencia con las funcionalidades definidas, como el monitoreo en tiempo real, la gestión remota, las alertas inteligentes y la visualización del consumo energético.
+
+En la implementación final se puede apreciar el uso consistente de la paleta de colores basada en tonos azules y neutros, así como la tipografía moderna seleccionada, lo que contribuye a una estética limpia y tecnológica. Además, la distribución de secciones como el dashboard de vista previa, las funcionalidades y el flujo de uso refuerzan la claridad y usabilidad del producto. En conjunto, el diseño refleja una identidad visual alineada con los valores de accesibilidad, eficiencia e innovación, transmitiendo confianza y facilidad de uso tanto para hogares como para pequeñas empresas.
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/mockup_1.png" alt="texto"></div>
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/mockup_2.png" alt="texto"></div>
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/mockup_3.png" alt="texto"></div>
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/mockup_4.png" alt="texto"></div>
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/mockup_5.png" alt="texto"></div>
