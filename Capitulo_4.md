@@ -301,5 +301,18 @@ La interfaz se adapta a distintos dispositivos (desktop, tablet, móvil), reorga
 
 ## 4.3. Landing Page UI Design.
 
+## 4.3.1 Web Applications Wireframes.
+La landing page de DomotiCore presenta una estructura clara y orientada a la conversión, iniciando con una sección principal que introduce la solución como una plataforma IoT capaz de centralizar y automatizar el control de dispositivos eléctricos, resaltando beneficios como el monitoreo en tiempo real, el ahorro energético y la facilidad de uso sin conocimientos técnicos. A continuación, la sección “Nosotros” contextualiza el proyecto, destacando su origen como iniciativa de estudiantes peruanos y su enfoque en brindar soluciones accesibles y sostenibles para hogares y pequeñas empresas.
 
+Seguidamente, la sección de “Funciones” describe las capacidades clave del sistema, incluyendo el control remoto de dispositivos, la programación automatizada, el monitoreo del consumo energético, las alertas inteligentes y la gestión de usuarios, evidenciando un enfoque integral en eficiencia y seguridad. Posteriormente, en “Plataforma”, se muestra una representación del dashboard, donde se visualiza la organización de dispositivos, métricas de consumo y estados en tiempo real, reforzando la idea de una interfaz intuitiva y fácil de utilizar.
+
+Más adelante, la sección “¿Cómo funciona?” explica de manera secuencial el proceso de uso del sistema, desde la conexión inicial del gateway hasta la automatización completa del entorno, simplificando la adopción tecnológica para el usuario. Asimismo, se incluyen testimonios que respaldan la propuesta de valor mediante experiencias reales enfocadas en el ahorro energético y la practicidad del sistema.
+
+Finalmente, la landing concluye con una sección de contacto que integra un formulario y canales directos de comunicación, permitiendo a los usuarios solicitar información o una demostración del producto, reforzando el enfoque comercial y de acompañamiento al cliente.
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframe_1.png" alt="texto"></div>
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframe_2.png" alt="texto"></div>
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframe_3.png" alt="texto"></div>
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframe_4.png" alt="texto"></div>
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframe_5.png" alt="texto"></div>
 
