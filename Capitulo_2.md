@@ -171,7 +171,7 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
   </tr>
   <tr>
     <td>Evidencia</td>
-    <td><div align="center"><img src="images/interview-of-magali-alcantara open.png" alt="Entrevista a Magali Alcántara"></td>
+    <td><div align="center"><img src="imagenes/interview-of-magali-alcantara open.png" alt="Entrevista a Magali Alcántara"></td>
   </tr>
   <tr>
     <td>Link</td>
@@ -219,7 +219,7 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
     </tr>
     <tr>
       <td>Evidencia</td>
-      <td><div align="center"><img src="images/interview-of-Fabio-Cordova open.png" alt="Entrevista a Fabio Cordova"></td>
+      <td><div align="center"><img src="imagenes/interview-of-Fabio-Cordova open.png" alt="Entrevista a Fabio Cordova"></td>
     </tr>
     <tr>
       <td>Link</td>
@@ -267,7 +267,7 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
   </tr>
   <tr>
     <td>Evidencia</td>
-    <td><div align="center"><img src="images/imagen-seg1_OpenSource.png" alt="Entrevista a Magali Alcántara"></td>
+    <td><div align="center"><img src="imagenes/imagen-seg1_OpenSource.png" alt="Entrevista a Magali Alcántara"></td>
   </tr>
   <tr>
     <td>Link</td>
@@ -315,7 +315,7 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
   </tr>
   <tr>
     <td>Evidencia</td>
-    <td><div align="center"><img src="images/interview-of-victor-esquicha open.png" alt="Entrevista a 
+    <td><div align="center"><img src="imagenes/interview-of-victor-esquicha open.png" alt="Entrevista a 
     Victor Esquicha"></td>
   </tr>
   <tr>
@@ -364,7 +364,7 @@ El control del negocio se basa en objetivos y seguimiento diario mediante reunio
   </tr>
   <tr>
     <td>Evidencia</td>
-    <td><div align="center"><img src="images/interview-of-katherine-herrera open.png" alt="Entrevista a Katherine Herrera"></td>
+    <td><div align="center"><img src="imagenes/interview-of-katherine-herrera open.png" alt="Entrevista a Katherine Herrera"></td>
   </tr>
   <tr>
     <td>Link</td>
@@ -412,7 +412,7 @@ El control de estos dispositivos es completamente manual y depende de la respons
   </tr>
   <tr>
     <td>Evidencia</td>
-    <td><div align="center"><img src="images/interview-of-carmen-salazar open.png" alt="Entrevista a Carmen Salazar"></td>
+    <td><div align="center"><img src="imagenes/interview-of-carmen-salazar open.png" alt="Entrevista a Carmen Salazar"></td>
   </tr>
   <tr>
     <td>Link</td>
