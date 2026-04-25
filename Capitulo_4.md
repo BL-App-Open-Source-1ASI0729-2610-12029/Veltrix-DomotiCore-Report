@@ -12,7 +12,7 @@ En este apartado se detallan las decisiones de estilo que definen la identidad v
 ### Colores
 
 <div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/color-palette.png" 
+  <img src="images/chapter-4/color-palette.png" 
        alt="texto">
 </div>
 
@@ -38,7 +38,7 @@ Cada color cuenta con variaciones de intensidad que permiten diferenciar estados
 ### Tipografía
 
 <div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/inter-font.png"
+  <img src="images/chapter-4/inter-font.png"
        alt="texto">
 </div>
 
@@ -57,7 +57,7 @@ Esto permite resaltar información clave y mejorar la comprensión del usuario.
 ### Branding
 
 <div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/logo-DomotiCore.png"
+  <img src="images/chapter-4/logo-DomotiCore.png"
        alt="texto">
 </div>
 
