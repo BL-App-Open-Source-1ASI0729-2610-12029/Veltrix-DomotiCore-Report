@@ -331,6 +331,90 @@ En la implementación final se puede apreciar el uso consistente de la paleta de
 
 ## 4.4. Web Applications UX/UI Design
 ## 4.4.1. Web Applications Wireframes
+
+**Wireframes Versión Desktop - Usuarios de Hogares Inteligentes** 
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-web/wireframe-devices-control.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-web/wireframe-dashboard.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-web/wireframe-energy-monitoring.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-web/wireframe-device-details-ac.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-web/wireframe-smart-automations.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-web/wireframe-history-log.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-web/wireframe-notifications-center.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-web/wireframe_security_access.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-web/wireframe-automation-builder.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-web/wireframe-settings.png" alt="texto"></div>
+
+
+**Wireframes Versión Mobile - Usuarios de Hogares Inteligentes** 
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-mobile/wireframe_mobile_security_hub.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-mobile/wireframe_mobile_automations_list.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-mobile/wireframe_mobile_living_room_view.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-mobile/wireframe_mobile_ac_control.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-mobile/wireframe_mobile_automation_builder.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-mobile/wireframe_mobile_energy_analytics.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-mobile/wireframe_mobile_history_log.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-mobile/wireframe_mobile_profile_settings.png" alt="texto"></div>
+
+
+**Wireframes Versión Desktop - Pequeños Negocios y Emprendedores**
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-web/wireframe_device_explorer.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-web/wireframe_business_integration_settings.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-web/wireframe_sme_alert_history.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-web/wireframe_device_explorer.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-web/wireframe_cost_deep_dive.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-web/wireframe_team_management.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-web/wireframe_business_automations.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-web/wireframe_bulk_device_management.png" alt="texto"></div>
+
+**Wireframes Versión Mobile - Pequeños Negocios y Emprendedores** 
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-mobile/wireframe_operations_overview.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-mobile/wireframe_bulk_control.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-mobile/wireframe_reports_summary.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-mobile/wireframe_zone_monitoring.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-mobile/wireframe_utility_status.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-mobile/wireframe_alert_center.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-mobile/wireframe_team_directory.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-mobile/wireframe_inventory_explorer.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-mobile/wireframe_automation_rules.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-mobile/wireframe_business_profile.png" alt="texto"></div>
+
+
 ## 4.4.2. Web Applications Wireflow Diagrams
 ## 4.4.3. Web Applications Mock-ups
 
