@@ -308,6 +308,14 @@ Durante este sprint, el equipo se enfocó en:
 
 ## 5.2.1.2. Aspect Leaders and Collaborators
 
+| Team Member (Last Name, First Name) | GitHub Username | Infrastructure & Repository | Landing Page Development | Documentation (Chapters 1-5) |
+| :--- | :--- | :---: | :---: | :---: |
+| Checa, Oscar | OscarCheca | **C** | **C** | **C** |
+| Quispe, Cesar | user20-bit | **C** | **L** | **L** |
+| Esquich, Diego | DiegoEsquich | **L** | **C** | **C** |
+| Tello, Fabrizio | F4bris | **C** | **C** | **C** |
+| Rocha , Alvaro | alvarorc24 | **C** | **C** | **C** |
+
 ## 5.2.1.3. Sprint Backlog 1
 
 En este primer sprint, el equipo se enfocó en la implementación de las funcionalidades base de la Landing Page de DomotiCore, incluyendo la estructura HTML, estilos CSS, navegación interactiva y diseño responsive. Asimismo, se desarrolló el reporte del proyecto que documenta el ciclo de vida del software, desde la concepción hasta la implementación inicial.
@@ -328,6 +336,9 @@ En este primer sprint, el equipo se enfocó en la implementación de las funcion
 
 ## 5.2.1.4. Development Evidence for Sprint Review
 
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| OscarCheca/domoticore-landing | main | faa7045 | add index.html | Initial commit with index.html for the landing page structure. | 25/04/2026 |
 ## 5.2.1.5. Execution Evidence for Sprint Review
 
 En esta entrega, el equipo ha completado con éxito la implementación y el lanzamiento de la página de la Landing Page. Esta página presenta diferentes secciones que brindan información detallada sobre nuestro producto.
@@ -350,7 +361,11 @@ En esta entrega, el equipo ha completado con éxito la implementación y el lanz
 
 ## 5.2.1.6. Services Documentation Evidence for Sprint Review
 
+Durante el Sprint 1, el enfoque principal del equipo fue el desarrollo e implementación de la Landing Page. Sin embargo, se logró implementar correctamente componentes funcionales en el frontend, como la navegación interactiva, diseño responsive y validación básica del formulario de contacto. La documentación de servicios más complejos se vera en las siguientes sprints, donde se integrarán funcionalidades relacionadas con la gestión de dispositivos IoT, automatización y monitoreo en tiempo real.
+
 ## 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+En este sprint, el despliegue del software se limitó a la publicación de la Landing Page de DomotiCore mediante el uso de GitHub Pages. Dado que aún no se ha desarrollado una aplicación web completa ni servicios backend, no se cuenta con evidencia de despliegue de sistemas más complejos en esta fase del proyecto. En futuros sprints, se incluirán evidencias más completas relacionadas con el despliegue de la aplicación, incluyendo integración de servicios, infraestructura y entornos de producción.
 
 ## 5.2.1.8. Team Collaboration Insights during Sprint
 
