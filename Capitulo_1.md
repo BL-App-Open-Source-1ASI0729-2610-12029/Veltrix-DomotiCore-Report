@@ -1,4 +1,39 @@
-# Introduccion 
+# **Registro de Versiones del Informe**
+
+| **Versión** | **Fecha** | **Autor**  |   **Descripción**  |
+| ----------- | --------- |----------- |--------------------|
+| AV1 | 20/04/2026 | Tello Palacios, Fabrizio Rafael <br><br> Esquicha Alcántara, Diego Alonso <br><br> Rocha Cotrina, Alvaro <br><br> Quispe llacsahuanga, César Agusto <br><br> Checa Burga, Oscar Diego |  Creacion de estructura de informe en github y redacción de los 5 capítulos. Hicimos el despliegue de la primera versión de la Landing Page |
+
+<hr>
+
+# **Project Report Collaborations Insights**
+
+Nuestro proyecto fue hecho en el repositorio "upcpre-2026101asi0729-12029-Veltrix-report-av1-"
+
+**Enlaze del repositorio:** [link del repositorio](https://github.com/user20-bit/upcpre-2026101asi0729-12029-Veltrix-report-av1-)
+
+AV1: Se creo un repositorio colaborativo en github para el desarrollo del reporte de nuestro proyecto. Utilizamos gitflow para poder avanzar el informe sin problemas y de manera organizada. A continuación se evidencia los commits de cada integrante que aportó al desarrollo del informa de AV1.
+
+**Evidencia**
+
+<img src="imagenes/evidencia-commits.jpeg">
+
+<hr>
+
+# **Student Outcome**
+
+El curso contribuye al cumplimiento del Student Outcome **ABET: ABET – EAC - Student Outcome 3** 
+
+Criterio: Capacidad de comunicarse efectivamente con un rango de audiencias. En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del *ABET – EAC - Student Outcome 3.* 
+
+En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 3. 
+
+| **Criterio Específico** | **Acciones realizadas** | **Conclusiones** |
+|--------------------------|-------------------------------|------------------|
+| **Comunica oralmente con efectividad a diferentes rangos de audiencia.** | **Tello Palacios, Fabrizio Rafael**<br> **AV1**<br> Se comunicó eficazmente los avances del proyecto al equipo y la explicación del flujo de trabajo en Git (rama develop). Esto permitió transmitir de forma clara tanto los requerimientos como la estructura y gestión del proyecto. <br><br> **Checa Burga, Oscar Diego**<br>**AV1**<br> escribe aqui <br><br> **Quispe llacsahuanga, César Agusto**<br>**AV1**<br>escribe aqui <br><br>**Esquicha Alcántara, Diego Alonso**<br>**AV1**<br>escribe aqui <br><br> **Rocha Cotrina, Alvaro** <br>**AV1**<br>esqcribe aqui| El desarrollo del proyecto permitió integrar herramientas de análisis, diseño y control de versiones, logrando una solución coherente y bien estructurada. Asimismo, se evidenció la importancia de una comunicación clara y adaptada a distintos tipos de audiencia para asegurar la comprensión y el éxito del trabajo realizado.
+| **Comunica por escrito con efectividad a diferentes rangos de audiencia** | **Tello Palacios, Fabrizio Rafael**<br> **AV1**<br> Se comunicaron por escrito los avances del proyecto de forma clara y estructurada la documentación del flujo de trabajo en Git. Esto permitió adaptar el contenido tanto para audiencias técnicas como no técnicas. <br><br> **Checa Burga, Oscar Diego**<br>**AV1**<br> escribe aqui <br><br> **Quispe llacsahuanga, César Agusto**<br>**AV1**<br>escribe aqui <br><br>**Esquicha Alcántara, Diego Alonso**<br>**AV1**<br>escribe aqui <br><br> **Rocha Cotrina, Alvaro** <br>**AV1**<br>esqcribe aqui|  En conclusión, la documentación desarrollada evidenció la capacidad de transmitir información de manera escrita con claridad y coherencia, facilitando la comprensión del proyecto en distintos niveles. Asimismo, se demostró que el uso de recursos estructurados y visuales mejora la comunicación y el entendimiento entre los diferentes actores involucrados. |
+
+# Introducción
 ## 1.1 Startup Profile
 ### 1.1.1 Descripción de la Startup
 
