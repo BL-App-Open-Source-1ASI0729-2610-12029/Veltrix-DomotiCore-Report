@@ -374,4 +374,21 @@ Los analíticos que nos proporciona Github, en su apartado de Insights, sobre la
 <div style="text-align:center;"><img src="imagenes/images_Cap5/5.2.1.8. Team Collaboration.png"
 
 
-##
+## Bibliografía
+
+- Samuel Greengard, S. (2015). The Internet of Things. MIT Press.
+International Telecommunication Union. (2012). Overview of the Internet of Things (Recommendation ITU-T Y.2060). https://www.itu.int
+
+- World Energy Council. (2020). Energy efficiency indicators. https://www.worldenergy.org
+
+## Conclusiones
+
+1. El desarrollo del proyecto permitió integrar de manera coherente herramientas como User Stories, wireframes y control de versiones con Git, logrando una base sólida tanto a nivel de análisis como de implementación.
+
+2. Asimismo, se evidenció la importancia de una comunicación clara, tanto escrita como visual, para transmitir efectivamente las ideas del proyecto a distintos tipos de audiencia, facilitando la comprensión y el trabajo colaborativo.
+
+## Anexos
+
+**Video  de exposición**
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113310_upc_edu_pe/IQBB-A5V0F11So9iWE7DqDgoAcl3ZIcmUBVMwC_-fOgFkK0?e=bgWP1d&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
