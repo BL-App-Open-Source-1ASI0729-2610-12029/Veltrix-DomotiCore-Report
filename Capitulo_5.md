@@ -65,7 +65,48 @@ dashboard, gateway, nodos IoT, servicios de monitoreo y product UX/UI design.
 
 ## 5.1.2. Source Code Management
 
+La gestión del código fuente del proyecto DomotiCore se realiza mediante la plataforma GitHub, la cual permite mantener un control de versiones eficiente. El repositorio principal del proyecto, denominado “Open_Source_”, centraliza tanto la documentación del proyecto como los avances de la Landing Page y los diseños iniciales de la aplicación web.
+
+<div style="text-align:center;"><img src="imagenes/images_Cap5/5.1.2 github.png"
+
+**Estructura de ramas**: Se uso de múltiples ramas organizadas por capítulos y funcionalidades, lo cual refleja una adaptación práctica del modelo GitFlow.
+
+- **Main**: Rama principal del repositorio. Contiene la versión estable del proyecto. Se utiliza para almacenar la documentación final y entregables.
+- **Develop**: Rama de integración principal. Aquí se consolidan los cambios provenientes de otras ramas. Es la rama donde se concentran los commits más recientes del equipo y donde sera visibles todos los commits de las ramas en uno solo.
+
+**Ramas por funcionalidades / capítulos**
+
+- **1.1/Startup-Profile**
+- **1.2/Solution-Profile**
+- **1.3/Segmentos-Objetivos**
+- **2.2/Entrevistas**
+- **2.4/Big-Picture-EventStorming**
+- **3.1/User-Stories**
+- **4.1/Style-Guidelines**
+- **4.3.1/Landing-Page-Wireframe**
+- **5.1/Software-Configuration-Management**
+
+Se trabaja de forma paralela, separando responsabilidades por módulo o capítulo, facilitar la integración progresiva en develop y la evidencia de integración (Commits y Merges).
+
+Despues de completar todas las ramas se uniran todos en **Develop**, que servira para que todo sea visible en una misma rama.
+
+**Gestión de commits**: El equipo utiliza commits descriptivos que permiten identificar claramente los cambios realizados.
+
+- "add landing page mockup"
+- "add web applications wireframes"
+- "docs: update README with project details"
+- "Update startup and product names in README"
+
+Los Commits:
+- feat → nuevas funcionalidades
+- docs → documentación
+- Colaboración del equipo
+
+Cada miembro contribuye con commits específicos que se integran cambios de diferentes ramas, lo que mantiene un flujo continuo de desarrollo y el control de versiones y trazabilidad.
+
 ## 5.1.3. Source Code Style Guide & Conventions
+
+
 
 ## 5.1.4. Software Deployment Configuration
 
