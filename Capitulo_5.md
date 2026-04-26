@@ -106,26 +106,257 @@ Cada miembro contribuye con commits específicos que se integran cambios de dife
 
 ## 5.1.3. Source Code Style Guide & Conventions
 
+El código desarrollado por los miembros del equipo esté completamente redactado en inglés.
 
+## **HTML**
+
+**Use Lowercase Element Names**: Se recomienda utilizar minúsculas para todos los elementos HTML.
+
+    <section class="hero">
+      <h1>Controla tu hogar</h1>
+    </section>
+
+**Close All HTML Elements**: Todos los elementos deben cerrarse correctamente para evitar errores de renderizado.
+
+ < p >DomotiCore centraliza tus dispositivos.</ p >
+
+< a href="#contacto">Solicitar demo</a >
+
+**Use Lowercase Attribute Names**: Los atributos deben escribirse en minúsculas.
+
+< input type="email" placeholder="tu@correo.com" id="fe" />
+
+**Use Semantic HTML Elements**: Se deben utilizar etiquetas semánticas para mejorar la estructura y accesibilidad.
+
+< nav>...</ nav>
+< section id="funciones">...</ section>
+< footer>...</ footer>
+
+**Use Descriptive IDs and Classes**: Los nombres deben ser claros y representar su función.
+
+< section id="contacto">
+  < div class="contact-form">
+
+## **CSS**
+
+**Use Kebab-Case for Class Names**: Las clases deben escribirse en minúsculas separadas por guiones.
+
+.contact-form {
+  display: flex;
+}
+
+
+**Use CSS Variables for Colors**: Se deben definir colores reutilizables en :root.
+
+:root {
+  --blue: #1E40AF;
+  --navy: #0F172A;
+}
+
+**Group Styles by Sections**: El código CSS debe organizarse por secciones del sitio.
+
+/* NAV */
+nav { ... }
+
+/* HERO */
+.hero { ... }
+
+/* FOOTER */
+footer { ... }
+
+
+**Use Consistent Spacing**: Se debe mantener consistencia en márgenes, padding y alineación.
+
+.section {
+  padding: 6rem 2rem;
+}
+
+**Responsive Design with Media Queries**: Se deben usar breakpoints para adaptar la interfaz.
+
+@media (max-width: 600px) {
+  .hero {
+    padding: 4rem 1rem;
+  }
+}
+
+
+## **JavaScript**
+
+**Use CamelCase for Variables and Functions**: Las variables y funciones deben usar camelCase.
+
+function sendForm() {
+  const userName = document.getElementById('fn').value;
+}
+
+**Keep Functions Simple and Clear**: Las funciones deben ser cortas y fáciles de entender.
+
+if (!n || !e) {
+  alert('Por favor completa tu nombre y correo.');
+  return;
+}
+
+
+**Use Meaningful Variable Names**: Los nombres deben representar su propósito.
+
+const navLinks = document.getElementById('navLinks');
+const hamburger = document.getElementById('hamburger');
+
+**Avoid Inline JavaScript**: Se recomienda mantener la lógica separada del HTML.
+
+< button onclick="sendForm()">Enviar</ button>
 
 ## 5.1.4. Software Deployment Configuration
 
+Este apartado describe la configuración y el proceso de despliegue del sistema DomotiCore.
+
+**Configuracion del proyecto**
+Se crea un repositorio remoto en GitHub para la Landing Page del proyecto DomotiCore.
+
+<div style="text-align:center;"><img src="imagenes/images_Cap5/5.1.4 (part1).png"
+
+Se agregan los integrantes del equipo como colaboradores del repositorio.
+
+<div style="text-align:center;"><img src="imagenes/images_Cap5/5.1.4(part2).png"
+
+Se organiza la estructura base del proyecto (Brenches)
+
+<div style="text-align:center;"><img src="imagenes/images_Cap5/5.1.4(part4).png"
+
+Se ve lo visual en del documento.
+
+<div style="text-align:center;"><img src="imagenes/images_Cap5/5.1.4(part5).png"
+
+Se habilita GitHub Pages para las ramas.
+
+<div style="text-align:center;"><img src="imagenes/images_Cap5/5.1.4(part6).png"
+
+**Creación Landing Page:**
+
+Se desarrolla la interfaz del sistema basada en la Landing Page del codigo.
+
+<div style="text-align:center;"><img src="imagenes/images_Cap5/5.1.4(lading parte1).png"
+
+Se realizan commits organizados según funcionalidades implementadas.
+
+<div style="text-align:center;"><img src="imagenes/images_Cap5/5.1.4(lading parte2).png"
+
+**Despliegue:**
+
+Se configura GitHub Pages para desplegar automáticamente desde la rama develop.
+
+<div style="text-align:center;"><img src="imagenes/images_Cap5/5.1.4(part3).png"
+
+Se valida el funcionamiento en distintos navegadores (Chrome, Edge, etc.) para la lading page.
+<div style="text-align:center;"><img src="imagenes/images_Cap5/5.1.4(lading parte3).png"
+
 ## 5.2. Landing Page, Services & Applications Implementation
+
+La implementación de la Landing Page, los servicios y la aplicación web de DomotiCore se desarrolló la página de presentación del sistema, enfocada en comunicar los beneficios y la vista preliminar del dashboard del sistema. Además, se implementaron estructuras base para los servicios de gestión de dispositivos, monitoreo energético y automatización. El proceso permitió traducir los requisitos definidos previamente (User Stories, entrevistas y Event Storming) en código funcional utilizando tecnologías como HTML, CSS y JavaScript.
 
 ## 5.2.1. Sprint 1
 
+El Sprint 1 representa el primer ciclo de desarrollo ágil del proyecto DomotiCore, donde se priorizó la construcción de la Landing Page y la organización inicial del repositorio en GitHub.
+
+Durante este sprint, el equipo se enfocó en:
+- Implementar la estructura visual de la Landing Page.
+- Definir la identidad visual basada en los Style Guidelines.
+- Subir avances al repositorio.
+- Organizar ramas y commits.
+- Documentar el proyecto.
+
 ## 5.2.1.1. Sprint Planning 1
+
+### Sprint Information
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Sprint #** | Sprint 1 |
+| **Date** | 2026-04-25 |
+| **Time** | 11:00 PM |
+| **Location** | Microsoft Teams (Reunión virtual) |
+| **Prepared By** | Equipo Veltrix |
+
+### Attendees (Planning Meeting)
+
+| Participantes |
+| :--- |
+| Cesar Quispe |
+| Oscar Checa |
+| Diego Esquich |
+| Fabrizio Rafael|
+| Alvaro Rocha |
+### Sprint 1 – Review Summary
+
+| Descripción |
+| :--- |
+| Durante el Sprint 1 se lograron avances importantes como la implementación completa de la Landing Page de DomotiCore, incluyendo secciones como Hero, Features, About y Contacto. Además, se organizó el repositorio en GitHub, se realizaron commits relacionados a wireframes, mockups y documentación, y se implementó una vista simulada del dashboard. Sin embargo, quedaron pendientes aspectos como la integración con backend, automatización real de dispositivos y despliegue final en producción. |
+
+### Sprint 1 – Retrospective Summary
+
+| Descripción |
+| :--- |
+| El Sprint 1 evidenció problemas en la organización del equipo, como falta de comunicación, distribución ineficiente de tareas y dependencia de entregas de último momento. Como mejoras, se propuso realizar reuniones más frecuentes, utilizar herramientas como Trello para seguimiento, definir responsabilidades claras y mejorar la gestión del tiempo. |
+
+### Sprint Goal & User Stories
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Sprint 1 Goal** | Desarrollar y desplegar la Landing Page funcional de DomotiCore, estructurar el repositorio en GitHub y reflejar el avance en el tablero de tareas. |
+| **Sprint 1 Velocity** | 5 User Stories |
+| **Story Points por historia** | 5 puntos |
+| **Sum of Story Points** | 25 |
 
 ## 5.2.1.2. Aspect Leaders and Collaborators
 
 ## 5.2.1.3. Sprint Backlog 1
 
+En este primer sprint, el equipo se enfocó en la implementación de las funcionalidades base de la Landing Page de DomotiCore, incluyendo la estructura HTML, estilos CSS, navegación interactiva y diseño responsive. Asimismo, se desarrolló el reporte del proyecto que documenta el ciclo de vida del software, desde la concepción hasta la implementación inicial.
+
+<div style="text-align:center;"><img src="imagenes/images_Cap5/5.2.1.3. Sprint Backlog 1.png"
+
+### Sprint Backlog
+| Sprint # | ID | Title | Description | Estimation (Hours) | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Sprint 1** | TSK001 | GitHub repository setup | Creación de repositorios, configuración de ramas y organización del proyecto | 2 | All team members | Done |
+| **Sprint 1** | TSK002 | Landing Page HTML structure | Desarrollo de la estructura base HTML (navbar, hero, sections) | 5 | Frontend team | Done |
+| **Sprint 1** | TSK003 | Landing Page CSS styling | Implementación de estilos siguiendo la guía visual (colores, tipografía) | 6 | Frontend team | Done |
+| **Sprint 1** | TSK004 | Responsive design | Adaptación de la Landing Page a dispositivos móviles y tablets | 4 | Frontend team | Done |
+| **Sprint 1** | TSK005 | Navigation and interactivity | Implementación de navegación, menú hamburguesa y scroll dinámico | 3 | Frontend team | Done |
+| **Sprint 1** | TSK006 | Platform preview section | Creación del dashboard preview simulado dentro de la Landing Page | 4 | Frontend team | Done |
+| **Sprint 1** | TSK007 | Contact form functionality | Implementación del formulario de contacto con validaciones básicas | 3 | Frontend team | Done |
+| **Sprint 1** | TSK008 | Report documentation (Chapters 1–5) | Desarrollo del documento del proyecto con toda la información requerida | 10 | All team members | Done |
+
 ## 5.2.1.4. Development Evidence for Sprint Review
 
 ## 5.2.1.5. Execution Evidence for Sprint Review
+
+En esta entrega, el equipo ha completado con éxito la implementación y el lanzamiento de la página de la Landing Page. Esta página presenta diferentes secciones que brindan información detallada sobre nuestro producto.
+
+<div style="text-align:center;"><img src="imagenes/images_Cap5/5.2.1.5. Execution Evidence(1).png"
+
+<div style="text-align:center;"><img src="imagenes/images_Cap5/5.2.1.5. Execution Evidence(2).png"
+
+<div style="text-align:center;"><img src="imagenes/images_Cap5/5.2.1.5. Execution Evidence(3).png"
+
+<div style="text-align:center;"><img src="imagenes/images_Cap5/5.2.1.5. Execution Evidence(4).png"
+
+<div style="text-align:center;"><img src="imagenes/images_Cap5/5.2.1.5. Execution Evidence(5).png"
+
+<div style="text-align:center;"><img src="imagenes/images_Cap5/5.2.1.5. Execution Evidence(6).png"
+
+<div style="text-align:center;"><img src="imagenes/images_Cap5/5.2.1.5. Execution Evidence(7).png"
+
+##
 
 ## 5.2.1.6. Services Documentation Evidence for Sprint Review
 
 ## 5.2.1.7. Software Deployment Evidence for Sprint Review
 
 ## 5.2.1.8. Team Collaboration Insights during Sprint
+
+Los analíticos que nos proporciona Github, en su apartado de Insights, sobre la colaboración del equipo durante el Sprint 1:
+
+<div style="text-align:center;"><img src="imagenes/images_Cap5/5.2.1.8. Team Collaboration.png"
+
+
+##
