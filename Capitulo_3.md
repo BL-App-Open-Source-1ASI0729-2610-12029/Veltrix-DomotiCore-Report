@@ -67,53 +67,53 @@ El Impact Mapping es una herramienta que nos permitió estructurar y visualizar 
 ### 3.3. Product Backlog
 | # Orden | User Story Id | Título | Descripción | Story Points (1/2/3/5/8) |
 | :--- | :--- | :--- | :--- | :--- |
-| **1** | **US01** | Vinculación de Gateway | **Como** usuario, **quiero** vincular el gateway a la plataforma **para** conectar mis dispositivos a la nube. | 5 |
-| **2** | **US02** | Registro de dispositivos | **Como** usuario, **quiero** registrar dispositivos inteligentes **para** controlarlos desde la plataforma. | 5 |
-| **3** | **US03** | Control remoto | **Como** usuario, **quiero** encender y apagar dispositivos remotamente **para** gestionarlos a distancia. | 3 |
-| **4** | **US04** | Programación de horarios | **Como** usuario, **quiero** programar horarios de encendido y apagado **para** automatizar el uso energético. | 5 |
-| **5** | **US05** | Escenas grupales | **Como** usuario, **quiero** crear escenas de dispositivos **para** ejecutar acciones múltiples rápidamente. | 5 |
-| **6** | **US06** | Monitoreo en tiempo real | **Como** usuario, **quiero** ver el consumo en watts en tiempo real **para** entender mi gasto energético. | 5 |
-| **7** | **US07** | Reporte mensual de consumo | **Como** usuario, **quiero** ver reportes mensuales de consumo **para** analizar mi ahorro energético. | 3 |
-| **8** | **US08** | Alertas de consumo alto | **Como** usuario, **quiero** recibir alertas cuando el consumo sea alto **para** prevenir gastos excesivos. | 3 |
-| **9** | **US09** | Notificación fuera de horario | **Como** usuario, **quiero** recibir alertas si un dispositivo queda encendido fuera de horario **para** evitar desperdicios. | 3 |
-| **10** | **US10** | Historial de eventos | **Como** administrador, **quiero** ver el historial de acciones **para** auditar el sistema. | 3 |
-| **11** | **US11** | Dashboard general | **Como** usuario, **quiero** ver un resumen general del estado de mis dispositivos **para** una vista rápida. | 2 |
-| **12** | **US12** | Organización por ambientes | **Como** usuario, **quiero** asignar dispositivos a ambientes **para** organizar mejor mi hogar o negocio. | 2 |
-| **13** | **US13** | Usuarios secundarios | **Como** administrador, **quiero** crear usuarios secundarios **para** compartir el control del sistema. | 5 |
-| **14** | **US14** | Gestión de permisos | **Como** administrador, **quiero** modificar permisos de usuarios **para** mantener la seguridad. | 5 |
-| **15** | **US15** | Historial de consumo | **Como** usuario, **quiero** revisar el consumo histórico **para** analizar patrones de uso. | 3 |
-| **16** | **US16** | Descarga de reportes | **Como** usuario, **quiero** descargar reportes de consumo **para** uso externo. | 3 |
-| **17** | **US17** | Información del producto | **Como** visitante, **quiero** ver información clara del producto **para** entender su valor. | 1 |
-| **18** | **US18** | Formulario de contacto | **Como** visitante, **quiero** enviar consultas **para** obtener más información del servicio. | 1 |
-| **19** | **US19** | Autenticación de API | **Como** developer, **quiero** autenticar la API **para** proteger el acceso a los datos. | 5 |
-| **20** | **US20** | Consulta API de dispositivos | **Como** developer, **quiero** consultar el estado de dispositivos vía API **para** integraciones externas. | 5 |
-| **21** | **US21** | Encendido masivo | **Como** usuario, **quiero** encender todos los dispositivos **para** activarlos rápidamente. | 3 |
-| **22** | **US22** | Apagado masivo | **Como** usuario, **quiero** apagar todos los dispositivos **para** reducir el consumo rápidamente. | 3 |
-| **23** | **US23** | Dispositivos conectados | **Como** usuario, **quiero** ver qué dispositivos están conectados **para** conocer su estado. | 2 |
-| **24** | **US24** | Dispositivos desconectados | **Como** usuario, **quiero** ver dispositivos desconectados **para** detectar fallas. | 2 |
-| **25** | **US25** | Actualizar estado | **Como** usuario, **quiero** refrescar el estado de los dispositivos **para** ver información actualizada. | 2 |
-| **26** | **US26** | Consumo total | **Como** usuario, **quiero** ver el consumo total de todos mis dispositivos **para** tener una visión general. | 3 |
-| **27** | **US27** | Confirmación de acciones | **Como** usuario, **quiero** confirmar acciones críticas **para** evitar errores. | 2 |
-| **28** | **US28** | Mensajes de feedback | **Como** usuario, **quiero** ver mensajes de éxito o error **para** saber el resultado de mis acciones. | 1 |
-| **29** | **US29** | Eliminación de dispositivos | **Como** usuario, **quiero** eliminar dispositivos **para** mantener organizada la red. | 2 |
-| **30** | **US30** | Renombrar dispositivos | **Como** usuario, **quiero** cambiar el nombre de dispositivos **para** identificarlos fácilmente. | 2 |
-| **31** | **US31** | Historial de mantenimiento | **Como** usuario, **quiero** ver el historial de mantenimiento **para** controlar el estado del dispositivo. | 3 |
-| **32** | **US32** | Registro de mantenimiento | **Como** usuario, **quiero** registrar mantenimientos realizados **para** actualizar el sistema. | 3 |
-| **33** | **US33** | Integraciones externas | **Como** usuario, **quiero** integrar servicios externos **para** ampliar funcionalidades. | 8 |
-| **34** | **US34** | Sincronización automática | **Como** usuario, **quiero** que las integraciones se sincronicen automáticamente **para** mantener datos actualizados. | 5 |
-| **35** | **US35** | Optimización automática | **Como** usuario, **quiero** que el sistema optimice el consumo **para** reducir gastos. | 8 |
-| **36** | **US36** | Sugerencias de ahorro | **Como** usuario, **quiero** recibir sugerencias personalizadas **para** ahorrar energía. | 5 |
-| **37** | **US37** | Detección de anomalías | **Como** usuario, **quiero** detectar consumos anómalos **para** prevenir fallas. | 5 |
-| **38** | **US38** | Alertas inteligentes | **Como** usuario, **quiero** recibir alertas inteligentes **para** anticipar problemas de consumo. | 5 |
-| **39** | **US39** | Exportación avanzada | **Como** administrador, **quiero** exportar datos avanzados **para** análisis externo. | 5 |
-| **40** | **US40** | Formato de exportación | **Como** administrador, **quiero** elegir el formato de exportación **para** adaptarlo a mis necesidades. | 3 |
-| **41** | **US41** | Backup de datos | **Como** administrador, **quiero** respaldar los datos **para** evitar pérdidas de información. | 5 |
-| **42** | **US42** | Restauración de datos | **Como** administrador, **quiero** restaurar datos desde un backup **para** recuperar el sistema. | 5 |
-| **43** | **US43** | Monitoreo del sistema | **Como** administrador, **quiero** monitorear el estado del sistema **para** garantizar su disponibilidad. | 3 |
-| **44** | **US44** | Logs del sistema | **Como** administrador, **quiero** acceder a logs del sistema **para** diagnóstico técnico. | 3 |
-| **45** | **US45** | Configuración de alertas | **Como** usuario, **quiero** configurar alertas personalizadas **para** mis dispositivos. | 3 |
-| **46** | **US46** | Umbrales de consumo | **Como** usuario, **quiero** definir límites de consumo **para** recibir alertas preventivas. | 3 |
-| **47** | **US47** | Modo ahorro | **Como** usuario, **quiero** activar un modo ahorro **para** reducir consumo automáticamente. | 5 |
-| **48** | **US48** | Estadísticas avanzadas | **Como** usuario, **quiero** ver estadísticas avanzadas **para** un análisis detallado. | 5 |
-| **49** | **US49** | Seguridad de sesiones | **Como** administrador, **quiero** asegurar las sesiones de usuario **para** proteger el sistema. | 5 |
-| **50** | **US50** | Último estado del dispositivo | **Como** usuario, **quiero** ver el último estado registrado de un dispositivo **para** conocer su condición reciente. | 2 |
+| **1** | **US01** | Vinculación de inicio | **Como** Usuario de un hogar inteligente y pequeño negocio, **quiero** registrar mi inicio en la plataforma **para** establecer el puente de comunicación entre mis dispositivos físicos y la nube de DomotiCore. | **5** |
+| **2** | **US02** | Registro y sincronización de nodos | **Como** usuario de un hogar inteligente, **quiero** agregar nuevos dispositivos inteligentes como focos u otros dispositvos compatibles al sistema **para** poder controlarlos desde la aplicación. | **5** |
+| **3** | **US33** | Conexión de dispositivos inteligentes al sistema | **Como** administrador de un pequeño negocio o usuario de un hogar inteligente, **quiero** conectar nuevos dispositivos inteligentes a DomotiCore **para** controlarlos desde una sola plataforma. | **5** |
+| **4** | **US03** | Control remoto de dispositivos | **Como** usuario de un hogar inteligente, **quiero** encender o apagar mis dispositivos inteligentes desde el dashboard principal **para** controlar de manera remota los dispositivos de mi hogar en tiempo real. | **5** |
+| **5** | **US34** | Encendido y apagado remoto de dispositivos | **Como** usuario de un pequeño negocio u hogar inteligente, **quiero** poder encender y apagar dispositivos inteligentes desde la aplicación **para** controlar el consumo energético. | **5** |
+| **6** | **US43** | Visualización de estado por iconos | **Como** usuario, **quiero** ver iconos al lado del estado del dispositivo que me permitan distinguir si un dispositivo está encendido o apagado **para** entender su estado rápidamente. | **5** |
+| **7** | **US24** | Visualización de dispositivos desconectados | **Como** usuario de un hogar inteligente y pequeño negocio, **quiero** visualizar qué dispositivos inteligentes se encuentran desconectados **para** identificar rápidamente problemas de conexión o funcionamiento dentro de mi hogar o pequeño negocio. | **5** |
+| **8** | **US47** | Búsqueda de dispositivos vinculados | **Como** usuario de un hogar inteligente o pequeño negocio, **quiero** buscar dispositivos por nombre o tipo **para** encontrarlos rápidamente. | **5** |
+| **9** | **US12** | Visualización de cantidad total de dispositivos | **Como** usuario de DomotiCore, **quiero** visualizar la cantidad total de dispositivos inteligentes registrados en el sistema **para** tener una visión rápida de los dispositivos conectados en mi hogar o pequeño negocio. | **5** |
+| **10** | **US50** | Registro de último estado del dispositivo | **Como** usuario de un hogar inteligente, **quiero** ver el último estado registrado de un dispositivo **para** saber su condición reciente. | **5** |
+| **11** | **US04** | Automatización de apagado de dispositivos inactivos | **Como** usuario de DomotiCore, **quiero** que los dispositivos inteligentes se apaguen automáticamente después de un tiempo de inactividad **para** ahorrar energía y evitar consumo innecesario. | **5** |
+| **12** | **US49** | Activación manual de modo ahorro | **Como** usuario de un hogar inteligente o pequeño negocio, **quiero** activar un modo ahorro de energía manualmente **para** reducir el consumo energético de mis dispositivos. | **5** |
+| **13** | **US21** | Encendido general de dispositivos | **Como** usuario de DomotiCore, **quiero** contar con un botón de encendido general que active todos mis dispositivos inteligentes de manera simultánea **para** preparar rápidamente mi hogar o pequeño negocio. | **5** |
+| **14** | **US22** | Apagado general de dispositivos | **Como** usuario de un hogar inteligente y de un pequeño negocio, **quiero** contar con un botón de apagado general que desactive todos mis dispositivos inteligentes **para** reducir consumo energético. | **5** |
+| **15** | **US26** | Visualización básica de consumo total | **Como** Usuario, **quiero** ver el consumo energético total de todos mis dispositivos **para** tener una visión general. | **5** |
+| **16** | **US48** | Visualización de consumo por dispositivo | **Como** usuario de un hogar inteligente o pequeño negocio, **quiero** ver el consumo individual de cada dispositivo **para** identificar cuál consume más energía. | **5** |
+| **17** | **US06** | Monitoreo en tiempo real | **Como** usuario de un pequeño negocio, **quiero** visualizar en tiempo real el consumo energético de mis dispositivos inteligentes en Watts **para** comprender cuánto energía están consumiendo y tomar decisiones. | **5** |
+| **18** | **US15** | Comparación de consumo entre dispositivos | **Como** usuario de un hogar inteligente o pequeño negocio, **quiero** comparar el consumo energético de mis dispositivos inteligentes **para** identificar cuáles consumen más energía. | **5** |
+| **19** | **US16** | Descarga de reportes de consumo energético | **Como** usuario de DomotiCore, **quiero** descargar reportes del consumo energético de mis dispositivos inteligentes **para** revisar el historial de consumo y analizar gastos eléctricos. | **5** |
+| **20** | **US35** | Optimización automática de consumo | **Como** administrador de un pequeño negocio, **quiero** que la app optimice automáticamente el consumo energético de los dispositivos inteligentes **para** reducir gastos eléctricos. | **5** |
+| **21** | **US37** | Detección de anomalías en consumo | **Como** usuario de un hogar inteligente o pequeño negocio, **quiero** detectar consumos de energía inusuales en mis dispositivos inteligentes **para** evitar gastos innecesarios. | **5** |
+| **22** | **US36** | Sugerencias de ahorro personalizadas | **Como** Usuario de un hogar inteligente, **quiero** recibir sugerencias de ahorro energético **para** mejorar mis hábitos de consumo. | **5** |
+| **23** | **US19** | Autenticación básica de API | **Como** desarrollador que utiliza la API de DomotiCore, **quiero** autenticar las solicitudes mediante un token de acceso **para** proteger la información de los dispositivos. | **5** |
+| **24** | **US20** | Consulta de estado de dispositivos vía API | **Como** desarrollador que integra DomotiCore con sistemas externos, **quiero** consultar el estado actual de los dispositivos inteligentes mediante una API REST **para** obtener información actualizada. | **5** |
+| **25** | **US10** | Cierre de sesión seguro | **Como** usuario de un hogar inteligente o administrador de pequeño negocio, **quiero** cerrar sesión de manera segura **para** proteger el acceso a mis dispositivos. | **5** |
+| **26** | **US13** | Cambio de contraseña de usuario | **Como** usuario de DomotiCore, **quiero** cambiar la contraseña de mi cuenta **para** mantener la seguridad de mi información. | **5** |
+| **27** | **US14** | Cambio de nombre de usuario | **Como** usuario de DomotiCore, **quiero** modificar mi nombre de usuario dentro de la aplicación **para** mantener mi perfil actualizado. | **5** |
+| **28** | **US25** | Actualización manual del estado | **Como** Usuario de un hogar inteligente, **quiero** actualizar manualmente el estado de mis dispositivos **para** asegurarme de tener información correcta. | **5** |
+| **29** | **US27** | Confirmación de acciones críticas | **Como** Usuario de un hogar inteligente, **quiero** confirmar acciones importantes **para** evitar errores. | **5** |
+| **30** | **US28** | Mensajes de éxito y error | **Como** usuario de pequeño negocio y hogar inteligente, **quiero** recibir mensajes claros de confirmación o error **para** saber si mis acciones fueron ejecutadas correctamente. | **5** |
+| **31** | **US29** | Eliminación de dispositivos registrados | **Como** usuario de hogar inteligente, **quiero** eliminar dispositivos registrados de mi cuenta **para** mantener organizada mi red doméstica. | **5** |
+| **32** | **US30** | Edición de nombre de dispositivos | **Como** usuario de hogar inteligente, **quiero** cambiar el nombre de mis dispositivos conectados **para** identificarlos fácilmente dentro del sistema. | **5** |
+| **33** | **US39** | Configuración de dispositivos prioritarios en modo ahorro de energía | **Como** administrador de un pequeño negocio, **quiero** marcar dispositivos como prioritarios **para** asegurar funcionamiento en modo ahorro de energía. | **5** |
+| **34** | **US31** | Visualización del historial de mantenimiento | **Como** usuario de pequeño negocio, **quiero** visualizar el historial de mantenimiento de mis dispositivos **para** controlar su estado. | **5** |
+| **35** | **US32** | Registro manual de mantenimiento de dispositivos | **Como** administrador de un pequeño emprendimiento, **quiero** registrar manualmente mantenimientos de dispositivos inteligentes **para** llevar control. | **5** |
+| **36** | **US17** | Información del producto en la landing page | **Como** visitante de la landing page de DomotiCore, **quiero** visualizar información clara sobre la plataforma **para** comprender su valor. | **5** |
+| **37** | **US11** | Visualización de preguntas frecuentes en la landing page | **Como** visitante de la landing page de DomotiCore, **quiero** visualizar preguntas frecuentes **para** resolver dudas. | **5** |
+| **38** | **US41** | Previsualización de funciones de la app | **Como** visitante de la landing page de DomotiCore, **quiero** visualizar funciones de la aplicación **para** entender su funcionamiento. | **5** |
+| **39** | **US42** | Navegacion por secciones | **Como** visitante, **quiero** tener un menú de navegación **para** encontrar información fácilmente. | **5** |
+| **40** | **US45** | Footer informativo | **Como** visitante, **quiero** ver información de contacto y enlaces en el footer **para** acceder a más información. | **5** |
+| **41** | **US46** | Testimonios y opiniones en la landing | **Como** visitante, **quiero** ver opiniones de otros usuarios **para** confiar en el producto. | **5** |
+| **42** | **US18** | Formulario de contacto para consultas | **Como** visitante de la landing page, **quiero** enviar consultas mediante un formulario **para** obtener información. | **5** |
+| **43** | **US09** | Notificación de dispositivo desconectado | **Como** usuario de DomotiCore, **quiero** recibir una notificación cuando un dispositivo se desconecte **para** identificar problemas rápidamente. | **5** |
+| **44** | **US44** | Notificación de dispositivo desconectado | **Como** usuario de un hogar inteligente, **quiero** recibir una alerta cuando un dispositivo se desconecta **para** actuar rápidamente. | **5** |
+| **45** | **US23** | Visualización del nivel de batería de dispositivos recargables | **Como** usuario de un hogar inteligente, **quiero** visualizar el nivel de batería de mis dispositivos **para** identificar cuáles necesitan carga. | **5** |
+| **46** | **US07** | Cambio de tema visual de la aplicación | **Como** usuario de DomotiCore, **quiero** cambiar entre modo claro y modo oscuro **para** mejorar la comodidad visual. | **5** |
+| **47** | **US08** | Cambio de idioma de la aplicación | **Como** usuario de un hogar inteligente y pequeño negocio, **quiero** cambiar el idioma entre español e inglés **para** mayor comodidad. | **5** |
+| **48** | **US38** | Clasificación de dispositivos por uso | **Como** usuario de un hogar inteligente, **quiero** clasificar mis dispositivos por función **para** administrarlos mejor. | **5** |
+| **49** | **US40** | Configuración personalizada del formato de exportación de datos | **Como** administrador de un pequeño negocio, **quiero** seleccionar el formato de exportación de datos **para** análisis externo. | **5** |
+| **50** | **US05** | Creación de escenas grupales | **Como** Dueño de Negocio, **quiero** activar una escena de cierre **para** apagar equipos rápidamente. | **5** |
