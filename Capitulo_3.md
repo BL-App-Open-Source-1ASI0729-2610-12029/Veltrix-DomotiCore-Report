@@ -117,3 +117,4 @@ El Impact Mapping es una herramienta que nos permitió estructurar y visualizar 
 | **48** | **US38** | Clasificación de dispositivos por uso | **Como** usuario de un hogar inteligente, **quiero** clasificar mis dispositivos por función **para** administrarlos mejor. | **5** |
 | **49** | **US40** | Configuración personalizada del formato de exportación de datos | **Como** administrador de un pequeño negocio, **quiero** seleccionar el formato de exportación de datos **para** análisis externo. | **5** |
 | **50** | **US05** | Creación de escenas grupales | **Como** Dueño de Negocio, **quiero** activar una escena de cierre **para** apagar equipos rápidamente. | **5** |
+
