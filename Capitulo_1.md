@@ -8,15 +8,15 @@
 
 # **Project Report Collaborations Insights**
 
-Nuestro proyecto fue hecho en el repositorio "upcpre-2026101asi0729-12029-Veltrix-report-av1-"
+Nuestro proyecto fue hecho en el repositorio "BL-App-Open-Source-1ASI0729-2610-12029"
 
-**Enlaze del repositorio:** [link del repositorio](https://github.com/user20-bit/upcpre-2026101asi0729-12029-Veltrix-report-av1-)
+**Enlaze del repositorio:** [link del repositorio](https://github.com/BL-App-Open-Source-1ASI0729-2610-12029)
 
 AV1: Se creo un repositorio colaborativo en github para el desarrollo del reporte de nuestro proyecto. Utilizamos gitflow para poder avanzar el informe sin problemas y de manera organizada. A continuación se evidencia los commits de cada integrante que aportó al desarrollo del informe de AV1.
 
 **Evidencia**
 
-<img src="imagenes/evidencia-commits.jpeg">
+<img src="imagenes/imagenes_Cap1/evidencia-commits.jpeg">
 
 <hr>
 
@@ -49,11 +49,11 @@ Para cumplir con este propósito, hemos desarrollado el proyecto **DomotiCore**,
 docs: update formatting and improve table structure in readme.
 | Foto | Apellido y Nombre | 
 | --- | --- | 
-![oscar](imagenes/oscar.png) | *Checa Buga Oscar Diego - u20231e492* Soy estudiante de la carrera de ingeniería de software de 5to ciclo, interesado en el desarrollo de soluciones tecnológicas. Destaco por mi trabajo en equipo y comunicación constante. Tengo conocimiento en base de datos, desarrollo de aplicaciones y programación. Me gusta ir adaptándome a las nuevas tecnologías y aprender de estas, para poder desarrollar más en el ámbito profesional.
-![diego](imagenes/diego.jpeg) | *Esquicha Alcántara Diego Alonso - u202411799* Soy un estudiante de la carrera de ingeniería de software de quinto ciclo, me destaco por mis habilidades de comunicación y liderazgo para trabajar en equipo. Una de mis fortalezas es el desarrollo de la documentación necesaria para dar a marcha un proyecto o trabajo grupal y la comodidad de aprender de manera rápida y eficiente alguna herramienta tecnológica.  
-![cesar](imagenes/cesar.jpeg) | *Quispe Llacsahuanga César Agusto - u202417405* Soy estudiante de Ingeniería de Software, interesado en el desarrollo de soluciones tecnológicas y el aprendizaje continuo en herramientas de programación. Cuento con conocimientos en lógica de programación, bases de datos y desarrollo de aplicaciones, lo que me permite contribuir en la construcción de sistemas eficientes. Me caracterizo por ser responsable, proactivo y con buena disposición para el trabajo en equipo, adaptándome a nuevos retos y aportando en el cumplimiento de los objetivos del proyecto. 
-![alvaro](imagenes/alvaro.png) | *Rocha Cotrina Alvaro - u202411243* Soy estudiante de Ingeniería de Software, con enfoque en el desarrollo backend, bases de datos y lógica de programación. Cuento con experiencia en la creación de aplicaciones y resolución de problemas mediante programación, especialmente en lenguajes como C++ y el diseño de sistemas estructurados. Me caracterizo por ser organizado, responsable y comprometido con el trabajo en equipo, aportando en la construcción de soluciones eficientes y en la correcta estructuración de la arquitectura del sistema. Además, tengo una gran capacidad de aprendizaje y adaptación a nuevas tecnologías, lo que me permite contribuir activamente en el desarrollo del proyecto.
-![fabrizio](imagenes/Fabrizio.png) | *Tello Palacios Fabrizio Rafael - u202113310*  Soy estudiante de la carrera de Ingeniería de Software. Considero que soy una persona comprometida en cada trabajo y tarea y siempre trato de dar lo mejor de mi en cada situación. A veces tengo complicaciones con la organización de mi tiempo, pero siempre estoy atento a cualquier problema dentro del equipo para poder pensar en soluciones y llegar a la mejor posible. Me gustan los retos, porque son esos retos los que me motivan a ser mejor como persona y como estudiante. Tengo muchas  cosas en las que mejorar y sé que lo lograré con disciplina y perseverancia.
+![oscar](imagenes/imagenes_Cap1/oscar.png) | *Checa Buga Oscar Diego - u20231e492* Soy estudiante de la carrera de ingeniería de software de 5to ciclo, interesado en el desarrollo de soluciones tecnológicas. Destaco por mi trabajo en equipo y comunicación constante. Tengo conocimiento en base de datos, desarrollo de aplicaciones y programación. Me gusta ir adaptándome a las nuevas tecnologías y aprender de estas, para poder desarrollar más en el ámbito profesional.
+![diego](imagenes/imagenes_Cap1/diego.jpeg) | *Esquicha Alcántara Diego Alonso - u202411799* Soy un estudiante de la carrera de ingeniería de software de quinto ciclo, me destaco por mis habilidades de comunicación y liderazgo para trabajar en equipo. Una de mis fortalezas es el desarrollo de la documentación necesaria para dar a marcha un proyecto o trabajo grupal y la comodidad de aprender de manera rápida y eficiente alguna herramienta tecnológica.  
+![cesar](imagenes/imagenes_Cap1/cesar.jpeg) | *Quispe Llacsahuanga César Agusto - u202417405* Soy estudiante de Ingeniería de Software, interesado en el desarrollo de soluciones tecnológicas y el aprendizaje continuo en herramientas de programación. Cuento con conocimientos en lógica de programación, bases de datos y desarrollo de aplicaciones, lo que me permite contribuir en la construcción de sistemas eficientes. Me caracterizo por ser responsable, proactivo y con buena disposición para el trabajo en equipo, adaptándome a nuevos retos y aportando en el cumplimiento de los objetivos del proyecto. 
+![alvaro](imagenes/imagenes_Cap1/alvaro.png) | *Rocha Cotrina Alvaro - u202411243* Soy estudiante de Ingeniería de Software, con enfoque en el desarrollo backend, bases de datos y lógica de programación. Cuento con experiencia en la creación de aplicaciones y resolución de problemas mediante programación, especialmente en lenguajes como C++ y el diseño de sistemas estructurados. Me caracterizo por ser organizado, responsable y comprometido con el trabajo en equipo, aportando en la construcción de soluciones eficientes y en la correcta estructuración de la arquitectura del sistema. Además, tengo una gran capacidad de aprendizaje y adaptación a nuevas tecnologías, lo que me permite contribuir activamente en el desarrollo del proyecto.
+![fabrizio](imagenes/imagenes_Cap1/Fabrizio.png) | *Tello Palacios Fabrizio Rafael - u202113310*  Soy estudiante de la carrera de Ingeniería de Software. Considero que soy una persona comprometida en cada trabajo y tarea y siempre trato de dar lo mejor de mi en cada situación. A veces tengo complicaciones con la organización de mi tiempo, pero siempre estoy atento a cualquier problema dentro del equipo para poder pensar en soluciones y llegar a la mejor posible. Me gustan los retos, porque son esos retos los que me motivan a ser mejor como persona y como estudiante. Tengo muchas  cosas en las que mejorar y sé que lo lograré con disciplina y perseverancia.
 
 
 

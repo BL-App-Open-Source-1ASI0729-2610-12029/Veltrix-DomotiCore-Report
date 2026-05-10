@@ -171,7 +171,7 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
   </tr>
   <tr>
     <td>Evidencia</td>
-    <td><div align="center"><img src="imagenes/interview-of-magali-alcantara open.png" alt="Entrevista a Magali Alcántara"></td>
+    <td><div align="center"><img src="imagenes/Imagenes_Cap2/interview-of-magali-alcantara open.png" alt="Entrevista a Magali Alcántara"></td>
   </tr>
   <tr>
     <td>Link</td>
@@ -219,7 +219,7 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
     </tr>
     <tr>
       <td>Evidencia</td>
-      <td><div align="center"><img src="imagenes/interview-of-Fabio-Cordova open.png" alt="Entrevista a Fabio Cordova"></td>
+      <td><div align="center"><img src="imagenes/Imagenes_Cap2/interview-of-Fabio-Cordova open.png" alt="Entrevista a Fabio Cordova"></td>
     </tr>
     <tr>
       <td>Link</td>
@@ -267,7 +267,7 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
   </tr>
   <tr>
     <td>Evidencia</td>
-    <td><div align="center"><img src="imagenes/imagen-seg1_OpenSource.png" alt="Entrevista a Magali Alcántara"></td>
+    <td><div align="center"><img src="imagenes/Imagenes_Cap2/interview-of-Adriana-Gonzalez open.png" alt="Entrevista a Magali Alcántara"></td>
   </tr>
   <tr>
     <td>Link</td>
@@ -315,7 +315,7 @@ En esta sección presentamos los registros de las entrevistas que hicimos para c
   </tr>
   <tr>
     <td>Evidencia</td>
-    <td><div align="center"><img src="imagenes/interview-of-victor-esquicha open.png" alt="Entrevista a 
+    <td><div align="center"><img src="imagenes/Imagenes_Cap2/interview-of-victor-esquicha open.png" alt="Entrevista a 
     Victor Esquicha"></td>
   </tr>
   <tr>
@@ -364,7 +364,7 @@ El control del negocio se basa en objetivos y seguimiento diario mediante reunio
   </tr>
   <tr>
     <td>Evidencia</td>
-    <td><div align="center"><img src="imagenes/interview-of-katherine-herrera open.png" alt="Entrevista a Katherine Herrera"></td>
+    <td><div align="center"><img src="imagenes/Imagenes_Cap2/interview-of-katherine-herrera open.png" alt="Entrevista a Katherine Herrera"></td>
   </tr>
   <tr>
     <td>Link</td>
@@ -412,7 +412,7 @@ El control de estos dispositivos es completamente manual y depende de la respons
   </tr>
   <tr>
     <td>Evidencia</td>
-    <td><div align="center"><img src="imagenes/interview-of-carmen-salazar open.png" alt="Entrevista a Carmen Salazar"></td>
+    <td><div align="center"><img src="imagenes/Imagenes_Cap2/interview-of-carmen-salazar open.png" alt="Entrevista a Carmen Salazar"></td>
   </tr>
   <tr>
     <td>Link</td>
@@ -506,13 +506,13 @@ En esta sección se describen dos User Personas que representan los principales 
 
 **Segmento 1**
 
-![User-Persona-1](imagenes/Magali%20Alcántara.png)
+![User-Persona-1](imagenes/Imagenes_Cap2/Magali%20Alcántara.png)
 
 El User Persona de Magali Alcántara revela una tensión constante entre su rutina multifuncional y la gestión manual de los dispositivos electrónicos en su hogar. Aunque Magali posee una buena capacidad organizativa y un uso frecuente de la tecnología en su día a día, su entorno doméstico carece de un sistema centralizado que le permita ejercer un control eficiente sobre el consumo energético y el estado de sus dispositivos. Esta situación genera pequeñas ineficiencias acumulativas, como el olvido de cargadores conectados o equipos encendidos innecesariamente, que no solo incrementan los gastos de energía, sino que también añaden una carga mental adicional a una usuaria ya expuesta a múltiples responsabilidades laborales y personales.
 
 **Segmento 2**
 
-![User-Persona-2](imagenes/Victor%20Esquicha%20(2).png)
+![User-Persona-2](imagenes/Imagenes_Cap2/Victor%20Esquicha%20(2).png)
 
 El User Persona de Victor Esquicha evidencia una tensión constante entre su enfoque racional orientado a la eficiencia y la carga operativa que implica gestionar manualmente un entorno tecnológico cada vez más complejo. Como ingeniero de sistemas y dueño de una consultora de software, Víctor posee una alta competencia técnica y una clara orientación a resultados: reducir tiempos, optimizar recursos y entregar valor sostenido a sus clientes. Sin embargo, esta capacidad estratégica se ve limitada por la falta de automatización en la gestión de los dispositivos electrónicos tanto en su espacio laboral como doméstico.
 
@@ -584,11 +584,11 @@ A lo largo del recorrido se identifican las etapas clave, las acciones que reali
 
 **Segmento 1**
 
-![User-Journey-Map-1](imagenes/User%20Journey%20Map%20of%20Magali%20Alcántara.png)
+![User-Journey-Map-1](imagenes/Imagenes_Cap2/User%20Journey%20Map%20of%20Magali%20Alcántara.png)
 
 **Segmento 2**
 
-![User-Journey-Map-2](imagenes/User%20Journey%20Map%20of%20Victor%20Esquicha.png)
+![User-Journey-Map-2](imagenes/Imagenes_Cap2/User%20Journey%20Map%20of%20Victor%20Esquicha.png)
 
 ### 2.3.4. Empathy Mapping
 
@@ -596,11 +596,11 @@ Se ha elaborado el Empathy Map para cada uno de nuestros User Personas con el fi
 
 **Segmento 1**
 
-![Empathy-Map-1](imagenes/PERSONA_%20Magali%20Alcántara.png)
+![Empathy-Map-1](imagenes/Imagenes_Cap2/Mapping_%20Magali%20Alcántara.png)
 
 **Segmento 2**
 
-![Empathy-Map-2](imagenes/PERSONA_%20Victor%20Esquicha.png)
+![Empathy-Map-2](imagenes/Imagenes_Cap2/Mapping_%20Victor%20Esquicha.png)
 
 ## 2.4 Big Picture EventStorming
 

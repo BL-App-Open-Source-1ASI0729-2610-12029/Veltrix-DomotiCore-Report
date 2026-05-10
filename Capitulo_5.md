@@ -1,253 +1,213 @@
 ## 5.1. Software Configuration Management
 
-La gestión en DomotiCore es fundamental para asegurar el control de todos los componentes del sistema, incluyendo el código fuente, documentación, prototipos y configuraciones del entorno IoT. Dado que el proyecto involucra múltiples elementos como interfaz web, simulación de dispositivos y lógica de automatización, es necesario mantener un control riguroso que permita el trabajo colaborativo.
+La gestión en DomotiCore incluye el código fuente, documentación, prototipos y configuraciones del entorno. El proyecto contempla distintos productos digitales, incluyendo una Landing Page, aplicaciones web y servicios backend orientados a la automatización y monitoreo de dispositivos IoT. El equipo adopta prácticas basadas en GitFlow, Conventional Commits y Semantic Versioning, asegurando un flujo de trabajo colaborativo y organizado.
 
 ## 5.1.1. Software Development Environment Configuration
+En esta sección se describen las herramientas, tecnologías y plataformas utilizadas por el equipo para el desarrollo colaborativo del proyecto DomotiCore.
 
-**Project Management**
-
-- **Trello**: Se utiliza para gestionar las tareas del proyecto, permitiendo visualizar el progreso del desarrollo mediante tableros organizados por estados (To-do, In progress, Done). Esto fue clave durante el Sprint 1, donde se gestionó la finalización del reporte y la landing page.
-
-<div style="text-align:center;"><img src="imagenes/images_Cap5/Trello .png" alt="texto"></div>
-
-- **Microsoft Teams**: Se emplea como plataforma principal de comunicación para reuniones, planificación de sprints y coordinación del equipo, facilitando la colaboración remota.
-
-<div style="text-align:center;"><img src="imagenes/images_Cap5/Microsoft Teams.png" alt="texto"></div>
-
-**Requirement Management**
-
-- **Miro**: Se utiliza para estructurar ideas, flujos del sistema y análisis del negocio, incluyendo el Event Storming del sistema IoT.
-
-<div style="text-align:center;"><img src="imagenes/Impact map 1.png" alt="texto"></div>
-
-- **Structurizr**: Permite modelar la arquitectura del sistema DomotiCore bajo el modelo C4, representando componentes como:
-dashboard, gateway, nodos IoT, servicios de monitoreo y product UX/UI design.
-
-<div style="text-align:center;"><img src="imagenes/images_Cap5/structurizr.png" alt="texto"></div>
-
-- **Figma**: Herramienta utilizada para diseñar la interfaz del sistema, incluyendo: dashboard centralizado, control de dispositivos, visualización de consumo energético.
-
-<div style="text-align:center;"><img src="imagenes/images_Cap5/figma.png" alt="texto"></div>
-
-- **Lucidchart**: Se emplea para diagramas de flujo, arquitectura y diseño de procesos del sistema.
-
-<div style="text-align:center;"><img src="imagenes/images_Cap5/lucidchart.png" alt="texto"></div>
-
-**Software Development**: Tecnologías utilizadas para el desarrollo de la Landing Page y la base del sistema web.
-
-- **HTML**
-
-<div style="text-align:center;"><img src="imagenes/images_Cap5/html.jpg" alt="texto"></div>
-
-- **CSS**
-
-<div style="text-align:center;"><img src="imagenes/images_Cap5/css.jpg" alt="texto"></div>
-
-- **JavaScript**
-
-<div style="text-align:center;"><img src="imagenes/images_Cap5/JavaScript.png" alt="texto"></div>
-
-**WebStorm**: IDE utilizado para el desarrollo del frontend del sistema.
-
-<div style="text-align:center;"><img src="imagenes/images_Cap5/webstorm.jpg" alt="texto"></div>
-
-**Software Testing**: Gherkin se utiliza para definir escenarios de prueba basados en historias de usuario: Para el control remoto de dispositivos, automatización por horarios, alertas de consumo energético.
-
-**Software Documentation**
-
-- **GitHub**: Se utiliza como repositorio central del proyecto, permitiendo el control de versiones, trabajo colaborativo, registro de commits, documentación del sistema, software Deployment.
-
-<div style="text-align:center;"><img src="imagenes/images_Cap5/github.png" alt="texto"></div>
-
-**GitHub Pages**: Se emplea para desplegar la Landing Page del producto, permitiendo mostrar la propuesta de valor de DomotiCore a los usuarios.
-
-<div style="text-align:center;"><img src="imagenes/images_Cap5/github pages.png"
+| Category | Software / Tool | Purpose in the Project | Access / Download | Preview |
+| :--- | :--- | :--- | :--- | :--- |
+| **Project Management** | Trello | Gestión de tareas, seguimiento de Sprint Backlog y control del avance del proyecto. | [Trello](https://trello.com) | <img src="imagenes/images_Cap5/Trello .png" width="100"> |
+| **Team Communication** | Microsoft Teams | Plataforma principal de comunicación para reuniones y coordinación del equipo. | [Teams](https://www.microsoft.com/microsoft-teams) | <img src="imagenes/images_Cap5/Microsoft Teams.png" width="100"> |
+| **Requirements Management** | Miro | Estructuración de ideas, flujos del sistema y análisis de negocio (Event Storming). | [Miro](https://miro.com) | <img src="imagenes/images_Cap5/miro.png" width="100"> |
+| **Software Architecture** | Structurizr | Modelado de la arquitectura bajo el modelo C4 (dashboard, gateway, nodos). | [Structurizr](https://structurizr.com) | <img src="imagenes/images_Cap5/structurizr.png" width="100"> |
+| **UX/UI Design** | Figma | Diseño de la interfaz, dashboard y visualización de consumo energético. | [Figma](https://www.figma.com) | <img src="imagenes/images_Cap5/figma.png" width="100"> |
+| **Diagram Modeling** | Lucidchart | Elaboración de diagramas de flujo, arquitectura y diseño de procesos. | [Lucidchart](https://www.lucidchart.com) | <img src="imagenes/images_Cap5/lucidchart.png" width="100"> |
+| **Frontend Development** | HTML5 | Estructura base para el desarrollo de la Landing Page y la plataforma web. | [MDN](https://developer.mozilla.org) | <img src="imagenes/images_Cap5/html.jpg" width="50"> |
+| **Frontend Development** | CSS3 | Definición de estilos visuales, diseño responsive y estética. | [MDN](https://developer.mozilla.org) | <img src="imagenes/images_Cap5/css.jpg" width="50"> |
+| **Frontend Development** | JavaScript | Funcionalidad interactiva y lógica del sistema web. | [MDN](https://developer.mozilla.org) | <img src="imagenes/images_Cap5/JavaScript.png" width="50"> |
+| **IDE** | WebStorm | IDE utilizado para el desarrollo y edición del código fuente frontend. | [WebStorm](https://www.jetbrains.com/webstorm) | <img src="imagenes/images_Cap5/webstorm.jpg" width="100"> |
+| **Version Control** | Git & GitHub | Repositorio central para control de versiones, commits y documentación. | [GitHub](https://github.com) | <img src="imagenes/images_Cap5/github.png" width="100"> |
+| **Software Testing** | Gherkin | Escenarios de prueba (control remoto, automatización, alertas) por historias de usuario. | [Gherkin](https://cucumber.io/docs/gherkin) | <img src="imagenes/images_Cap5/Gherkin.png" width="100">  |
+| **Deployment** | GitHub Pages | Despliegue de la Landing Page para mostrar la propuesta de valor. | [GH Pages](https://pages.github.com) | <img src="imagenes/images_Cap5/github pages.png" width="100"> |
 
 ## 5.1.2. Source Code Management
 
-La gestión del código fuente del proyecto DomotiCore se realiza mediante la plataforma GitHub, la cual permite mantener un control de versiones eficiente. El repositorio principal del proyecto, denominado “Open_Source_”, centraliza tanto la documentación del proyecto como los avances de la Landing Page y los diseños iniciales de la aplicación web.
+La gestión de código fuente del proyecto **DomotiCore** se realiza mediante la plataforma **GitHub**, permitiendo un control de versiones en entorno de trabajo colaborativo. Se han definido repositorios independientes para cada producto digital.
 
-<div style="text-align:center;"><img src="imagenes/images_Cap5/5.1.2 github.png"
+### 5.1.2.1 Repositories
 
-**Estructura de ramas**: Se uso de múltiples ramas organizadas por capítulos y funcionalidades, lo cual refleja una adaptación práctica del modelo GitFlow.
+| Product | Repository URL | Description |
+| :--- | :--- | :--- |
+| **Organization** | [BL-App-Open-Source-1ASI0729-2610-12029](https://github.com/BL-App-Open-Source-1ASI0729-2610-12029) | Organizacion donde se ubican todos los repositorios del proyecto. |
+| **Landing Page** | [Veltrix-DomotiCore-Business-Web-Page](https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/Veltrix-DomotiCore-Business-Web-Page) | Repositorio de la Landing Page institucional del proyecto. |
+| **Frontend Web Application** | [Veltrix-DomotiCore-Front-End](https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/Veltrix-DomotiCore-Front-End) | Aplicación web para monitoreo y control de dispositivos. |
+| **Backend Web Services** | [Veltrix-DomotiCore-Back-end](https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/Veltrix-DomotiCore-Back-end) | API REST y lógica de automatización IoT. |
+| **Documentation Repository** | [Veltrix-DomotiCore-Report](https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/Veltrix-DomotiCore-Report) | Documentación técnica, reportes y entregables del proyecto. |
+###
+<div style="text-align:center;"><img src="imagenes/images_Cap5/Proyecto-Github-Organizacion.png" width="800" alt="GitHub Repository Structure"></div>
 
-- **Main**: Rama principal del repositorio. Contiene la versión estable del proyecto. Se utiliza para almacenar la documentación final y entregables.
-- **Develop**: Rama de integración principal. Aquí se consolidan los cambios provenientes de otras ramas. Es la rama donde se concentran los commits más recientes del equipo y donde sera visibles todos los commits de las ramas en uno solo.
+### 5.1.2.2 GitFlow Workflow
 
-**Ramas por funcionalidades / capítulos**
+El equipo adopta **GitFlow** como estrategia de branching para mantener la estabilidad.
 
-- **1.1/Startup-Profile**
-- **1.2/Solution-Profile**
-- **1.3/Segmentos-Objetivos**
-- **2.2/Entrevistas**
-- **2.4/Big-Picture-EventStorming**
-- **3.1/User-Stories**
-- **4.1/Style-Guidelines**
-- **4.3.1/Landing-Page-Wireframe**
-- **5.1/Software-Configuration-Management**
+* **Main Branch**: Contiene únicamente versiones estables y aprobadas del proyecto listas para producción.
+    * `main`
+* **Develop Branch**: Rama principal de integración donde se consolidan las funcionalidades desarrolladas antes de integrarse en producción.
+    * `develop`
+* **Feature Branches**: Cada nueva funcionalidad se desarrolla en una rama independiente para evitar conflictos en el código base.
+    * **Naming Convention**: `feature/<feature-name>`
+    * **Examples**: `feature/landing-page-navbar`, `feature/device-monitoring`
+* **Hotfix Branches**: Ramas de emergencia para corregir errores críticos detectados directamente en producción.
+    * **Naming Convention**: `hotfix/<issue-description>`
 
-Se trabaja de forma paralela, separando responsabilidades por módulo o capítulo, facilitar la integración progresiva en develop y la evidencia de integración (Commits y Merges).
+### 5.1.2.3 Semantic Versioning
 
-Despues de completar todas las ramas se uniran todos en **Develop**, que servira para que todo sea visible en una misma rama.
+El proyecto utiliza **Semantic Versioning 2.0.0** para controlar las versiones de los productos digitales de Veltrix.
 
-**Gestión de commits**: El equipo utiliza commits descriptivos que permiten identificar claramente los cambios realizados.
+| Version | Description |
+| :--- | :--- |
+| **v1.0.0** | Primera versión estable y funcional del producto. |
+| **v1.1.0** | Incorporación de nuevas funcionalidades menores. |
+| **v1.1.1** | Corrección de errores menores. |
+| **v2.0.0** | Cambios mayores que incluyen modificaciones estructurales incompatibles. |
 
-- "add landing page mockup"
-- "add web applications wireframes"
-- "docs: update README with project details"
-- "Update startup and product names in README"
+### 5.1.2.4 Conventional Commits
 
-Los Commits:
-- feat → nuevas funcionalidades
-- docs → documentación
-- Colaboración del equipo
+Se adopta el estándar de **Conventional Commits** para mantener un historial de cambios limpio y fácil de verificar por el equipo.
 
-Cada miembro contribuye con commits específicos que se integran cambios de diferentes ramas, lo que mantiene un flujo continuo de desarrollo y el control de versiones y trazabilidad.
+| Prefix | Purpose |
+| :--- | :--- |
+| **feat** | Implementación de nuevas funcionalidades. |
+| **fix** | Corrección de errores o bugs. |
+| **docs** | Actualizaciones en la documentación del repositorio. |
+| **style** | Cambios que no afectan la lógica (espaciados, formatos, CSS). |
+| **refactor** | Reestructuración del código existente sin cambiar su funcionalidad. |
+| **test** | Corrección de pruebas unitarias o de integración. |
+
+**Examples:**
+* `feat: implement responsive landing page`
+* `docs: update sprint 1 documentation`
+* `fix: correct mobile navigation behavior`
+* `style: improve hero section spacing`
 
 ## 5.1.3. Source Code Style Guide & Conventions
 
-El código desarrollado por los miembros del equipo esté completamente redactado en inglés.
+El equipo adopta convenciones estandarizadas para garantizar legibilidad del código fuente. Como norma general, todos los nombres de variables, clases, funciones y componentes deben ser redactados en idioma **inglés**. 
 
-## **HTML**
+### 5.1.3.1 HTML Conventions
 
-**Use Lowercase Element Names**: Se recomienda utilizar minúsculas para todos los elementos HTML.
-
-    <section class="hero">
-      <h1>Controla tu hogar</h1>
+* **Use Lowercase Element Names**: Todos los elementos y atributos HTML deben escribirse en minúsculas.
+    ```html
+    <section class="hero-section">
+        <input type="email" id="user-email" />
     </section>
+    ```
+* **Close All HTML Elements**: Todos los elementos deben cerrarse correctamente para evitar errores de renderizado.
+    ```html
+    <p>DomotiCore centralizes your devices.</p>
+    ```
+* **Use Semantic HTML Elements**: Se prioriza el uso de etiquetas semánticas para mejorar el SEO y la accesibilidad.
+    ```html
+    <nav></nav>
+    <main></main>
+    <footer></footer>
+    ```
+* **Use Descriptive IDs and Classes**: Los nombres deben ser claros y representar su función.
+    ```html
+    <div class="contact-form-container">
+    ```
 
-**Close All HTML Elements**: Todos los elementos deben cerrarse correctamente para evitar errores de renderizado.
+### 5.1.3.2 CSS Conventions
 
- < p >DomotiCore centraliza tus dispositivos.</ p >
+* **Use Kebab-Case for Class Names**: Las clases deben escribirse en minúsculas separadas por guiones.
+    ```css
+    .device-control-panel {
+        display: grid;
+    }
+    ```
+* **Use CSS Variables**: Se definen colores y valores reutilizables en el `:root` para facilitar cambios globales.
+    ```css
+    :root {
+        --primary-blue: #1E40AF;
+        --dark-navy: #0F172A;
+    }
+    ```
+* **Group Styles by Sections**: El código CSS se organiza mediante bloques de comentarios para identificar claramente las secciones del sistema.
+    ```css
+    .main-nav { ... }
+    .hero-container { ... }
+    .control-panel { ... }
+    ```
+* **Responsive Design**: Uso obligatorio de Media Queries para garantizar una interfaz adaptable.
+    ```css
+    @media (max-width: 768px) {
+        .hero { padding: 2rem; }
+    }
+    ```
 
-< a href="#contacto">Solicitar demo</a >
+### 5.1.3.3 JavaScript Conventions
 
-**Use Lowercase Attribute Names**: Los atributos deben escribirse en minúsculas.
-
-< input type="email" placeholder="tu@correo.com" id="fe" />
-
-**Use Semantic HTML Elements**: Se deben utilizar etiquetas semánticas para mejorar la estructura y accesibilidad.
-
-< nav>...</ nav>
-< section id="funciones">...</ section>
-< footer>...</ footer>
-
-**Use Descriptive IDs and Classes**: Los nombres deben ser claros y representar su función.
-
-< section id="contacto">
-  < div class="contact-form">
-
-## **CSS**
-
-**Use Kebab-Case for Class Names**: Las clases deben escribirse en minúsculas separadas por guiones.
-
-.contact-form {
-  display: flex;
-}
-
-
-**Use CSS Variables for Colors**: Se deben definir colores reutilizables en :root.
-
-:root {
-  --blue: #1E40AF;
-  --navy: #0F172A;
-}
-
-**Group Styles by Sections**: El código CSS debe organizarse por secciones del sitio.
-
-/* NAV */
-nav { ... }
-
-/* HERO */
-.hero { ... }
-
-/* FOOTER */
-footer { ... }
-
-
-**Use Consistent Spacing**: Se debe mantener consistencia en márgenes, padding y alineación.
-
-.section {
-  padding: 6rem 2rem;
-}
-
-**Responsive Design with Media Queries**: Se deben usar breakpoints para adaptar la interfaz.
-
-@media (max-width: 600px) {
-  .hero {
-    padding: 4rem 1rem;
-  }
-}
-
-
-## **JavaScript**
-
-**Use CamelCase for Variables and Functions**: Las variables y funciones deben usar camelCase.
-
-function sendForm() {
-  const userName = document.getElementById('fn').value;
-}
-
-**Keep Functions Simple and Clear**: Las funciones deben ser cortas y fáciles de entender.
-
-if (!n || !e) {
-  alert('Por favor completa tu nombre y correo.');
-  return;
-}
-
-
-**Use Meaningful Variable Names**: Los nombres deben representar su propósito.
-
-const navLinks = document.getElementById('navLinks');
-const hamburger = document.getElementById('hamburger');
-
-**Avoid Inline JavaScript**: Se recomienda mantener la lógica separada del HTML.
-
-< button onclick="sendForm()">Enviar</ button>
+* **Use CamelCase**: Las variables y funciones deben seguir la convención camelCase.
+    ```javascript
+    const deviceStatus = document.getElementById("deviceStatus");
+    function updateDeviceStatus() { ... }
+    ```
+* **Use Meaningful Names**: Los nombres deben representar claramente el propósito del dato o acción.
+    ```javascript
+    const loginButton = document.querySelector(".btn-login");
+    ```
+* **Keep Functions Simple**: Las funciones deben realizar una única tarea y ser fáciles de leer.
+    ```javascript
+    function validateEmail(email) {
+        return email.includes("@");
+    }
+    ```
+* **Avoid Inline JavaScript**: La lógica debe estar separada del marcado HTML para mejorar la seguridad y el orden.
+    * **Incorrecto**: `<button onclick="sendData()">`
+    * **Correcto**: `button.addEventListener("click", sendData);`
 
 ## 5.1.4. Software Deployment Configuration
 
-Este apartado describe la configuración y el proceso de despliegue del sistema DomotiCore.
+Esta sección describe la configuración, el flujo de trabajo y el proceso de los productos digitales del proyecto.
 
-**Configuracion del proyecto**
-Se crea un repositorio remoto en GitHub para la Landing Page del proyecto DomotiCore.
+### 5.1.4.1 Landing Page Deployment
 
-<div style="text-align:center;"><img src="imagenes/images_Cap5/5.1.4 (part1).png"
+La Landing Page institucional se despliega mediante **GitHub Pages**, utilizando el flujo de integración automática desde la rama `develop`.
 
-Se agregan los integrantes del equipo como colaboradores del repositorio.
+**Proceso de Despliegue y Configuración:**
 
-<div style="text-align:center;"><img src="imagenes/images_Cap5/5.1.4(part2).png"
+1.  **Configuración del Repositorio:** Se crea el repositorio remoto y se habilitan los permisos para los integrantes del equipo.
+    <div style="text-align:center;"><img src="imagenes/images_Cap5/5.1.4 (part1).png" width="500"></div>
+    <div style="text-align:center;"><img src="imagenes/images_Cap5/5.1.4(part2).png" width="500"></div>
 
-Se organiza la estructura base del proyecto (Brenches)
+2.  **Estructura de Ramas:** Se organiza el repositorio siguiendo la estrategia de branching definida anteriormente.
+    <div style="text-align:center;"><img src="imagenes/images_Cap5/5.1.4(part4).png" width="500"></div>
 
-<div style="text-align:center;"><img src="imagenes/images_Cap5/5.1.4(part4).png"
+3.  **Commits Automático:** Cada commit realizado en la rama `develop` dispara un proceso de integración que actualiza la versión pública del sitio.
+    <div style="text-align:center;"><img src="imagenes/images_Cap5/5.1.4(part6).png" width="500"></div>
 
-Se ve lo visual en del documento.
+4.  **Habilitación de GitHub Pages:** Se configura el entorno de despliegue para apuntar a la rama de desarrollo.
+    <div style="text-align:center;"><img src="imagenes/images_Cap5/5.1.4(part3).png" width="500"></div>
 
-<div style="text-align:center;"><img src="imagenes/images_Cap5/5.1.4(part5).png"
+5.  **Validación:** Se verifica la correcta visualización y funcionamiento responsivo en múltiples navegadores (Chrome, Edge, Safari).
+    <div style="text-align:center;"><img src="imagenes/images_Cap5/5.1.4(lading parte3).png" width="500"></div>
 
-Se habilita GitHub Pages para las ramas.
+**Deployment URL:** [DomotiCore – Landing Page Veltrix](https://oscarcheca.github.io/domoticore-landing/)
 
-<div style="text-align:center;"><img src="imagenes/images_Cap5/5.1.4(part6).png"
+---
 
-**Creación Landing Page:**
+### 5.1.4.2 Frontend Web Application Deployment
 
-Se desarrolla la interfaz del sistema basada en la Landing Page del codigo.
+La aplicación web principal (desarrollada con **Vue.js**) será desplegada utilizando **Vercel** para facilitar la integración continua (CI/CD) y previsualizaciones automáticas por cada Pull Request.
 
-<div style="text-align:center;"><img src="imagenes/images_Cap5/5.1.4(lading parte1).png"
+* **Repository**: [Veltrix-DomotiCore-Front-End](https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/Veltrix-DomotiCore-Front-End)
+* **Platform**: Vercel
+* **Deployment URL**: [https://veltrix-domoticore-front-end.vercel.app/](https://veltrix-domoticore-front-end.vercel.app/)
 
-Se realizan commits organizados según funcionalidades implementadas.
+### 5.1.4.3 Backend Web Services Deployment
 
-<div style="text-align:center;"><img src="imagenes/images_Cap5/5.1.4(lading parte2).png"
+Los servicios de lógica de negocio y conectividad IoT se despliegan en **Render**, permitiendo la exposición de endpoints seguros bajo el protocolo HTTPS para la comunicación con los dispositivos.
 
-**Despliegue:**
+* **Repository**: [Veltrix-DomotiCore-Back-end](https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/Veltrix-DomotiCore-Back-end)
+* **Platform**: Render
+* **Deployment URL**: [https://veltrix-domoticore-back-end.onrender.com](https://veltrix-domoticore-back-end.onrender.com)
 
-Se configura GitHub Pages para desplegar automáticamente desde la rama develop.
+### 5.1.4.4 OpenAPI Documentation
 
-<div style="text-align:center;"><img src="imagenes/images_Cap5/5.1.4(part3).png"
+Para facilitar la integración entre el frontend y el backend, la documentación de la API se publica automáticamente mediante **Swagger UI**, permitiendo la visualización y prueba interactiva de los endpoints REST.
 
-Se valida el funcionamiento en distintos navegadores (Chrome, Edge, etc.) para la lading page.
-<div style="text-align:center;"><img src="imagenes/images_Cap5/5.1.4(lading parte3).png"
+* **Documentation URL**: [Veltrix-domoticore-back-end](https://veltrix-domoticore-back-end.onrender.com/swagger-ui.html)
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
