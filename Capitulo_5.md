@@ -193,7 +193,7 @@ La aplicación web principal (desarrollada con **Vue.js**) será desplegada util
 
 * **Repository**: [Veltrix-DomotiCore-Front-End](https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/Veltrix-DomotiCore-Front-End)
 * **Platform**: Vercel
-* **Deployment URL**: [https://veltrix-domoticore-front-end.vercel.app/](https://veltrix-domoticore-front-end.vercel.app/)
+* **Deployment URL**: [https://veltrix-domoticore-front-end.vercel.app/](https://veltrix-domoti-core-front-end-veltrix-domoticore.vercel.app?_vercel_share=bo1aDSBeyY4adfru2VY9Y9eZxjhJidiP)
 
 ### 5.1.4.3 Backend Web Services Deployment
 
@@ -201,28 +201,31 @@ Los servicios de lógica de negocio y conectividad IoT se despliegan en **Render
 
 * **Repository**: [Veltrix-DomotiCore-Back-end](https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/Veltrix-DomotiCore-Back-end)
 * **Platform**: Render
-* **Deployment URL**: [https://veltrix-domoticore-back-end.onrender.com](https://veltrix-domoticore-back-end.onrender.com)
+* **Deployment URL**: [veltrix-domoticore](https://veltrix-domoticore-backend.onrender.com)
 
 ### 5.1.4.4 OpenAPI Documentation
 
 Para facilitar la integración entre el frontend y el backend, la documentación de la API se publica automáticamente mediante **Swagger UI**, permitiendo la visualización y prueba interactiva de los endpoints REST.
 
-* **Documentation URL**: [Veltrix-domoticore-back-end](https://veltrix-domoticore-back-end.onrender.com/swagger-ui.html)
+* **Documentation URL**: [Veltrix-domoticore-back-end](https://raw.githubusercontent.com/BL-App-Open-Source-1ASI0729-2610-12029/Veltrix-DomotiCore-Back-end/refs/heads/main/openapi.yaml)
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
-La implementación de la Landing Page, los servicios y la aplicación web de DomotiCore se desarrolló la página de presentación del sistema, enfocada en comunicar los beneficios y la vista preliminar del dashboard del sistema. Además, se implementaron estructuras base para los servicios de gestión de dispositivos, monitoreo energético y automatización. El proceso permitió traducir los requisitos definidos previamente (User Stories, entrevistas y Event Storming) en código funcional utilizando tecnologías como HTML, CSS y JavaScript.
+La implementación de los productos digitales de **DomotiCore** se inició con el desarrollo de la **Landing Page**, orientada a comunicar la propuesta de valor del sistema y presentar una vista preliminar del dashboard.
+
+Durante este Sprint también se definieron las estructuras iniciales para futuras funcionalidades relacionadas con:
+
+* **Monitoreo energético**: Seguimiento del consumo en tiempo real.
+* **Gestión de dispositivos inteligentes**: Registro y control de nodos IoT.
+* **Automatización del hogar**: Configuración de reglas y escenarios inteligentes.
+
+Estas implementaciones permitieron transformar los requisitos obtenidos mediante **User Stories**, entrevistas de validación y sesiones de **Event Storming** en componentes funcionales de software.
+
+El desarrollo inicial fue realizado utilizando tecnologías frontend como **HTML**, **CSS** y **JavaScript**, siguiendo lineamientos de diseño responsive y buenas prácticas de desarrollo web para garantizar una experiencia de usuario en diversos dispositivos.
 
 ## 5.2.1. Sprint 1
 
-El Sprint 1 representa el primer ciclo de desarrollo ágil del proyecto DomotiCore, donde se priorizó la construcción de la Landing Page y la organización inicial del repositorio en GitHub.
-
-Durante este sprint, el equipo se enfocó en:
-- Implementar la estructura visual de la Landing Page.
-- Definir la identidad visual basada en los Style Guidelines.
-- Subir avances al repositorio.
-- Organizar ramas y commits.
-- Documentar el proyecto.
+El Sprint 1 representa el primer ciclo de desarrollo ágil del proyecto DomotiCore. Durante esta iteración, el equipo se enfocó en la construcción inicial de la Landing Page, organización de repositorios y definición de lineamientos técnicos del proyecto.
 
 ## 5.2.1.1. Sprint Planning 1
 
@@ -243,8 +246,9 @@ Durante este sprint, el equipo se enfocó en:
 | Cesar Quispe |
 | Oscar Checa |
 | Diego Esquich |
-| Fabrizio Rafael|
+| Fabrizio Rafael |
 | Alvaro Rocha |
+
 ### Sprint 1 – Review Summary
 
 | Descripción |
@@ -278,61 +282,115 @@ Durante este sprint, el equipo se enfocó en:
 
 ## 5.2.1.3. Sprint Backlog 1
 
-En este primer sprint, el equipo se enfocó en la implementación de las funcionalidades base de la Landing Page de DomotiCore, incluyendo la estructura HTML, estilos CSS, navegación interactiva y diseño responsive. Asimismo, se desarrolló el reporte del proyecto que documenta el ciclo de vida del software, desde la concepción hasta la implementación inicial.
+Las User Stories del proyecto fueron reorganizadas durante las actividades de Sprint Planning con el objetivo de mejorar la consistencia, trazabilidad y organización funcional del Product Backlog.
 
-<div style="text-align:center;"><img src="imagenes/images_Cap5/5.2.1.3. Sprint Backlog 1.png"
+Las historias de usuario definidas previamente en la Sección 3.1 fueron estandarizadas siguiendo convenciones Scrum y criterios de aceptación basados en la estructura **Gherkin**, permitiendo una mejor comprensión y validación de funcionalidades durante el desarrollo del proyecto.
 
-### Sprint Backlog
-| Sprint # | ID | Title | Description | Estimation (Hours) | Assigned To | Status |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Sprint 1** | TSK001 | GitHub repository setup | Creación de repositorios, configuración de ramas y organización del proyecto | 2 | All team members | Done |
-| **Sprint 1** | TSK002 | Landing Page HTML structure | Desarrollo de la estructura base HTML (navbar, hero, sections) | 5 | Frontend team | Done |
-| **Sprint 1** | TSK003 | Landing Page CSS styling | Implementación de estilos siguiendo la guía visual (colores, tipografía) | 6 | Frontend team | Done |
-| **Sprint 1** | TSK004 | Responsive design | Adaptación de la Landing Page a dispositivos móviles y tablets | 4 | Frontend team | Done |
-| **Sprint 1** | TSK005 | Navigation and interactivity | Implementación de navegación, menú hamburguesa y scroll dinámico | 3 | Frontend team | Done |
-| **Sprint 1** | TSK006 | Platform preview section | Creación del dashboard preview simulado dentro de la Landing Page | 4 | Frontend team | Done |
-| **Sprint 1** | TSK007 | Contact form functionality | Implementación del formulario de contacto con validaciones básicas | 3 | Frontend team | Done |
-| **Sprint 1** | TSK008 | Report documentation (Chapters 1–5) | Desarrollo del documento del proyecto con toda la información requerida | 10 | All team members | Done |
+Durante el proceso de refinamiento del backlog se realizaron las siguientes mejoras:
 
-## 5.2.1.4. Development Evidence for Sprint Review
+* **Estandarización** de la nomenclatura de User Stories y Epics.
+* **Consolidación** de funcionalidades duplicadas.
+* **Reorganización** de Epics según dominios funcionales.
+* **Mejora** en la redacción de criterios de aceptación.
+* **Relación** entre Sprint Goals y funcionalidad.
 
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Commited on (Date) |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| OscarCheca/domoticore-landing | main | faa7045 | add index.html | Initial commit with index.html for the landing page structure. | 25/04/2026 |
+La siguiente tabla resume las principales User Stories consideradas durante las actividades de planificación de Sprint:
+
+| User Story ID | Título | Epic |
+| :--- | :--- | :--- |
+| **US-01** | Vinculación de Gateway | Gateway Management |
+| **US-03** | Control remoto de dispositivos | Device Control |
+| **US-06** | Monitoreo energético en tiempo real | Energy Monitoring |
+| **US-09** | Notificación de dispositivos desconectados | Notifications |
+| **US-17** | Información del producto en la Landing Page | Website |
+| **US-19** | Autenticación básica de API | RESTful API |
+| **US-21** | Encendido general de dispositivos | Advanced Device Control |
+| **US-35** | Optimización automática de consumo | Energy Optimization |
+| **US-41** | Previsualización de funciones de la aplicación | Website |
+
+
+## 5.2.1.4 Source Code Management
+
+La gestión del código fuente para el proyecto **DomotiCore** se realiza utilizando Git como sistema de control de versiones, permitiendo un flujo de trabajo colaborativo y un historial detallado de cambios realizados durante el Sprint.
+
+La siguiente tabla resume los commits más relevantes realizados durante la implementación de los productos digitales:
+
+| Repository | Branch | Commit ID | Commit Message | Date |
+| :--- | :--- | :--- | :--- | :--- |
+| **domoticore-Business-Web-Page** | main | `53487ee` | feat: implement landing page structure | 2026-04-07 |
+| **domoticore-Business-Web-Page** | main | `36702da` | feat: add responsive design support | 2026-04-15 |
+| **domoticore-docs** | develop | `94d4937` | docs: update sprint 1 documentation | 2026-04-21 |
+
 ## 5.2.1.5. Execution Evidence for Sprint Review
 
-En esta entrega, el equipo ha completado con éxito la implementación y el lanzamiento de la página de la Landing Page. Esta página presenta diferentes secciones que brindan información detallada sobre nuestro producto.
+Durante el **Sprint 1** se logró implementar correctamente la estructura visual de la **Landing Page** de DomotiCore, incluyendo navegación interactiva, diseño responsive y un formulario de contacto funcional. Esta entrega presenta las secciones clave que brindan información detallada sobre la propuesta de valor del producto.
 
-<div style="text-align:center;"><img src="imagenes/images_Cap5/5.2.1.5. Execution Evidence(1).png"
+### Capturas de Pantalla de la Implementación
 
-<div style="text-align:center;"><img src="imagenes/images_Cap5/5.2.1.5. Execution Evidence(2).png"
+A continuación, se presentan las evidencias visuales de los componentes desarrollados:
 
-<div style="text-align:center;"><img src="imagenes/images_Cap5/5.2.1.5. Execution Evidence(3).png"
+* **Hero Section**: Primera impresión y propuesta de valor.
 
-<div style="text-align:center;"><img src="imagenes/images_Cap5/5.2.1.5. Execution Evidence(4).png"
+<div style="text-align:center;"><img src="imagenes/images_Cap5/5.2.1.5. Execution Evidence(1).png">
+</div>
 
-<div style="text-align:center;"><img src="imagenes/images_Cap5/5.2.1.5. Execution Evidence(5).png"
+* **Features Section**: Detalle de las funcionalidades IoT.
+<div style="text-align:center;"><img src="imagenes/images_Cap5/5.2.1.5. Execution Evidence(2).png">
+</div>
 
-<div style="text-align:center;"><img src="imagenes/images_Cap5/5.2.1.5. Execution Evidence(6).png"
+* **Dashboard Preview**: Vista preliminar de la interfaz de control.
 
-<div style="text-align:center;"><img src="imagenes/images_Cap5/5.2.1.5. Execution Evidence(7).png"
+<div style="text-align:center;"><img src="imagenes/images_Cap5/5.2.1.5. Execution Evidence(3).png">
+</div>
 
-##
+<div style="text-align:center;"><img src="imagenes/images_Cap5/5.2.1.5. Execution Evidence(4).png">
+</div>
+
+<div style="text-align:center;"><img src="imagenes/images_Cap5/5.2.1.5. Execution Evidence(5).png">
+</div>
+
+<div style="text-align:center;"><img src="imagenes/images_Cap5/5.2.1.5. Execution Evidence(6).png">
+</div>
+
+* **Contact Form**: Formulario funcional para leads y soporte.
+<div style="text-align:center;"><img src="imagenes/images_Cap5/5.2.1.5. Execution Evidence(7).png">
+</div>
+
+### Demostración en Video
+
+Asimismo, se adjunta un video demostrativo que recorre la navegación y las funcionalidades implementadas, validando la experiencia de usuario (UX) en diferentes resoluciones.
+
+**Enlace del Video**: [ Demostración de DomotiCore - Sprint 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417405_upc_edu_pe/IQCPng9giTbzT7yPR6RganePARwt5TeTRUKmAmmGUib8n3E?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ZW7H6O)
 
 ## 5.2.1.6. Services Documentation Evidence for Sprint Review
 
-Durante el Sprint 1, el enfoque principal del equipo fue el desarrollo e implementación de la Landing Page. Sin embargo, se logró implementar correctamente componentes funcionales en el frontend, como la navegación interactiva, diseño responsive y validación básica del formulario de contacto. La documentación de servicios más complejos se vera en las siguientes sprints, donde se integrarán funcionalidades relacionadas con la gestión de dispositivos IoT, automatización y monitoreo en tiempo real.
+En este Sprint aún no se desarrollaron servicios backend completos. Sin embargo, se definieron preliminarmente los endpoints relacionados con monitoreo de dispositivos y automatización IoT.
 
+La documentación OpenAPI será incorporada en los siguientes Sprints.
 ## 5.2.1.7. Software Deployment Evidence for Sprint Review
 
-En este sprint, el despliegue del software se limitó a la publicación de la Landing Page de DomotiCore mediante el uso de GitHub Pages. Dado que aún no se ha desarrollado una aplicación web completa ni servicios backend, no se cuenta con evidencia de despliegue de sistemas más complejos en esta fase del proyecto. En futuros sprints, se incluirán evidencias más completas relacionadas con el despliegue de la aplicación, incluyendo integración de servicios, infraestructura y entornos de producción.
+Durante este Sprint se realizaron las siguientes actividades clave relacionadas con el despliegue y  disponibilidad del producto:
+
+* **Configuración de GitHub Pages**: Establecimiento del entorno de despliegue automatizado para la rama principal.
+* **Publicación inicial de la Landing Page**: Lanzamiento de la primera versión funcional accesible vía web.
+* **Validación de despliegue en distintos navegadores**: Pruebas de compatibilidad en Chrome, Firefox y Safari para asegurar una visualización consistente.
+* **Verificación de accesibilidad responsive**: Pruebas de usabilidad y diseño adaptable en dispositivos móviles y tablets.
+
 
 ## 5.2.1.8. Team Collaboration Insights during Sprint
 
-Los analíticos que nos proporciona Github, en su apartado de Insights, sobre la colaboración del equipo durante el Sprint 1:
+El equipo utilizó las herramientas analíticas de **GitHub Insights** para monitorear la participación activa de cada integrante durante el **Sprint 1**. Estos datos permitieron realizar un seguimiento detallado de los commits, pull requests y merges realizados.
 
-<div style="text-align:center;"><img src="imagenes/images_Cap5/5.2.1.8. Team Collaboration.png"
+La colaboración basada en estas métricas permitió mantener un flujo continuo de integración y control de versiones, fortaleciendo el trabajo colaborativo del equipo y asegurando la integridad del código fuente.
 
+### Evidencia de Colaboración en GitHub
+
+A continuación, se presenta la captura de los analíticos proporcionados por GitHub sobre la actividad del equipo:
+
+<div style="text-align:center;"><img src="imagenes/images_Cap5/5.2.1.8. Team Collaboration.png">
+</div>
+
+En estas métricas facilitó la identificación de cada apoyo de los colaboradores y ayudó a mejorar la distribución de tareas para los siguientes ciclos de desarrollo.
 
 ## Bibliografía
 
@@ -350,6 +408,6 @@ International Telecommunication Union. (2012). Overview of the Internet of Thing
 ## Anexos
 
 **Video  de exposición**
-
+(ACTUALIZAR)
 https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113310_upc_edu_pe/IQBB-A5V0F11So9iWE7DqDgoAcl3ZIcmUBVMwC_-fOgFkK0?e=bgWP1d&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
