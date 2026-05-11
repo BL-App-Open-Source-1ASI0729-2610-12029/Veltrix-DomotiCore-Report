@@ -1,11 +1,11 @@
 
-## 4.1. Style Guidelines.
+## 4.1. Style Guidelines
 
 El diseño de la plataforma se enfoca en ofrecer una interfaz intuitiva que facilite la exploración, selección y contribución de manera visual en DomotiCore. Se busca garantizar una experiencia fluida para desarrolladores de distintos niveles.
 
 La plataforma está pensada para manejar múltiples proyectos, usuarios y contribuciones de forma organizada, manteniendo un entorno accesible, escalable y centrado en la colaboración.
 
-## 4.1.1. General Style Guidelines.
+## 4.1.1. General Style Guidelines
 
 En este apartado se detallan las decisiones de estilo que definen la identidad visual de la plataforma, orientada a conectar desarrolladores con proyectos y facilitar su participación en tareas reales. Las decisiones relacionadas con branding, tipografía, colores, espaciado y lenguaje buscan transmitir accesibilidad, colaboración, claridad y dinamismo, elementos clave dentro de comunidades tecnológicas.
 
@@ -124,7 +124,7 @@ El diseño visual considera elementos fundamentales:
 
 Estos elementos contribuyen a una experiencia clara y eficiente.
 
-## 4.1.2. Web Style Guidelines.
+## 4.1.2. Web Style Guidelines
 
 La plataforma será desarrollada como una aplicación web adaptable (Responsive Web Design), permitiendo su uso en distintos dispositivos como laptops, tablets y smartphones.
 
@@ -144,13 +144,13 @@ Además, se prioriza el uso de dashboards y vistas estructuradas para mostrar:
 
 El diseño dirige la atención del usuario hacia acciones clave como explorar, seleccionar y contribuir.
 
-## 4.2. Information Architecture.
+## 4.2. Information Architecture
 
 La arquitectura de la información de la plataforma se centra en facilitar la exploración eficiente de proyectos y identificar las oportunidades de contribución. Se prioriza que el usuario pueda comprender el ecosistema de proyectos, evaluar su nivel de dificultad y acceder a tareas concretas sin fricción.
 
 El diseño de la información está orientado a guiar al usuario desde la exploración inicial hasta la contribución, manteniendo una estructura clara, escalable y alineada con las dinámicas reales del desarrollo colaborativo.
 
-## 4.2.1. Organization Systems.
+## 4.2.1. Organization Systems
 
 En la plataforma se emplea principalmente una **organización jerárquica**, en la cual los elementos más relevantes para el usuario, como proyectos recomendados, issues destacados y oportunidades de contribución inmediata, se presentan con mayor prioridad visual dentro de la interfaz. Esta jerarquía permite que los desarrolladores identifiquen rápidamente dónde pueden participar, especialmente en el caso de usuarios principiantes que buscan su primera experiencia en Open Source.
 
@@ -162,7 +162,7 @@ En cuanto a la organización temporal, la plataforma utiliza un enfoque **cronol
 
 Finalmente, la información también se organiza considerando el **perfil del usuario**, adaptando recomendaciones y contenido según su nivel (principiante, intermedio o avanzado), historial de contribuciones e intereses tecnológicos. Esto permite una experiencia más personalizada y eficiente.
 
-## 4.2.2. Labeling Systems.
+## 4.2.2. Labeling Systems
 
 Se prioriza el uso de etiquetas cortas, precisas y comprensibles, con el objetivo de reducir la carga cognitiva del usuario y facilitar la navegación dentro del sistema.
 
@@ -193,7 +193,7 @@ Se prioriza el uso de etiquetas cortas, precisas y comprensibles, con el objetiv
 
 Estas etiquetas permiten clasificar la información de manera eficiente y facilitar la toma de decisiones del usuario.
 
-## 4.2.3. SEO Tags and Meta Tags.
+## 4.2.3. SEO Tags and Meta Tags
 
 Para asegurar que la plataforma *DomotiCore*, sea funcional, se han configurado los siguientes meta tags técnicos. Estos permiten posicionar la solución como una plataforma de domótica orientada al control inteligente de dispositivos electrónicos en hogares y pequeñas empresas.
 
@@ -218,7 +218,7 @@ Para asegurar que la plataforma *DomotiCore*, sea funcional, se han configurado 
 * **Robots:** en html:  
     `<meta name="robots" content="index, follow">`
 
-## 4.2.4. Searching Systems.
+## 4.2.4. Searching Systems
 
 Dado que la plataforma puede manejar múltiples dispositivos electrónicos, sensores y reglas automatizadas, se han implementado mecanismos de búsqueda y filtrado que permiten acceder de manera directa a la información crítica.
 
@@ -252,7 +252,7 @@ Esto facilita el monitoreo y análisis del comportamiento del sistema.
 **Búsqueda contextual:**  
 Dentro de cada módulo (dispositivos, automatización, historial), el usuario puede realizar búsquedas específicas relacionadas únicamente con ese entorno, mejorando la precisión y reduciendo la complejidad.
 
-## 4.2.5. Navigation Systems.
+## 4.2.5. Navigation Systems
 
 Se busca que el usuario nunca esté a más de tres interacciones de realizar una acción clave, como encender un dispositivo, configurar una automatización o revisar una alerta.
 
@@ -299,7 +299,7 @@ Estas acciones están diseñadas para minimizar el número de pasos y mejorar la
 **Navegación adaptativa (Responsive):**  
 La interfaz se adapta a distintos dispositivos (desktop, tablet, móvil), reorganizando los elementos de navegación para mantener la usabilidad en cualquier entorno, permitiendo el control remoto en tiempo real desde cualquier lugar.
 
-## 4.3. Landing Page UI Design.
+## 4.3. Landing Page UI Design
 
 ## 4.3.1 Landing Page Wireframe.
 
@@ -311,11 +311,11 @@ Más adelante, la sección “¿Cómo funciona?” explica de manera secuencial 
 
 Finalmente, la landing concluye con una sección de contacto que integra un formulario y canales directos de comunicación, permitiendo a los usuarios solicitar información o una demostración del producto, reforzando el enfoque comercial y de acompañamiento al cliente.
 
-<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframe_1.png" alt="texto"></div>
-<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframe_2.png" alt="texto"></div>
-<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframe_3.png" alt="texto"></div>
-<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframe_4.png" alt="texto"></div>
-<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframe_5.png" alt="texto"></div>
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-landing/wireframe-1.png" alt="texto"></div>
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-landing/wireframe-2.png" alt="texto"></div>
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-landing/wireframe-3.png" alt="texto"></div>
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-landing/wireframe-4.png" alt="texto"></div>
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-landing/wireframe-5.png" alt="texto"></div>
 
 ## 4.3.2 Landing Page Mock-up.
 
@@ -323,8 +323,295 @@ El wireframe de la landing page en su versión de escritorio ha permitido organi
 
 En la implementación final se puede apreciar el uso consistente de la paleta de colores basada en tonos azules y neutros, así como la tipografía moderna seleccionada, lo que contribuye a una estética limpia y tecnológica. Además, la distribución de secciones como el dashboard de vista previa, las funcionalidades y el flujo de uso refuerzan la claridad y usabilidad del producto. En conjunto, el diseño refleja una identidad visual alineada con los valores de accesibilidad, eficiencia e innovación, transmitiendo confianza y facilidad de uso tanto para hogares como para pequeñas empresas.
 
-<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/mockup_1.png" alt="texto"></div>
-<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/mockup_2.png" alt="texto"></div>
-<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/mockup_3.png" alt="texto"></div>
-<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/mockup_4.png" alt="texto"></div>
-<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/mockup_5.png" alt="texto"></div>
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/mockup-landing/mockup-1.png" alt="texto"></div>
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/mockup-landing/mockup-2.png" alt="texto"></div>
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/mockup-landing/mockup-3.png" alt="texto"></div>
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/mockup-landing/mockup-4.png" alt="texto"></div>
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/mockup-landing/mockup-5.png" alt="texto"></div>
+
+## 4.4. Web Applications UX/UI Design
+## 4.4.1. Web Applications Wireframes
+
+**Wireframes Versión Desktop - Usuarios de Hogares Inteligentes** 
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-web/wireframe-devices-control.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-web/wireframe-dashboard.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-web/wireframe-energy-monitoring.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-web/wireframe-device-details-ac.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-web/wireframe-smart-automations.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-web/wireframe-history-log.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-web/wireframe-notifications-center.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-web/wireframe_security_access.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-web/wireframe-automation-builder.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-web/wireframe-settings.png" alt="texto"></div>
+
+
+**Wireframes Versión Mobile - Usuarios de Hogares Inteligentes** 
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-mobile/wireframe_mobile_security_hub.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-mobile/wireframe_mobile_automations_list.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-mobile/wireframe_mobile_living_room_view.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-mobile/wireframe_mobile_ac_control.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-mobile/wireframe_mobile_automation_builder.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-mobile/wireframe_mobile_energy_analytics.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-mobile/wireframe_mobile_history_log.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-mobile/wireframe_mobile_profile_settings.png" alt="texto"></div>
+
+
+**Wireframes Versión Desktop - Pequeños Negocios y Emprendedores**
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-web/wireframe_device_explorer.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-web/wireframe_business_integration_settings.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-web/wireframe_sme_alert_history.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-web/wireframe_device_explorer.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-web/wireframe_cost_deep_dive.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-web/wireframe_team_management.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-web/wireframe_business_automations.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-web/wireframe_bulk_device_management.png" alt="texto"></div>
+
+**Wireframes Versión Mobile - Pequeños Negocios y Emprendedores** 
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-mobile/wireframe_operations_overview.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-mobile/wireframe_bulk_control.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-mobile/wireframe_reports_summary.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-mobile/wireframe_zone_monitoring.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-mobile/wireframe_utility_status.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-mobile/wireframe_alert_center.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-mobile/wireframe_team_directory.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-mobile/wireframe_inventory_explorer.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-mobile/wireframe_automation_rules.png" alt="texto"></div>
+
+<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-mobile/wireframe_business_profile.png" alt="texto"></div>
+
+
+## 4.4.2. Web Applications Wireflow Diagrams
+## 4.4.3. Web Applications Mock-ups
+
+**Versión Desktop Mockups - Usuarios de Hogares Inteligentes** 
+
+  <div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-web/dashboard-domoticore.png"
+       alt="Dashboard ">
+
+  <div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-web/energy-monitoring-domoticore.png"
+       alt="Energy Monitoring">
+
+  <div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-web/devices-domoticore.png"
+       alt="Devices ">
+
+  <div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-web/automation-domoticore.png"
+       alt="Automation">
+    
+  <div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-web/device-details-ac-domoticore.png"
+       alt="Device Details">
+
+  <div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-web/security-access-domoticore.png"
+       alt="Security & Access">
+
+  <div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-web/history-log-domoticore.png"
+       alt="History Log ">
+
+  <div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-web/notifications-domoticore.png"
+       alt="Notifications ">
+
+  <div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-web/settings-domoticore.png"
+       alt="Settings ">
+
+  <div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-web/automation-builder-domoticore.png"
+       alt="Automation Builder">
+
+**Versión Mobile Mockups - Usuarios de Hogares Inteligentes**
+
+  <div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-mobile/mobile-dashboard-domoticore.png"
+       alt="Dashboard">
+
+  <div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-mobile/mobile-alerts-domoticore.png"
+       alt="Alerts">
+
+  <div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-mobile/mobile-devices-domoticore.png"
+       alt="Devices">
+
+  <div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-mobile/mobile-automation-builder.png"
+       alt="Automation Builder">
+
+  <div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-mobile/mobile-automations.png"
+       alt="Automation">
+
+  <div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-mobile/mobile-energy-analytics.png"
+       alt=" Energy Analytics">
+
+  <div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-mobile/mobile-ac-control.png"
+       alt="AC Control">
+
+  <div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-mobile/mobile-security-hub.png"
+       alt="Security Hub">
+
+  <div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-mobile/mobile-profile-settings.png"
+       alt="Profile & Settings">
+
+  <div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-mobile/mobile-history-log.png"
+       alt="History Log">
+
+  <div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-mobile/mobile-living-room-view.png"
+       alt="Living Room View">
+  
+**Versión Desktop Mockups - Pequeños Negocios y Emprendedores** 
+
+  <div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/mockups-small-business-web/sme-dashboard.png"
+       alt="Dashboard">
+
+  <div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/mockups-small-business-web/business-automations.png"
+       alt="Business Automations">
+  
+  <div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/mockups-small-business-web/energy-reports.png"
+       alt="Energy Reports">
+
+  <div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/mockups-small-business-web/bulk-device-management.png"
+       alt="Device Management">
+
+  <div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/mockups-small-business-web/team-management.png"
+       alt="Team Management">
+
+  <div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/mockups-small-business-web/zone-configuration.png"
+       alt="Zone Configuration">
+
+  <div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/mockups-small-business-web/cost-deep-dive.png"
+       alt="Cost Deep-Dive">
+
+  <div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/mockups-small-business-web/sme-alert-history.png"
+       alt="Alert History">
+
+  <div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/mockups-small-business-web/full-device-inventory.png"
+       alt="Device Inventory">
+
+  <div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/mockups-small-business-web/business-integration-settings.png"
+       alt="Business Integration Settings">
+       
+**Versión Mobile Mockups - Pequeños Negocios y Emprendedores**
+
+  <div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/mockups-small-business-mobile/bulk-device-control.png"
+       alt="Device Control">
+
+  <div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/mockups-small-business-mobile/sme-mobile-dashboard.png"
+       alt="Dashboard">
+
+  <div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/mockups-small-business-mobile/business-alert-center.png"
+       alt="Alert Center">
+
+  <div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/mockups-small-business-mobile/reports-summary.png"
+       alt="Reports Summary">
+
+  <div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/mockups-small-business-mobile/zone-monitoring.png"
+       alt="Zone Monitoring">
+
+  <div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/mockups-small-business-mobile/automation-rules.png"
+       alt="Automation Rules">
+
+  <div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/mockups-small-business-mobile/role-team-access.png"
+       alt="Role & Team Access">
+
+  <div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/mockups-small-business-mobile/inventory-explorer.png"
+       alt="Inventory Explorer">
+
+  <div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/mockups-small-business-mobile/utility-api-status.png"
+       alt="Utility & API Status">
+
+  <div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/mockups-small-business-mobile/business-settings.png"
+       alt="Business Settings">
+
+## 4.4.4. Web Applications User Flow Diagrams
+## 4.5. Web Applications Prototyping
+## 4.6. Domain-Driven Software Architecture
+## 4.6.1. Design-Level EventStorming
+## 4.6.2. Software Architecture Context Diagram
+## 4.6.3. Software Architecture Container Diagrams
+## 4.6.4. Software Architecture Components Diagrams
+## 4.7. Software Object-Oriented Design
+
+## 4.7.1. Class Diagrams
+
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/DiagramaClases.png"
+       alt="texto">
+</div>
+
+## 4.8. Database Design
+
+## 4.8.1. Database Diagrams
+
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/4.8 Open Source.png"
+       alt="texto">
+</div>
+
