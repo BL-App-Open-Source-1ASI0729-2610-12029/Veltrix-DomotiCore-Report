@@ -595,8 +595,124 @@ En la implementación final se puede apreciar el uso consistente de la paleta de
 ## 4.6. Domain-Driven Software Architecture
 ## 4.6.1. Design-Level EventStorming
 ## 4.6.2. Software Architecture Context Diagram
+
+<a id="4-6-2-software-architecture-context-diagram"></a>
+
+El Diagrama de Contexto representa la vista de más alto nivel de **DomotiCore**, detallando cómo el sistema interactúa con los usuarios y sistemas externos sin profundizar en detalles técnicos.
+
+#### Sistema Central
+- **DomotiCore**: Plataforma IoT para la gestión, monitoreo y automatización de dispositivos inteligentes en hogares y pequeños negocios.
+
+#### Usuarios
+
+##### Smart Home Users
+- Controlan dispositivos inteligentes del hogar.
+- Monitorean consumo energético en tiempo real.
+- Configuran automatizaciones del hogar.
+
+##### Small Business Owners
+- Gestionan dispositivos IoT en pequeños negocios.
+- Supervisan consumo energético para optimización de costos.
+- Automatizan procesos eléctricos y de seguridad.
+
+#### Sistemas Externos
+- **MQTT Broker (Servicio de Mensajería IoT)**  
+  Encargado de la comunicación en tiempo real con dispositivos IoT.
+
+- **Firebase Authentication (Servicio de Identidad)**  
+  Responsable de la autenticación y gestión de usuarios.
+
+- **Firebase Firestore (Servicio de Base de Datos)**  
+  Almacena información de usuarios, dispositivos y automatizaciones.
+
+- **Firebase Cloud Messaging (Servicio de Notificaciones)**  
+  Maneja el envío de notificaciones push.
+
+#### Resumen de Interacción
+- Los usuarios (**Smart Home Users** y **Small Business Owners**) interactúan directamente con **DomotiCore**.
+- **DomotiCore** delega:
+  - Autenticación a Firebase Authentication.
+  - Mensajería IoT a MQTT Broker.
+  - Persistencia de datos a Firebase Firestore.
+  - Notificaciones a Firebase Cloud Messaging.
+
+![Context-Diagram](imagenes/imagenes_Cap4/software-arquitecture-diagrams/context-diagram.png)
+
+---
 ## 4.6.3. Software Architecture Container Diagrams
+
+<a id="4-6-3-software-architecture-container-diagrams"></a>
+
+Este nivel desglosa el sistema **DomotiCore** en aplicaciones independientes, especificando las tecnologías de desarrollo empleadas.
+
+#### Web Application
+Aplicación desarrollada con **HTML, CSS y JavaScript**, la cual ofrece una interfaz de usuario responsiva y dinámica.  
+Se comunica con el backend mediante peticiones asíncronas sobre **HTTPS**.
+
+#### API Application
+Construida en **Node.js** utilizando **Express**.  
+Este componente actúa como el núcleo del sistema, encargado de:
+
+- Procesar la lógica de negocio IoT  
+- Gestionar dispositivos y automatizaciones  
+- Exponer endpoints RESTful  
+- Integrarse con servicios externos  
+
+#### Database
+Motor de base de datos basado en **Firebase Firestore**, responsable de la persistencia de datos.  
+Garantiza:
+
+- Integridad de la información  
+- Consistencia de datos en tiempo real  
+- Escalabilidad del sistema IoT  
+
+![Container-Diagram](imagenes/imagenes_Cap4/software-arquitecture-diagrams/container-diagram.png)
+
+---
 ## 4.6.4. Software Architecture Components Diagrams
+
+<a id="4-6-4-software-architecture-components-diagrams"></a>
+
+Este nivel descompone el contenedor principal de la **API Application** en componentes internos responsables de la lógica de negocio, monitoreo IoT, automatización y gestión de datos dentro de **DomotiCore**.
+
+
+#### Device Management Module
+- Gestión de dispositivos IoT conectados.
+- Registro, actualización y control de estado.
+- Monitoreo en tiempo real.
+
+#### Automation Module
+- Creación de reglas de automatización.
+- Ejecución de acciones inteligentes.
+- Gestión de eventos programados.
+
+#### Energy Monitoring Module
+- Recolección de métricas de consumo energético.
+- Análisis de datos de uso.
+- Generación de reportes.
+
+#### Notification Module
+- Envío de alertas y notificaciones.
+- Integración con Firebase Cloud Messaging.
+- Notificaciones en tiempo real.
+
+#### Authentication Module
+- Gestión de autenticación de usuarios.
+- Validación de credenciales.
+- Control de sesiones.
+
+#### Persistence Layer
+- Comunicación con Firebase Firestore.
+- Lectura y escritura de datos.
+- Gestión de información persistente.
+
+#### Shared Module
+- Funciones reutilizables del sistema.
+- Validaciones globales.
+- Manejo centralizado de errores.
+
+![Components-Diagram](imagenes/imagenes_Cap4/software-arquitecture-diagrams/components-diagram.png)
+
 ## 4.7. Software Object-Oriented Design
 
 ## 4.7.1. Class Diagrams
