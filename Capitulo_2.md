@@ -506,13 +506,15 @@ En esta sección se describen dos User Personas que representan los principales 
 
 **Segmento 1**
 
-![User-Persona-1](imagenes/Imagenes_Cap2/Magali%20Alcántara.png)
+<div align="center"><img src="imagenes/Imagenes_Cap2/Magali Alcantara.png" alt="segmento1">
+</div>
 
 El User Persona de Magali Alcántara revela una tensión constante entre su rutina multifuncional y la gestión manual de los dispositivos electrónicos en su hogar. Aunque Magali posee una buena capacidad organizativa y un uso frecuente de la tecnología en su día a día, su entorno doméstico carece de un sistema centralizado que le permita ejercer un control eficiente sobre el consumo energético y el estado de sus dispositivos. Esta situación genera pequeñas ineficiencias acumulativas, como el olvido de cargadores conectados o equipos encendidos innecesariamente, que no solo incrementan los gastos de energía, sino que también añaden una carga mental adicional a una usuaria ya expuesta a múltiples responsabilidades laborales y personales.
 
 **Segmento 2**
 
-![User-Persona-2](imagenes/Imagenes_Cap2/Victor%20Esquicha%20(2).png)
+<div align="center"><img src="imagenes/Imagenes_Cap2/Victor Esquicha (2).png" alt="segmento2">
+</div>
 
 El User Persona de Victor Esquicha evidencia una tensión constante entre su enfoque racional orientado a la eficiencia y la carga operativa que implica gestionar manualmente un entorno tecnológico cada vez más complejo. Como ingeniero de sistemas y dueño de una consultora de software, Víctor posee una alta competencia técnica y una clara orientación a resultados: reducir tiempos, optimizar recursos y entregar valor sostenido a sus clientes. Sin embargo, esta capacidad estratégica se ve limitada por la falta de automatización en la gestión de los dispositivos electrónicos tanto en su espacio laboral como doméstico.
 
@@ -584,11 +586,13 @@ A lo largo del recorrido se identifican las etapas clave, las acciones que reali
 
 **Segmento 1**
 
-![User-Journey-Map-1](imagenes/Imagenes_Cap2/User%20Journey%20Map%20of%20Magali%20Alcántara.png)
+<div align="center"><img src="imagenes/Imagenes_Cap2/User Journey Map of Magali Alcántara.png">
+</div>
 
 **Segmento 2**
 
-![User-Journey-Map-2](imagenes/Imagenes_Cap2/User%20Journey%20Map%20of%20Victor%20Esquicha.png)
+<div align="center"><img src="imagenes/Imagenes_Cap2/User Journey Map of Victor Esquicha.png">
+</div>
 
 ### 2.3.4. Empathy Mapping
 
@@ -596,18 +600,21 @@ Se ha elaborado el Empathy Map para cada uno de nuestros User Personas con el fi
 
 **Segmento 1**
 
-![Empathy-Map-1](imagenes/Imagenes_Cap2/Mapping_%20Magali%20Alcántara.png)
+<div align="center"><img src="imagenes/Imagenes_Cap2/Mapping_ Magali Alcántara.png">
+</div>
 
 **Segmento 2**
 
-![Empathy-Map-2](imagenes/Imagenes_Cap2/Mapping_%20Victor%20Esquicha.png)
+<div align="center"><img src="imagenes/Imagenes_Cap2/Mapping_ Victor Esquicha.png">
+</div>
 
 ## 2.4 Big Picture EventStorming
 
 En esta sección, se presenta el resultado de la sesión colaborativa de Big Picture Event Storming, diseñada para explorar el "landscape" del negocio de automatización y eficiencia energética.
 ### **Big Picture Event Storming: Actor-Event Sequence**
 
-![EventStorming](imagenes/Imagenes_Cap2/big_picture.png)
+<div align="center"><img src="imagenes/Imagenes_Cap2/big_picture.png">
+</div>
 
 **Explicación de las Etapas del Event Storming:**
 
