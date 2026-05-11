@@ -422,178 +422,180 @@ En la implementación final se puede apreciar el uso consistente de la paleta de
 
   <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-web/dashboard-domoticore.png"
-       alt="Dashboard ">
+       alt="Dashboard "></div>
 
   <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-web/energy-monitoring-domoticore.png"
-       alt="Energy Monitoring">
+       alt="Energy Monitoring"></div>
 
   <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-web/devices-domoticore.png"
-       alt="Devices ">
+       alt="Devices "></div>
 
   <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-web/automation-domoticore.png"
-       alt="Automation">
+       alt="Automation"></div>
     
   <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-web/device-details-ac-domoticore.png"
-       alt="Device Details">
+       alt="Device Details"></div>
 
   <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-web/security-access-domoticore.png"
-       alt="Security & Access">
+       alt="Security & Access"></div>
 
   <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-web/history-log-domoticore.png"
-       alt="History Log ">
+       alt="History Log "></div>
 
   <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-web/notifications-domoticore.png"
-       alt="Notifications ">
+       alt="Notifications "></div>
 
   <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-web/settings-domoticore.png"
-       alt="Settings ">
+       alt="Settings "></div>
 
   <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-web/automation-builder-domoticore.png"
-       alt="Automation Builder">
+       alt="Automation Builder"></div>
 
 **Versión Mobile Mockups - Usuarios de Hogares Inteligentes**
 
   <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-mobile/mobile-dashboard-domoticore.png"
-       alt="Dashboard">
+       alt="Dashboard"></div>
 
   <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-mobile/mobile-alerts-domoticore.png"
-       alt="Alerts">
+       alt="Alerts"></div>
 
   <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-mobile/mobile-devices-domoticore.png"
-       alt="Devices">
+       alt="Devices"></div>
 
   <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-mobile/mobile-automation-builder.png"
-       alt="Automation Builder">
+       alt="Automation Builder"></div>
 
   <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-mobile/mobile-automations.png"
-       alt="Automation">
+       alt="Automation"></div>
 
   <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-mobile/mobile-energy-analytics.png"
-       alt=" Energy Analytics">
+       alt=" Energy Analytics"></div>
 
   <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-mobile/mobile-ac-control.png"
-       alt="AC Control">
+       alt="AC Control"></div>
 
   <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-mobile/mobile-security-hub.png"
-       alt="Security Hub">
+       alt="Security Hub"></div>
 
   <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-mobile/mobile-profile-settings.png"
-       alt="Profile & Settings">
+       alt="Profile & Settings"></div>
 
   <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-mobile/mobile-history-log.png"
-       alt="History Log">
+       alt="History Log"></div>
 
   <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-mobile/mobile-living-room-view.png"
-       alt="Living Room View">
+       alt="Living Room View"></div>
   
 **Versión Desktop Mockups - Pequeños Negocios y Emprendedores** 
 
   <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/mockups-small-business-web/sme-dashboard.png"
-       alt="Dashboard">
+       alt="Dashboard"></div>
 
   <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/mockups-small-business-web/business-automations.png"
-       alt="Business Automations">
+       alt="Business Automations"></div>
   
   <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/mockups-small-business-web/energy-reports.png"
-       alt="Energy Reports">
+       alt="Energy Reports"></div>
 
   <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/mockups-small-business-web/bulk-device-management.png"
-       alt="Device Management">
+       alt="Device Management"></div>
 
   <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/mockups-small-business-web/team-management.png"
-       alt="Team Management">
+       alt="Team Management"></div>
 
   <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/mockups-small-business-web/zone-configuration.png"
-       alt="Zone Configuration">
+       alt="Zone Configuration"></div>
 
   <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/mockups-small-business-web/cost-deep-dive.png"
-       alt="Cost Deep-Dive">
+       alt="Cost Deep-Dive"></div>
 
   <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/mockups-small-business-web/sme-alert-history.png"
-       alt="Alert History">
+       alt="Alert History"></div>
 
   <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/mockups-small-business-web/full-device-inventory.png"
-       alt="Device Inventory">
+       alt="Device Inventory"></div>
 
   <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/mockups-small-business-web/business-integration-settings.png"
-       alt="Business Integration Settings">
+       alt="Business Integration Settings"></div>
        
 **Versión Mobile Mockups - Pequeños Negocios y Emprendedores**
 
   <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/mockups-small-business-mobile/bulk-device-control.png"
-       alt="Device Control">
+       alt="Device Control"></div>
 
   <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/mockups-small-business-mobile/sme-mobile-dashboard.png"
-       alt="Dashboard">
+       alt="Dashboard"></div>
 
   <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/mockups-small-business-mobile/business-alert-center.png"
-       alt="Alert Center">
+       alt="Alert Center"></div>
 
   <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/mockups-small-business-mobile/reports-summary.png"
-       alt="Reports Summary">
+       alt="Reports Summary"></div>
 
   <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/mockups-small-business-mobile/zone-monitoring.png"
-       alt="Zone Monitoring">
+       alt="Zone Monitoring"></div>
 
   <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/mockups-small-business-mobile/automation-rules.png"
-       alt="Automation Rules">
+       alt="Automation Rules"></div>
 
   <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/mockups-small-business-mobile/role-team-access.png"
-       alt="Role & Team Access">
+       alt="Role & Team Access"></div>
 
   <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/mockups-small-business-mobile/inventory-explorer.png"
-       alt="Inventory Explorer">
+       alt="Inventory Explorer"></div>
 
   <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/mockups-small-business-mobile/utility-api-status.png"
-       alt="Utility & API Status">
+       alt="Utility & API Status"></div>
 
   <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/mockups-small-business-mobile/business-settings.png"
-       alt="Business Settings">
+       alt="Business Settings"></div>
 
 ## 4.4.4. Web Applications User Flow Diagrams
 ## 4.5. Web Applications Prototyping
 ## 4.6. Domain-Driven Software Architecture
+
 ## 4.6.1. Design-Level EventStorming
+
 ## 4.6.2. Software Architecture Context Diagram
 
 <a id="4-6-2-software-architecture-context-diagram"></a>
