@@ -82,7 +82,16 @@ A diferencia de un sistema automatizado donde los dispositivos responden a confi
 Los usuarios pueden perder entre un 15% y 25% de eficiencia energética debido al uso manual e inadecuado de dispositivos, lo que se traduce en mayores costos de electricidad y menor optimización de recursos.  
 
 ### 1.2.2. Lean UX Process
+
 #### 1.2.2.1. Lean UX Problem Statements
+El estado actual de la gestión de dispositivos electrónicos en hogares y pequeñas empresas depende en gran medida de controles manuales y soluciones aisladas, lo que genera falta de automatización, desperdicio energético y dificultad para ejercer control remoto.  
+
+Los productos actuales no resuelven de manera eficiente la necesidad de una plataforma centralizada, accesible y fácil de usar que permita integrar y gestionar dispositivos IoT sin requerir conocimientos técnicos especializados.  
+
+DomotiCore abordará esta problemática mediante una plataforma web que centraliza el control de dispositivos, permite su automatización mediante horarios programados y proporciona monitoreo en tiempo real desde cualquier ubicación.  
+
+Nuestro enfoque inicial estará dirigido a usuarios domésticos y pequeños negocios que buscan optimizar su consumo energético y mejorar la gestión de sus dispositivos. Sabremos que hemos tenido éxito cuando observemos una reducción en el consumo eléctrico, una mayor adopción de automatizaciones y un uso recurrente de la plataforma.  
+
 
 #### 1.2.2.2 Lean UX Assumptions
 
