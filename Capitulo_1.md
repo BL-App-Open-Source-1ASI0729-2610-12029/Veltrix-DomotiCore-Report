@@ -56,6 +56,7 @@ docs: update formatting and improve table structure in readme.
 ![cesar](imagenes/imagenes_Cap1/cesar.jpeg) | *Quispe Llacsahuanga César Agusto - u202417405* Soy estudiante de Ingeniería de Software, interesado en el desarrollo de soluciones tecnológicas y el aprendizaje continuo en herramientas de programación. Cuento con conocimientos en lógica de programación, bases de datos y desarrollo de aplicaciones, lo que me permite contribuir en la construcción de sistemas eficientes. Me caracterizo por ser responsable, proactivo y con buena disposición para el trabajo en equipo, adaptándome a nuevos retos y aportando en el cumplimiento de los objetivos del proyecto. 
 ![alvaro](imagenes/imagenes_Cap1/alvaro.png) | *Rocha Cotrina Alvaro - u202411243* Soy estudiante de Ingeniería de Software, con enfoque en el desarrollo backend, bases de datos y lógica de programación. Cuento con experiencia en la creación de aplicaciones y resolución de problemas mediante programación, especialmente en lenguajes como C++ y el diseño de sistemas estructurados. Me caracterizo por ser organizado, responsable y comprometido con el trabajo en equipo, aportando en la construcción de soluciones eficientes y en la correcta estructuración de la arquitectura del sistema. Además, tengo una gran capacidad de aprendizaje y adaptación a nuevas tecnologías, lo que me permite contribuir activamente en el desarrollo del proyecto.
 ![fabrizio](imagenes/imagenes_Cap1/Fabrizio.png) | *Tello Palacios Fabrizio Rafael - u202113310*  Soy estudiante de la carrera de Ingeniería de Software. Considero que soy una persona comprometida en cada trabajo y tarea y siempre trato de dar lo mejor de mi en cada situación. A veces tengo complicaciones con la organización de mi tiempo, pero siempre estoy atento a cualquier problema dentro del equipo para poder pensar en soluciones y llegar a la mejor posible. Me gustan los retos, porque son esos retos los que me motivan a ser mejor como persona y como estudiante. Tengo muchas  cosas en las que mejorar y sé que lo lograré con disciplina y perseverancia.
+
 ## 1.2 Solution Profile
 
 ### 1.2.1 Antecedentes y Problemática
@@ -81,9 +82,9 @@ A diferencia de un sistema automatizado donde los dispositivos responden a confi
 **How Much / ¿CUÁNTO?**  
 Los usuarios pueden perder entre un 15% y 25% de eficiencia energética debido al uso manual e inadecuado de dispositivos, lo que se traduce en mayores costos de electricidad y menor optimización de recursos.  
 
-### 1.2.2. Lean UX Process
+### 1.2.2 Lean UX Process
 
-#### 1.2.2.1. Lean UX Problem Statements
+#### 1.2.2.1 Lean UX Problem Statements
 El estado actual de la gestión de dispositivos electrónicos en hogares y pequeñas empresas depende en gran medida de controles manuales y soluciones aisladas, lo que genera falta de automatización, desperdicio energético y dificultad para ejercer control remoto.  
 
 Los productos actuales no resuelven de manera eficiente la necesidad de una plataforma centralizada, accesible y fácil de usar que permita integrar y gestionar dispositivos IoT sin requerir conocimientos técnicos especializados.  
@@ -91,7 +92,6 @@ Los productos actuales no resuelven de manera eficiente la necesidad de una plat
 DomotiCore abordará esta problemática mediante una plataforma web que centraliza el control de dispositivos, permite su automatización mediante horarios programados y proporciona monitoreo en tiempo real desde cualquier ubicación.  
 
 Nuestro enfoque inicial estará dirigido a usuarios domésticos y pequeños negocios que buscan optimizar su consumo energético y mejorar la gestión de sus dispositivos. Sabremos que hemos tenido éxito cuando observemos una reducción en el consumo eléctrico, una mayor adopción de automatizaciones y un uso recurrente de la plataforma.  
-
 
 #### 1.2.2.2 Lean UX Assumptions
 

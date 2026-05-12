@@ -1,8 +1,8 @@
-## 5.1. Software Configuration Management
+## 5.1 Software Configuration Management
 
 La gestión en DomotiCore incluye el código fuente, documentación, prototipos y configuraciones del entorno. El proyecto contempla distintos productos digitales, incluyendo una Landing Page, aplicaciones web y servicios backend orientados a la automatización y monitoreo de dispositivos IoT. El equipo adopta prácticas basadas en GitFlow, Conventional Commits y Semantic Versioning, asegurando un flujo de trabajo colaborativo y organizado.
 
-### 5.1.1. Software Development Environment Configuration
+### 5.1.1 Software Development Environment Configuration
 En esta sección se describen las herramientas, tecnologías y plataformas utilizadas por el equipo para el desarrollo colaborativo del proyecto DomotiCore.
 
 | Category | Software / Tool | Purpose in the Project | Access / Download | Preview |
@@ -21,7 +21,7 @@ En esta sección se describen las herramientas, tecnologías y plataformas utili
 | **Software Testing** | Gherkin | Escenarios de prueba (control remoto, automatización, alertas) por historias de usuario. | [Gherkin](https://cucumber.io/docs/gherkin) | <img src="imagenes/images_Cap5/Gherkin.png" width="100">  |
 | **Deployment** | GitHub Pages | Despliegue de la Landing Page para mostrar la propuesta de valor. | [GH Pages](https://pages.github.com) | <img src="imagenes/images_Cap5/github pages.png" width="100"> |
 
-### 5.1.2. Source Code Management
+### 5.1.2 Source Code Management
 
 La gestión de código fuente del proyecto **DomotiCore** se realiza mediante la plataforma **GitHub**, permitiendo un control de versiones en entorno de trabajo colaborativo. Se han definido repositorios independientes para cada producto digital.
 
@@ -34,7 +34,7 @@ La gestión de código fuente del proyecto **DomotiCore** se realiza mediante la
 | **Frontend Web Application** | [Veltrix-DomotiCore-Front-End](https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/Veltrix-DomotiCore-Front-End) | Aplicación web para monitoreo y control de dispositivos. |
 | **Backend Web Services** | [Veltrix-DomotiCore-Back-end](https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/Veltrix-DomotiCore-Back-end) | API REST y lógica de automatización IoT. |
 | **Documentation Repository** | [Veltrix-DomotiCore-Report](https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/Veltrix-DomotiCore-Report) | Documentación técnica, reportes y entregables del proyecto. |
-###
+---
 <div style="text-align:center;"><img src="imagenes/images_Cap5/Proyecto-Github-Organizacion.png" width="800" alt="GitHub Repository Structure"></div>
 
 #### 5.1.2.2 GitFlow Workflow
@@ -185,7 +185,6 @@ La Landing Page institucional se despliega mediante **GitHub Pages**, utilizando
 
 **Deployment URL:** [DomotiCore – Landing Page Veltrix](https://oscarcheca.github.io/domoticore-landing/)
 
----
 
 #### 5.1.4.2 Frontend Web Application Deployment
 
@@ -229,7 +228,7 @@ El Sprint 1 representa el primer ciclo de desarrollo ágil del proyecto DomotiCo
 
 #### 5.2.1.1. Sprint Planning 1
 
-### Sprint Information
+****Sprint Information****
 
 | Campo | Detalle |
 | :--- | :--- |
@@ -239,7 +238,7 @@ El Sprint 1 representa el primer ciclo de desarrollo ágil del proyecto DomotiCo
 | **Location** | Microsoft Teams (Reunión virtual) |
 | **Prepared By** | Equipo Veltrix |
 
-### Attendees (Planning Meeting)
+****Attendees (Planning Meeting)****
 
 | Participantes |
 | :--- |
@@ -249,19 +248,19 @@ El Sprint 1 representa el primer ciclo de desarrollo ágil del proyecto DomotiCo
 | Fabrizio Rafael |
 | Alvaro Rocha |
 
-### Sprint 1 – Review Summary
+*****Sprint 1 – Review Summary****
 
 | Descripción |
 | :--- |
 | Durante el Sprint 1 se lograron avances importantes como la implementación completa de la Landing Page de DomotiCore, incluyendo secciones como Hero, Features, About y Contacto. Además, se organizó el repositorio en GitHub, se realizaron commits relacionados a wireframes, mockups y documentación, y se implementó una vista simulada del dashboard. Sin embargo, quedaron pendientes aspectos como la integración con backend, automatización real de dispositivos y despliegue final en producción. |
 
-### Sprint 1 – Retrospective Summary
+****Sprint 1 – Retrospective Summary****
 
 | Descripción |
 | :--- |
 | El Sprint 1 evidenció problemas en la organización del equipo, como falta de comunicación, distribución ineficiente de tareas y dependencia de entregas de último momento. Como mejoras, se propuso realizar reuniones más frecuentes, utilizar herramientas como Trello para seguimiento, definir responsabilidades claras y mejorar la gestión del tiempo. |
 
-### Sprint Goal & User Stories
+****Sprint Goal & User Stories****
 
 | Campo | Detalle |
 | :--- | :--- |
@@ -270,7 +269,7 @@ El Sprint 1 representa el primer ciclo de desarrollo ágil del proyecto DomotiCo
 | **Story Points por historia** | 5 puntos |
 | **Sum of Story Points** | 25 |
 
-#### 5.2.1.2. Aspect Leaders and Collaborators
+#### 5.2.1.2 Aspect Leaders and Collaborators
 
 | Team Member (Last Name, First Name) | GitHub Username | Infrastructure & Repository | Landing Page Development | Documentation (Chapters 1-5) |
 | :--- | :--- | :---: | :---: | :---: |
@@ -280,7 +279,7 @@ El Sprint 1 representa el primer ciclo de desarrollo ágil del proyecto DomotiCo
 | Tello, Fabrizio | F4bris | **C** | **C** | **C** |
 | Rocha , Alvaro | alvarorc24 | **C** | **C** | **C** |
 
-#### 5.2.1.3. Sprint Backlog 1
+#### 5.2.1.3 Sprint Backlog 1
 
 Las User Stories del proyecto fueron reorganizadas durante las actividades de Sprint Planning con el objetivo de mejorar la consistencia, trazabilidad y organización funcional del Product Backlog.
 
@@ -309,7 +308,9 @@ La siguiente tabla resume las principales User Stories consideradas durante las 
 | **US-41** | Previsualización de funciones de la aplicación | Website |
 
 
-#### 5.2.1.4 Source Code Management
+#### 5.2.1.4 Development Evidence for Sprint Review 
+
+///(Verificar aun)
 
 La gestión del código fuente para el proyecto **DomotiCore** se realiza utilizando Git como sistema de control de versiones, permitiendo un flujo de trabajo colaborativo y un historial detallado de cambios realizados durante el Sprint.
 
@@ -321,11 +322,11 @@ La siguiente tabla resume los commits más relevantes realizados durante la impl
 | **domoticore-Business-Web-Page** | main | `36702da` | feat: add responsive design support | 2026-04-15 |
 | **domoticore-docs** | develop | `94d4937` | docs: update sprint 1 documentation | 2026-04-21 |
 
-#### 5.2.1.5. Execution Evidence for Sprint Review
+#### 5.2.1.5 Execution Evidence for Sprint Review
 
 Durante el **Sprint 1** se logró implementar correctamente la estructura visual de la **Landing Page** de DomotiCore, incluyendo navegación interactiva, diseño responsive y un formulario de contacto funcional. Esta entrega presenta las secciones clave que brindan información detallada sobre la propuesta de valor del producto.
 
-### Capturas de Pantalla de la Implementación
+****Capturas de Pantalla de la Implementación****
 
 A continuación, se presentan las evidencias visuales de los componentes desarrollados:
 
@@ -356,18 +357,18 @@ A continuación, se presentan las evidencias visuales de los componentes desarro
 <div style="text-align:center;"><img src="imagenes/images_Cap5/5.2.1.5. Execution Evidence(7).png">
 </div>
 
-### Demostración en Video
+****Demostración en Video****
 
 Asimismo, se adjunta un video demostrativo que recorre la navegación y las funcionalidades implementadas, validando la experiencia de usuario (UX) en diferentes resoluciones.
 
 **Enlace del Video**: [ Demostración de DomotiCore - Sprint 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417405_upc_edu_pe/IQCPng9giTbzT7yPR6RganePARwt5TeTRUKmAmmGUib8n3E?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ZW7H6O)
 
-#### 5.2.1.6. Services Documentation Evidence for Sprint Review
+#### 5.2.1.6 Services Documentation Evidence for Sprint Review
 
 En este Sprint aún no se desarrollaron servicios backend completos. Sin embargo, se definieron preliminarmente los endpoints relacionados con monitoreo de dispositivos y automatización IoT.
 
 La documentación OpenAPI será incorporada en los siguientes Sprints.
-#### 5.2.1.7. Software Deployment Evidence for Sprint Review
+#### 5.2.1.7 Software Deployment Evidence for Sprint Review
 
 Durante este Sprint se realizaron las siguientes actividades clave relacionadas con el despliegue y  disponibilidad del producto:
 
@@ -377,13 +378,13 @@ Durante este Sprint se realizaron las siguientes actividades clave relacionadas 
 * **Verificación de accesibilidad responsive**: Pruebas de usabilidad y diseño adaptable en dispositivos móviles y tablets.
 
 
-#### 5.2.1.8. Team Collaboration Insights during Sprint
+#### 5.2.1.8 Team Collaboration Insights during Sprint
 
 El equipo utilizó las herramientas analíticas de **GitHub Insights** para monitorear la participación activa de cada integrante durante el **Sprint 1**. Estos datos permitieron realizar un seguimiento detallado de los commits, pull requests y merges realizados.
 
 La colaboración basada en estas métricas permitió mantener un flujo continuo de integración y control de versiones, fortaleciendo el trabajo colaborativo del equipo y asegurando la integridad del código fuente.
 
-### Evidencia de Colaboración en GitHub
+****Evidencia de Colaboración en GitHub****
 
 A continuación, se presenta la captura de los analíticos proporcionados por GitHub sobre la actividad del equipo:
 
@@ -392,20 +393,20 @@ A continuación, se presenta la captura de los analíticos proporcionados por Gi
 
 En estas métricas facilitó la identificación de cada apoyo de los colaboradores y ayudó a mejorar la distribución de tareas para los siguientes ciclos de desarrollo.
 
-### 5.2.2. Sprint 2
+### 5.2.2 Sprint 2
 
-#### 5.2.2.1.Sprint Planning 2.
+#### 5.2.2.1 Sprint Planning 2.
 
-#### 5.2.2.2. Aspect Leaders and Collaborators.
+#### 5.2.2.2 Aspect Leaders and Collaborators.
 
-#### 5.2.2.3.Sprint Backlog 2.
+#### 5.2.2.3 Sprint Backlog 2.
 
-#### 5.2.2.4.Development Evidence for Sprint Review.
+#### 5.2.2.4 Development Evidence for Sprint Review.
 
-#### 5.2.2.5.Execution Evidence for Sprint Review.
+#### 5.2.2.5 Execution Evidence for Sprint Review.
 
-#### 5.2.2.6.Services Documentation Evidence for Sprint Review.
+#### 5.2.2.6 Services Documentation Evidence for Sprint Review.
 
-#### 5.2.2.7.Software Deployment Evidence for Sprint Review.
+#### 5.2.2.7 Software Deployment Evidence for Sprint Review.
 
-#### 5.2.2.8.Team Collaboration Insights during Sprint.
+#### 5.2.2.8 Team Collaboration Insights during Sprint.

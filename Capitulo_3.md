@@ -1,4 +1,4 @@
-# 3.1. User Stories 
+## 3.1. User Stories 
 En esta sección se verán las historias de usuario que ayudarán en el desarrollo de la plataforma **DomotiCore**, el consumo energético que se ve mediante tecnología IoT, bajo la visión de **Veltrix**.
 
 | Epic / Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
@@ -53,20 +53,20 @@ En esta sección se verán las historias de usuario que ayudarán en el desarrol
 | EP04 / US48 | Visualización de consumo por dispositivo | **Como** usuario de un hogar inteligente o pequeño negocio, **quiero** ver el consumo individual de cada dispositivo **para** identificar cuál consume más energía. | Scenario 1: Visualización. **Dado que** existen datos de consumo, **cuando** el usuario accede al detalle de consumo energético, **entonces** el sistema muestra el consumo energético por dispositivo. <br><br>Scenario 2: Sin datos. **Dado que** no hay información registrada, **cuando** accede, **entonces** el sistema muestra mensaje de ausencia de datos. | EP04: Energy Monitoring |
 | EP03 / US49 | Activación manual de modo ahorro | **Como** usuario de un hogar inteligente o pequeño negocio, **quiero** activar un modo ahorro de energía manualmente **para** reducir el consumo energético de mis dispositivos. | Scenario 1: Activación exitosa. **Dado que** existen dispositivos encendidos, **cuando** el usuario activa el modo ahorro, **entonces** el sistema apaga los dispositivos con mayor consumo energético y que no se encuentran en la lista de dispositivos prioritarios. <br><br>Scenario 2: Sin dispositivos activos. **Dado que** no hay dispositivos encendidos, **cuando** activa el modo ahorro, **entonces** el sistema muestra que no hay acciones a realizar. | EP03: Automation |
 | EP06 / US50 | Registro de último estado del dispositivo | **Como** usuario de un hogar inteligente, **quiero** ver el último estado registrado de un dispositivo **para** saber su condición reciente (encendido, apagado, desconectado o error). | Scenario 1: Visualización de estado. **Dado que** el dispositivo tiene registros de sus estados, **cuando** el usuario accede al detalle del estado, **entonces** el sistema muestra el último estado del dispositivo correspondiente con fecha y hora de su último registro. <br><br>Scenario 2: Sin registros. **Dado que** no existe historial del dispositivo, **cuando** el usuario accede, **entonces** el sistema muestra que no hay información disponible o error de conexión con el dispositivo. | EP06: Security & Logs |
----
-### 3.2. Impact Mapping
+
+## 3.2 Impact Mapping
 
 El Impact Mapping es una herramienta que nos permitió estructurar y visualizar de manera clara la relación entre los objetivos del proyecto, los actores involucrados y las funcionalidades propuestas en la solución. A partir de la información recopilada en las entrevistas y el análisis de necesidades, se identificaron los principales problemas que enfrentan los usuarios.
 
-### IMPACT MAPPING 1
+***IMPACT MAPPING 1***
 <div align="center"><img src="imagenes/imagenes_Cap3/Impact map 1.png">
 </div>
 
-### IMPACT MAPPING 2
+***IMPACT MAPPING 2***
 <div align="center"><img src="imagenes/imagenes_Cap3/Impact map 2.png">
 </div>
 
-### 3.3. Product Backlog
+## 3.3 Product Backlog
 | # Orden | User Story Id | Título | Descripción | Story Points (1/2/3/5/8) |
 | :--- | :--- | :--- | :--- | :--- |
 | **1** | **US01** | Vinculación de inicio | **Como** Usuario de un hogar inteligente y pequeño negocio, **quiero** registrar mi inicio en la plataforma **para** establecer el puente de comunicación entre mis dispositivos físicos y la nube de DomotiCore. | **5** |

@@ -91,6 +91,7 @@ Diseñar DomotiCore con capacidad de integración progresiva con diversos dispos
 ## 2.2 Entrevistas
 
 ### 2.2.1 Diseño de Entrevistas
+
 **Preguntas presentación**
 
 - ¿Cual es su nombre?
@@ -98,7 +99,7 @@ Diseñar DomotiCore con capacidad de integración progresiva con diversos dispos
 - ¿Cuál es su distrito de residencia?
 - ¿En qué escuela trabaja?
 
-**Segmento 1: Usuarios de Hogares Inteligentes**
+****Segmento 1: Usuarios de Hogares Inteligentes****
 
 ***Preguntas principales:***
 
@@ -119,9 +120,9 @@ Diseñar DomotiCore con capacidad de integración progresiva con diversos dispos
 12. ¿Qué tan seguido utiliza internet en casa?
 13. ¿Qué lo motivaría a adoptar una solución como esta?
 
-### Segmento 2: Pequeños Negocios y Emprendedores
+****Segmento 2: Pequeños Negocios y Emprendedores****
 
-#### Preguntas principales:
+***Preguntas principales:***
 1. ¿A qué se dedica su negocio y cuántas personas trabajan con usted?
 2. ¿Qué tipo de dispositivos eléctricos utiliza en su negocio?
 3. ¿Cómo controla actualmente el uso de estos dispositivos?
@@ -132,7 +133,9 @@ Diseñar DomotiCore con capacidad de integración progresiva con diversos dispos
 8. ¿Qué problemas enfrenta al gestionar varios equipos o áreas del negocio?
 9. ¿Qué funcionalidades le gustaría tener en una solución tecnológica?
 10. ¿Estaría dispuesto a usar una plataforma que centralice el control de sus dispositivos?
-#### Preguntas complementarias:
+
+***Preguntas complementarias:***
+
 11. ¿Los dispositivos funcionan de manera simultánea o en horarios específicos?
 12. ¿Utiliza celular o computadora para gestionar su negocio?
 13. ¿Confía en soluciones digitales para controlar su negocio? ¿Por qué?
@@ -463,7 +466,6 @@ Todos los usuarios coinciden en que una solución compleja o difícil de aprende
 Más allá de la comodidad, los usuarios valoran principalmente reducir el gasto eléctrico y evitar riesgos como sobrecalentamiento o equipos encendidos innecesariamente.
 * **Existe apertura a la domótica, pero con barreras de entrada claras:**
 Aunque el interés es alto, la adopción depende de que la solución sea accesible, intuitiva y percibida como útil en la vida diaria, lo que representa una oportunidad directa para DomotiCore.
----
 
 **Segmento 2: Pequeños Negocios y Emprendedores**
 
@@ -496,10 +498,10 @@ El 100% de los entrevistados estaría dispuesto a usar una solución tecnológic
 Los entrevistados consideran viable invertir en una plataforma digital solo si esta genera un ahorro real y tangible en el consumo eléctrico. Esto evidencia que la propuesta de valor debe enfocarse en la reducción de costos, control eficiente y beneficios económicos claros.
 * **La seguridad y confiabilidad influyen en la confianza digital:**
 Existe preocupación por el uso de soluciones externas, especialmente en negocios relacionados con tecnología. Los usuarios valoran plataformas confiables, seguras y preferiblemente certificadas, lo que resalta la importancia de garantizar altos estándares de seguridad en la solución propuesta.
----
+
 ## 2.3 Needfinding
 
-### 2.3.1. User Personas
+### 2.3.1 User Personas
 En esta sección se describen dos User Personas que representan los principales segmentos a los que está dirigida la solución DomotiCore, desarrollada por la startup Veltrix: por un lado, los usuarios de hogares inteligentes que buscan mejorar su calidad de vida mediante la automatización y el control remoto de sus dispositivos; y por otro, los propietarios y gestores de pequeños negocios que requieren optimizar el uso de sus recursos eléctricos y mantener un mayor control operativo. A través de la construcción de estos perfiles, se busca comprender en profundidad sus necesidades, motivaciones, frustraciones y comportamientos, con el objetivo de diseñar una plataforma que simplifique la gestión de dispositivos, incremente la visibilidad del estado de los equipos en tiempo real y facilite una toma de decisiones más eficiente, segura y oportuna tanto en el hogar como en el entorno comercial.
 
 **Segmento 1**
@@ -518,7 +520,7 @@ El User Persona de Victor Esquicha evidencia una tensión constante entre su enf
 
 Para un perfil que valora el control, la predictibilidad y el uso inteligente de la tecnología, depender de procesos manuales como verificar equipos encendidos fuera del horario laboral o no tener visibilidad clara del consumo energético no solo genera ineficiencia operativa, sino también una sobrecarga innecesaria que desvía su atención de decisiones de mayor impacto.
 
-### 2.3.2. User Task Matrix
+### 2.3.2 User Task Matrix
 En esta sección se presenta el User Task Matrix, el cual identifica y organiza las principales tareas que realizan los User Personas que representan a los segmentos objetivo de la solución DomotiCore.
 Los segmentos considerados son:
 
@@ -577,7 +579,7 @@ El control del consumo energético y la necesidad de reducir gastos operativos a
 * Necesidad de Presencia Remota:
 La supervisión del negocio cuando el propietario no está presente destaca como una tarea frecuente y relevante, evidenciando una fuerte necesidad de visibilidad remota y tranquilidad operativa. La falta de esta visibilidad genera estrés, incertidumbre y riesgo de errores humanos.
 
-### 2.3.3. User Journey Mapping
+### 2.3.3 User Journey Mapping
 
 En esta sección se presentan los User Journey Maps en su estado actual (As-Is), los cuales describen cómo los usuarios interactúan y gestionan sus dispositivos electrónicos antes de contar con DomotiCore. Este análisis permite comprender el flujo real de sus actividades, desde la identificación de una necesidad (control, seguridad, ahorro energético o supervisión) hasta la ejecución de acciones y la resolución de problemas cotidianos.
 A lo largo del recorrido se identifican las etapas clave, las acciones que realizan los usuarios, los puntos de contacto con dispositivos y herramientas actuales, así como las decisiones que toman de manera manual o reactiva. Asimismo, se evidencian los problemas derivados del uso de soluciones fragmentadas, controles individuales por dispositivo, falta de automatización y ausencia de monitoreo centralizado.
@@ -592,7 +594,7 @@ A lo largo del recorrido se identifican las etapas clave, las acciones que reali
 <div align="center"><img src="imagenes/Imagenes_Cap2/User Journey Map of Victor Esquicha.png">
 </div>
 
-### 2.3.4. Empathy Mapping
+### 2.3.4 Empathy Mapping
 
 Se ha elaborado el Empathy Map para cada uno de nuestros User Personas con el fin de profundizar en su realidad cotidiana, logrando así una comprensión genuina de sus necesidades. Este análisis nos permite conectar con sus motivaciones más profundas y visualizar los obstáculos que enfrentan, garantizando que las soluciones propuestas no solo sean técnicas, sino que respondan verdaderamente a sus frustraciones y metas personales.
 
@@ -609,7 +611,7 @@ Se ha elaborado el Empathy Map para cada uno de nuestros User Personas con el fi
 ## 2.4 Big Picture EventStorming
 
 En esta sección, se presenta el resultado de la sesión colaborativa de Big Picture Event Storming, diseñada para explorar el "landscape" del negocio de automatización y eficiencia energética.
-### **Big Picture Event Storming: Actor-Event Sequence**
+****Big Picture Event Storming: Actor-Event Sequence****
 
 <div align="center"><img src="imagenes/Imagenes_Cap2/big_picture.png">
 </div>
@@ -660,8 +662,8 @@ Establece un lenguaje común entre todos los miembros del equipo, facilitando la
 | **Telemetry** | The continuous flow of technical data (consumption, status, health) sent from nodes to the system for processing and analysis. |
 | **Smart Plug** | A specific type of node used to control the power flow of conventional appliances and measure their individual energy usage. |
 
-________________________________________
-Implementation example:
+***Implementation example:***
+
 - When a **User** pairs a new **Smart Plug**, it is registered as an active **Node** within their personal **Dashboard**.
 - The development team ensures that the **Telemetry** sent by the **Gateway** is correctly processed to trigger an **Alert** if consumption limits are exceeded.
 - By activating a "Energy Saving" **Scene**, the configured **Automation** changes the **Device Status** of all non-essential nodes to "Off".

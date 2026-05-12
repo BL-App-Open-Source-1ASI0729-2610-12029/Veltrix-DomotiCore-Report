@@ -1,15 +1,14 @@
-
-## 4.1. Style Guidelines
+## 4.1 Style Guidelines
 
 El diseño de la plataforma se enfoca en ofrecer una interfaz intuitiva que facilite la exploración, selección y contribución de manera visual en DomotiCore. Se busca garantizar una experiencia fluida para desarrolladores de distintos niveles.
 
 La plataforma está pensada para manejar múltiples proyectos, usuarios y contribuciones de forma organizada, manteniendo un entorno accesible, escalable y centrado en la colaboración.
 
-### 4.1.1. General Style Guidelines
+### 4.1.1 General Style Guidelines
 
 En este apartado se detallan las decisiones de estilo que definen la identidad visual de la plataforma, orientada a conectar desarrolladores con proyectos y facilitar su participación en tareas reales. Las decisiones relacionadas con branding, tipografía, colores, espaciado y lenguaje buscan transmitir accesibilidad, colaboración, claridad y dinamismo, elementos clave dentro de comunidades tecnológicas.
 
-### Colores
+***Colores***
 
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/color-palette.png" 
@@ -35,7 +34,7 @@ La paleta de colores fue seleccionada con un enfoque en la claridad visual, dina
 **Escalas de color:**  
 Cada color cuenta con variaciones de intensidad que permiten diferenciar estados (hover, activo, deshabilitado), jerarquías y organización visual dentro de dashboards y listados de proyectos.
 
-### Tipografía
+***Tipografía***
 
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/inter-font.png"
@@ -54,7 +53,7 @@ En cuanto al tamaño:
 
 Esto permite resaltar información clave y mejorar la comprensión del usuario.
 
-### Branding
+***Branding***
 
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/logo-DomotiCore.png"
@@ -71,7 +70,7 @@ Se adopta un enfoque minimalista con:
 
 Esto permite transmitir una imagen moderna y alineada con el ecosistema Open Source.
 
-### Espaciado
+***Espaciado***
 
 El diseño se centra en el uso estratégico de espacios en blanco para mejorar la legibilidad y organización.
 
@@ -83,7 +82,7 @@ El contenido se organiza en:
 
 Los márgenes y rellenos permiten evitar la saturación visual y facilitan la navegación, especialmente en pantallas con mucha información.
 
-### Dimensiones para el tono de comunicación y lenguaje aplicado
+***Dimensiones para el tono de comunicación y lenguaje aplicado***
 
 El tono de comunicación de la plataforma es **claro, directo y accesible**, orientado a desarrolladores de distintos niveles, incluyendo principiantes.
 
@@ -101,7 +100,7 @@ El sistema utiliza mensajes como:
 
 Esto genera una experiencia amigable y fomenta la interacción.
 
-### Aspectos clave del diseño
+*****Aspectos clave del diseño*****
 
 **Consistencia:**  
 Todos los elementos mantienen una línea gráfica uniforme, permitiendo que el usuario se familiarice rápidamente con la plataforma.
@@ -112,7 +111,7 @@ Se estructura de forma intuitiva, permitiendo acceder fácilmente a proyectos, i
 **Accesibilidad:**  
 Se prioriza una interfaz clara, con buen contraste, adaptable a distintos dispositivos.
 
-### Elementos de Diseño
+***Elementos de Diseño***
 
 El diseño visual considera elementos fundamentales:
 
@@ -124,7 +123,7 @@ El diseño visual considera elementos fundamentales:
 
 Estos elementos contribuyen a una experiencia clara y eficiente.
 
-### 4.1.2. Web Style Guidelines
+### 4.1.2 Web Style Guidelines
 
 La plataforma será desarrollada como una aplicación web adaptable (Responsive Web Design), permitiendo su uso en distintos dispositivos como laptops, tablets y smartphones.
 
@@ -150,7 +149,7 @@ La arquitectura de la información de la plataforma se centra en facilitar la ex
 
 El diseño de la información está orientado a guiar al usuario desde la exploración inicial hasta la contribución, manteniendo una estructura clara, escalable y alineada con las dinámicas reales del desarrollo colaborativo.
 
-### 4.2.1. Organization Systems
+### 4.2.1 Organization Systems
 
 En la plataforma se emplea principalmente una **organización jerárquica**, en la cual los elementos más relevantes para el usuario, como proyectos recomendados, issues destacados y oportunidades de contribución inmediata, se presentan con mayor prioridad visual dentro de la interfaz. Esta jerarquía permite que los desarrolladores identifiquen rápidamente dónde pueden participar, especialmente en el caso de usuarios principiantes que buscan su primera experiencia en Open Source.
 
@@ -162,11 +161,11 @@ En cuanto a la organización temporal, la plataforma utiliza un enfoque **cronol
 
 Finalmente, la información también se organiza considerando el **perfil del usuario**, adaptando recomendaciones y contenido según su nivel (principiante, intermedio o avanzado), historial de contribuciones e intereses tecnológicos. Esto permite una experiencia más personalizada y eficiente.
 
-### 4.2.2. Labeling Systems
+### 4.2.2 Labeling Systems
 
 Se prioriza el uso de etiquetas cortas, precisas y comprensibles, con el objetivo de reducir la carga cognitiva del usuario y facilitar la navegación dentro del sistema.
 
-### Landing Page
+***Landing Page***
 
 - **Inicio:** Sección principal que presenta la plataforma y su propuesta de valor, orientada a motivar la participación en proyectos Open Source.
 - **Explorar Proyectos:** Acceso directo al catálogo de proyectos disponibles para contribuir.
@@ -174,7 +173,7 @@ Se prioriza el uso de etiquetas cortas, precisas y comprensibles, con el objetiv
 - **Beneficios:** Explicación de las ventajas de participar en proyectos colaborativos (aprendizaje, experiencia, networking).
 - **Contacto:** Canal de comunicación para soporte o consultas.
 
-### Aplicación Web – Desarrolladores
+***Aplicación Web – Desarrolladores***
 
 - **Dashboard:** Vista general con recomendaciones personalizadas, actividad reciente y progreso del usuario.
 - **Proyectos:** Listado de proyectos disponibles, con filtros por tecnología, dificultad y tipo de contribución.
@@ -183,7 +182,7 @@ Se prioriza el uso de etiquetas cortas, precisas y comprensibles, con el objetiv
 - **Perfil:** Información personal, habilidades y estadísticas de contribución.
 - **Configuración:** Ajustes de cuenta y preferencias.
 
-### Etiquetas comunes dentro del sistema
+***Etiquetas comunes dentro del sistema***
 
 - **Beginner-friendly:** Issues adecuados para principiantes  
 - **Bug:** Problemas o errores a resolver  
@@ -193,7 +192,7 @@ Se prioriza el uso de etiquetas cortas, precisas y comprensibles, con el objetiv
 
 Estas etiquetas permiten clasificar la información de manera eficiente y facilitar la toma de decisiones del usuario.
 
-### 4.2.3. SEO Tags and Meta Tags
+### 4.2.3 SEO Tags and Meta Tags
 
 Para asegurar que la plataforma *DomotiCore*, sea funcional, se han configurado los siguientes meta tags técnicos. Estos permiten posicionar la solución como una plataforma de domótica orientada al control inteligente de dispositivos electrónicos en hogares y pequeñas empresas.
 
@@ -218,7 +217,7 @@ Para asegurar que la plataforma *DomotiCore*, sea funcional, se han configurado 
 * **Robots:** en html:  
     `<meta name="robots" content="index, follow">`
 
-### 4.2.4. Searching Systems
+### 4.2.4 Searching Systems
 
 Dado que la plataforma puede manejar múltiples dispositivos electrónicos, sensores y reglas automatizadas, se han implementado mecanismos de búsqueda y filtrado que permiten acceder de manera directa a la información crítica.
 
@@ -252,7 +251,7 @@ Esto facilita el monitoreo y análisis del comportamiento del sistema.
 **Búsqueda contextual:**  
 Dentro de cada módulo (dispositivos, automatización, historial), el usuario puede realizar búsquedas específicas relacionadas únicamente con ese entorno, mejorando la precisión y reduciendo la complejidad.
 
-### 4.2.5. Navigation Systems
+### 4.2.5 Navigation Systems
 
 Se busca que el usuario nunca esté a más de tres interacciones de realizar una acción clave, como encender un dispositivo, configurar una automatización o revisar una alerta.
 
@@ -299,7 +298,7 @@ Estas acciones están diseñadas para minimizar el número de pasos y mejorar la
 **Navegación adaptativa (Responsive):**  
 La interfaz se adapta a distintos dispositivos (desktop, tablet, móvil), reorganizando los elementos de navegación para mantener la usabilidad en cualquier entorno, permitiendo el control remoto en tiempo real desde cualquier lugar.
 
-## 4.3. Landing Page UI Design
+## 4.3 Landing Page UI Design
 
 ### 4.3.1 Landing Page Wireframe.
 
@@ -331,7 +330,7 @@ En la implementación final se puede apreciar el uso consistente de la paleta de
 
 ## 4.4. Web Applications UX/UI Design
 
-### 4.4.1. Web Applications Wireframes
+### 4.4.1 Web Applications Wireframes
 
 **Wireframes Versión Desktop - Usuarios de Hogares Inteligentes** 
 
@@ -416,10 +415,10 @@ En la implementación final se puede apreciar el uso consistente de la paleta de
 <div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-mobile/wireframe_business_profile.png" alt="texto"></div>
 
 
-### 4.4.2. Web Applications Wireflow Diagrams
+### 4.4.2 Web Applications Wireflow Diagrams
 
 
-### 4.4.3. Web Applications Mock-ups
+### 4.4.3 Web Applications Mock-ups
 
 **Versión Desktop Mockups - Usuarios de Hogares Inteligentes** 
 
@@ -593,35 +592,36 @@ En la implementación final se puede apreciar el uso consistente de la paleta de
   <img src="imagenes/imagenes_Cap4/mockups-small-business-mobile/business-settings.png"
        alt="Business Settings"></div>
 
-### 4.4.4. Web Applications User Flow Diagrams
+### 4.4.4 Web Applications User Flow Diagrams
 ## 4.5. Web Applications Prototyping
 
 ## 4.6. Domain-Driven Software Architecture
 
-### 4.6.1. Design-Level EventStorming
+### 4.6.1 Design-Level EventStorming
 
-### 4.6.2. Software Architecture Context Diagram
+### 4.6.2 Software Architecture Context Diagram
 
 <a id="4-6-2-software-architecture-context-diagram"></a>
 
 El Diagrama de Contexto representa la vista de más alto nivel de **DomotiCore**, detallando cómo el sistema interactúa con los usuarios y sistemas externos sin profundizar en detalles técnicos.
 
-#### Sistema Central
+***Sistema Central***
+
 - **DomotiCore**: Plataforma IoT para la gestión, monitoreo y automatización de dispositivos inteligentes en hogares y pequeños negocios.
 
-#### Usuarios
+****Usuarios****
 
-##### Smart Home Users
+***Smart Home Users***
 - Controlan dispositivos inteligentes del hogar.
 - Monitorean consumo energético en tiempo real.
 - Configuran automatizaciones del hogar.
 
-##### Small Business Owners
+***Small Business Owners***
 - Gestionan dispositivos IoT en pequeños negocios.
 - Supervisan consumo energético para optimización de costos.
 - Automatizan procesos eléctricos y de seguridad.
 
-#### Sistemas Externos
+***Sistemas Externos***
 - **MQTT Broker (Servicio de Mensajería IoT)**  
   Encargado de la comunicación en tiempo real con dispositivos IoT.
 
@@ -634,7 +634,7 @@ El Diagrama de Contexto representa la vista de más alto nivel de **DomotiCore**
 - **Firebase Cloud Messaging (Servicio de Notificaciones)**  
   Maneja el envío de notificaciones push.
 
-#### Resumen de Interacción
+***Resumen de Interacción***
 - Los usuarios (**Smart Home Users** y **Small Business Owners**) interactúan directamente con **DomotiCore**.
 - **DomotiCore** delega:
   - Autenticación a Firebase Authentication.
@@ -644,18 +644,19 @@ El Diagrama de Contexto representa la vista de más alto nivel de **DomotiCore**
 
 ![Context-Diagram](imagenes/imagenes_Cap4/software-arquitecture-diagrams/context-diagram.png)
 
----
-### 4.6.3. Software Architecture Container Diagrams
+### 4.6.3 Software Architecture Container Diagrams
 
 <a id="4-6-3-software-architecture-container-diagrams"></a>
 
 Este nivel desglosa el sistema **DomotiCore** en aplicaciones independientes, especificando las tecnologías de desarrollo empleadas.
 
-#### Web Application
+***Web Application***
+
 Aplicación desarrollada con **HTML, CSS y JavaScript**, la cual ofrece una interfaz de usuario responsiva y dinámica.  
 Se comunica con el backend mediante peticiones asíncronas sobre **HTTPS**.
 
-#### API Application
+***API Application***
+
 Construida en **Node.js** utilizando **Express**.  
 Este componente actúa como el núcleo del sistema, encargado de:
 
@@ -664,7 +665,8 @@ Este componente actúa como el núcleo del sistema, encargado de:
 - Exponer endpoints RESTful  
 - Integrarse con servicios externos  
 
-#### Database
+***Database***
+
 Motor de base de datos basado en **Firebase Firestore**, responsable de la persistencia de datos.  
 Garantiza:
 
@@ -674,66 +676,68 @@ Garantiza:
 
 ![Container-Diagram](imagenes/imagenes_Cap4/software-arquitecture-diagrams/container-diagram.png)
 
----
-### 4.6.4. Software Architecture Components Diagrams
+### 4.6.4 Software Architecture Components Diagrams
 
 <a id="4-6-4-software-architecture-components-diagrams"></a>
 
 Este nivel descompone el contenedor principal de la **API Application** en componentes internos responsables de la lógica de negocio, monitoreo IoT, automatización y gestión de datos dentro de **DomotiCore**.
 
+***Device Management Module***
 
-#### Device Management Module
 - Gestión de dispositivos IoT conectados.
 - Registro, actualización y control de estado.
 - Monitoreo en tiempo real.
 
-#### Automation Module
+***Automation Module***
+
 - Creación de reglas de automatización.
 - Ejecución de acciones inteligentes.
 - Gestión de eventos programados.
 
-#### Energy Monitoring Module
+***Energy Monitoring Module***
+
 - Recolección de métricas de consumo energético.
 - Análisis de datos de uso.
 - Generación de reportes.
 
-#### Notification Module
+***Notification Module***
+
 - Envío de alertas y notificaciones.
 - Integración con Firebase Cloud Messaging.
 - Notificaciones en tiempo real.
 
-#### Authentication Module
+***Authentication Module***
 - Gestión de autenticación de usuarios.
 - Validación de credenciales.
 - Control de sesiones.
 
-#### Persistence Layer
+***Persistence Layer***
+
 - Comunicación con Firebase Firestore.
 - Lectura y escritura de datos.
 - Gestión de información persistente.
 
-#### Shared Module
+***Shared Module***
 - Funciones reutilizables del sistema.
 - Validaciones globales.
 - Manejo centralizado de errores.
 
 ![Components-Diagram](imagenes/imagenes_Cap4/software-arquitecture-diagrams/components-diagram.png)
 
-## 4.7. Software Object-Oriented Design
+## 4.7 Software Object-Oriented Design
 
-### 4.7.1. Class Diagrams
+### 4.7.1 Class Diagrams
 
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/DiagramaClases.png"
        alt="texto">
 </div>
 
-## 4.8. Database Design
+## 4.8 Database Design
 
-### 4.8.1. Database Diagrams
+### 4.8.1 Database Diagrams
 
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/4.8 Open Source.png"
        alt="texto">
 </div>
-
