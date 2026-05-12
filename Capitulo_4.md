@@ -726,6 +726,135 @@ En la implementación final se puede apreciar el uso consistente de la paleta de
        alt="Business Settings"></div>
 
 ### 4.4.4 Web Applications User Flow Diagrams
+
+**User Flow Versión Desktop - Usuarios de Hogares Inteligentes**
+
+**El usuario se encuentra en la pantalla principal, en Dashboard**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/userflows-smart-home-users-web/userflow-dashboard-web.png"
+       alt="Dashboard">
+
+**El usuario se dirige a la sección de Security**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/userflows-smart-home-users-web/userflow-security-web.png"
+       alt="Security">
+
+**El usuario se dirige a la sección de Settings**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/userflows-smart-home-users-web/userflow-settings-web.png"
+       alt="Settings">
+
+**El usuario se dirige a la sección de Devices y puede acceder a revisar sus habitaciones**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/userflows-smart-home-users-web/userflow-devices-web.png"
+       alt="Devices">
+
+**El usuario se dirige a la sección de Automations y puede darle a New Automation**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/userflows-smart-home-users-web/userflow-automations-web.png"
+       alt="Automation">
+
+**El usuario se dirige a la sección de History**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/userflows-smart-home-users-web/userflow-history-web.png"
+       alt="History">
+
+**El usuario puede presionar Notifications Center o puede dirigirse a History Log**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/userflows-smart-home-users-web/userflow-notifications-history-log-web.png"
+       alt="Notifications">
+
+**User Flow Versión Mobile - Usuarios de Hogares Inteligentes**
+
+**El usuario aparece en la pantalla principal y puede seleccionar una habitación de su preferencia**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/userflows-smart-home-users-mobile/userflow-home-mobile.png"
+       alt="Home">
+
+**El usuario puede dirigirse a la sección de Automation y presionar New Automation**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/userflows-smart-home-users-mobile/userflow-automation-actions-mobile.png"
+       alt="Automation">
+
+**El usuario se dirige a la sección de Devices y puede seleccionar la habitación de su interés**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/userflows-smart-home-users-mobile/userflow-devices-mobile.png"
+       alt="Devices">
+
+**El usuario al seleccionar la habitación puede gestionarla y puede agregar dispositivos de seguridad**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/userflows-smart-home-users-mobile/userflow-selected-room-mobile.png"
+       alt="Selected Room">
+
+**El usuario puede dirigirse a la sección de Notifications, asimismo puede dirigirse a su Profile**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/userflows-smart-home-users-mobile/userflow-notifications-actions-mobile.png"
+       alt="Notifications">
+
+**El usuario puede revisar la energía que consumen sus dispositivos**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/userflows-smart-home-users-mobile/userflow-energy-mobile.png"
+       alt="Energy">
+
+**User Flow Versión Desktop - Pequeños Negocios y Emprendedores**
+
+**El usuario ingresa a la pantalla principal, Dashboard**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/userflows-small-business-web/userflow-dashboard-web.png"
+       alt="Dashboard">
+
+**El usuario se dirige a la sección de Automation y con esta sus gestiones**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/userflows-small-business-web/userflow-automation-actions-web.png"
+       alt="Automations">
+
+**El usuario se dirige a la sección de Reportes y con esta sus gestiones**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/userflows-small-business-web/userflow-reports-actions-web.png"
+       alt="Reports">
+
+**El usuario se dirige a la sección de Alerts & History**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/userflows-small-business-web/userflow-alerts-history-web.png"
+       alt="Alerts & History">
+
+**El usuario se dirige a la sección de Devices y con esta sus gestiones**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/userflows-small-business-web/userflow-devices-actions-web.png"
+       alt="Devices">
+
+**El usuario se dirige a la sección de Users y con esta sus gestiones**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/userflows-small-business-web/userflow-users-actions-web.png"
+       alt="Users">
+
+**User Flow Versión Mobile - Pequeños Negocios y Emprendedores**
+
+**El usuario aparece en la pantalla principal, Dashboard**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/userflows-small-business-mobile/userflow-dashboard-mobile.png"
+       alt="Dashboard">
+
+**El usuario se puede dirigir a la sección de Devices y acceder a las funcionalidades**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/userflows-small-business-mobile/userflow-devices-actions-mobile.png"
+       alt="Devices">
+
+**El usuario se puede dirigir a la sección de Reports y también puede ver  el Alert Center**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/userflows-small-business-mobile/userflow-reports-actions-mobile.png"
+       alt="Reports">
+
+**El usuario continuando con los Reports puede ver los Summary y acceder a otras funcionalidades**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/userflows-small-business-mobile/userflow-reports--summary-actions-mobile.png"
+       alt="Reports Summary">
+
+**El usuario se puede dirigir a la sección de Settings y a Team Directory**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/userflows-small-business-mobile/userflow-settings-actions-mobile.png"
+       alt="Settings">
+
 ## 4.5. Web Applications Prototyping
 
 ## 4.6. Domain-Driven Software Architecture
