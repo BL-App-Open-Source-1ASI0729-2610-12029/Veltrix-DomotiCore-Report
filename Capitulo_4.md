@@ -417,6 +417,139 @@ En la implementación final se puede apreciar el uso consistente de la paleta de
 
 ### 4.4.2 Web Applications Wireflow Diagrams
 
+**Wireflow Versión Desktop - Usuarios de Hogares Inteligentes**
+
+**El usuario puede ingresar al home de la aplicación web**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/wireflows-smart-home-users-web/wireflow-dashboard-web.png"
+       alt="Dashboard">
+
+**El usuario puede ingresar a security**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/wireflows-smart-home-users-web/wireflow-security-web.png"
+       alt="Security">
+
+**El usuario puede ingresar a settings**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/wireflows-smart-home-users-web/wireflow-settings-web.png"
+       alt="Settings">
+
+**El usuario puede ingresar a devices**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/wireflows-smart-home-users-web/wireflow-devices-web.png"
+       alt="Devices">
+
+**El usuario puede revisar la habitación que ha seleccionado para monitorear sus dispositivos**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/wireflows-smart-home-users-web/wireflow-room-selected-web.png"
+       alt="Room selected">
+
+**El usuario puede ingresar a Smart Automations**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/wireflows-smart-home-users-web/wireflow-smart-automations-web.png"
+       alt="Smart Automations">
+
+**El usuario puede añadir a new automation**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/wireflows-smart-home-users-web/wireflow-new-automation-web.png"
+       alt="New Automation">
+
+**El usuario puede ingresar a history**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/wireflows-smart-home-users-web/wireflow-history-web.png"
+       alt="History">
+
+**El usuario puede ingresar tanto a la sección de Notifications y a su History Log**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/wireflows-smart-home-users-web/wireflow-notifications-history-log-web.png"
+       alt="Notifications">
+
+**Wireflow Versión Mobile - Usuarios de Hogares Inteligentes**
+
+**El usuario ingresa y aparece la pantalla principal**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/wireflows-smart-home-users-mobile/wireflow-system-status-mobile.png"
+       alt="Home">
+
+**El usuario se dirige al apartado de Automations**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/wireflows-smart-home-users-mobile/wireflow-automations-mobile.png"
+       alt="Automations">
+
+**El usuario se dirige al apartado de New Automation**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/wireflows-smart-home-users-mobile/wireflow-new-automation-mobile.png"
+       alt="New Automation">
+
+**El usuario puede revisar la cantidad de energía y dirigirse a Activity History**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/wireflows-smart-home-users-mobile/wireflow-energy-activity-history-mobile.png"
+       alt="Energy">
+
+**El usuario puede dirigirse a su Profile para configurarlo**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/wireflows-smart-home-users-mobile/wireflow-profile-mobile.png"
+       alt="Profile">
+
+**El usuario se dirige a Devices**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/wireflows-smart-home-users-mobile/wireflow-devices-mobile.png"
+       alt="Devices">
+
+**El usuario se dirige a un espacio de su sistema de control**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/wireflows-smart-home-users-mobile/wireflow-selected-room-mobile.png"
+       alt="Selected Room">
+
+**Wireflow Versión Desktop - Pequeños Negocios y Emprendedores**
+
+**El usuario puede ingresar a la pantalla principal**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/wireflows-small-business-web/wireflow-automation-center-web.png"
+       alt="Automatization center">
+
+**El usuario puede dirigirse a Users y gestionar diversas acciones como Business Profile & API Settings**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/wireflows-small-business-web/wireflow-users-action-web.png"
+       alt="Users action">
+
+**El usuario puede dirigirse a Reports y gestionar diversas acciones como Cost Analysis Details**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/wireflows-small-business-web/wireflow-reports-action-web.png"
+       alt="Reports action">
+
+**El usuario puede dirigirse a Devices y gestionar diversas acciones como Device Explorer**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/wireflows-small-business-web/wireflow-devices-action-web.png"
+       alt="Devices action">
+
+**Wireflow Versión Mobile - Pequeños Negocios y Emprendedores**
+
+**El usuario ingresa y puede acceder a la pantalla principal**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/wireflows-small-business-mobile/wireflows-dashboard-overview-mobile.png"
+       alt="Dashboard Overview">
+
+**El usuario puede dirigirse a Devices y gestionar diversas acciones como Office y View All Devices**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/wireflows-small-business-mobile/wireflows-devices-actions-mobile.png"
+       alt="Devices actions">
+
+**El usuario puede dirigirse a Logs y gestionar diversas acciones como Business Protocols**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/wireflows-small-business-mobile/wireflows-logs-actions-mobile.png"
+       alt="Logs actions">
+
+**El usuario puede dirigirse a Settings y gestionar diversas acciones como Business Profile**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/wireflows-small-business-mobile/wireflows-settings-actions-mobile.png"
+       alt="Settings actions">
+
+**El usuario puede dirigirse a Reports y gestionar diversas acciones como Alert Center**
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/wireflows-small-business-mobile/wireflows-reports-actions-mobile.png"
+       alt="Reports actions">
+
 
 ### 4.4.3 Web Applications Mock-ups
 
