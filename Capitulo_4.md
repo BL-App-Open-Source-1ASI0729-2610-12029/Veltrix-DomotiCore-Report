@@ -5,7 +5,7 @@ El diseño de la plataforma se enfoca en ofrecer una interfaz intuitiva que faci
 
 La plataforma está pensada para manejar múltiples proyectos, usuarios y contribuciones de forma organizada, manteniendo un entorno accesible, escalable y centrado en la colaboración.
 
-## 4.1.1. General Style Guidelines
+### 4.1.1. General Style Guidelines
 
 En este apartado se detallan las decisiones de estilo que definen la identidad visual de la plataforma, orientada a conectar desarrolladores con proyectos y facilitar su participación en tareas reales. Las decisiones relacionadas con branding, tipografía, colores, espaciado y lenguaje buscan transmitir accesibilidad, colaboración, claridad y dinamismo, elementos clave dentro de comunidades tecnológicas.
 
@@ -124,7 +124,7 @@ El diseño visual considera elementos fundamentales:
 
 Estos elementos contribuyen a una experiencia clara y eficiente.
 
-## 4.1.2. Web Style Guidelines
+### 4.1.2. Web Style Guidelines
 
 La plataforma será desarrollada como una aplicación web adaptable (Responsive Web Design), permitiendo su uso en distintos dispositivos como laptops, tablets y smartphones.
 
@@ -150,7 +150,7 @@ La arquitectura de la información de la plataforma se centra en facilitar la ex
 
 El diseño de la información está orientado a guiar al usuario desde la exploración inicial hasta la contribución, manteniendo una estructura clara, escalable y alineada con las dinámicas reales del desarrollo colaborativo.
 
-## 4.2.1. Organization Systems
+### 4.2.1. Organization Systems
 
 En la plataforma se emplea principalmente una **organización jerárquica**, en la cual los elementos más relevantes para el usuario, como proyectos recomendados, issues destacados y oportunidades de contribución inmediata, se presentan con mayor prioridad visual dentro de la interfaz. Esta jerarquía permite que los desarrolladores identifiquen rápidamente dónde pueden participar, especialmente en el caso de usuarios principiantes que buscan su primera experiencia en Open Source.
 
@@ -162,7 +162,7 @@ En cuanto a la organización temporal, la plataforma utiliza un enfoque **cronol
 
 Finalmente, la información también se organiza considerando el **perfil del usuario**, adaptando recomendaciones y contenido según su nivel (principiante, intermedio o avanzado), historial de contribuciones e intereses tecnológicos. Esto permite una experiencia más personalizada y eficiente.
 
-## 4.2.2. Labeling Systems
+### 4.2.2. Labeling Systems
 
 Se prioriza el uso de etiquetas cortas, precisas y comprensibles, con el objetivo de reducir la carga cognitiva del usuario y facilitar la navegación dentro del sistema.
 
@@ -193,7 +193,7 @@ Se prioriza el uso de etiquetas cortas, precisas y comprensibles, con el objetiv
 
 Estas etiquetas permiten clasificar la información de manera eficiente y facilitar la toma de decisiones del usuario.
 
-## 4.2.3. SEO Tags and Meta Tags
+### 4.2.3. SEO Tags and Meta Tags
 
 Para asegurar que la plataforma *DomotiCore*, sea funcional, se han configurado los siguientes meta tags técnicos. Estos permiten posicionar la solución como una plataforma de domótica orientada al control inteligente de dispositivos electrónicos en hogares y pequeñas empresas.
 
@@ -218,7 +218,7 @@ Para asegurar que la plataforma *DomotiCore*, sea funcional, se han configurado 
 * **Robots:** en html:  
     `<meta name="robots" content="index, follow">`
 
-## 4.2.4. Searching Systems
+### 4.2.4. Searching Systems
 
 Dado que la plataforma puede manejar múltiples dispositivos electrónicos, sensores y reglas automatizadas, se han implementado mecanismos de búsqueda y filtrado que permiten acceder de manera directa a la información crítica.
 
@@ -252,7 +252,7 @@ Esto facilita el monitoreo y análisis del comportamiento del sistema.
 **Búsqueda contextual:**  
 Dentro de cada módulo (dispositivos, automatización, historial), el usuario puede realizar búsquedas específicas relacionadas únicamente con ese entorno, mejorando la precisión y reduciendo la complejidad.
 
-## 4.2.5. Navigation Systems
+### 4.2.5. Navigation Systems
 
 Se busca que el usuario nunca esté a más de tres interacciones de realizar una acción clave, como encender un dispositivo, configurar una automatización o revisar una alerta.
 
@@ -301,7 +301,7 @@ La interfaz se adapta a distintos dispositivos (desktop, tablet, móvil), reorga
 
 ## 4.3. Landing Page UI Design
 
-## 4.3.1 Landing Page Wireframe.
+### 4.3.1 Landing Page Wireframe.
 
 La landing page de DomotiCore presenta una estructura clara y orientada a la conversión, iniciando con una sección principal que introduce la solución como una plataforma IoT capaz de centralizar y automatizar el control de dispositivos eléctricos, resaltando beneficios como el monitoreo en tiempo real, el ahorro energético y la facilidad de uso sin conocimientos técnicos. A continuación, la sección “Nosotros” contextualiza el proyecto, destacando su origen como iniciativa de estudiantes peruanos y su enfoque en brindar soluciones accesibles y sostenibles para hogares y pequeñas empresas.
 
@@ -317,7 +317,7 @@ Finalmente, la landing concluye con una sección de contacto que integra un form
 <div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-landing/wireframe-4.png" alt="texto"></div>
 <div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-landing/wireframe-5.png" alt="texto"></div>
 
-## 4.3.2 Landing Page Mock-up.
+### 4.3.2 Landing Page Mock-up.
 
 El wireframe de la landing page en su versión de escritorio ha permitido organizar de forma clara y jerárquica los elementos principales de DomotiCore, facilitando la presentación de la propuesta de valor centrada en el control y automatización de dispositivos eléctricos. A partir de esta estructura inicial, se desarrolló el mockup de la interfaz, manteniendo coherencia con las funcionalidades definidas, como el monitoreo en tiempo real, la gestión remota, las alertas inteligentes y la visualización del consumo energético.
 
@@ -330,7 +330,8 @@ En la implementación final se puede apreciar el uso consistente de la paleta de
 <div style="text-align:center;"><img src="imagenes/imagenes_Cap4/mockup-landing/mockup-5.png" alt="texto"></div>
 
 ## 4.4. Web Applications UX/UI Design
-## 4.4.1. Web Applications Wireframes
+
+### 4.4.1. Web Applications Wireframes
 
 **Wireframes Versión Desktop - Usuarios de Hogares Inteligentes** 
 
@@ -415,8 +416,10 @@ En la implementación final se puede apreciar el uso consistente de la paleta de
 <div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-mobile/wireframe_business_profile.png" alt="texto"></div>
 
 
-## 4.4.2. Web Applications Wireflow Diagrams
-## 4.4.3. Web Applications Mock-ups
+### 4.4.2. Web Applications Wireflow Diagrams
+
+
+### 4.4.3. Web Applications Mock-ups
 
 **Versión Desktop Mockups - Usuarios de Hogares Inteligentes** 
 
@@ -590,13 +593,14 @@ En la implementación final se puede apreciar el uso consistente de la paleta de
   <img src="imagenes/imagenes_Cap4/mockups-small-business-mobile/business-settings.png"
        alt="Business Settings"></div>
 
-## 4.4.4. Web Applications User Flow Diagrams
+### 4.4.4. Web Applications User Flow Diagrams
 ## 4.5. Web Applications Prototyping
+
 ## 4.6. Domain-Driven Software Architecture
 
-## 4.6.1. Design-Level EventStorming
+### 4.6.1. Design-Level EventStorming
 
-## 4.6.2. Software Architecture Context Diagram
+### 4.6.2. Software Architecture Context Diagram
 
 <a id="4-6-2-software-architecture-context-diagram"></a>
 
@@ -641,7 +645,7 @@ El Diagrama de Contexto representa la vista de más alto nivel de **DomotiCore**
 ![Context-Diagram](imagenes/imagenes_Cap4/software-arquitecture-diagrams/context-diagram.png)
 
 ---
-## 4.6.3. Software Architecture Container Diagrams
+### 4.6.3. Software Architecture Container Diagrams
 
 <a id="4-6-3-software-architecture-container-diagrams"></a>
 
@@ -671,7 +675,7 @@ Garantiza:
 ![Container-Diagram](imagenes/imagenes_Cap4/software-arquitecture-diagrams/container-diagram.png)
 
 ---
-## 4.6.4. Software Architecture Components Diagrams
+### 4.6.4. Software Architecture Components Diagrams
 
 <a id="4-6-4-software-architecture-components-diagrams"></a>
 
@@ -717,7 +721,7 @@ Este nivel descompone el contenedor principal de la **API Application** en compo
 
 ## 4.7. Software Object-Oriented Design
 
-## 4.7.1. Class Diagrams
+### 4.7.1. Class Diagrams
 
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/DiagramaClases.png"
@@ -726,7 +730,7 @@ Este nivel descompone el contenedor principal de la **API Application** en compo
 
 ## 4.8. Database Design
 
-## 4.8.1. Database Diagrams
+### 4.8.1. Database Diagrams
 
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/4.8 Open Source.png"

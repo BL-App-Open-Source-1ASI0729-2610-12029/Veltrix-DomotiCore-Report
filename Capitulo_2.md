@@ -1,7 +1,3 @@
-# Requirements Elicitation & Analysis
-
-La recolección y análisis de requisitos es una etapa fundamental en el desarrollo de la plataforma DomotiCore, ya que permite identificar y comprender las necesidades de los stakeholders involucrados en la gestión, monitoreo y automatización. A través de técnicas como entrevistas, análisis de la competencia y evaluación de escenarios de uso, se busca obtener una visión clara de problemáticas como la falta de visibilidad, la fragmentación de la información y la ausencia de estandarización en los procesos. Este análisis permite definir los requerimientos clave del sistema, estableciendo una base sólida para el diseño y desarrollo de una solución que optimice la gestión de proyectos y mejore la toma de decisiones dentro de las organizaciones.
-
 ## 2.1 Competidores
 En la siguiente sección se presentarán los principales competidores de nuestra solución, así como un análisis general de sus características en comparación con el servicio propuesto.
 
@@ -40,7 +36,7 @@ En la siguiente sección se presentarán los principales competidores de nuestra
 | **Oportunidades**                          | • Crecimiento del mercado IoT. <br> • Usuarios buscan soluciones simples y económicas.             | • Expansión ágil. <br> • Integración con nuevas tecnologías.       | • Mayor adopción de smart homes. <br> • Aumento del mercado.   | • Crecimiento de usuarios Apple. |
 | **Amenazas**                               | • Competidores fuertes. <br> • Grandes empresas como Google o Amazon.                                            | • Competidores más accesibles. <br> • Saturación del mercado ágil. | • Competidores más completos. <br> • Competencia de grandes ecosistemas. | • Limitación de compatibilidad.   |
 
-### 2.1.2. Estrategias y tácticas frente a competidores.
+### 2.1.2 Estrategias y tácticas frente a competidores.
 
 Para destacar frente a la competencia en el mercado de soluciones de domótica e IoT, es fundamental que Veltrix, a través de su plataforma DomotiCore, implemente estrategias y tácticas que le permitan diferenciarse de soluciones consolidadas y captar tanto a usuarios domésticos como a pequeños negocios que buscan alternativas más accesibles, simples y centralizadas. A continuación, se describen las principales estrategias y tácticas que se implementarán:
 
@@ -95,16 +91,16 @@ Diseñar DomotiCore con capacidad de integración progresiva con diversos dispos
 ## 2.2 Entrevistas
 
 ### 2.2.1 Diseño de Entrevistas
- #### Preguntas presentación
+**Preguntas presentación**
 
 - ¿Cual es su nombre?
 - ¿Cuántos años tiene?
 - ¿Cuál es su distrito de residencia?
 - ¿En qué escuela trabaja?
 
- ### Segmento 1: Usuarios de Hogares Inteligentes
+**Segmento 1: Usuarios de Hogares Inteligentes**
 
-#### Preguntas principales:
+***Preguntas principales:***
 
 1. ¿Cuántas personas viven en su hogar y cuál es su rutina diaria?
 2. ¿Qué dispositivos electrónicos utiliza con mayor frecuencia en casa?
@@ -116,7 +112,9 @@ Diseñar DomotiCore con capacidad de integración progresiva con diversos dispos
 8. ¿Qué dificultades encuentra al gestionar sus dispositivos diariamente?
 9. ¿Qué características le gustaría tener en una solución de automatización del hogar?
 10. ¿Estaría dispuesto a usar una plataforma web para controlar sus dispositivos?
-#### Preguntas complementarias:
+
+***Preguntas complementarias:***
+
 11. ¿Qué tan cómodo se siente usando nuevas tecnologías?
 12. ¿Qué tan seguido utiliza internet en casa?
 13. ¿Qué lo motivaría a adoptar una solución como esta?

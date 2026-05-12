@@ -35,7 +35,9 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 | **Comunica por escrito con efectividad a diferentes rangos de audiencia** | **Tello Palacios, Fabrizio Rafael**<br> **AV1**<br> Se comunicaron por escrito los avances del proyecto de forma clara y estructurada la documentación del flujo de trabajo en Git. Esto permitió adaptar el contenido tanto para audiencias técnicas como no técnicas. <br><br> **Checa Burga, Oscar Diego**<br>**AV1**<br> Se comunico por escrito los avances del proyecto, asi como la creacion de landing page. Esto permitió adaptar el contenido a las necesidades de nuestros usuarios. <br><br> **Quispe llacsahuanga, César Agusto**<br>**AV1**<br>Elaboró contenidos relacionados a la Landing Page, organizando la información de manera estructurada para facilitar su comprensión y coherencia con el diseño del sistema. Realizo avances en todos los capitulos en diferentes puntos. <br><br>**Esquicha Alcántara, Diego Alonso**<br>**AV1**<br>Asimismo, los avances fueron documentados por escrito de forma ordenada y precisa, detallando el flujo de trabajo en Git. Esta documentación permitió presentar la información de manera adaptable, resultando clara tanto para perfiles técnicos como para quienes no cuentan con formación técnica. <br><br> **Rocha Cotrina, Alvaro** <br>**AV1**<br>A lo largo del proyecto, participé en la redacción y organización de distintas secciones del documento, como User Stories, Product Backlog, Style Guidelines y Architecture, asegurando una estructura clara, coherente y alineada con los requerimientos del curso. Además, se utilizaron recursos como tablas, listas y descripciones detalladas que facilitaron la comprensión tanto para lectores técnicos como no técnicos. De esta manera, se logró transmitir la información de forma ordenada y precisa, permitiendo entender el funcionamiento, diseño y alcance de la solución propuesta.|  En conclusión, la documentación desarrollada evidenció la capacidad de transmitir información de manera escrita con claridad y coherencia, facilitando la comprensión del proyecto en distintos niveles. Asimismo, se demostró que el uso de recursos estructurados y visuales mejora la comunicación y el entendimiento entre los diferentes actores involucrados. |
 
 # Introducción
+
 ## 1.1 Startup Profile
+
 ### 1.1.1 Descripción de la Startup
 
 Somos una startup peruana denominada **Veltrix**, creada por estudiantes de la carrera de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas (UPC), que tiene como objetivo principal optimizar la gestión y control de dispositivos electrónicos en hogares y pequeñas empresas mediante el uso de tecnología IoT.
@@ -44,7 +46,7 @@ Nuestra misión es lograr que ninguna persona o negocio gestione sus dispositivo
 
 Para cumplir con este propósito, hemos desarrollado el proyecto **DomotiCore**, una plataforma web de domótica que permite a los usuarios gestionar, monitorear y automatizar dispositivos electrónicos de manera centralizada. La solución ofrece control en tiempo real, programación de horarios, monitoreo del estado de los dispositivos y una interfaz intuitiva que facilita la interacción del usuario sin necesidad de conocimientos técnicos avanzados.
 
-### 1.1.2. Perfiles de los Miembros del Equipo
+### 1.1.2 Perfiles de los Miembros del Equipo
 
 docs: update formatting and improve table structure in readme.
 | Foto | Apellido y Nombre | 
@@ -54,10 +56,6 @@ docs: update formatting and improve table structure in readme.
 ![cesar](imagenes/imagenes_Cap1/cesar.jpeg) | *Quispe Llacsahuanga César Agusto - u202417405* Soy estudiante de Ingeniería de Software, interesado en el desarrollo de soluciones tecnológicas y el aprendizaje continuo en herramientas de programación. Cuento con conocimientos en lógica de programación, bases de datos y desarrollo de aplicaciones, lo que me permite contribuir en la construcción de sistemas eficientes. Me caracterizo por ser responsable, proactivo y con buena disposición para el trabajo en equipo, adaptándome a nuevos retos y aportando en el cumplimiento de los objetivos del proyecto. 
 ![alvaro](imagenes/imagenes_Cap1/alvaro.png) | *Rocha Cotrina Alvaro - u202411243* Soy estudiante de Ingeniería de Software, con enfoque en el desarrollo backend, bases de datos y lógica de programación. Cuento con experiencia en la creación de aplicaciones y resolución de problemas mediante programación, especialmente en lenguajes como C++ y el diseño de sistemas estructurados. Me caracterizo por ser organizado, responsable y comprometido con el trabajo en equipo, aportando en la construcción de soluciones eficientes y en la correcta estructuración de la arquitectura del sistema. Además, tengo una gran capacidad de aprendizaje y adaptación a nuevas tecnologías, lo que me permite contribuir activamente en el desarrollo del proyecto.
 ![fabrizio](imagenes/imagenes_Cap1/Fabrizio.png) | *Tello Palacios Fabrizio Rafael - u202113310*  Soy estudiante de la carrera de Ingeniería de Software. Considero que soy una persona comprometida en cada trabajo y tarea y siempre trato de dar lo mejor de mi en cada situación. A veces tengo complicaciones con la organización de mi tiempo, pero siempre estoy atento a cualquier problema dentro del equipo para poder pensar en soluciones y llegar a la mejor posible. Me gustan los retos, porque son esos retos los que me motivan a ser mejor como persona y como estudiante. Tengo muchas  cosas en las que mejorar y sé que lo lograré con disciplina y perseverancia.
-
-
-
-
 ## 1.2 Solution Profile
 
 ### 1.2.1 Antecedentes y Problemática
@@ -83,12 +81,12 @@ A diferencia de un sistema automatizado donde los dispositivos responden a confi
 **How Much / ¿CUÁNTO?**  
 Los usuarios pueden perder entre un 15% y 25% de eficiencia energética debido al uso manual e inadecuado de dispositivos, lo que se traduce en mayores costos de electricidad y menor optimización de recursos.  
 
+### 1.2.2. Lean UX Process
+#### 1.2.2.1. Lean UX Problem Statements
 
----
+#### 1.2.2.2 Lean UX Assumptions
 
-### 1.2.2.2 Lean UX Assumptions
-
-#### A. Business Assumptions
+**A. Business Assumptions**
 
 - Creemos que nuestros clientes necesitan:  
 Centralizar el control de sus dispositivos electrónicos, monitorear el consumo energético y automatizar tareas repetitivas para optimizar recursos y reducir errores operativos.  
@@ -123,8 +121,7 @@ Complejidad en la integración con distintos dispositivos físicos IoT y adopci�
 - Mitigación:  
 Uso de dispositivos estándar (ESP32/Arduino), simulación de hardware, interfaz intuitiva y arquitectura escalable orientada a facilidad de uso.  
 
-
-#### B. User Assumptions
+**B. User Assumptions**
 
 - ¿Quién es el usuario?  
 Usuarios domésticos y emprendedores que desean controlar y automatizar dispositivos electrónicos de manera simple, accesible y centralizada.  
@@ -144,8 +141,7 @@ Dashboard centralizado, monitoreo energético por dispositivo, automatización p
 - Look & feel:  
 Interfaz moderna, intuitiva, accesible y fácil de utilizar desde navegador web y dispositivos móviles.  
 
-
-#### C. User Outcome & Benefit Assumptions
+**C. User Outcome & Benefit Assumptions**
 
 - Visibilidad centralizada del estado y consumo de los dispositivos  
 - Reducción del consumo energético y costos operativos  
@@ -153,8 +149,7 @@ Interfaz moderna, intuitiva, accesible y fácil de utilizar desde navegador web 
 - Mayor tranquilidad y control remoto desde cualquier ubicación  
 - Reducción de errores humanos relacionados con olvidos o supervisión manual  
 
-
-#### D. Business Outcome Assumptions
+**D. Business Outcome Assumptions**
 
 - Reducción del 20% en el consumo energético durante los primeros meses de uso  
 - Incremento del 30% en el uso de automatizaciones programadas  
@@ -162,8 +157,7 @@ Interfaz moderna, intuitiva, accesible y fácil de utilizar desde navegador web 
 - Retención superior al 80% mediante una experiencia simple e intuitiva  
 - Diferenciación frente a soluciones complejas mediante accesibilidad y facilidad de uso  
 
-
-#### E. Feature Assumptions
+**E. Feature Assumptions**
 
 - Dashboard Centralizado: permitirá visualizar dispositivos, estados y consumo energético en una sola interfaz  
 
@@ -175,33 +169,25 @@ Interfaz moderna, intuitiva, accesible y fácil de utilizar desde navegador web 
 
 - Alertas Inteligentes: reducirán errores humanos relacionados con dispositivos encendidos innecesariamente  
 
+#### 1.2.2.3 Lean UX Hypothesis Statements
 
----
-
-### 1.2.2.3 Lean UX Hypothesis Statements
-
-#### Control Centralizado
+**Control Centralizado**
 
 Creemos que al ofrecer un dashboard centralizado con información en tiempo real sobre dispositivos y consumo energético, reduciremos la interacción manual de los usuarios en un 25% y aumentaremos su capacidad de supervisión y control operativo. Sabremos que estamos bien cuando observemos comentarios como: “Ahora puedo controlar y supervisar todos mis dispositivos desde un solo lugar” y/o cuando los registros del sistema reflejen un uso recurrente del dashboard para monitoreo diario.  
 
-
-#### Automatización de Dispositivos
+**Automatización de Dispositivos**
 
 Creemos que al permitir automatizaciones programadas y configuraciones inteligentes, los usuarios podrán optimizar el uso de sus dispositivos y reducir el desperdicio energético en un 20%. Sabremos que estamos bien cuando los usuarios comenten: “Ya no necesito preocuparme por apagar dispositivos manualmente” y/o cuando las estadísticas de uso reflejen una alta frecuencia de automatizaciones configuradas.  
 
-
-#### Acceso Remoto
+**Acceso Remoto**
 
 Creemos que al ofrecer acceso remoto desde cualquier ubicación, incrementaremos la satisfacción y tranquilidad de los usuarios al permitirles supervisar y controlar sus dispositivos en tiempo real. Sabremos que estamos bien cuando observemos comentarios como: “Puedo supervisar mi hogar o negocio aunque no esté presente” y/o cuando el sistema registre accesos frecuentes fuera de la red local.  
 
-
-#### Optimización Energética
+**Optimización Energética**
 
 Creemos que al incorporar monitoreo energético individual por dispositivo y alertas inteligentes, los usuarios lograrán identificar consumos innecesarios y optimizar sus recursos eléctricos. Sabremos que estamos bien cuando observemos comentarios como: “Ahora sé qué dispositivos consumen más energía y puedo controlarlos mejor” y/o cuando se evidencien patrones de consumo más eficientes dentro de la plataforma.
 
-
----
-### 1.2.2.4 Lean UX Canvas
+#### 1.2.2.4 Lean UX Canvas
 
 | **Business Problem** | **Solutions** | **Business Outcomes** |
 | :------------------- | :------------ | :------------------- |
@@ -217,11 +203,10 @@ Creemos que al incorporar monitoreo energético individual por dispositivo y ale
 
 ## 1.3 Segmentos Objetivos
 
-### Segmento 1: Usuarios de Hogares Inteligentes
+**Segmento 1: Usuarios de Hogares Inteligentes**
 
 Corresponde a los usuarios finales que buscan mejorar su calidad de vida mediante la automatización de su entorno doméstico, conformado por personas entre 20 y 50 años con acceso a tecnología y familiarizadas con el uso de smartphones, aplicaciones móviles y servicios digitales, incluyendo estudiantes, profesionales y familias jóvenes que valoran la comodidad, la seguridad y la eficiencia en su día a día; en su rutina enfrentan problemas como olvidar apagar dispositivos, depender de acciones manuales constantes o no tener visibilidad del estado de sus equipos cuando están fuera de casa, lo que genera pequeñas ineficiencias acumulativas; psicográficamente, priorizan soluciones prácticas, intuitivas y accesibles que no requieran conocimientos técnicos avanzados, buscando herramientas que automaticen tareas repetitivas y optimicen su tiempo; en este contexto, una plataforma como DomotiCore representa una solución integral que no solo mejora la organización del hogar, sino que también contribuye al ahorro energético y brinda mayor tranquilidad mediante el control remoto de los dispositivos.
 
-### Segmento 2: Pequeños Negocios y Emprendedores
+**Segmento 2: Pequeños Negocios y Emprendedores**
 
 Define a los usuarios a nivel operativo y comercial que gestionan pequeños negocios y requieren optimizar el uso de sus recursos para mantener la rentabilidad, conformado por emprendedores y propietarios de establecimientos como farmacias, tiendas o locales comerciales, generalmente con equipos reducidos de trabajo y recursos limitados; estos negocios utilizan múltiples dispositivos eléctricos en su operación diaria, los cuales suelen ser gestionados de forma manual o sin un sistema centralizado, generando problemas como consumo energético innecesario, falta de control cuando el propietario no está presente y dependencia de terceros para supervisar el funcionamiento; psicográficamente, valoran soluciones confiables, accesibles y que generen un impacto directo en la reducción de costos y mejora operativa, priorizando herramientas fáciles de usar que no impliquen alta complejidad técnica; en el contexto actual, esta falta de automatización puede traducirse en pérdidas económicas y menor eficiencia, por lo que una plataforma como DomotiCore representa no solo una mejora tecnológica, sino una oportunidad estratégica para optimizar procesos, reducir gastos y mejorar el control del negocio desde cualquier lugar.
-

@@ -2,7 +2,7 @@
 
 La gestión en DomotiCore incluye el código fuente, documentación, prototipos y configuraciones del entorno. El proyecto contempla distintos productos digitales, incluyendo una Landing Page, aplicaciones web y servicios backend orientados a la automatización y monitoreo de dispositivos IoT. El equipo adopta prácticas basadas en GitFlow, Conventional Commits y Semantic Versioning, asegurando un flujo de trabajo colaborativo y organizado.
 
-## 5.1.1. Software Development Environment Configuration
+### 5.1.1. Software Development Environment Configuration
 En esta sección se describen las herramientas, tecnologías y plataformas utilizadas por el equipo para el desarrollo colaborativo del proyecto DomotiCore.
 
 | Category | Software / Tool | Purpose in the Project | Access / Download | Preview |
@@ -21,11 +21,11 @@ En esta sección se describen las herramientas, tecnologías y plataformas utili
 | **Software Testing** | Gherkin | Escenarios de prueba (control remoto, automatización, alertas) por historias de usuario. | [Gherkin](https://cucumber.io/docs/gherkin) | <img src="imagenes/images_Cap5/Gherkin.png" width="100">  |
 | **Deployment** | GitHub Pages | Despliegue de la Landing Page para mostrar la propuesta de valor. | [GH Pages](https://pages.github.com) | <img src="imagenes/images_Cap5/github pages.png" width="100"> |
 
-## 5.1.2. Source Code Management
+### 5.1.2. Source Code Management
 
 La gestión de código fuente del proyecto **DomotiCore** se realiza mediante la plataforma **GitHub**, permitiendo un control de versiones en entorno de trabajo colaborativo. Se han definido repositorios independientes para cada producto digital.
 
-### 5.1.2.1 Repositories
+#### 5.1.2.1 Repositories
 
 | Product | Repository URL | Description |
 | :--- | :--- | :--- |
@@ -37,7 +37,7 @@ La gestión de código fuente del proyecto **DomotiCore** se realiza mediante la
 ###
 <div style="text-align:center;"><img src="imagenes/images_Cap5/Proyecto-Github-Organizacion.png" width="800" alt="GitHub Repository Structure"></div>
 
-### 5.1.2.2 GitFlow Workflow
+#### 5.1.2.2 GitFlow Workflow
 
 El equipo adopta **GitFlow** como estrategia de branching para mantener la estabilidad.
 
@@ -51,7 +51,7 @@ El equipo adopta **GitFlow** como estrategia de branching para mantener la estab
 * **Hotfix Branches**: Ramas de emergencia para corregir errores críticos detectados directamente en producción.
     * **Naming Convention**: `hotfix/<issue-description>`
 
-### 5.1.2.3 Semantic Versioning
+#### 5.1.2.3 Semantic Versioning
 
 El proyecto utiliza **Semantic Versioning 2.0.0** para controlar las versiones de los productos digitales de Veltrix.
 
@@ -62,7 +62,7 @@ El proyecto utiliza **Semantic Versioning 2.0.0** para controlar las versiones d
 | **v1.1.1** | Corrección de errores menores. |
 | **v2.0.0** | Cambios mayores que incluyen modificaciones estructurales incompatibles. |
 
-### 5.1.2.4 Conventional Commits
+#### 5.1.2.4 Conventional Commits
 
 Se adopta el estándar de **Conventional Commits** para mantener un historial de cambios limpio y fácil de verificar por el equipo.
 
@@ -81,11 +81,11 @@ Se adopta el estándar de **Conventional Commits** para mantener un historial de
 * `fix: correct mobile navigation behavior`
 * `style: improve hero section spacing`
 
-## 5.1.3. Source Code Style Guide & Conventions
+### 5.1.3. Source Code Style Guide & Conventions
 
 El equipo adopta convenciones estandarizadas para garantizar legibilidad del código fuente. Como norma general, todos los nombres de variables, clases, funciones y componentes deben ser redactados en idioma **inglés**. 
 
-### 5.1.3.1 HTML Conventions
+#### 5.1.3.1 HTML Conventions
 
 * **Use Lowercase Element Names**: Todos los elementos y atributos HTML deben escribirse en minúsculas.
     ```html
@@ -108,7 +108,7 @@ El equipo adopta convenciones estandarizadas para garantizar legibilidad del có
     <div class="contact-form-container">
     ```
 
-### 5.1.3.2 CSS Conventions
+#### 5.1.3.2 CSS Conventions
 
 * **Use Kebab-Case for Class Names**: Las clases deben escribirse en minúsculas separadas por guiones.
     ```css
@@ -136,7 +136,7 @@ El equipo adopta convenciones estandarizadas para garantizar legibilidad del có
     }
     ```
 
-### 5.1.3.3 JavaScript Conventions
+#### 5.1.3.3 JavaScript Conventions
 
 * **Use CamelCase**: Las variables y funciones deben seguir la convención camelCase.
     ```javascript
@@ -157,11 +157,11 @@ El equipo adopta convenciones estandarizadas para garantizar legibilidad del có
     * **Incorrecto**: `<button onclick="sendData()">`
     * **Correcto**: `button.addEventListener("click", sendData);`
 
-## 5.1.4. Software Deployment Configuration
+### 5.1.4. Software Deployment Configuration
 
 Esta sección describe la configuración, el flujo de trabajo y el proceso de los productos digitales del proyecto.
 
-### 5.1.4.1 Landing Page Deployment
+#### 5.1.4.1 Landing Page Deployment
 
 La Landing Page institucional se despliega mediante **GitHub Pages**, utilizando el flujo de integración automática desde la rama `develop`.
 
@@ -187,7 +187,7 @@ La Landing Page institucional se despliega mediante **GitHub Pages**, utilizando
 
 ---
 
-### 5.1.4.2 Frontend Web Application Deployment
+#### 5.1.4.2 Frontend Web Application Deployment
 
 La aplicación web principal (desarrollada con **Vue.js**) será desplegada utilizando **Vercel** para facilitar la integración continua (CI/CD) y previsualizaciones automáticas por cada Pull Request.
 
@@ -195,7 +195,7 @@ La aplicación web principal (desarrollada con **Vue.js**) será desplegada util
 * **Platform**: Vercel
 * **Deployment URL**: [https://veltrix-domoticore-front-end.vercel.app/](https://veltrix-domoti-core-front-end-veltrix-domoticore.vercel.app?_vercel_share=bo1aDSBeyY4adfru2VY9Y9eZxjhJidiP)
 
-### 5.1.4.3 Backend Web Services Deployment
+#### 5.1.4.3 Backend Web Services Deployment
 
 Los servicios de lógica de negocio y conectividad IoT se despliegan en **Render**, permitiendo la exposición de endpoints seguros bajo el protocolo HTTPS para la comunicación con los dispositivos.
 
@@ -203,7 +203,7 @@ Los servicios de lógica de negocio y conectividad IoT se despliegan en **Render
 * **Platform**: Render
 * **Deployment URL**: [veltrix-domoticore](https://veltrix-domoticore-backend.onrender.com)
 
-### 5.1.4.4 OpenAPI Documentation
+#### 5.1.4.4 OpenAPI Documentation
 
 Para facilitar la integración entre el frontend y el backend, la documentación de la API se publica automáticamente mediante **Swagger UI**, permitiendo la visualización y prueba interactiva de los endpoints REST.
 
@@ -223,11 +223,11 @@ Estas implementaciones permitieron transformar los requisitos obtenidos mediante
 
 El desarrollo inicial fue realizado utilizando tecnologías frontend como **HTML**, **CSS** y **JavaScript**, siguiendo lineamientos de diseño responsive y buenas prácticas de desarrollo web para garantizar una experiencia de usuario en diversos dispositivos.
 
-## 5.2.1. Sprint 1
+### 5.2.1. Sprint 1
 
 El Sprint 1 representa el primer ciclo de desarrollo ágil del proyecto DomotiCore. Durante esta iteración, el equipo se enfocó en la construcción inicial de la Landing Page, organización de repositorios y definición de lineamientos técnicos del proyecto.
 
-## 5.2.1.1. Sprint Planning 1
+#### 5.2.1.1. Sprint Planning 1
 
 ### Sprint Information
 
@@ -270,7 +270,7 @@ El Sprint 1 representa el primer ciclo de desarrollo ágil del proyecto DomotiCo
 | **Story Points por historia** | 5 puntos |
 | **Sum of Story Points** | 25 |
 
-## 5.2.1.2. Aspect Leaders and Collaborators
+#### 5.2.1.2. Aspect Leaders and Collaborators
 
 | Team Member (Last Name, First Name) | GitHub Username | Infrastructure & Repository | Landing Page Development | Documentation (Chapters 1-5) |
 | :--- | :--- | :---: | :---: | :---: |
@@ -280,7 +280,7 @@ El Sprint 1 representa el primer ciclo de desarrollo ágil del proyecto DomotiCo
 | Tello, Fabrizio | F4bris | **C** | **C** | **C** |
 | Rocha , Alvaro | alvarorc24 | **C** | **C** | **C** |
 
-## 5.2.1.3. Sprint Backlog 1
+#### 5.2.1.3. Sprint Backlog 1
 
 Las User Stories del proyecto fueron reorganizadas durante las actividades de Sprint Planning con el objetivo de mejorar la consistencia, trazabilidad y organización funcional del Product Backlog.
 
@@ -309,7 +309,7 @@ La siguiente tabla resume las principales User Stories consideradas durante las 
 | **US-41** | Previsualización de funciones de la aplicación | Website |
 
 
-## 5.2.1.4 Source Code Management
+#### 5.2.1.4 Source Code Management
 
 La gestión del código fuente para el proyecto **DomotiCore** se realiza utilizando Git como sistema de control de versiones, permitiendo un flujo de trabajo colaborativo y un historial detallado de cambios realizados durante el Sprint.
 
@@ -321,7 +321,7 @@ La siguiente tabla resume los commits más relevantes realizados durante la impl
 | **domoticore-Business-Web-Page** | main | `36702da` | feat: add responsive design support | 2026-04-15 |
 | **domoticore-docs** | develop | `94d4937` | docs: update sprint 1 documentation | 2026-04-21 |
 
-## 5.2.1.5. Execution Evidence for Sprint Review
+#### 5.2.1.5. Execution Evidence for Sprint Review
 
 Durante el **Sprint 1** se logró implementar correctamente la estructura visual de la **Landing Page** de DomotiCore, incluyendo navegación interactiva, diseño responsive y un formulario de contacto funcional. Esta entrega presenta las secciones clave que brindan información detallada sobre la propuesta de valor del producto.
 
@@ -362,12 +362,12 @@ Asimismo, se adjunta un video demostrativo que recorre la navegación y las func
 
 **Enlace del Video**: [ Demostración de DomotiCore - Sprint 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417405_upc_edu_pe/IQCPng9giTbzT7yPR6RganePARwt5TeTRUKmAmmGUib8n3E?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ZW7H6O)
 
-## 5.2.1.6. Services Documentation Evidence for Sprint Review
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
 En este Sprint aún no se desarrollaron servicios backend completos. Sin embargo, se definieron preliminarmente los endpoints relacionados con monitoreo de dispositivos y automatización IoT.
 
 La documentación OpenAPI será incorporada en los siguientes Sprints.
-## 5.2.1.7. Software Deployment Evidence for Sprint Review
+#### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
 Durante este Sprint se realizaron las siguientes actividades clave relacionadas con el despliegue y  disponibilidad del producto:
 
@@ -377,7 +377,7 @@ Durante este Sprint se realizaron las siguientes actividades clave relacionadas 
 * **Verificación de accesibilidad responsive**: Pruebas de usabilidad y diseño adaptable en dispositivos móviles y tablets.
 
 
-## 5.2.1.8. Team Collaboration Insights during Sprint
+#### 5.2.1.8. Team Collaboration Insights during Sprint
 
 El equipo utilizó las herramientas analíticas de **GitHub Insights** para monitorear la participación activa de cada integrante durante el **Sprint 1**. Estos datos permitieron realizar un seguimiento detallado de los commits, pull requests y merges realizados.
 
@@ -392,22 +392,20 @@ A continuación, se presenta la captura de los analíticos proporcionados por Gi
 
 En estas métricas facilitó la identificación de cada apoyo de los colaboradores y ayudó a mejorar la distribución de tareas para los siguientes ciclos de desarrollo.
 
-## Bibliografía
+### 5.2.2. Sprint 2
 
-- Samuel Greengard, S. (2015). The Internet of Things. MIT Press.
-International Telecommunication Union. (2012). Overview of the Internet of Things (Recommendation ITU-T Y.2060). https://www.itu.int
+#### 5.2.2.1.Sprint Planning 2.
 
-- World Energy Council. (2020). Energy efficiency indicators. https://www.worldenergy.org
+#### 5.2.2.2. Aspect Leaders and Collaborators.
 
-## Conclusiones
+#### 5.2.2.3.Sprint Backlog 2.
 
-1. El desarrollo del proyecto permitió integrar de manera coherente herramientas como User Stories, wireframes y control de versiones con Git, logrando una base sólida tanto a nivel de análisis como de implementación.
+#### 5.2.2.4.Development Evidence for Sprint Review.
 
-2. Asimismo, se evidenció la importancia de una comunicación clara, tanto escrita como visual, para transmitir efectivamente las ideas del proyecto a distintos tipos de audiencia, facilitando la comprensión y el trabajo colaborativo.
+#### 5.2.2.5.Execution Evidence for Sprint Review.
 
-## Anexos
+#### 5.2.2.6.Services Documentation Evidence for Sprint Review.
 
-**Video  de exposición**
-(ACTUALIZAR)
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113310_upc_edu_pe/IQBB-A5V0F11So9iWE7DqDgoAcl3ZIcmUBVMwC_-fOgFkK0?e=bgWP1d&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+#### 5.2.2.7.Software Deployment Evidence for Sprint Review.
 
+#### 5.2.2.8.Team Collaboration Insights during Sprint.
