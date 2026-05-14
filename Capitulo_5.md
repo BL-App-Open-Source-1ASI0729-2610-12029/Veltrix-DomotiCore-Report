@@ -390,18 +390,106 @@ En estas métricas facilitó la identificación de cada apoyo de los colaborador
 
 ### 5.2.2 Sprint 2
 
-#### 5.2.2.1 Sprint Planning 2.
+| Campo | Detalle |
+| :--- | :--- |
+| **Sprint #** | Sprint 2 |
+| **Date** | 2026-05-09|
+| **Time** | 7:00 PM |
+| **Location** | Microsoft Teams (Reunión virtual) |
+| **Prepared By** | Equipo Veltrix |
 
-#### 5.2.2.2 Aspect Leaders and Collaborators.
+****Attendees (Planning Meeting)****
 
-#### 5.2.2.3 Sprint Backlog 2.
+| Participantes |
+| :--- |
+| Cesar Quispe |
+| Oscar Checa |
+| Diego Esquich |
+| Fabrizio Rafael |
+| Alvaro Rocha |
 
-#### 5.2.2.4 Development Evidence for Sprint Review.
+*****Sprint 2 – Review Summary****
 
-#### 5.2.2.5 Execution Evidence for Sprint Review.
+| Descripción |
+| :--- |
+| Durante el Sprint 2 se avanzó en el desarrollo y despliegue del Front-End de la Web App de DomotiCore. Se implementaron las principales vistas del sistema, incluyendo autenticación de usuarios, dashboard interactivo y módulos de monitoreo de dispositivos. Además, se configuró el entorno de despliegue para publicar la aplicación en un servicio cloud, se optimizó la estructura de componentes y se realizaron pruebas funcionales para validar la navegación y experiencia de usuario. Sin embargo, quedaron pendientes algunas integraciones avanzadas con backend y mejoras relacionadas con rendimiento y seguridad.|
 
-#### 5.2.2.6 Services Documentation Evidence for Sprint Review.
+****Sprint 2 – Retrospective Summary****
 
-#### 5.2.2.7 Software Deployment Evidence for Sprint Review.
+| Descripción |
+| :--- |
+| En el Sprint 2 el equipo mejoró la coordinación respecto al sprint anterior, logrando una distribución más equilibrada de tareas y mayor seguimiento del avance. No obstante, surgieron retrasos por conflictos en merges y cambios de último momento en algunas interfaces. Como acciones de mejora, se acordó fortalecer la revisión de código mediante pull requests, mantener reuniones breves de seguimiento y definir estándares visuales y de desarrollo desde el inicio del sprint.|
 
-#### 5.2.2.8 Team Collaboration Insights during Sprint.
+****Sprint Goal & User Stories****
+
+| Campo | Detalle |
+| :--- | :--- |
+| **Sprint 2 Goal** | Desarrollar y desplegar el Front-End funcional de la Web App de DomotiCore, asegurando navegación operativa, vistas principales implementadas y publicación en un entorno cloud.|
+| **Sprint 2 Velocity** | 6 User Stories |
+| **Story Points por historia** | 10 puntos |
+| **Sum of Story Points** | 50 |
+#### 5.2.2.2 Aspect Leaders and Collaborators
+
+| Team Member (Last Name, First Name) | GitHub Username | Infrastructure & Repository | Web App Deployment | Documentation (Chapters 1-5) |
+| :--- | :--- | :---: | :---: | :---: |
+| Checa, Oscar | OscarCheca | **C** | **C** | **C** |
+| Quispe, Cesar | user20-bit | **C** | **L** | **L** |
+| Esquich, Diego | DiegoEsquich | **L** | **C** | **C** |
+| Tello, Fabrizio | F4bris | **C** | **C** | **C** |
+| Rocha , Alvaro | alvarorc24 | **C** | **C** | **C** |
+
+#### 5.2.2.3 Sprint Backlog 2
+
+Las User Stories del proyecto fueron reorganizadas y priorizadas durante las actividades de Sprint Planning del Sprint 2 con el objetivo de enfocar el desarrollo en la implementación y despliegue del Front-End funcional de la Web App de DomotiCore.
+Las historias de usuario definidas previamente en la Sección 3.1 fueron refinadas y alineadas con las necesidades funcionales de la interfaz web, considerando aspectos de navegación, visualización de dispositivos, autenticación y experiencia de usuario. Asimismo, se mantuvo la estructura de criterios de aceptación basada en Gherkin, facilitando la validación de funcionalidades implementadas durante el sprint.
+
+Durante el proceso de refinamiento del backlog del Sprint 2 se realizaron las siguientes mejoras:
+•	**Priorización** de funcionalidades relacionadas al Front-End y experiencia de usuario.
+•	**Integración** de componentes visuales reutilizables para la Web App.
+•	**Organización** de User Stories según módulos funcionales del sistema.
+•	**Optimización** de flujos de navegación y control de dispositivos.
+•	**Relación** entre Sprint Goal, despliegue cloud y funcionalidades implementadas.
+
+La siguiente tabla resume las principales User Stories consideradas durante las actividades de planificación del Sprint 2:
+
+La siguiente tabla resume las principales User Stories consideradas durante las actividades de planificación de Sprint:
+
+| User Story ID | Título | Epic |
+| :--- | :--- | :--- |
+| **US-01** | Vinculación de inicio| Gateway Management |
+| **US-02** | Registro y sincronización de nodos| Device Management|
+| **US-03** | Control remoto de dispositivos | Device Control|
+| **US-10** | Cierre de sesión seguro| User Security |
+| **US-12** | Visualización de cantidad total de dispositivos| Dashboard |
+| **US-24** | Visualización de dispositivos desconectados| Device Monitoring|
+| **US-28** | Mensajes de éxito y error | User Experience|
+| **US-30** | Edición de nombre de dispositivos | Device Control |
+| **US-42** | Navegación por secciones| Website |
+| **US-45** | Footer informativo| Website |
+
+#### 5.2.2.4 Development Evidence for Sprint Review
+La gestión del código fuente para el proyecto DomotiCore continuó realizándose mediante Git como sistema de control de versiones, permitiendo mantener un flujo de trabajo colaborativo y organizado durante el desarrollo del Sprint 2. En este Sprint el enfoque principal estuvo orientado al desarrollo y despliegue del Front-End funcional de la Web App.
+La siguiente tabla resume los commits más relevantes realizados durante la implementación de funcionalidades del Sprint 2:
+
+#### 5.2.2.5 Execution Evidence for Sprint Review
+Durante el Sprint 2 se logró implementar y desplegar el Front-End funcional de la Web App de DomotiCore, incluyendo navegación principal, dashboard interactivo y módulos relacionados con la administración de dispositivos inteligentes y monitoreo energético.
+Capturas de Pantalla de la Implementación
+A continuación, se presentan las evidencias visuales de los componentes desarrollados:
+#### 5.2.2.6 Services Documentation Evidence for Sprint Review
+Durante el Sprint 2 se avanzó en la definición preliminar de los servicios REST relacionados con autenticación de usuarios, gestión de dispositivos y monitoreo energético. Asimismo, se establecieron las estructuras base para futuras integraciones entre el Front-End y Backend.
+La documentación OpenAPI será complementada e integrada en los siguientes Sprints conforme se desarrollen los servicios backend definitivos.
+#### 5.2.2.7 Software Deployment Evidence for Sprint Review
+Durante este Sprint se realizaron las siguientes actividades clave relacionadas con el despliegue de la Web App de DomotiCore:
+•	Configuración del entorno cloud para despliegue del Front-End.
+•	Publicación funcional de la Web App accesible mediante navegador web.
+•	Integración continua básica con GitHub para automatizar despliegues.
+•	Validación de compatibilidad multiplataforma en Chrome, Firefox y Safari.
+•	Pruebas responsive para garantizar adaptabilidad en dispositivos móviles y tablets.
+•	Optimización inicial de rendimiento Front-End mediante carga modular de componentes.
+
+#### 5.2.2.8 Team Collaboration Insights during Sprint
+El equipo utilizó las herramientas analíticas de GitHub Insights para monitorear la participación activa de cada integrante durante el Sprint 2, permitiendo realizar seguimiento de commits, merges, issues y pull requests asociados al desarrollo del Front-End.
+Estas métricas ayudaron a fortalecer la colaboración entre los integrantes, mejorar la distribución de tareas y mantener una integración continua más estable durante el Sprint.
+
+****Evidencia de Colaboración en GitHub****
+A continuación, se presenta la captura de los analíticos proporcionados por GitHub sobre la actividad del equipo:
