@@ -3,7 +3,9 @@
 | **Versión** | **Fecha** | **Autor**  |   **Descripción**  |
 | ----------- | --------- |----------- |--------------------|
 | AV1 | 20/04/2026 | Tello Palacios, Fabrizio Rafael <br><br> Esquicha Alcántara, Diego Alonso <br><br> Rocha Cotrina, Alvaro <br><br> Quispe llacsahuanga, César Agusto <br><br> Checa Burga, Oscar Diego |  Creacion de estructura de informe en github y redacción de los 5 capítulos. Hicimos el despliegue de la primera versión de la Landing Page |
+| TB1 | 14/05/2026 | Tello Palacios, Fabrizio Rafael <br><br> Esquicha Alcántara, Diego Alonso <br><br> Rocha Cotrina, Alvaro <br><br> Quispe llacsahuanga, César Agusto <br><br> Checa Burga, Oscar Diego |  Creación del Frontend y primera versión de la Frontend. En la aplicación de WebStorm |
 
+<hr>
 <hr>
 
 # **Project Report Collaborations Insights**
