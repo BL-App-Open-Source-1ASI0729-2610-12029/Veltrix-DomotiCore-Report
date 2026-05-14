@@ -10,7 +10,7 @@
 
 Nuestro proyecto fue hecho en el repositorio "BL-App-Open-Source-1ASI0729-2610-12029"
 
-**Enlaze del repositorio:** [link del repositorio](https://github.com/BL-App-Open-Source-1ASI0729-2610-12029)
+**Enlaze del repositorio:** [link del repositorio](https://github.com/BL-App-Open-Source-1ASI0729-2610-12029) <p>https://github.com/BL-App-Open-Source-1ASI0729-2610-12029</p>
 
 AV1: Se creo un repositorio colaborativo en github para el desarrollo del reporte de nuestro proyecto. Utilizamos gitflow para poder avanzar el informe sin problemas y de manera organizada. A continuación se evidencia los commits de cada integrante que aportó al desarrollo del informe de AV1.
 
