@@ -192,7 +192,7 @@ La aplicación web principal (desarrollada con **Vue.js**) será desplegada util
 
 * **Repository**: **[Veltrix-DomotiCore-Front-End](https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/Veltrix-DomotiCore-Front-End)**  --- [https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/Veltrix-DomotiCore-Front-End] ---
 * **Platform**: Vercel
-* **Deployment URL**: **[https://veltrix-domoticore-front-end.vercel.app/](https://veltrix-domoti-core-front-end-veltrix-domoticore.vercel.app?_vercel_share=bo1aDSBeyY4adfru2VY9Y9eZxjhJidiP)** --- [https://veltrix-domoti-core-front-end-veltrix-domoticore.vercel.app?_vercel_share=bo1aDSBeyY4adfru2VY9Y9eZxjhJidiP] ---
+* **Deployment URL**: **[https://veltrix-domoti-core-front-end-lvgz-n6f72byus-veltrix-domoticore.vercel.app](https://veltrix-domoti-core-front-end-lvgz-n6f72byus-veltrix-domoticore.vercel.app)** --- [https://veltrix-domoti-core-front-end-lvgz-n6f72byus-veltrix-domoticore.vercel.app?_vercel_share=FMywqBKf28FxhHhVZJYLbIl032T7qJLS] ---
 
 #### 5.1.4.3 Backend Web Services Deployment
 
