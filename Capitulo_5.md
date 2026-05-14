@@ -244,7 +244,7 @@ El Sprint 1 representa el primer ciclo de desarrollo ágil del proyecto DomotiCo
 | :--- |
 | Cesar Quispe |
 | Oscar Checa |
-| Diego Esquich |
+| Diego Esquicha |
 | Fabrizio Rafael |
 | Alvaro Rocha |
 

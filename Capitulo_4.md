@@ -855,11 +855,102 @@ En la implementación final se puede apreciar el uso consistente de la paleta de
   <img src="imagenes/imagenes_Cap4/userflows-small-business-mobile/userflow-settings-actions-mobile.png"
        alt="Settings">
 
-## 4.5. Web Applications Prototyping
+## 4.5. Web Applications 
+
+**En esta sección se presentan los prototipos de la aplicación web, tanto para navegador de escritorio como para navegador móvil, los cuales permiten simular la interacción y navegación del usuario dentro del sistema. Estos prototipos están directamente basados en los User Flow Diagrams, asegurando que los recorridos diseñados puedan ser experimentados de forma visual y práctica.**
+
+**Las decisiones de interacción se tomaron priorizando la facilidad de uso, la claridad en la navegación y la rapidez para completar tareas clave, como la gestión de pedidos, el control de inventario y la revisión de información relevante. Se buscó que el usuario pueda entender intuitivamente qué hacer en cada pantalla, reduciendo la cantidad de pasos innecesarios y proporcionando retroalimentación visual ante cada acción realizada.**
+
+**Estos prototipos permiten validar la experiencia del usuario antes de la implementación, facilitando la detección temprana de oportunidades de mejora y asegurando que el diseño esté alineado con las necesidades reales de los usuarios y los objetivos del proyecto.**
 
 ## 4.6. Domain-Driven Software Architecture
 
+**Se enfoca en la organización de la lógica del software, la delimitación de contextos y el uso de diagramas.**
+
 ### 4.6.1 Design-Level EventStorming
+
+**Se presenta a continuación el Event Storming correspondiente a DomotiCore, donde se han identificado los principales eventos del dominio, así como los actores involucrados, acciones, decisiones, reglas de negocio y las interacciones entre los distintos componentes del sistema. Como resultado de este análisis, se definieron 10 bounded contexts:**
+
+Global
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/EventStorming/Global.png"
+       alt="Global">
+
+*Leyenda*
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/EventStorming/Leyenda.png"
+       alt="Leyenda">
+
+**Gateway Management:**
+
+Gestiona la vinculación, estado y conectividad del gateway Veltrix, permitiendo establecer el puente entre los dispositivos físicos y la nube de DomotiCore.
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/EventStorming/gateway-management.png"
+       alt="Gateway Management">
+
+**Device Management:**
+
+Administra el registro, organización y configuración básica de los dispositivos inteligentes asociados a un gateway dentro del hogar o negocio.
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/EventStorming/device-management.png"
+       alt="Device Management">
+
+**Device Control:**
+
+Permite el control remoto en tiempo real de los dispositivos, gestionando acciones como encendido, apagado y cambios de estado desde la plataforma.
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/EventStorming/device-control.png"
+       alt="Device Control">
+
+**Automation & Scenes:**
+
+Gestiona reglas automáticas y escenas que permiten ejecutar acciones sobre múltiples dispositivos según horarios, condiciones o eventos definidos.
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/EventStorming/automation-scenes.png"
+       alt="Automation & Scenes">
+
+**Energy Monitoring:**
+
+Registra, analiza y visualiza el consumo energético de los dispositivos, brindando información en tiempo real e histórica para la toma de decisiones.
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/EventStorming/energy-monitoring.png"
+       alt="Energy Monitoring">
+
+**Notifications:**
+
+Administra el envío de alertas y notificaciones automáticas ante eventos relevantes como consumos inusuales, dispositivos desconectados o acciones críticas.
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/EventStorming/notifications.png"
+       alt="Notifications">
+
+**IAM (User & Access Management):**
+
+Gestiona usuarios, roles y permisos, asegurando un acceso controlado y seguro a las funcionalidades del sistema según el tipo de usuario.
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/EventStorming/user-access-management.png"
+       alt="User & Access Management">
+
+**Smart Integrations:**
+
+Permite la conexión y sincronización con servicios o plataformas externas para ampliar las capacidades del ecosistema DomotiCore.
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/EventStorming/smart-integrations.png"
+       alt="Smart Integrations">
+
+**Analytics & Dashboard:**
+
+Consolida información clave del sistema en dashboards y métricas visuales que facilitan la supervisión general del hogar o negocio.
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/EventStorming/analytics-dashboard.png
+  "
+       alt="Analytics & Dashboard">
+
+**History & Audit:**
+
+Registra y conserva el historial de acciones, estados y eventos del sistema para fines de trazabilidad, control y auditoría.
+<div style="text-align:center;">
+  <img src="imagenes/imagenes_Cap4/EventStorming/history-audit.png"
+       alt="History & Audit">
 
 ### 4.6.2 Software Architecture Context Diagram
 
