@@ -7,19 +7,19 @@ En esta sección se describen las herramientas, tecnologías y plataformas utili
 
 | Category | Software / Tool | Purpose in the Project | Access / Download | Preview |
 | :--- | :--- | :--- | :--- | :--- |
-| **Project Management** | Trello | Gestión de tareas, seguimiento de Sprint Backlog y control del avance del proyecto. | [Trello](https://trello.com) | <img src="imagenes/images_Cap5/Trello .png" width="100"> |
-| **Team Communication** | Microsoft Teams | Plataforma principal de comunicación para reuniones y coordinación del equipo. | [Teams](https://www.microsoft.com/microsoft-teams) | <img src="imagenes/images_Cap5/Microsoft Teams.png" width="100"> |
-| **Requirements Management** | Miro | Estructuración de ideas, flujos del sistema y análisis de negocio (Event Storming). | [Miro](https://miro.com) | <img src="imagenes/images_Cap5/miro.png" width="100"> |
-| **Software Architecture** | Structurizr | Modelado de la arquitectura bajo el modelo C4 (dashboard, gateway, nodos). | [Structurizr](https://structurizr.com) | <img src="imagenes/images_Cap5/structurizr.png" width="100"> |
-| **UX/UI Design** | Figma | Diseño de la interfaz, dashboard y visualización de consumo energético. | [Figma](https://www.figma.com) | <img src="imagenes/images_Cap5/figma.png" width="100"> |
-| **Diagram Modeling** | Lucidchart | Elaboración de diagramas de flujo, arquitectura y diseño de procesos. | [Lucidchart](https://www.lucidchart.com) | <img src="imagenes/images_Cap5/lucidchart.png" width="100"> |
-| **Frontend Development** | HTML5 | Estructura base para el desarrollo de la Landing Page y la plataforma web. | [MDN](https://developer.mozilla.org) | <img src="imagenes/images_Cap5/html.jpg" width="50"> |
-| **Frontend Development** | CSS3 | Definición de estilos visuales, diseño responsive y estética. | [MDN](https://developer.mozilla.org) | <img src="imagenes/images_Cap5/css.jpg" width="50"> |
-| **Frontend Development** | JavaScript | Funcionalidad interactiva y lógica del sistema web. | [MDN](https://developer.mozilla.org) | <img src="imagenes/images_Cap5/JavaScript.png" width="50"> |
-| **IDE** | WebStorm | IDE utilizado para el desarrollo y edición del código fuente frontend. | [WebStorm](https://www.jetbrains.com/webstorm) | <img src="imagenes/images_Cap5/webstorm.jpg" width="100"> |
-| **Version Control** | Git & GitHub | Repositorio central para control de versiones, commits y documentación. | [GitHub](https://github.com) | <img src="imagenes/images_Cap5/github.png" width="100"> |
-| **Software Testing** | Gherkin | Escenarios de prueba (control remoto, automatización, alertas) por historias de usuario. | [Gherkin](https://cucumber.io/docs/gherkin) | <img src="imagenes/images_Cap5/Gherkin.png" width="100">  |
-| **Deployment** | GitHub Pages | Despliegue de la Landing Page para mostrar la propuesta de valor. | [GH Pages](https://pages.github.com) | <img src="imagenes/images_Cap5/github pages.png" width="100"> |
+| **Project Management** | Trello | Gestión de tareas, seguimiento de Sprint Backlog y control del avance del proyecto. | [Trello](https://trello.com) [https://trello.com] | <img src="imagenes/images_Cap5/Trello .png" width="100"> |
+| **Team Communication** | Microsoft Teams | Plataforma principal de comunicación para reuniones y coordinación del equipo. | [Teams](https://www.microsoft.com/microsoft-teams) [https://www.microsoft.com/microsoft-teams] | <img src="imagenes/images_Cap5/Microsoft Teams.png" width="100"> |
+| **Requirements Management** | Miro | Estructuración de ideas, flujos del sistema y análisis de negocio (Event Storming). | [Miro](https://miro.com) [https://miro.com] | <img src="imagenes/images_Cap5/miro.png" width="100"> |
+| **Software Architecture** | Structurizr | Modelado de la arquitectura bajo el modelo C4 (dashboard, gateway, nodos). | [Structurizr](https://structurizr.com) [https://structurizr.com] | <img src="imagenes/images_Cap5/structurizr.png" width="100"> |
+| **UX/UI Design** | Figma | Diseño de la interfaz, dashboard y visualización de consumo energético. | [Figma](https://www.figma.com) [https://www.figma.com] | <img src="imagenes/images_Cap5/figma.png" width="100"> |
+| **Diagram Modeling** | Lucidchart | Elaboración de diagramas de flujo, arquitectura y diseño de procesos. | [Lucidchart](https://www.lucidchart.com) [https://www.lucidchart.com] | <img src="imagenes/images_Cap5/lucidchart.png" width="100"> |
+| **Frontend Development** | HTML5 | Estructura base para el desarrollo de la Landing Page y la plataforma web. | [HTML](https://developer.mozilla.org) [https://developer.mozilla.org] | <img src="imagenes/images_Cap5/html.jpg" width="50"> |
+| **Frontend Development** | CSS3 | Definición de estilos visuales, diseño responsive y estética. |[CSS](https://developer.mozilla.org) [https://developer.mozilla.org] | <img src="imagenes/images_Cap5/css.jpg" width="50"> |
+| **Frontend Development** | JavaScript | Funcionalidad interactiva y lógica del sistema web. | [JavaScript](https://developer.mozilla.org) [https://developer.mozilla.org] | <img src="imagenes/images_Cap5/JavaScript.png" width="50"> |
+| **IDE** | WebStorm | IDE utilizado para el desarrollo y edición del código fuente frontend. | [WebStorm](https://www.jetbrains.com/webstorm) [https://www.jetbrains.com/webstorm] | <img src="imagenes/images_Cap5/webstorm.jpg" width="100"> |
+| **Version Control** | Git & GitHub | Repositorio central para control de versiones, commits y documentación. | [GitHub](https://github.com) [https://github.com] | <img src="imagenes/images_Cap5/github.png" width="100"> |
+| **Software Testing** | Gherkin | Escenarios de prueba (control remoto, automatización, alertas) por historias de usuario. | [Gherkin](https://cucumber.io/docs/gherkin) [https://cucumber.io/docs/gherkin] | <img src="imagenes/images_Cap5/Gherkin.png" width="100">  |
+| **Deployment** | GitHub Pages | Despliegue de la Landing Page para mostrar la propuesta de valor. | [GH Pages](https://pages.github.com) [https://pages.github.com] | <img src="imagenes/images_Cap5/github pages.png" width="100"> |
 
 ### 5.1.2 Source Code Management
 
@@ -29,11 +29,11 @@ La gestión de código fuente del proyecto **DomotiCore** se realiza mediante la
 
 | Product | Repository URL | Description |
 | :--- | :--- | :--- |
-| **Organization** | [BL-App-Open-Source-1ASI0729-2610-12029](https://github.com/BL-App-Open-Source-1ASI0729-2610-12029) | Organizacion donde se ubican todos los repositorios del proyecto. |
-| **Landing Page** | [Veltrix-DomotiCore-Business-Web-Page](https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/Veltrix-DomotiCore-Business-Web-Page) | Repositorio de la Landing Page institucional del proyecto. |
-| **Frontend Web Application** | [Veltrix-DomotiCore-Front-End](https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/Veltrix-DomotiCore-Front-End) | Aplicación web para monitoreo y control de dispositivos. |
-| **Backend Web Services** | [Veltrix-DomotiCore-Back-end](https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/Veltrix-DomotiCore-Back-end) | API REST y lógica de automatización IoT. |
-| **Documentation Repository** | [Veltrix-DomotiCore-Report](https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/Veltrix-DomotiCore-Report) | Documentación técnica, reportes y entregables del proyecto. |
+| **Organization** | [BL-App-Open-Source-1ASI0729-2610-12029](https://github.com/BL-App-Open-Source-1ASI0729-2610-12029) --- [https://github.com/BL-App-Open-Source-1ASI0729-2610-12029] ---| Organizacion donde se ubican todos los repositorios del proyecto. |
+| **Landing Page** | [Veltrix-DomotiCore-Business-Web-Page](https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/Veltrix-DomotiCore-Business-Web-Page) --- [https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/Veltrix-DomotiCore-Business-Web-Page] --- | Repositorio de la Landing Page institucional del proyecto. |
+| **Frontend Web Application** | [Veltrix-DomotiCore-Front-End](https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/Veltrix-DomotiCore-Front-End) --- [https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/Veltrix-DomotiCore-Front-End] --- | Aplicación web para monitoreo y control de dispositivos. |
+| **Backend Web Services** | [Veltrix-DomotiCore-Back-end](https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/Veltrix-DomotiCore-Back-end) --- [https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/Veltrix-DomotiCore-Back-end] --- | API REST y lógica de automatización IoT. |
+| **Documentation Repository** | [Veltrix-DomotiCore-Report](https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/Veltrix-DomotiCore-Report) --- [https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/Veltrix-DomotiCore-Report] --- | Documentación técnica, reportes y entregables del proyecto. |
 ---
 <div style="text-align:center;"><img src="imagenes/images_Cap5/Proyecto-Github-Organizacion.png" width="800" alt="GitHub Repository Structure"></div>
 
@@ -183,30 +183,25 @@ La Landing Page institucional se despliega mediante **GitHub Pages**, utilizando
 5.  **Validación:** Se verifica la correcta visualización y funcionamiento responsivo en múltiples navegadores (Chrome, Edge, Safari).
     <div style="text-align:center;"><img src="imagenes/images_Cap5/5.1.4(lading parte3).png" width="500"></div>
 
-**Deployment URL:** [DomotiCore – Landing Page Veltrix](https://oscarcheca.github.io/domoticore-landing/)
+**Deployment URL:** **[DomotiCore – Landing Page Veltrix](https://oscarcheca.github.io/domoticore-landing/)**  --- [https://oscarcheca.github.io/domoticore-landing/] ---
 
 
 #### 5.1.4.2 Frontend Web Application Deployment
 
 La aplicación web principal (desarrollada con **Vue.js**) será desplegada utilizando **Vercel** para facilitar la integración continua (CI/CD) y previsualizaciones automáticas por cada Pull Request.
 
-* **Repository**: [Veltrix-DomotiCore-Front-End](https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/Veltrix-DomotiCore-Front-End)
+* **Repository**: **[Veltrix-DomotiCore-Front-End](https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/Veltrix-DomotiCore-Front-End)**  --- [https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/Veltrix-DomotiCore-Front-End] ---
 * **Platform**: Vercel
-* **Deployment URL**: [https://veltrix-domoticore-front-end.vercel.app/](https://veltrix-domoti-core-front-end-veltrix-domoticore.vercel.app?_vercel_share=bo1aDSBeyY4adfru2VY9Y9eZxjhJidiP)
+* **Deployment URL**: **[https://veltrix-domoticore-front-end.vercel.app/](https://veltrix-domoti-core-front-end-veltrix-domoticore.vercel.app?_vercel_share=bo1aDSBeyY4adfru2VY9Y9eZxjhJidiP)** --- [https://veltrix-domoti-core-front-end-veltrix-domoticore.vercel.app?_vercel_share=bo1aDSBeyY4adfru2VY9Y9eZxjhJidiP] ---
 
 #### 5.1.4.3 Backend Web Services Deployment
 
-Los servicios de lógica de negocio y conectividad IoT se despliegan en **Render**, permitiendo la exposición de endpoints seguros bajo el protocolo HTTPS para la comunicación con los dispositivos.
+Los servicios de lógica de negocio y conectividad se despliegan en **Render**, permitiendo la exposición de endpoints seguros bajo el protocolo HTTPS para la comunicación con los dispositivos. Por ahora no se usa el sistema del backend, pero se desplego la carpeta del proyecto para que sea visual de manera global.
 
-* **Repository**: [Veltrix-DomotiCore-Back-end](https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/Veltrix-DomotiCore-Back-end)
+* **Repository**: **[Veltrix-DomotiCore-Back-end](https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/Veltrix-DomotiCore-Back-end)** --- [https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/Veltrix-DomotiCore-Back-end] ---
 * **Platform**: Render
-* **Deployment URL**: [veltrix-domoticore](https://veltrix-domoticore-backend.onrender.com)
+* **Deployment URL**: **[veltrix-domoticore](https://veltrix-domoticore-backend.onrender.com)** --- [https://veltrix-domoticore-backend.onrender.com] ---
 
-#### 5.1.4.4 OpenAPI Documentation
-
-Para facilitar la integración entre el frontend y el backend, la documentación de la API se publica automáticamente mediante **Swagger UI**, permitiendo la visualización y prueba interactiva de los endpoints REST.
-
-* **Documentation URL**: [Veltrix-domoticore-back-end](https://raw.githubusercontent.com/BL-App-Open-Source-1ASI0729-2610-12029/Veltrix-DomotiCore-Back-end/refs/heads/main/openapi.yaml)
 
 ## 5.2. Landing Page, Services & Applications Implementation
 
@@ -310,7 +305,7 @@ La siguiente tabla resume las principales User Stories consideradas durante las 
 
 #### 5.2.1.4 Development Evidence for Sprint Review 
 
-///(Verificar aun)
+# ******///(Verificar aun)******
 
 La gestión del código fuente para el proyecto **DomotiCore** se realiza utilizando Git como sistema de control de versiones, permitiendo un flujo de trabajo colaborativo y un historial detallado de cambios realizados durante el Sprint.
 
@@ -361,7 +356,7 @@ A continuación, se presentan las evidencias visuales de los componentes desarro
 
 Asimismo, se adjunta un video demostrativo que recorre la navegación y las funcionalidades implementadas, validando la experiencia de usuario (UX) en diferentes resoluciones.
 
-**Enlace del Video**: [ Demostración de DomotiCore - Sprint 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417405_upc_edu_pe/IQCPng9giTbzT7yPR6RganePARwt5TeTRUKmAmmGUib8n3E?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ZW7H6O)
+**Enlace del Video**: [ Demostración de DomotiCore - Sprint 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417405_upc_edu_pe/IQCPng9giTbzT7yPR6RganePARwt5TeTRUKmAmmGUib8n3E?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ZW7H6O) --- [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417405_upc_edu_pe/IQCPng9giTbzT7yPR6RganePARwt5TeTRUKmAmmGUib8n3E?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ZW7H6O] ---
 
 #### 5.2.1.6 Services Documentation Evidence for Sprint Review
 
