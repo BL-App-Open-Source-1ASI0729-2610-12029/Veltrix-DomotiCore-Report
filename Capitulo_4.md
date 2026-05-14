@@ -942,8 +942,7 @@ Permite la conexión y sincronización con servicios o plataformas externas para
 Consolida información clave del sistema en dashboards y métricas visuales que facilitan la supervisión general del hogar o negocio.
 
 <div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/EventStorming/analytics-dashboard.png
-  "
+  <img src="imagenes/imagenes_Cap4/EventStorming/analytics-dashboard.png"
   alt="Analytics & Dashboard">
 
 **History & Audit:**
@@ -1080,18 +1079,52 @@ Este nivel descompone el contenedor principal de la **API Application** en compo
 
 ## 4.7 Software Object-Oriented Design
 
+En esta sección se presenta el diseño orientado a la solución, desarrollado a partir de los requerimientos funcionales, User Stories, User Task Matrix, eventos identificados durante el proceso de análisis del dominio. El objetivo de este diseño es representar la estructura lógica del sistema mediante diagramas que describen las principales entidades, relaciones y comportamientos involucrados en la plataforma de automatización y monitoreo energético.
+
+La solución fue modelada considerando un enfoque basado en bounded contexts, permitiendo organizar las responsabilidades del sistema en módulos funcionales relacionados con la gestión de usuarios, administración de dispositivos IoT, automatización, monitoreo energético y notificaciones inteligentes. Cada diagrama incluye clases, atributos, métodos, relaciones, multiplicidades y niveles de acceso. Para la elaboración de los diagramas se utilizará PlantUML.
+
 ### 4.7.1 Class Diagrams
 
 <div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/DiagramaClases.png"
+  <img src="imagenes/imagenes_Cap4/Class-diagrams/Domoticore.svg"
        alt="texto">
 </div>
 
+- El diseño orientado a objetos fue organizado segunlas relaciones con gestión de usuarios, administración de dispositivos, automatización inteligente, monitoreo energético y notificaciones del sistema. Permite mantener de manera alineada las funcionalidades identificadas durante el proceso de Event Storming y análisis funcional del proyecto.
+
+- Dentro de gestión de usuarios, se definieron las clases Usuario, Administrador y Sesion, encargadas de representar los procesos relacionados con autenticación, supervisión del sistema y control de acceso. La clase Usuario contiene atributos y métodos relacionados con el inicio de sesión, control de dispositivos y visualización del dashboard principal. La clase Administrador hereda funcionalidades de Usuario e incorpora operaciones adicionales relacionadas con validación de dispositivos y supervisión de la infraestructura.
+
+- En administración de dispositivos, las clases Gateway, NodoIoT, Dispositivo y EstadoDispositivo representan la infraestructura encargada de la sincronización y control remoto de equipos electrónicos conectados a la plataforma.
+
+- Para el contexto de automatización, se incorporaron las clases Automatizacion, ReglaAutomatizacion y Horario, las cuales permiten representar reglas inteligentes, acciones automáticas y programaciones horarias ejecutadas por la plataforma.
+
+- En el monitoreo energético, las clases Dashboard, ConsumoEnergetico y ReporteConsumo permiten representar la gestión de métricas eléctricas, visualización de información y generación de reportes históricos de consumo energético.
+
+- El contexto de notificaciones incorpora las clases EventoSistema, Alerta y Notificacion, encargadas de modelar eventos operativos, alertas automáticas y envío de notificaciones relacionadas con consumos anómalos o incidencias detectadas en la plataforma.
+
 ## 4.8 Database Design
+
+En esta sección se presenta el diseño de base de datos, desarrollado a partir de los requerimientos funcionales, entidades identificada y funcionalidades relacionadas con monitoreo, control remoto y administración de dispositivos.
+
+El objetivo es garantizar integridad y organización de la información utilizada por la plataforma, permitiendo almacenar datos relacionados con usuarios, dispositivos electrónicos, consumo energético, alertas y eventos del sistema. Se contemplan relaciones entre entidades, restricciones y mecanismos que soporte operaciones de monitoreo en tiempo real y automatización inteligente.
+
+Para la elaboración de los diagramas de base de datos se utilizará Lucidchart y/o Vertabelo, utilizando diagramas entidad-relación para representar tablas, columnas, claves primarias, claves foráneas y relaciones entre entidades.
 
 ### 4.8.1 Database Diagrams
 
 <div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/4.8 Open Source.png"
+  <img src="imagenes/imagenes_Cap4/Database-diagrams/Database Diagrams.svg"
        alt="texto">
 </div>
+
+- Se definieron las tablas Usuario, Permiso y UsuarioPermiso, encargadas de almacenar la información relacionada con autenticación, control de acceso y permisos del sistema. La relación entre usuarios y permisos se implementa mediante una tabla intermedia, permitiendo gestionar distintos niveles de autorización dentro de la plataforma.
+
+- En administración de dispositivos, las tablas Gateway, NodoIoT, Dispositivo, Ambiente y EstadoDispositivo permiten representar la infraestructura IoT utilizada. Estas entidades gestionan la sincronización de nodos, control remoto de dispositivos electrónicos y almacenamiento del estado operativo de cada equipo conectado. Asimismo, las relaciones establecidas mediante claves foráneas permiten representar la asociación entre usuarios, nodos y dispositivos dentro del sistema.
+
+- Para el monitoreo energético, se definieron las tablas ConsumoEnergetico, Dashboard y ReporteConsumo, las cuales permiten almacenar mediciones eléctricas, métricas históricas y reportes de consumo energético. Esta estructura soporta las funcionalidades relacionadas con supervisión en tiempo real.
+
+- Las tablas Automatizacion, ReglaAutomatizacion y Programacion permiten almacenar reglas inteligentes, horarios programados y acciones automáticas ejecutadas por la plataforma. Estas entidades responden a las necesidades de automatización identificadas durante el análisis de usuarios y el proceso de Event Storming.
+
+- El contexto de notificaciones incluye las tablas EventoSistema, Alerta y Notificacion, encargadas de registrar eventos operativos, consumos anómalos y alertas generadas automáticamente por la plataforma.
+
+- Las tablas Historial y Exportacion permiten gestionar acciones realizadas dentro del sistema y exportación de reportes energéticos, contribuyendo a mejorar el control operativo y análisis de información.
