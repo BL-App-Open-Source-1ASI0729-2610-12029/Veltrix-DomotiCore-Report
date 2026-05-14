@@ -940,10 +940,11 @@ Permite la conexión y sincronización con servicios o plataformas externas para
 **Analytics & Dashboard:**
 
 Consolida información clave del sistema en dashboards y métricas visuales que facilitan la supervisión general del hogar o negocio.
+
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/EventStorming/analytics-dashboard.png
   "
-       alt="Analytics & Dashboard">
+  alt="Analytics & Dashboard">
 
 **History & Audit:**
 
