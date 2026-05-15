@@ -192,7 +192,7 @@ La aplicación web principal (desarrollada con **Vue.js**) será desplegada util
 
 * **Repository**: **[Veltrix-DomotiCore-Front-End](https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/Veltrix-DomotiCore-Front-End)**  --- [https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/Veltrix-DomotiCore-Front-End] ---
 * **Platform**: Vercel
-* **Deployment URL**: **[https://veltrix-domoti-core-front-end-lvgz-n6f72byus-veltrix-domoticore.vercel.app](https://veltrix-domoti-core-front-end-lvgz-n6f72byus-veltrix-domoticore.vercel.app)** --- [https://veltrix-domoti-core-front-end-lvgz-n6f72byus-veltrix-domoticore.vercel.app?_vercel_share=FMywqBKf28FxhHhVZJYLbIl032T7qJLS] ---
+* **Deployment URL**: **[https://veltrix-domoti-core-front-end-lvgz-n6f72byus-veltrix-domoticore.vercel.app](https://veltrix-domoti-core-front-end-lvgz-87cyqr01w-veltrix-domoticore.vercel.app?_vercel_share=uGaQ5qGSn5If8soXXkFjvSSgRKEdXWmq)** --- [https://veltrix-domoti-core-front-end-lvgz-87cyqr01w-veltrix-domoticore.vercel.app?_vercel_share=uGaQ5qGSn5If8soXXkFjvSSgRKEdXWmq] ---
 
 #### 5.1.4.3 Backend Web Services Deployment
 
@@ -304,8 +304,6 @@ La siguiente tabla resume las principales User Stories consideradas durante las 
 
 
 #### 5.2.1.4 Development Evidence for Sprint Review 
-
-# ******///(Verificar aun)******
 
 La gestión del código fuente para el proyecto **DomotiCore** se realiza utilizando Git como sistema de control de versiones, permitiendo un flujo de trabajo colaborativo y un historial detallado de cambios realizados durante el Sprint.
 
