@@ -491,3 +491,89 @@ Estas métricas ayudaron a fortalecer la colaboración entre los integrantes, me
 
 ****Evidencia de Colaboración en GitHub****
 A continuación, se presenta la captura de los analíticos proporcionados por GitHub sobre la actividad del equipo:
+
+### 5.2.3 Sprint 3
+
+#### 5.2.3.1 Sprint Planning 3
+En esta sección, se presentará la planificación de nuestro Sprint 3.
+
+| **Sprint #** |                 **Sprint 3**              |
+|--------------|-------------------------------------------|
+|**Sprint Planning Background**                            |
+| Date         | 2026/06/13                                |
+| Time         | 17:00 pm                                  |
+| Location     | Reunión virtual mediante discord          |
+| Prepared By  | Esquicha Alcántara, Diego Alonso          |
+| Attendees    |Rocha Cotrina, Alvaro / Esquicha Alcántara, Diego Alonso / Quispe llacsahuanga, César Agusto / Tello Palacios, Fabrizio Rafael / Checa Burga, Oscar  / Véliz Martínez, Diego Alonso|
+| Sprint n-3 Review Summary |  No aplica                   |
+| Sprint n-3 Retrospective Summary |  No aplica            |
+| **Sprint Goal & User Stories**                           |
+|**Sprint 3**  |Nos enfocamos en consolidar la estructura funcional e integrar las principales capacidades operativas de la plataforma DomotiCore, priorizando el acceso seguro, la comunicación con los dispositivos y la visualización de su estado en tiempo real. Consideramos que este avance fortalece la percepción de madurez del producto y permite demostrar de manera tangible el valor de una solución centralizada para la gestión inteligente del consumo energético y el control remoto de dispositivos en entornos residenciales y empresariales.|
+| Sprint 3 Velocity   | 18  Story Points                   |
+| Sum of Story Points | 18  Story Points                   |
+
+#### 5.2.3.2 Aspect Leaders and Collaborators
+
+En el marco del Sprint 3, el equipo de desarrollo de Domoticore ha enfocado sus esfuerzos en la consolidación de la estructura operativa del sistema y en la implementación de funcionalidades clave orientadas a la interacción inicial del usuario con la plataforma. Este sprint prioriza la correcta integración de los flujos principales de acceso, la estabilidad de la navegación entre módulos y el fortalecimiento de la experiencia de uso en distintos dispositivos.
+
+Para asegurar una ejecución organizada y trazable, se continúa utilizando la Matriz de Liderazgo y Colaboración (LACX), mediante la cual se han asignado roles de liderazgo (L) y colaboración (C) a los integrantes del equipo según cada componente técnico abordado en el sprint.
+
+| Team Member (Last Name, First Name) | GitHub Username    | Device Control | Automation Rules | Sensors Monitoring  | IoT Integration | Alerts | Energy Usage | Security | Mobile UX |
+| :---------------------------------- | :----------------- | :------------- | :--------------- | :------------------ | :-------------- | :----- | :----------- | :-------------- | :--------------- 
+| Rocha Cotrina, Alvaro               | alvarorc24 | C | L | C | C | C | L | C | C | C
+| Esquicha Alcántara, Diego Alonso    | DiegoEsquich | C  | L | C | C | L | L | C | C | C
+| Quispe Llacsahuanga, César Agusto   | user20-bit | L | C | L | C | C | C | L | C | C        
+| Tello Palacios, Fabrizio Rafael     | F4bris | C | C | C | L | C | C | C | L | C  
+| Véñiz Martínez, Diego Alonso | Veliz-0912 | C | C | C | C | C | C | C | C | L
+| Checa Burga, Oscar Diego            | OscarCheca | C | C | C | C | C | C | C | C | L
+---------
+*Leyenda: L = Lead (Líder), C = Collaborator (Colaborador)*
+
+#### 5.2.3.3 Sprint Backlog 3
+
+En el Sprint Backlog 3 se consolidan las funcionalidades avanzadas del sistema DomotiCore mediante la implementación de mecanismos de control, automatización y monitoreo en tiempo real. El equipo trabajó en la integración del control remoto de dispositivos, la definición de reglas inteligentes de automatización, la visualización del estado de sensores, el registro del consumo energético y la gestión de alertas ante eventos críticos. Estas funcionalidades permiten transformar la plataforma en un entorno interactivo e inteligente, orientado a la supervisión eficiente del hogar y a la toma de decisiones informadas por parte del usuario.
+
+### Screenshot del Board
+
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/5.2.3.3. Sprint Backlog 3.png" 
+       alt="Paleta de Colores">
+</div>
+
+**Trello:** [Trello Sprint 3](https://trello.com/b/roZW5Prd/domoticore-sprint-backlog-3) [https://trello.com/b/roZW5Prd/domoticore-sprint-backlog-3]
+
+### Sprint Backlog #03
+
+| User Story Id | Title | Task Id | Task Title | Description | Est. (h) | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :---: | :--- | :---: |
+| **US-19** | Autenticación básica de API | T001 | Validación de token API | Permite validar credenciales básicas para el acceso a los endpoints de DomotiCore. | 3h | Diego Esquicha | Done |
+| | | T002 | Manejo de errores de autenticación | Permite mostrar mensajes de error cuando las credenciales son inválidas. | 1h | Cesar Quispe | Done |
+| **US-20** | Consulta de estado de dispositivos vía API | T001 | Endpoint de consulta de estado | Permite obtener el estado actual de los dispositivos desde el backend. | 3h | Diego Esquicha | Done |
+| | | T002 | Consumo de endpoint desde frontend | Permite mostrar el estado recibido desde la API en la interfaz. | 2h | Alvaro Rocha | Done |
+| **US-23** | Visualización de dispositivos conectados | T001 | Filtrado de dispositivos activos | Permite identificar y listar únicamente los dispositivos conectados. | 2h | Fabrizio Tello | Done |
+| | | T002 | Renderizado visual de dispositivos activos | Permite mostrar visualmente los dispositivos conectados en el dashboard. | 3h | Diego Véliz | Done |
+| **US-24** | Visualización de dispositivos desconectados | T001 | Detección de dispositivos inactivos | Permite identificar dispositivos que no responden o están desconectados. | 2h | Cesar Quispe | Done |
+| | | T002 | Indicador visual de desconexión | Permite mostrar visualmente el estado de desconexión en la interfaz. | 1h | Alvaro Rocha | Done |
+| **US-25** | Actualización manual del estado de dispositivos | T001 | Acción manual de actualización | Permite actualizar manualmente el estado de un dispositivo desde la UI. | 2h | Fabrizio Tello | Done |
+| | | T002 | Sincronización con backend | Permite reflejar el nuevo estado actualizado desde la API. | 1h | Diego Esquicha | Done |
+| **US-26** | Visualización básica de consumo total | T001 | Cálculo de consumo total | Permite calcular el consumo energético total de los dispositivos. | 2h | Alvaro Rocha | Done |
+| | | T002 | Visualización del consumo | Permite mostrar el consumo total en el dashboard. | 1h | Fabrizio Tello | Done |
+| **US-28** | Mensajes de éxito o error | T001 | Mensajes de éxito | Permite mostrar confirmaciones visuales cuando una acción se ejecuta correctamente. | 1h | Cesar Quispe | Done |
+| | | T002 | Mensajes de error | Permite mostrar errores cuando ocurre una falla de conexión o lógica. | 3h | Oscar Checa | Done |
+| **US-43** | Visualización de estado por iconos | T001 | Diseño de iconografía de estados | Permite representar estados de dispositivos mediante iconos visuales. | 1h | Cesar Quispe | Done |
+| | | T002 | Asociación de iconos a estados | Permite enlazar iconos según el estado del dispositivo. | 1h | Alvaro Rocha | Done |
+| **US-47** | Búsqueda de dispositivos vinculados | T001 | Campo de búsqueda de dispositivos | Permite buscar dispositivos vinculados por nombre o identificador. | 2h | Cesar Quispe | Done |
+| | | T002 | Filtrado dinámico de resultados | Permite filtrar dispositivos en tiempo real según la búsqueda. | 1h | Diego Véliz | Done |
+| **US-50** | Registro de último estado del dispositivo | T001 | Persistencia del último estado | Permite guardar el último estado reportado del dispositivo en el backend. | 2h | Diego Esquicha | Done |
+| | | T002 | Visualización del último estado | Permite mostrar el último estado registrado en la interfaz. | 1h | Alvaro Rocha | Done |
+
+#### 5.2.3.4 Development Evidence for Sprint Review
+
+#### 5.2.3.5 Execution Evidence for Sprint Review
+
+#### 5.2.3.6 Services Documentation Evidence for Sprint Review
+
+#### 5.2.3.7 Software Deployment Evidence for Sprint Review
+
+#### 5.2.3.8 Team Collaboration Insights during Sprint
+
