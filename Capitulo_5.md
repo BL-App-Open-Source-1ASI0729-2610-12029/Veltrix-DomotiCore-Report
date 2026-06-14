@@ -569,6 +569,651 @@ En el Sprint Backlog 3 se consolidan las funcionalidades avanzadas del sistema D
 
 #### 5.2.3.4 Development Evidence for Sprint Review
 
+En esta sección se presentan los avances obtenidos durante la fase de implementación correspondientes al Sprint Backlog 03, el cual estuvo orientado a la integración funcional entre el Front-End desarrollado y los servicios del Back-End en implementación, con el objetivo de consolidar una versión operativa, estable y demostrable de la plataforma DomotiCore.
+
+Durante este sprint se implementaron funcionalidades relacionadas con la autenticación básica de la API, el consumo de endpoints para la consulta y actualización del estado de dispositivos IoT, la visualización de dispositivos conectados y desconectados, el registro y presentación del último estado de los dispositivos, la visualización básica del consumo energético total, así como la gestión de mensajes de éxito y error.
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Commited on (Date)</th>
+  </tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Back-End</td>
+  <td>main</td>
+  <td>22c2b70</td>
+  <td>release: v1.0.0 stable DomotiCore backend</td>
+  <td>Publica la versión estable inicial del backend DomotiCore.</td>
+  <td>12/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Back-End</td>
+  <td>main</td>
+  <td>562d759</td>
+  <td>feat: scope SME resources and operations hub to authenticated users</td>
+  <td>Restringe recursos SME al contexto del usuario autenticado.</td>
+  <td>12/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Back-End</td>
+  <td>main</td>
+  <td>6328374</td>
+  <td>feat: add business profile service and integration tests</td>
+  <td>Agrega servicio de perfil empresarial y pruebas de integración.</td>
+  <td>12/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Back-End</td>
+  <td>main</td>
+  <td>9a72b85</td>
+  <td>refactor: align IAM bounded context with DDD and CQRS architecture</td>
+  <td>Alinea IAM con patrones DDD y CQRS.</td>
+  <td>12/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Back-End</td>
+  <td>main</td>
+  <td>8ace4db</td>
+  <td>fix: align datasource defaults for local development profiles</td>
+  <td>Corrige configuración por defecto del datasource local.</td>
+  <td>12/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Back-End</td>
+  <td>main</td>
+  <td>ea4a391</td>
+  <td>feat: add authenticated user profile and self-scoped user endpoints</td>
+  <td>Agrega endpoints de perfil auto-gestionados.</td>
+  <td>12/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Back-End</td>
+  <td>main</td>
+  <td>d9f16ce</td>
+  <td>feat: add PostgreSQL profile, Flyway migrations and phase 3 modules</td>
+  <td>Incorpora soporte PostgreSQL y módulos de fase 3.</td>
+  <td>12/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Back-End</td>
+  <td>main</td>
+  <td>a61c744</td>
+  <td>feat: add SME automation operations and phase 2 demo data</td>
+  <td>Agrega operaciones automatizadas SME y datos demo.</td>
+  <td>12/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Back-End</td>
+  <td>main</td>
+  <td>af8862c</td>
+  <td>feat: add Spring Boot backend scaffold with IAM and phase 1 resources</td>
+  <td>Inicializa backend Spring Boot con IAM y recursos base.</td>
+  <td>12/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Back-End</td>
+  <td>main</td>
+  <td>31492a9</td>
+  <td>docs: expand README with architecture, endpoints and deployment guide</td>
+  <td>Amplía documentación de arquitectura, endpoints y despliegue.</td>
+  <td>12/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>develop</td>
+  <td>8fbab98</td>
+  <td>merge: integrate i18n assets and mock data</td>
+  <td>Integra recursos de internacionalización y datos simulados para pruebas locales.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>774c02e</td>
+  <td>release: v1.0.0 stable DomotiCore frontend baseline</td>
+  <td>Publica la versión estable inicial del frontend de DomotiCore.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>DiegoEsquich/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>0f4e7fe</td>
+  <td>feat: enable local mock authentication flow</td>
+  <td>Habilita un flujo de autenticación simulada para desarrollo local.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>DiegoEsquich/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>9e62c27</td>
+  <td>refactor: dark theme styles and update Google icon paths</td>
+  <td>Optimiza estilos del tema oscuro y corrige rutas de iconos.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>DiegoEsquich/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>f0445bb</td>
+  <td>refactor: report animations and dynamic footer year</td>
+  <td>Mejora animaciones de reportes y actualiza el año dinámico del footer.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>38e6877</td>
+  <td>merge: integrate smart integrations</td>
+  <td>Integra el módulo de integraciones inteligentes al sistema.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>8de32bc</td>
+  <td>feat(smart-integrations): add integration pages</td>
+  <td>Agrega vistas de integraciones inteligentes para hogar y negocio.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>0cd9208</td>
+  <td>feat: add smart home and business visual assets</td>
+  <td>Incorpora recursos visuales para escenarios de hogar y negocio.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>1383f8c</td>
+  <td>feat(smart-integrations): add integration domain and api</td>
+  <td>Implementa dominio y capa API para integraciones inteligentes.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>1af04e1</td>
+  <td>feat: add i18n translations</td>
+  <td>Agrega traducciones multilenguaje a la plataforma.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>bf5ce48</td>
+  <td>merge: integrate sme operations hub</td>
+  <td>Integra el módulo de operaciones para pequeñas y medianas empresas.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>df97ef3</td>
+  <td>merge: integrate team management</td>
+  <td>Integra el módulo de gestión de equipos.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>bbd2166</td>
+  <td>feat(sme-operations-hub): add operations hub page</td>
+  <td>Agrega la vista principal del centro de operaciones.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>0830da7</td>
+  <td>merge: integrate settings profile</td>
+  <td>Integra el módulo de configuración de perfil.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>a82e7fd</td>
+  <td>feat(team-management): add team management views</td>
+  <td>Agrega vistas para la administración de equipos.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>3f606c8</td>
+  <td>feat(sme-operations-hub): add operations hub store and api</td>
+  <td>Implementa store y API del centro de operaciones.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>56a56f9</td>
+  <td>feat(team-management): add team store and api</td>
+  <td>Agrega store y endpoints para gestión de equipos.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>ec29785</td>
+  <td>merge: integrate security access</td>
+  <td>Integra el módulo de control de acceso y seguridad.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>b1e9509</td>
+  <td>feat(settings): add settings profile view</td>
+  <td>Agrega la vista de configuración del perfil de usuario.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>bd55ecd</td>
+  <td>merge: integrate history reports</td>
+  <td>Integra el módulo de historial y reportes.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>91614f9</td>
+  <td>feat(security): add security access page</td>
+  <td>Agrega la vista de control de accesos de seguridad.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>0424504</td>
+  <td>feat(settings): add settings state and api</td>
+  <td>Implementa estado y API para configuraciones del sistema.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>b8361f5</td>
+  <td>feat(security): add security store and api</td>
+  <td>Agrega store y API para gestión de seguridad.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>a8c4239</td>
+  <td>feat(security): add security domain models</td>
+  <td>Define modelos de dominio para el módulo de seguridad.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>ac4347a</td>
+  <td>merge: integrate automation module</td>
+  <td>Integra el módulo de automatización inteligente.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>b06b0eb</td>
+  <td>feat(history): add business reports and cost analysis</td>
+  <td>Agrega reportes empresariales y análisis de costos.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>cff84a3</td>
+  <td>feat(history): add activity and notifications pages</td>
+  <td>Agrega vistas de actividad y notificaciones.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>cb7fa89</td>
+  <td>feat(history): add history api infrastructure</td>
+  <td>Implementa infraestructura API para historial.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>a650e4a</td>
+  <td>feat(history): add history stores</td>
+  <td>Agrega stores para gestión de historial.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>F4bris/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>59be3f5</td>
+  <td>feat(history): add history domain models</td>
+  <td>Define modelos de dominio para historial.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>F4bris/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>473903f</td>
+  <td>feat(automation): add builder and zone configuration</td>
+  <td>Agrega constructor y configuración de zonas automatizadas.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>5b9ce8c</td>
+  <td>feat(automation): add automation center pages</td>
+  <td>Agrega vistas del centro de automatización.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>F4bris/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>43f4c6b</td>
+  <td>feat(automation): add automation api infrastructure</td>
+  <td>Implementa infraestructura API del módulo de automatización.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>F4bris/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>89e8371</td>
+  <td>feat(automation): add automation stores</td>
+  <td>Agrega stores para automatización.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>F4bris/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>7bc3864</td>
+  <td>feat(automation): add automation domain models</td>
+  <td>Define modelos de dominio para automatización.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>201ef15</td>
+  <td>merge: integrate device-control module</td>
+  <td>Integra el módulo de control de dispositivos.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>05434a5</td>
+  <td>merge: integrate dashboard module</td>
+  <td>Integra el módulo principal de dashboard.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>alvarorc24/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>3fdad4f</td>
+  <td>feat(device-control): add business device management</td>
+  <td>Agrega gestión de dispositivos para entorno empresarial.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>alvarorc24/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>f026616</td>
+  <td>feat(device-control): add smart home device pages</td>
+  <td>Agrega vistas de dispositivos para hogares inteligentes.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>alvarorc24/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>1ce7ee2</td>
+  <td>feat(device-control): add device api infrastructure</td>
+  <td>Implementa infraestructura API para dispositivos.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>alvarorc24/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>3f66ee9</td>
+  <td>feat(device-control): add device stores</td>
+  <td>Agrega stores para gestión de dispositivos.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>alvarorc24/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>19bf3e7</td>
+  <td>feat(device-control): add device domain models</td>
+  <td>Define modelos de dominio para dispositivos.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>ce5ef98</td>
+  <td>merge: integrate iam onboarding</td>
+  <td>Integra el módulo de autenticación y onboarding.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>OscarCheca/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>989e50d</td>
+  <td>feat(dashboard): add dashboard view and routes</td>
+  <td>Agrega vistas y rutas del dashboard principal.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>5dd8374</td>
+  <td>feat(shared): add shared layouts and navigation components</td>
+  <td>Agrega layouts compartidos y navegación global.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>OscarCheca/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>5dc6cb8</td>
+  <td>feat(dashboard): add dashboard application store</td>
+  <td>Implementa store de estado para dashboard.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>2a071dc</td>
+  <td>feat(iam): add onboarding wizard and account shells</td>
+  <td>Agrega asistente de onboarding y estructura de cuentas.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>OscarCheca/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>a100d64</td>
+  <td>feat(dashboard): add dashboard domain models</td>
+  <td>Define modelos de dominio del dashboard.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>70e83d8</td>
+  <td>feat(iam): add login and register pages</td>
+  <td>Agrega vistas de inicio de sesión y registro.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>eeaebd3</td>
+  <td>merge: integrate project foundation</td>
+  <td>Integra la base estructural del proyecto frontend.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>961d0cf</td>
+  <td>feat(iam): add auth guards and onboarding state</td>
+  <td>Implementa guards de autenticación y estado de onboarding.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>f99ebaa</td>
+  <td>feat: add environment configuration for api client</td>
+  <td>Agrega configuración de entorno para el cliente API.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>723c6c2</td>
+  <td>feat(iam): add auth repository and endpoints</td>
+  <td>Implementa repositorio y endpoints de autenticación.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>fbaa847</td>
+  <td>style: add global styles and material theme</td>
+  <td>Agrega estilos globales y tema visual base.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>47defec</td>
+  <td>feat(iam): add account and auth domain models</td>
+  <td>Define modelos de dominio para cuentas y autenticación.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>d654550</td>
+  <td>feat: add application bootstrap and routing shell</td>
+  <td>Inicializa el arranque de la aplicación y el enrutamiento.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>04283cb</td>
+  <td>docs: initialize front_end repository</td>
+  <td>Inicializa la documentación base del repositorio frontend.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>8f90c54</td>
+  <td>feat: add build and deployment scripts</td>
+  <td>Agrega scripts de construcción y despliegue.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>23f07c3</td>
+  <td>feat: add angular project configuration</td>
+  <td>Configura la estructura base del proyecto Angular.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>75fad06</td>
+  <td>Merge pull request #1 from DiegoEsquich/update-develop</td>
+  <td>Fusiona cambios del branch develop al main.</td>
+  <td>14/06/2026</td>
+</tr>
+</table>
+
 #### 5.2.3.5 Execution Evidence for Sprint Review
 
 #### 5.2.3.6 Services Documentation Evidence for Sprint Review
