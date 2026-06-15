@@ -469,8 +469,364 @@ Durante el proceso de refinamiento del backlog del Sprint 2 se realizaron las si
 | | | T002 | Información institucional en footer | Permite visualizar información básica del sistema en el footer. | 1h | Alvaro Rocha | To-Review |
 
 #### 5.2.2.4 Development Evidence for Sprint Review
-La gestión del código fuente para el proyecto DomotiCore continuó realizándose mediante Git como sistema de control de versiones, permitiendo mantener un flujo de trabajo colaborativo y organizado durante el desarrollo del Sprint 2. En este Sprint el enfoque principal estuvo orientado al desarrollo y despliegue del Front-End funcional de la Web App.
-La siguiente tabla resume los commits más relevantes realizados durante la implementación de funcionalidades del Sprint 2:
+
+En esta sección se presentan los avances obtenidos durante la fase de implementación correspondientes al Sprint Backlog 02, el cual estuvo orientado principalmente al inicio y desarrollo parcial del Front-End de la plataforma DomotiCore, sentando las bases visuales, estructurales y de navegación necesarias para las siguientes etapas del proyecto.
+
+Durante este sprint, el equipo se enfocó en la configuración inicial del entorno Front-End, la definición de la arquitectura de carpetas y componentes, la implementación de vistas base y layouts principales, así como en el desarrollo de los primeros flujos de interacción del usuario, incluyendo pantallas iniciales, estructura de autenticación visual y navegación entre módulos. Asimismo, se realizaron mejoras de diseño, ajustes de estilos CSS, validaciones básicas de formularios y pruebas preliminares de experiencia de usuario en distintos dispositivos.
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Commited on (Date)</th>
+  </tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>f33f173</td>
+  <td>docs: add css styles frontend</td>
+  <td>Se documentan y agregan estilos CSS base para el frontend.</td>
+  <td>10/05/2026</td>
+</tr>
+
+<tr>
+  <td>F4bri/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>15bc5c9</td>
+  <td>docs: add components vue</td>
+  <td>Se documentan componentes Vue utilizados en la interfaz.</td>
+  <td>10/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>743c3ba</td>
+  <td>docs: add value</td>
+  <td>Se añade contenido de valor descriptivo al proyecto frontend.</td>
+  <td>10/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>ebd42be</td>
+  <td>style: versel solution</td>
+  <td>Se aplica solución de estilos para despliegue en Vercel.</td>
+  <td>12/05/2026</td>
+</tr>
+
+<tr>
+  <td>alvarorc24/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>8885888</td>
+  <td>Revert "style: versel solution"</td>
+  <td>Se revierte la solución de estilos aplicada previamente.</td>
+  <td>12/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>1a3cba0</td>
+  <td>script: validation</td>
+  <td>Se implementan validaciones básicas en el frontend.</td>
+  <td>12/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>c30cc42</td>
+  <td>script: delete vercel</td>
+  <td>Se eliminan configuraciones relacionadas a Vercel.</td>
+  <td>12/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>acd448f</td>
+  <td>script: deploy</td>
+  <td>Se ejecuta configuración de despliegue inicial del frontend.</td>
+  <td>12/05/2026</td>
+</tr>
+
+<tr>
+  <td>alvarorc24/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>fcc288d</td>
+  <td>script: add layout and folders</td>
+  <td>Se agrega estructura de layouts y carpetas del frontend.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>6c6a690</td>
+  <td>script: IAM structure and smart-integrations</td>
+  <td>Se define estructura IAM y base de integraciones inteligentes.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>fa5da51</td>
+  <td>script: login system</td>
+  <td>Se implementa sistema de login a nivel de interfaz.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>73df345</td>
+  <td>Fix Angular frontend</td>
+  <td>Se corrigen errores en la implementación del frontend Angular.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>OscarCheca/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>c3f64fe</td>
+  <td>script: component array</td>
+  <td>Se reorganiza la gestión de componentes mediante arreglos.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>OscarCheca/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>6fb7958</td>
+  <td>script: design improvement</td>
+  <td>Se realizan mejoras visuales en el diseño del frontend.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>a432333</td>
+  <td>script: image addition</td>
+  <td>Se agregan recursos gráficos e imágenes a la interfaz.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>2e21bdf</td>
+  <td>feat: add dashboard bounded context</td>
+  <td>Se incorpora el contexto acotado del dashboard principal.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>4aaf464</td>
+  <td>feat(device-control): create bounded context structure and device model</td>
+  <td>Se define estructura DDD y modelo de dispositivos para control.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>DiegoEsquich/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>eb918e1</td>
+  <td>refactor(app): migrate to standalone architecture and update routing structure</td>
+  <td>Se migra la aplicación a arquitectura standalone y se ajustan rutas.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>88194d8</td>
+  <td>feat(device-control): add mock device dataset</td>
+  <td>Se agregan datos simulados de dispositivos para pruebas de UI.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>DiegoEsquich/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>4f09bce</td>
+  <td>chore: add IDE configuration and code formatting settings</td>
+  <td>Se añaden configuraciones del IDE y formato de código.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>ac4a405</td>
+  <td>feat(device-control): migrate features to ddd architecture structure</td>
+  <td>Se migran funcionalidades de control de dispositivos a DDD.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>a2a151d</td>
+  <td>feat(device-management): add domain, infrastructure and routing setup</td>
+  <td>Se agrega estructura base para gestión de dispositivos.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>DiegoEsquich/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>51ac095</td>
+  <td>feat(device-management): add presentation components for device crud</td>
+  <td>Se implementan componentes visuales para CRUD de dispositivos.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>d8513ff</td>
+  <td>feat(ui): add device management link to sidebar navigation</td>
+  <td>Se añade acceso a gestión de dispositivos desde el sidebar.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>a537a2d</td>
+  <td>script: remove components</td>
+  <td>Se eliminan componentes innecesarios del frontend.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>290efc4</td>
+  <td>script: functional part</td>
+  <td>Se consolida parte funcional del frontend.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>7b3060d</td>
+  <td>Merge branch 'feature/dashboard' into develop-final</td>
+  <td>Se integran cambios del dashboard al branch final.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>af45850</td>
+  <td>script: merge member folders</td>
+  <td>Se unifican carpetas de trabajo de los miembros del equipo.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>b63bab3</td>
+  <td>feat(automation): add automation center component and related infrastructure</td>
+  <td>Se implementa componente central de automatización.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>alvarorc24/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>abcad73</td>
+  <td>Merge branch 'feature/automation-gateway' into develop-final</td>
+  <td>Se integran cambios del gateway de automatización.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>e16d5be</td>
+  <td>script: correction code</td>
+  <td>Se realizan correcciones generales de código.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>192b96f</td>
+  <td>script: corrections final</td>
+  <td>Se aplican correcciones finales del frontend.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>cd1a10a</td>
+  <td>feat(automation): add route for automation center component</td>
+  <td>Se agrega ruta de navegación para el centro de automatización.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>d6a7f93</td>
+  <td>script: add translate front-end boundend context</td>
+  <td>Se agrega soporte de traducción al frontend.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>3a8153b</td>
+  <td>script: add fakeapi</td>
+  <td>Se incorpora API simulada para pruebas de frontend.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>b42be5e</td>
+  <td>script: add dependencies</td>
+  <td>Se agregan dependencias necesarias para la configuración inicial del frontend.</td>
+  <td>14/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>877a6ae</td>
+  <td>docs: add install animation</td>
+  <td>Se añade animación ilustrativa al proceso de instalación del frontend.</td>
+  <td>14/05/2026</td>
+</tr>
+
+<tr>
+  <td>alvarorc24/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>944cb72</td>
+  <td>docs: add corrections fronted</td>
+  <td>Se realizan correcciones documentales relacionadas al frontend.</td>
+  <td>14/05/2026</td>
+</tr>
+
+</table>
 
 #### 5.2.2.5 Execution Evidence for Sprint Review
 Durante el Sprint 2 se logró implementar y desplegar el Front-End funcional de la Web App de DomotiCore, incluyendo navegación principal, dashboard interactivo y módulos relacionados con la administración de dispositivos inteligentes y monitoreo energético.
