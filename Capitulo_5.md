@@ -388,82 +388,85 @@ En estas métricas facilitó la identificación de cada apoyo de los colaborador
 
 ### 5.2.2 Sprint 2
 
-| Campo | Detalle |
-| :--- | :--- |
-| **Sprint #** | Sprint 2 |
-| **Date** | 2026-05-09|
-| **Time** | 7:00 PM |
-| **Location** | Microsoft Teams (Reunión virtual) |
-| **Prepared By** | Equipo Veltrix |
+#### 5.2.2.1 Sprint Planning 2
+En esta sección, se presentará la planificación de nuestro Sprint 2.
 
-****Attendees (Planning Meeting)****
+| **Sprint #** |                 **Sprint 2**              |
+|--------------|-------------------------------------------|
+|**Sprint Planning Background**                            |
+| Date         | 2026/05/09                                |
+| Time         | 07:00 pm                                  |
+| Location     | Reunión virtual mediante Microsoft Teams       |
+| Prepared By  | Esquicha Alcántara, Diego Alonso          |
+| Attendees    |Rocha Cotrina, Alvaro / Esquicha Alcántara, Diego Alonso / Quispe llacsahuanga, César Agusto / Tello Palacios, Fabrizio Rafael / Checa Burga, Oscar |
+| Sprint n-2 Review Summary |  Durante el Sprint 2 se avanzó en el desarrollo y despliegue del Front-End de la Web App de DomotiCore. Se implementaron las principales vistas del sistema, incluyendo autenticación de usuarios, dashboard interactivo y módulos de monitoreo de dispositivos. Además, se configuró el entorno de despliegue para publicar la aplicación en un servicio cloud, se optimizó la estructura de componentes y se realizaron pruebas funcionales para validar la navegación y experiencia de usuario. Sin embargo, quedaron pendientes algunas integraciones avanzadas con backend y mejoras relacionadas con rendimiento y seguridad.           |
+| Sprint n-2 Retrospective Summary |  En el Sprint 2 el equipo mejoró la coordinación respecto al sprint anterior, logrando una distribución más equilibrada de tareas y mayor seguimiento del avance. No obstante, surgieron retrasos por conflictos en merges y cambios de último momento en algunas interfaces. Como acciones de mejora, se acordó fortalecer la revisión de código mediante pull requests, mantener reuniones breves de seguimiento y definir estándares visuales y de desarrollo desde el inicio del sprint.|
+| **Sprint Goal & User Stories**                           |
+|**Sprint 2**  |Desarrollar y desplegar el Front-End funcional de la Web App de DomotiCore, asegurando navegación operativa, vistas principales implementadas y publicación en un entorno cloud.|
+| Sprint 2 Velocity   | 10  Story Points                   |
+| Sum of Story Points | 50  Story Points                   |
 
-| Participantes |
-| :--- |
-| Cesar Quispe |
-| Oscar Checa |
-| Diego Esquich |
-| Fabrizio Rafael |
-| Alvaro Rocha |
-
-*****Sprint 2 – Review Summary****
-
-| Descripción |
-| :--- |
-| Durante el Sprint 2 se avanzó en el desarrollo y despliegue del Front-End de la Web App de DomotiCore. Se implementaron las principales vistas del sistema, incluyendo autenticación de usuarios, dashboard interactivo y módulos de monitoreo de dispositivos. Además, se configuró el entorno de despliegue para publicar la aplicación en un servicio cloud, se optimizó la estructura de componentes y se realizaron pruebas funcionales para validar la navegación y experiencia de usuario. Sin embargo, quedaron pendientes algunas integraciones avanzadas con backend y mejoras relacionadas con rendimiento y seguridad.|
-
-****Sprint 2 – Retrospective Summary****
-
-| Descripción |
-| :--- |
-| En el Sprint 2 el equipo mejoró la coordinación respecto al sprint anterior, logrando una distribución más equilibrada de tareas y mayor seguimiento del avance. No obstante, surgieron retrasos por conflictos en merges y cambios de último momento en algunas interfaces. Como acciones de mejora, se acordó fortalecer la revisión de código mediante pull requests, mantener reuniones breves de seguimiento y definir estándares visuales y de desarrollo desde el inicio del sprint.|
-
-****Sprint Goal & User Stories****
-
-| Campo | Detalle |
-| :--- | :--- |
-| **Sprint 2 Goal** | Desarrollar y desplegar el Front-End funcional de la Web App de DomotiCore, asegurando navegación operativa, vistas principales implementadas y publicación en un entorno cloud.|
-| **Sprint 2 Velocity** | 6 User Stories |
-| **Story Points por historia** | 10 puntos |
-| **Sum of Story Points** | 50 |
 #### 5.2.2.2 Aspect Leaders and Collaborators
 
-| Team Member (Last Name, First Name) | GitHub Username | Infrastructure & Repository | Web App Deployment | Documentation (Chapters 1-5) |
-| :--- | :--- | :---: | :---: | :---: |
-| Checa, Oscar | OscarCheca | **C** | **C** | **C** |
-| Quispe, Cesar | user20-bit | **C** | **L** | **L** |
-| Esquich, Diego | DiegoEsquich | **L** | **C** | **C** |
-| Tello, Fabrizio | F4bris | **C** | **C** | **C** |
-| Rocha , Alvaro | alvarorc24 | **C** | **C** | **C** |
+En el marco del Sprint Backlog 2, el equipo de desarrollo de DomotiCore ha enfocado sus esfuerzos en el inicio y consolidación parcial del Front-End de la plataforma, estableciendo la base visual, estructural y funcional necesaria para la interacción inicial del usuario con el sistema. Este sprint prioriza la implementación de los primeros flujos de navegación, la visualización centralizada de dispositivos IoT, el control básico desde el dashboard, y el monitoreo visual de estados, permitiendo una experiencia de uso operativa inicial a través de la interfaz web.
+
+Para asegurar una ejecución organizada, colaborativa y trazable, se continuó utilizando la Matriz de Liderazgo y Colaboración (LACX), mediante la cual se asignaron roles de liderazgo (L) y colaboración (C) a los integrantes del equipo según los componentes frontend abordados durante el sprint.
+
+| Team Member (Last Name, First Name) | GitHub Username    | Front-End Structure | Navigation & Routing | Device Dashboard  | Device Control (UI) | Status Visualization | UI Feedback (Success/Error) | Authentication UI | Responsive UX |
+| :---------------------------------- | :----------------- | :------------- | :--------------- | :------------------ | :-------------- | :----- | :----------- | :-------------- | :--------------- 
+| Rocha Cotrina, Alvaro               | alvarorc24 | C | C | C | C | C | L | C | C |
+| Esquicha Alcántara, Diego Alonso    | DiegoEsquich | C  | L | C | C | L | L | C | L  |
+| Quispe Llacsahuanga, César Agusto   | user20-bit | L | C | L | C | C | C | L | C |       
+| Tello Palacios, Fabrizio Rafael     | F4bris | C | C | C | L | C | C | C | C |
+| Checa Burga, Oscar Diego            | OscarCheca | C | C | C | C | C | C | C | C |
+---------------
+*Leyenda: L = Lead (Líder), C = Collaborator (Colaborador)*
 
 #### 5.2.2.3 Sprint Backlog 2
 
-Las User Stories del proyecto fueron reorganizadas y priorizadas durante las actividades de Sprint Planning del Sprint 2 con el objetivo de enfocar el desarrollo en la implementación y despliegue del Front-End funcional de la Web App de DomotiCore.
+El Sprint Backlog 2 tiene el objetivo de enfocar el desarrollo en la implementación y despliegue del Front-End funcional de la Web App de DomotiCore.
 Las historias de usuario definidas previamente en la Sección 3.1 fueron refinadas y alineadas con las necesidades funcionales de la interfaz web, considerando aspectos de navegación, visualización de dispositivos, autenticación y experiencia de usuario. Asimismo, se mantuvo la estructura de criterios de aceptación basada en Gherkin, facilitando la validación de funcionalidades implementadas durante el sprint.
 
 Durante el proceso de refinamiento del backlog del Sprint 2 se realizaron las siguientes mejoras:
-•	**Priorización** de funcionalidades relacionadas al Front-End y experiencia de usuario.
-•	**Integración** de componentes visuales reutilizables para la Web App.
-•	**Organización** de User Stories según módulos funcionales del sistema.
-•	**Optimización** de flujos de navegación y control de dispositivos.
-•	**Relación** entre Sprint Goal, despliegue cloud y funcionalidades implementadas.
+*	**Priorización** de funcionalidades relacionadas al Front-End y experiencia de usuario.
+*	**Integración** de componentes visuales reutilizables para la Web App.
+*	**Organización** de User Stories según módulos funcionales del sistema.
+*	**Optimización** de flujos de navegación y control de dispositivos.
+*	**Relación** entre Sprint Goal, despliegue cloud y funcionalidades implementadas.
 
-La siguiente tabla resume las principales User Stories consideradas durante las actividades de planificación del Sprint 2:
 
-La siguiente tabla resume las principales User Stories consideradas durante las actividades de planificación de Sprint:
+### Screenshot del Board
 
-| User Story ID | Título | Epic |
-| :--- | :--- | :--- |
-| **US-01** | Vinculación de inicio| Gateway Management |
-| **US-02** | Registro y sincronización de nodos| Device Management|
-| **US-03** | Control remoto de dispositivos | Device Control|
-| **US-10** | Cierre de sesión seguro| User Security |
-| **US-12** | Visualización de cantidad total de dispositivos| Dashboard |
-| **US-24** | Visualización de dispositivos desconectados| Device Monitoring|
-| **US-28** | Mensajes de éxito y error | User Experience|
-| **US-30** | Edición de nombre de dispositivos | Device Control |
-| **US-42** | Navegación por secciones| Website |
-| **US-45** | Footer informativo| Website |
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/5.2.2.3. Sprint Backlog 2.png" 
+       alt="Paleta de Colores">
+</div>
+
+**Trello:** [Trello Sprint 2](https://trello.com/b/y2sNWzhi/domoticore-sprint-backlog-2) [https://trello.com/b/y2sNWzhi/domoticore-sprint-backlog-2]
+
+### Sprint Backlog #02
+
+| User Story Id | Title | Task Id | Task Title | Description | Est. (h) | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :---: | :--- | :---: |
+| **US-01** | Vinculación de inicio | T001 | Flujo inicial de vinculación de gateway | Permite al usuario iniciar el proceso de vinculación del gateway desde la interfaz web. | 3h | Diego Esquicha | Done |
+| | | T002 | Validación visual de vinculación | Permite mostrar mensajes visuales de éxito o error durante el proceso de vinculación. | 2h | Cesar Quispe | Done |
+| **US-02** | Registro y sincronización de nodos | T001 | Registro visual de nodos | Permite mostrar los nodos detectados durante el proceso de registro inicial. | 2h | Fabrizio Tello | Done |
+| | | T002 | Sincronización inicial de dispositivos | Permite cargar y visualizar los dispositivos sincronizados en el dashboard. | 3h | Diego Esquicha | Done |
+| **US-03** | Control remoto de dispositivos | T001 | Controles ON/OFF en dashboard | Permite encender y apagar dispositivos desde el dashboard (capa visual). | 3h | Alvaro Rocha | Done |
+| | | T002 | Actualización visual de estados | Permite reflejar cambios de estado en tiempo real en la interfaz. | 2h | Diego Esquicha | Done |
+| **US-10** | Cierre de sesión seguro | T001 | Implementación de logout | Permite al usuario cerrar sesión de manera segura desde la interfaz. | 2h | Cesar Quispe | Done |
+| | | T002 | Redirección post logout | Permite redirigir al usuario a la pantalla inicial tras cerrar sesión. | 1h | Cesar Quispe | Done |
+| **US-12** | Visualización de cantidad total de dispositivos | T001 | Contador de dispositivos | Permite mostrar el número total de dispositivos registrados en el dashboard. | 1h | Alvaro Rocha | Done |
+| **US-24** | Visualización de dispositivos desconectados | T001 | Identificación visual de desconexión | Permite diferenciar dispositivos desconectados mediante indicadores visuales. | 2h | Fabrizio Tello | Done |
+| | | T002 | Renderizado de dispositivos inactivos | Permite mostrar dispositivos desconectados en el dashboard. | 1h | Diego Esquicha | In-Progress |
+| **US-28** | Mensajes de éxito y error | T001 | Mensajes de éxito | Permite mostrar confirmaciones visuales al ejecutar acciones correctamente. | 1h | Cesar Quispe | Done |
+| | | T002 | Mensajes de error | Permite mostrar errores ante fallos de interacción o conexión simulada. | 2h | Oscar Checa | To-Fix |
+| **US-30** | Edición de nombre de dispositivos | T001 | Edición dinámica de nombre | Permite modificar el nombre de un dispositivo desde la interfaz. | 2h | Alvaro Rocha | In-Progress |
+| | | T002 | Ajustes visuales de edición | Permite mejorar la experiencia visual del formulario de edición. | 1h | Oscar Checa | To-Review |
+| **US-42** | Navegación por secciones | T001 | Navegación entre secciones | Permite al usuario desplazarse entre los módulos principales de la Web App. | 3h | Fabrizio Tello | To-Fix |
+| | | T002 | Configuración de rutas | Permite definir rutas principales de navegación en el frontend. | 2h | Diego Esquicha | To-Review |
+| **US-45** | Footer informativo | T001 | Diseño de footer | Permite mostrar un footer con información general de DomotiCore. | 1h | Cesar Quispe | Done |
+| | | T002 | Información institucional en footer | Permite visualizar información básica del sistema en el footer. | 1h | Alvaro Rocha | To-Review |
 
 #### 5.2.2.4 Development Evidence for Sprint Review
 La gestión del código fuente para el proyecto DomotiCore continuó realizándose mediante Git como sistema de control de versiones, permitiendo mantener un flujo de trabajo colaborativo y organizado durante el desarrollo del Sprint 2. En este Sprint el enfoque principal estuvo orientado al desarrollo y despliegue del Front-End funcional de la Web App.
