@@ -1216,9 +1216,121 @@ Durante este sprint se implementaron funcionalidades relacionadas con la autenti
 
 #### 5.2.3.5 Execution Evidence for Sprint Review
 
+Durante el Sprint 3 se consolidó la plataforma DomotiCore como un sistema funcional e integrado de gestión domótica, completando la interoperabilidad entre frontend y backend, y habilitando capacidades avanzadas de automatización, control de dispositivos y gestión segura de usuarios.
+
+### Resumen de Logros:
+
+* **Gestión y Control de Dispositivos:** Se implementaron vistas y servicios para la visualización y administración de dispositivos domóticos en entornos de hogar y negocio, permitiendo identificar su estado operativo, conexión y disponibilidad en tiempo real.
+
+* **Automatización Inteligente:** Se desarrolló el centro de automatización, incorporando configuraciones por zonas, reglas automatizadas y flujos de control, habilitando la ejecución de acciones inteligentes sobre dispositivos registrados.
+
+* **Integraciones y Perfil Empresarial:** Se integró el módulo de integraciones inteligentes junto con el perfil de negocio, permitiendo asociar servicios externos y centralizar operaciones para pequeñas y medianas empresas dentro de un mismo entorno.
+
+* **Historial, Reportes y Monitoreo:** Se incorporaron módulos de historial de actividades, notificaciones y reportes empresariales, incluyendo análisis de costos y trazabilidad de eventos para una supervisión integral del sistema.
+
+### Video de Demostración y Navegación
+Puedes acceder al video de la demostración funcional en el siguiente enlace:
+
+ https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411799_upc_edu_pe/IQCfFdiePZ2WSYDP5NAx09aaAU-75hAPHn83pfSqqKyIi3k?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=eawEVz
+
+### Screenshots de la Implementación
+
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-1-evidence-selection.png" 
+       alt="Evidencia para seleccionar en base a tu preferencia">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-2-evidence-segment-1.png" 
+       alt="El usuario selecciono Usuarios de Hogares Inteligentes - Segmento 1">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-3-evidence-segment-2.png" 
+       alt="El usuario selecciono Pequeños Negocios y Emprendedores - Segmento 2">
+</div>
+
 #### 5.2.3.6 Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 3 se ejecutaron actividades clave de configuración, integración y estabilización de servicios, orientadas a asegurar el correcto funcionamiento de DomotiCore en entornos de desarrollo y despliegue, así como la comunicación efectiva entre frontend y backend.
+
+**Las actividades realizadas incluyen:**
+* **Frontend Deployment:** Se consolidó el despliegue del frontend de DomotiCore como aplicación web, integrando módulos funcionales como dashboard, control de dispositivos, automatización, seguridad, historial y gestión de usuarios, garantizando una navegación fluida y coherente.
+
+* **Backend Services Configuration:** Se implementaron y documentaron servicios backend basados en Spring Boot, incluyendo módulos de automatización, control de dispositivos, historial y perfil empresarial, asegurando su correcta exposición mediante endpoints REST.
+
+* **Environment Configuration:** Se configuraron variables de entorno para la correcta conexión entre frontend y backend, incluyendo parámetros de cliente API, perfiles de ejecución y configuración de bases de datos PostgreSQL con migraciones Flyway.
+
+* **Security and Authentication Services:** Se documentó y validó el uso de mecanismos de autenticación y autorización, asegurando el acceso controlado a recursos mediante guards, perfiles de usuario y control de sesiones.
+
+### Detalle de Entornos de Despliegue
+
+| Componente | Plataforma / Herramienta | Estado | URL / Acceso |
+| :--- | :--- | :---: | :--- |
+| **Frontend Web** | Vercel / Netlify | `Live` | [https://veltrix-domoti-core-front-end-omega.vercel.app/] |
+| **Fake API**.    | Render | `Live` | [https://json-server-2mq3.onrender.com]
+| **Documentación** | Swagger UI | `Public` | `/api/docs` |
+----
 
 #### 5.2.3.7 Software Deployment Evidence for Sprint Review
 
+- Evidencia del despliegue en Swagger
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-1-sprint-backlog-3.png" 
+       alt="Frontend Evidence">
+</div>
+
+- Evidencia del despliegue de simulación de Backend
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-3-sprint-backlog-3.png" 
+       alt="Frontend Evidence">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-4-sprint-backlog-3.png" 
+       alt="Frontend Evidence">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-5-sprint-backlog-3.png" 
+       alt="Frontend Evidence">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-6-sprint-backlog-3.png" 
+       alt="Frontend Evidence">
+</div>
+
+- Evidencia del despliegue de la Fake API
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-2-sprint-backlog-3.png" 
+       alt="Frontend Evidence">
+</div>
+
 #### 5.2.3.8 Team Collaboration Insights during Sprint
 
+La ejecución del Sprint 3 se centró en la consolidación del frontend y su alineación con los servicios ya desplegados, fortaleciendo la estabilidad, mantenibilidad y experiencia de usuario del sistema. La colaboración del equipo se evidenció en los siguientes aspectos clave:
+
+* **Coordinación Técnica Continua:** El equipo trabajó de forma sincronizada para integrar mejoras visuales, ajustes funcionales y correcciones derivadas del Sprint anterior, asegurando una correcta interacción entre componentes frontend y servicios de autenticación.
+
+* **Gestión Eficiente del Control de Versiones:** Se mantuvo un flujo ordenado de trabajo mediante el uso de ramas de desarrollo, Pull Requests y revisiones de código, lo que permitió integrar cambios de manera segura y reducir errores en el entorno productivo.
+
+* **Refinamiento de la Experiencia de Usuario:** La colaboración grupal facilitó la estandarización de componentes UI, mejoras en la navegación y ajustes visuales en dashboards, formularios y vistas clave, garantizando coherencia visual y funcional.
+
+* **Enfoque en Calidad y Estabilidad:**
+Durante el sprint se priorizaron pruebas funcionales, validaciones manuales y corrección de incidencias, promoviendo una cultura orientada a la calidad del producto final.
+
+* **Comunicación y Resolución Ágil de Incidencias:** El equipo mantuvo una comunicación constante a través de herramientas colaborativas, permitiendo resolver rápidamente bloqueos técnicos, coordinar tareas y asegurar el cumplimiento de los objetivos del sprint.
+
+### Analíticos de GitHub — Sprint 3
+**Analíticos de GitHub — Plataforma Interna**
+
+<p align="center">
+  <img src="imagenes/images_Cap5/screenshot-evidence-commits-sprint-backlog-3.png" alt="Top Committers — Sprint 2" width="600"/>
+</p>
+
+| Integrante | Usuario GitHub | Commits |
+| :--- | :--- | :---: |
+| Guillen Giraldo, Fabrizio Tello | F4bris | 5 |
+| Quispe Llacsahuanga, César Agusto | user20-bit | 32 |
+| Esquicha Alcántara, Diego Alonso | DiegoEsquich | 2 |
+| Rocha Cotrina, Alvaro | alvarorc24 | 5 |
+| Véliz Martínez, Diego Alonso | Veliz-0912 | 0 |
+| Checa Burga, Oscar Diego | OscarCheca | 3 |
+
+Se evidencia una participación activa y equilibrada de todos los integrantes del equipo durante el Sprint 3, reflejando un trabajo colaborativo de la plataforma DomotiCore.
