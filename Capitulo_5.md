@@ -829,9 +829,39 @@ Durante este sprint, el equipo se enfocó en la configuración inicial del entor
 </table>
 
 #### 5.2.2.5 Execution Evidence for Sprint Review
-Durante el Sprint 2 se logró implementar y desplegar el Front-End funcional de la Web App de DomotiCore, incluyendo navegación principal, dashboard interactivo y módulos relacionados con la administración de dispositivos inteligentes y monitoreo energético.
-Capturas de Pantalla de la Implementación
-A continuación, se presentan las evidencias visuales de los componentes desarrollados:
+
+Durante el Sprint 02, el equipo de desarrollo avanzó en la construcción inicial de la plataforma DomotiCore, enfocándose en el diseño, estructuración y desarrollo parcial del Front-End, con el objetivo de establecer una base funcional y visual sólida para las siguientes iteraciones del proyecto.
+
+### Resumen de Logros:
+
+* **Estructura y Navegación de la Plataforma:** Se implementó la arquitectura inicial del Front-End, incluyendo la definición de layouts principales, estructura de carpetas, componentes base y navegación entre vistas, permitiendo una experiencia de usuario coherente y escalable.
+
+* **Visualización Inicial de Dispositivos:** Se desarrollaron vistas preliminares para la presentación de dispositivos domóticos, contemplando estados básicos (conectado/desconectado) mediante datos simulados, lo que permitió validar el diseño y la interacción del usuario con el sistema.
+
+* **Diseño y Experiencia de Usuario:** Se realizaron ajustes visuales y mejoras de estilo CSS, así como la adaptación inicial de la interfaz para distintos tamaños de pantalla, fortaleciendo la usabilidad y accesibilidad de la plataforma.
+
+* **Preparación para Automatización e Integraciones:** Se sentaron las bases visuales y estructurales para futuros módulos de automatización, integraciones inteligentes y gestión empresarial, dejando preparados los puntos de extensión que serán completados en el Sprint Backlog 03.
+
+### Video de Demostración y Navegación
+Puedes acceder al video de la demostración funcional en el siguiente enlace:
+
+**enlace pendiente**
+
+### Screenshots de la Implementación
+
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/pendiente" 
+       alt="Evidencia para seleccionar en base a tu preferencia">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/pendiente" 
+       alt="El usuario selecciono Usuarios de Hogares Inteligentes - Segmento 1">
+</div>
+<div style="text-align:center;">
+  <img src="pendiente" 
+       alt="El usuario selecciono Pequeños Negocios y Emprendedores - Segmento 2">
+</div>
+
 #### 5.2.2.6 Services Documentation Evidence for Sprint Review
 Durante el Sprint 2 se avanzó en la definición preliminar de los servicios REST relacionados con autenticación de usuarios, gestión de dispositivos y monitoreo energético. Asimismo, se establecieron las estructuras base para futuras integraciones entre el Front-End y Backend.
 La documentación OpenAPI será complementada e integrada en los siguientes Sprints conforme se desarrollen los servicios backend definitivos.
@@ -1634,6 +1664,38 @@ Durante el Sprint 3 se ejecutaron actividades clave de configuración, integraci
 - Evidencia del despliegue en Swagger
 <div style="text-align:center;">
   <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-1-sprint-backlog-3.png" 
+       alt="Frontend Evidence">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-1.1-sprint-backlog-3.png" 
+       alt="Frontend Evidence">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-1.2-sprint-backlog-3.png" 
+       alt="Frontend Evidence">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-1.3-sprint-backlog-3.png" 
+       alt="Frontend Evidence">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-1.4-sprint-backlog-3.png" 
+       alt="Frontend Evidence">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-1.5-sprint-backlog-3.png" 
+       alt="Frontend Evidence">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-1.6-sprint-backlog-3.png" 
+       alt="Frontend Evidence">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-1.7-sprint-backlog-3.png" 
+       alt="Frontend Evidence">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-1.8-sprint-backlog-3.png" 
        alt="Frontend Evidence">
 </div>
 
