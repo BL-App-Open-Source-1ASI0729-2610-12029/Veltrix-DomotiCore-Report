@@ -219,89 +219,84 @@ El desarrollo inicial fue realizado utilizando tecnologías frontend como **HTML
 
 ### 5.2.1. Sprint 1
 
-El Sprint 1 representa el primer ciclo de desarrollo ágil del proyecto DomotiCore. Durante esta iteración, el equipo se enfocó en la construcción inicial de la Landing Page, organización de repositorios y definición de lineamientos técnicos del proyecto.
-
 #### 5.2.1.1. Sprint Planning 1
 
-****Sprint Information****
+En esta sección, se presentará la planificación de nuestro Sprint 1.
 
-| Campo | Detalle |
-| :--- | :--- |
-| **Sprint #** | Sprint 1 |
-| **Date** | 2026-04-25 |
-| **Time** | 11:00 PM |
-| **Location** | Microsoft Teams (Reunión virtual) |
-| **Prepared By** | Equipo Veltrix |
-
-****Attendees (Planning Meeting)****
-
-| Participantes |
-| :--- |
-| Cesar Quispe |
-| Oscar Checa |
-| Diego Esquicha |
-| Fabrizio Rafael |
-| Alvaro Rocha |
-
-*****Sprint 1 – Review Summary****
-
-| Descripción |
-| :--- |
-| Durante el Sprint 1 se lograron avances importantes como la implementación completa de la Landing Page de DomotiCore, incluyendo secciones como Hero, Features, About y Contacto. Además, se organizó el repositorio en GitHub, se realizaron commits relacionados a wireframes, mockups y documentación, y se implementó una vista simulada del dashboard. Sin embargo, quedaron pendientes aspectos como la integración con backend, automatización real de dispositivos y despliegue final en producción. |
-
-****Sprint 1 – Retrospective Summary****
-
-| Descripción |
-| :--- |
-| El Sprint 1 evidenció problemas en la organización del equipo, como falta de comunicación, distribución ineficiente de tareas y dependencia de entregas de último momento. Como mejoras, se propuso realizar reuniones más frecuentes, utilizar herramientas como Trello para seguimiento, definir responsabilidades claras y mejorar la gestión del tiempo. |
-
-****Sprint Goal & User Stories****
-
-| Campo | Detalle |
-| :--- | :--- |
-| **Sprint 1 Goal** | Desarrollar y desplegar la Landing Page funcional de DomotiCore, estructurar el repositorio en GitHub y reflejar el avance en el tablero de tareas. |
-| **Sprint 1 Velocity** | 5 User Stories |
-| **Story Points por historia** | 5 puntos |
-| **Sum of Story Points** | 25 |
+| **Sprint #** |                 **Sprint 1**              |
+|--------------|-------------------------------------------|
+|**Sprint Planning Background**                            |
+| Date         | 2026/04/25                                |
+| Time         | 11:00 pm                                  |
+| Location     | Reunión virtual mediante Microsoft Teams       |
+| Prepared By  | Equipo Veltrix |
+| Attendees    |Rocha Cotrina, Alvaro / Esquicha Alcántara, Diego Alonso / Quispe llacsahuanga, César Agusto / Tello Palacios, Fabrizio Rafael / Checa Burga, Oscar |
+| Sprint n-1 Review Summary |  Durante el Sprint 1 se lograron avances importantes como la implementación completa de la Landing Page de DomotiCore, incluyendo secciones como Hero, Features, About y Contacto. Además, se organizó el repositorio en GitHub, se realizaron commits relacionados a wireframes, mockups y documentación, y se implementó una vista simulada del dashboard. Sin embargo, quedaron pendientes aspectos como la integración con backend, automatización real de dispositivos y despliegue final en producción.           |
+| Sprint n-1 Retrospective Summary |  El Sprint 1 evidenció problemas en la organización del equipo, como falta de comunicación, distribución ineficiente de tareas y dependencia de entregas de último momento. Como mejoras, se propuso realizar reuniones más frecuentes, utilizar herramientas como Trello para seguimiento, definir responsabilidades claras y mejorar la gestión del tiempo.|
+| **Sprint Goal & User Stories**                           |
+|**Sprint 1**  |Desarrollar y desplegar la Landing Page funcional de DomotiCore, estructurar el repositorio en GitHub y reflejar el avance en el tablero de tareas.|
+| Sprint 1 Velocity   | 5  Story Points                   |
+| Sum of Story Points | 25  Story Points                   |
 
 #### 5.2.1.2 Aspect Leaders and Collaborators
 
-| Team Member (Last Name, First Name) | GitHub Username | Infrastructure & Repository | Landing Page Development | Documentation (Chapters 1-5) |
-| :--- | :--- | :---: | :---: | :---: |
-| Checa, Oscar | OscarCheca | **C** | **C** | **C** |
-| Quispe, Cesar | user20-bit | **C** | **L** | **L** |
-| Esquich, Diego | DiegoEsquich | **L** | **C** | **C** |
-| Tello, Fabrizio | F4bris | **C** | **C** | **C** |
-| Rocha , Alvaro | alvarorc24 | **C** | **C** | **C** |
+En el marco del Sprint Backlog 1, el equipo de desarrollo de DomotiCore orientó sus esfuerzos a la construcción y consolidación inicial de la Landing Page del proyecto, estableciendo la base visual, informativa y estructural que permite presentar la propuesta de valor de la plataforma a usuarios potenciales. Este sprint se enfocó en definir una experiencia inicial clara y atractiva, incorporando secciones informativas del producto, descripciones de funcionalidades principales, previsualización de características clave y una estructura responsive que garantice accesibilidad desde distintos dispositivos.
+
+Para asegurar una ejecución ordenada, colaborativa y trazable, se aplicó la Matriz de Liderazgo y Colaboración (LACX), mediante la cual se asignaron roles de liderazgo (L) y colaboración (C) a los integrantes del equipo en función de los componentes específicos abordados durante el sprint, tales como la estructura general de la Landing Page, el diseño visual, la sección informativa del producto, la previsualización de funcionalidades y la adaptación responsive.
+
+| Team Member (Last Name, First Name) | GitHub Username    | Landing Page Structure | Product Information Section | Features Preview | UI Design & Layout | Responsive UX | Component Reusability | Visual Consistency |
+| :---------------------------------- | :----------------- | :------------- | :--------------- | :------------------ | :-------------- | :----- | :----------- | :-------------- 
+| Rocha Cotrina, Alvaro               | alvarorc24 | C | C | L | C | C | L | C |
+| Esquicha Alcántara, Diego Alonso    | DiegoEsquich | C  | L | C | C | L | L | C |
+| Quispe Llacsahuanga, César Agusto   | user20-bit | L | C | L | C | C | C | L |      
+| Tello Palacios, Fabrizio Rafael     | F4bris | C | C | C | L | C | C | C |
+| Checa Burga, Oscar Diego            | OscarCheca | C | C | C | C | C | C | C |
+---------------
+*Leyenda: L = Lead (Líder), C = Collaborator (Colaborador)*
 
 #### 5.2.1.3 Sprint Backlog 1
 
-Las User Stories del proyecto fueron reorganizadas durante las actividades de Sprint Planning con el objetivo de mejorar la consistencia, trazabilidad y organización funcional del Product Backlog.
+En el Sprint Backlog 1 se abordó la construcción de las bases funcionales, visuales y estructurales de la plataforma DomotiCore, con el objetivo de transformar el proyecto en una solución inicial operativa orientada a la gestión y control inteligente de dispositivos IoT. Durante este sprint, el equipo se enfocó en la implementación de funcionalidades fundamentales que permiten establecer la conectividad inicial del sistema, la presentación del producto y la interacción básica del usuario con la plataforma.
 
-Las historias de usuario definidas previamente en la Sección 3.1 fueron estandarizadas siguiendo convenciones Scrum y criterios de aceptación basados en la estructura **Gherkin**, permitiendo una mejor comprensión y validación de funcionalidades durante el desarrollo del proyecto.
+### Screenshot del Board
 
-Durante el proceso de refinamiento del backlog se realizaron las siguientes mejoras:
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/5.2.1.3. Sprint Backlog 1.png" 
+       alt="Paleta de Colores">
+</div>
 
-* **Estandarización** de la nomenclatura de User Stories y Epics.
-* **Consolidación** de funcionalidades duplicadas.
-* **Reorganización** de Epics según dominios funcionales.
-* **Mejora** en la redacción de criterios de aceptación.
-* **Relación** entre Sprint Goals y funcionalidad.
+**Trello:** [Trello Sprint 1](https://trello.com/b/EYc1tzO0/domoticore-sprint-backlog-1) [https://trello.com/b/EYc1tzO0/domoticore-sprint-backlog-1]
 
-La siguiente tabla resume las principales User Stories consideradas durante las actividades de planificación de Sprint:
+### Sprint Backlog #01
 
-| User Story ID | Título | Epic |
-| :--- | :--- | :--- |
-| **US-01** | Vinculación de Gateway | Gateway Management |
-| **US-03** | Control remoto de dispositivos | Device Control |
-| **US-06** | Monitoreo energético en tiempo real | Energy Monitoring |
-| **US-09** | Notificación de dispositivos desconectados | Notifications |
-| **US-17** | Información del producto en la Landing Page | Website |
-| **US-19** | Autenticación básica de API | RESTful API |
-| **US-21** | Encendido general de dispositivos | Advanced Device Control |
-| **US-35** | Optimización automática de consumo | Energy Optimization |
-| **US-41** | Previsualización de funciones de la aplicación | Website |
-
+| User Story Id | Title | Task Id | Task Title | Description | Est. (h) | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :---: | :--- | :---: |
+| **US-01** | Vinculación de Gateway | T001 | Crear estructura base de vinculación | Permite establecer la base lógica para la vinculación de gateways con la plataforma DomotiCore. | 2h | Diego Esquicha | Done |
+| | | T002 | Formulario de conexión de gateway | Permite al usuario registrar y vincular un gateway desde la interfaz web. | 3h | Cesar Quispe | In-Process |
+| **US-03** | Control remoto de dispositivos | T001 | Lógica base de control remoto | Permite definir la estructura lógica para el control remoto de dispositivos IoT. | 2h | Fabrizio Tello | Done |
+| | | T002 | Botones ON/OFF de dispositivos | Permite encender o apagar dispositivos desde la interfaz de usuario. | 2h | Cesar Quispe | Done |
+| | | T003 | Actualización de estado en tiempo real | Permite reflejar cambios de estado del dispositivo en tiempo real. | 3h | Alvaro Rocha | To-Fix |
+| **US-06** | Monitoreo energético en tiempo real | T001 | Vista de monitoreo energético | Permite visualizar el consumo energético de los dispositivos en tiempo real. | 3h | Diego Esquicha | Done |
+| | | T002 | Mostrar consumo energético | Permite presentar gráficamente el consumo energético actual. | 2h | Fabrizio Tello | Done |
+| | | T003 | Revisión de visualización | Permite validar la correcta visualización del consumo energético. | 1h | Cesar Quispe | Done |
+| **US-09** | Notificación de dispositivos desconectados | T001 | Detección de dispositivos desconectados | Permite identificar dispositivos que no están conectados al sistema. | 2h | Alvaro Rocha | In-Process |
+| | | T002 | Alerta visual de desconexión | Permite mostrar una notificación visual cuando un dispositivo se desconecta. | 1h | Cesar Quispe | Done |
+| | | T003 | Validación de mensajes de alerta | Permite validar la correcta emisión de mensajes de desconexión. | 1h | Cesar Quispe | In-Process |
+| **US-17** | Información del producto en la Landing Page | T001 | Diseño sección informativa | Permite diseñar la sección informativa principal de la Landing Page de DomotiCore. | 2h | Fabrizio Tello | Done |
+| | | T002 | Descripción del producto y beneficios | Permite mostrar información clara sobre el producto y sus beneficios. | 2h | Diego Esquicha | Done |
+| | | T003 | Ajuste responsive de Landing Page | Permite adaptar la Landing Page a diferentes resoluciones de pantalla. | 2h | Cesar Quispe | To-Fix |
+| | | T004 | Estructura inicial de Landing Page | Permite establecer la estructura base de la Landing Page. | 2h | Alvaro Rocha | Done |
+| **US-19** | Autenticación básica de API | T001 | Configuración de autenticación | Permite validar credenciales básicas para el acceso a la API de DomotiCore. | 3h | Diego Esquicha | To-Review |
+| | | T002 | Validación de acceso inicial | Permite verificar el acceso mediante credenciales válidas. | 1h | Cesar Quispe | To-Review |
+| | | T003 | Revisión de autenticación | Permite corregir errores en el proceso de autenticación inicial. | 1h | Oscar Checa | To-Fix |
+| **US-21** | Encendido general de dispositivos | T001 | Funcionalidad de encendido general | Permite encender todos los dispositivos vinculados de manera simultánea. | 2h | Cesar Quispe | To-Review |
+| | | T002 | Activación simultánea de dispositivos | Permite ejecutar el encendido general desde la interfaz. | 2h | Fabrizio Tello | To-Review |
+| | | T003 | Validación de dispositivos conectados | Permite verificar que los dispositivos estén conectados antes del encendido. | 1h | Diego Esquicha | Done |
+| **US-35** | Optimización automática de consumo | T001 | Lógica base de optimización | Permite definir reglas básicas para optimizar el consumo energético. | 3h | Alvaro Rocha | To-Review |
+| | | T002 | Análisis de consumo energético | Permite analizar el consumo energético de los dispositivos registrados. | 2h | Cesar Quispe | To-Review |
+| **US-41** | Previsualización de funciones | T001 | Diseño sección de previsualización | Permite diseñar la sección de previsualización de funciones en la Landing Page. | 2h | Cesar Quispe | To-Review |
+| | | T002 | Mostrar funcionalidades principales | Permite mostrar las características clave de la aplicación DomotiCore. | 2h | Fabrizio Tello | To-Review |
+| | | T003 | Vista inicial de funciones | Permite implementar la vista inicial de las funciones principales. | 1h | Alvaro Rocha | Done |
 
 #### 5.2.1.4 Development Evidence for Sprint Review 
 
