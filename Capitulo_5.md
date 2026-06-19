@@ -229,7 +229,7 @@ En esta sección, se presentará la planificación de nuestro Sprint 1.
 | Date         | 2026/04/25                                |
 | Time         | 11:00 pm                                  |
 | Location     | Reunión virtual mediante Microsoft Teams       |
-| Prepared By  | Equipo Veltrix |
+| Prepared By  | Esquicha Alcántara, Diego Alonso |
 | Attendees    |Rocha Cotrina, Alvaro / Esquicha Alcántara, Diego Alonso / Quispe llacsahuanga, César Agusto / Tello Palacios, Fabrizio Rafael / Checa Burga, Oscar |
 | Sprint n-1 Review Summary |  Durante el Sprint 1 se lograron avances importantes como la implementación completa de la Landing Page de DomotiCore, incluyendo secciones como Hero, Features, About y Contacto. Además, se organizó el repositorio en GitHub, se realizaron commits relacionados a wireframes, mockups y documentación, y se implementó una vista simulada del dashboard. Sin embargo, quedaron pendientes aspectos como la integración con backend, automatización real de dispositivos y despliegue final en producción.           |
 | Sprint n-1 Retrospective Summary |  El Sprint 1 evidenció problemas en la organización del equipo, como falta de comunicación, distribución ineficiente de tareas y dependencia de entregas de último momento. Como mejoras, se propuso realizar reuniones más frecuentes, utilizar herramientas como Trello para seguimiento, definir responsabilidades claras y mejorar la gestión del tiempo.|
@@ -300,23 +300,139 @@ En el Sprint Backlog 1 se abordó la construcción de las bases funcionales, vis
 
 #### 5.2.1.4 Development Evidence for Sprint Review 
 
-La gestión del código fuente para el proyecto **DomotiCore** se realiza utilizando Git como sistema de control de versiones, permitiendo un flujo de trabajo colaborativo y un historial detallado de cambios realizados durante el Sprint.
+En esta sección se presentan los avances obtenidos durante la fase de implementación correspondientes al Sprint Backlog 1, el cual estuvo orientado principalmente a la construcción de la Landing Page de DomotiCore y la implementación de funcionalidades base iniciales del sistema, sentando las bases visuales, estructurales y funcionales necesarias para la evolución de la plataforma en siguientes iteraciones.
+
+Durante este sprint, el equipo se enfocó en la definición y desarrollo de la estructura inicial de la Landing Page, incorporando secciones informativas del producto, beneficios principales y previsualización de funcionalidades clave, con el objetivo de comunicar de manera clara la propuesta de valor de DomotiCore.
 
 La siguiente tabla resume los commits más relevantes realizados durante la implementación de los productos digitales:
 
-| Repository | Branch | Commit ID | Commit Message | Date |
-| :--- | :--- | :--- | :--- | :--- |
-| **domoticore-Business-Web-Page** | main | `53487ee` | feat: implement landing page structure | 2026-04-07 |
-| **domoticore-Business-Web-Page** | main | `36702da` | feat: add responsive design support | 2026-04-15 |
-| **domoticore-docs** | develop | `94d4937` | docs: update sprint 1 documentation | 2026-04-21 |
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Commited on (Date)</th>
+  </tr>
+
+<tr>
+  <td>OscarCheca/Veltrix-DomotiCore-Business-Web-Page</td>
+  <td>main</td>
+  <td>39b6b9c</td>
+  <td>feat: add landing page files</td>
+  <td>Se agregan los archivos iniciales de la landing page de DomotiCore.</td>
+  <td>09/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Business-Web-Page</td>
+  <td>main</td>
+  <td>5c5a6f5</td>
+  <td>refactor: add folders and project structure</td>
+  <td>Define la estructura inicial de carpetas y organización del proyecto web.</td>
+  <td>09/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Business-Web-Page</td>
+  <td>main</td>
+  <td>b1cb9b5</td>
+  <td>refactor: add modular code structure</td>
+  <td>Refactoriza el código para una estructura modular y mantenible.</td>
+  <td>09/05/2026</td>
+</tr>
+
+<tr>
+  <td>F4bris/Veltrix-DomotiCore-Business-Web-Page</td>
+  <td>main</td>
+  <td>c9f7301</td>
+  <td>feat: update icons and styles for improved visual consistency</td>
+  <td>Actualiza íconos y estilos para mejorar la consistencia visual de la landing page.</td>
+  <td>10/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Business-Web-Page</td>
+  <td>main</td>
+  <td>691e3f2</td>
+  <td>merge: pull request from develop branch</td>
+  <td>Integra cambios del branch develop consolidando funcionalidades iniciales.</td>
+  <td>10/05/2026</td>
+</tr>
+
+<tr>
+  <td>F4bris/Veltrix-DomotiCore-Business-Web-Page</td>
+  <td>main</td>
+  <td>787d652</td>
+  <td>feat: add pricing section with translations</td>
+  <td>Agrega la sección de precios con planes y soporte multilenguaje EN y ES.</td>
+  <td>10/05/2026</td>
+</tr>
+
+<tr>
+  <td>F4bris/Veltrix-DomotiCore-Business-Web-Page</td>
+  <td>main</td>
+  <td>a8a43b2</td>
+  <td>feat: update translations for improved user experience</td>
+  <td>Mejora las traducciones del sitio para una mejor experiencia de usuario.</td>
+  <td>14/05/2026</td>
+</tr>
+
+<tr>
+  <td>F4bris/Veltrix-DomotiCore-Business-Web-Page</td>
+  <td>main</td>
+  <td>080090e</td>
+  <td>feat: add team section with translations</td>
+  <td>Implementa la sección del equipo con imágenes, información y soporte multilenguaje.</td>
+  <td>14/05/2026</td>
+</tr>
+
+<tr>
+  <td>F4bris/Veltrix-DomotiCore-Business-Web-Page</td>
+  <td>main</td>
+  <td>3bee852</td>
+  <td>feat: update navigation CTA to dashboard</td>
+  <td>Actualiza el botón CTA del menú para redirigir al dashboard.</td>
+  <td>15/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Business-Web-Page</td>
+  <td>main</td>
+  <td>30b7053</td>
+  <td>feat: add dark mode section</td>
+  <td>Agrega soporte visual para el modo oscuro en la landing page.</td>
+  <td>25/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Business-Web-Page</td>
+  <td>main</td>
+  <td>149970f</td>
+  <td>style: improve landing page styles</td>
+  <td>Optimiza los estilos generales de la landing page para mejorar la presentación visual.</td>
+  <td>25/05/2026</td>
+</tr>
+</table>
 
 #### 5.2.1.5 Execution Evidence for Sprint Review
 
-Durante el **Sprint 1** se logró implementar correctamente la estructura visual de la **Landing Page** de DomotiCore, incluyendo navegación interactiva, diseño responsive y un formulario de contacto funcional. Esta entrega presenta las secciones clave que brindan información detallada sobre la propuesta de valor del producto.
+Durante el Sprint 1, el equipo de desarrollo de DomotiCore se enfocó en establecer las bases iniciales del proyecto, priorizando la construcción de la Landing Page corporativa y la definición de una estructura técnica y visual sólida que permita comunicar claramente el propósito, beneficios y alcance de la plataforma. Este sprint marcó el punto de partida del desarrollo, orientado a la validación temprana del producto y a la generación de una primera experiencia de usuario informativa y atractiva.
 
-****Capturas de Pantalla de la Implementación****
+### Resumen de Logros:
 
-A continuación, se presentan las evidencias visuales de los componentes desarrollados:
+* **Estructura Inicial de la Landing Page:** Se implementó la estructura base de la landing page de DomotiCore, definiendo secciones clave como presentación del producto, beneficios principales, propuesta de valor y vistas preliminares de la plataforma, asegurando una navegación clara y ordenada para los visitantes.
+* **Diseño Visual y Experiencia de Usuario:** Se desarrollaron estilos iniciales, iconografía y componentes visuales reutilizables, logrando una interfaz moderna y coherente con la identidad del producto. Asimismo, se realizaron ajustes de diseño responsive para garantizar una correcta visualización en dispositivos de escritorio.
+* **Secciones Informativas y Contenido Dinámico:** Se incorporaron secciones informativas como planes y precios, presentación del equipo, testimonios iniciales y footer informativo, reforzando la credibilidad del producto y facilitando el acceso a información relevante para potenciales usuarios.
+* **Configuraciones Iniciales de Navegación y Accesibilidad:** Se implementó el menú de navegación principal con enlaces funcionales a las distintas secciones de la landing page, así como llamadas a la acción (CTA) orientadas a redirigir a futuras funcionalidades del sistema, sentando las bases para la transición hacia la aplicación web.
+
+### Video de Demostración y Navegación
+Puedes acceder al video de la demostración funcional en el siguiente enlace:
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417405_upc_edu_pe/IQCPng9giTbzT7yPR6RganePARwt5TeTRUKmAmmGUib8n3E?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ZW7H6O
+
+### Screenshots de la Implementación
 
 * **Hero Section**: Primera impresión y propuesta de valor.
 
@@ -345,20 +461,37 @@ A continuación, se presentan las evidencias visuales de los componentes desarro
 <div style="text-align:center;"><img src="imagenes/images_Cap5/5.2.1.5. Execution Evidence(7).png">
 </div>
 
-****Demostración en Video****
-
-Asimismo, se adjunta un video demostrativo que recorre la navegación y las funcionalidades implementadas, validando la experiencia de usuario (UX) en diferentes resoluciones.
-
-**Enlace del Video**: [ Demostración de DomotiCore - Sprint 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417405_upc_edu_pe/IQCPng9giTbzT7yPR6RganePARwt5TeTRUKmAmmGUib8n3E?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ZW7H6O) --- [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417405_upc_edu_pe/IQCPng9giTbzT7yPR6RganePARwt5TeTRUKmAmmGUib8n3E?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ZW7H6O] ---
-
 #### 5.2.1.6 Services Documentation Evidence for Sprint Review
 
-En este Sprint aún no se desarrollaron servicios backend completos. Sin embargo, se definieron preliminarmente los endpoints relacionados con monitoreo de dispositivos y automatización IoT.
+Durante el Sprint 1 del proyecto DomotiCore, el equipo se enfocó en el desarrollo e implementación de la Landing Page institucional, la cual constituye el primer punto de contacto entre el producto y los usuarios finales, permitiendo presentar de manera clara la propuesta de valor, funcionalidades principales y beneficios del sistema de gestión domótica.
 
-La documentación OpenAPI será incorporada en los siguientes Sprints.
+Dado que este sprint corresponde a la fase inicial del proyecto, no se desarrollaron aún servicios REST completos ni endpoints funcionales del backend. No obstante, se documenta el recurso web desplegado, incluyendo la URL de acceso, evidencias del proceso de despliegue, interacción básica del usuario y los commits realizados durante el desarrollo del Landing Page.
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <th>Recurso</th>
+    <th>Acción implementada</th>
+    <th>HTTP</th>
+    <th>URL / Endpoint</th>
+    <th>Link de repositorio</th>
+  </tr>
+  <tr>
+    <td>Landig Page</td>
+    <td>Vista inicial</td>
+    <td>GET</td>
+    <td><a href="https://bl-app-open-source-1asi0729-2610-12029.github.io/Veltrix-DomotiCore-Business-Web-Page/">https://bl-app-open-source-1asi0729-2610-12029.github.io/Veltrix-DomotiCore-Business-Web-Page/</a></td>
+    <td><a href="https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/Veltrix-DomotiCore-Business-Web-Page">https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/Veltrix-DomotiCore-Business-Web-Page</a></td>
+  </tr>
+</table>
+
 #### 5.2.1.7 Software Deployment Evidence for Sprint Review
 
 Durante este Sprint se realizaron las siguientes actividades clave relacionadas con el despliegue y  disponibilidad del producto:
+
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/5.2.1.7. Software Deployment Evidence 1.png" 
+       alt="Github Pages Evidence">
+</div>
 
 * **Configuración de GitHub Pages**: Establecimiento del entorno de despliegue automatizado para la rama principal.
 * **Publicación inicial de la Landing Page**: Lanzamiento de la primera versión funcional accesible vía web.
@@ -368,18 +501,34 @@ Durante este Sprint se realizaron las siguientes actividades clave relacionadas 
 
 #### 5.2.1.8 Team Collaboration Insights during Sprint
 
-El equipo utilizó las herramientas analíticas de **GitHub Insights** para monitorear la participación activa de cada integrante durante el **Sprint 1**. Estos datos permitieron realizar un seguimiento detallado de los commits, pull requests y merges realizados.
+La culminación del Sprint 1 del proyecto DomotiCore fue el resultado de un trabajo colaborativo y organizado, orientado a establecer las bases iniciales del producto mediante el desarrollo de la Landing Page institucional. Durante este sprint, el equipo adoptó un enfoque ágil que permitió transformar los requerimientos iniciales del proyecto en componentes funcionales y visuales de manera progresiva.
 
 La colaboración basada en estas métricas permitió mantener un flujo continuo de integración y control de versiones, fortaleciendo el trabajo colaborativo del equipo y asegurando la integridad del código fuente.
 
-****Evidencia de Colaboración en GitHub****
+* El progreso del desarrollo se registró de forma continua mediante un historial de commits estructurado, permitiendo evidenciar la evolución incremental del Landing Page, desde la creación de la estructura inicial hasta la incorporación de secciones informativas y mejoras visuales.
+* La integración del trabajo colaborativo se realizó a través del uso de ramas de desarrollo y procesos de merge hacia la rama principal, asegurando coherencia visual, consistencia en el código y alineación con los objetivos definidos para el sprint.
+* Se mantuvo una comunicación técnica constante entre los miembros del equipo para coordinar ajustes de diseño, validación de contenido y resolución temprana de inconsistencias.
+* Este enfoque metodológico permitió cumplir satisfactoriamente con el Sprint Goal, garantizando una contribución equilibrada del equipo.
 
-A continuación, se presenta la captura de los analíticos proporcionados por GitHub sobre la actividad del equipo:
+**Métricas de Actividad en el Repositorio**
+
+Como evidencia del dinamismo y la colaboración técnica, se adjuntan los indicadores de actividad (commits, merges y contribuciones) extraídos de GitHub:
 
 <div style="text-align:center;"><img src="imagenes/images_Cap5/5.2.1.8. Team Collaboration.png">
 </div>
 
-En estas métricas facilitó la identificación de cada apoyo de los colaboradores y ayudó a mejorar la distribución de tareas para los siguientes ciclos de desarrollo.
+Se evidencia la participación plena de los cinco integrantes en el desarrollo de la Landing Page. La distribución de las contribuciones técnicas valida una colaboración equitativa y constante por parte de todo el equipo durante el ciclo de trabajo inicial.
+
+| Integrante | Usuario GitHub | Commits |
+|---|---|---|
+| Checa Burga, Oscar Diego | `OscarCheca` | 12 |
+| Quispe Llacsahuanga, César Agusto | `user20-bit` | 10 |
+| Esquicha Alcántara, Diego Alonso | `DiegoEsquich` | 8 |
+| Tello Palacios, Fabrizio Rafael | `F4bris` | 6 |
+| Rocha Cotrina, Alvaro | `alvarorc24` | 5 |
+
+Se evidencia la colaboración constante y la sinergia grupal mediante la trazabilidad de los aportes individuales. Cada integrante sumó valor en áreas críticas del desarrollo, garantizando no solo el avance técnico del sistema, sino también el cumplimiento de los acuerdos establecidos durante la planificación del ciclo de trabajo.
+
 
 ### 5.2.2 Sprint 2
 
@@ -889,12 +1038,12 @@ En esta sección, se presentará la planificación de nuestro Sprint 3.
 | Location     | Reunión virtual mediante discord          |
 | Prepared By  | Esquicha Alcántara, Diego Alonso          |
 | Attendees    |Rocha Cotrina, Alvaro / Esquicha Alcántara, Diego Alonso / Quispe llacsahuanga, César Agusto / Tello Palacios, Fabrizio Rafael / Checa Burga, Oscar  / Véliz Martínez, Diego Alonso|
-| Sprint n-3 Review Summary |  No aplica                   |
-| Sprint n-3 Retrospective Summary |  No aplica            |
+| Sprint n-3 Review Summary |  Durante el Sprint anterior, el equipo logró implementar las bases funcionales de la plataforma, incluyendo la estructura inicial del frontend, la gestión de usuarios y la visualización preliminar de dispositivos. Sin embargo, se identificaron oportunidades de mejora relacionadas con la integración de servicios, estabilidad del sistema y experiencia de usuario, las cuales fueron consideradas como insumos clave para la planificación del Sprint 3.      |
+| Sprint n-3 Retrospective Summary | En la retrospectiva se concluyó que el trabajo colaborativo fue efectivo, aunque se detectó la necesidad de mejorar la estimación de esfuerzo, la priorización de historias críticas y la validación temprana de integraciones. Como acciones de mejora, el equipo acordó reforzar las pruebas funcionales, mantener una comunicación más frecuente y enfocar el sprint en funcionalidades de alto impacto para el producto.|
 | **Sprint Goal & User Stories**                           |
 |**Sprint 3**  |Nos enfocamos en consolidar la estructura funcional e integrar las principales capacidades operativas de la plataforma DomotiCore, priorizando el acceso seguro, la comunicación con los dispositivos y la visualización de su estado en tiempo real. Consideramos que este avance fortalece la percepción de madurez del producto y permite demostrar de manera tangible el valor de una solución centralizada para la gestión inteligente del consumo energético y el control remoto de dispositivos en entornos residenciales y empresariales.|
-| Sprint 3 Velocity   | 18  Story Points                   |
-| Sum of Story Points | 18  Story Points                   |
+| Sprint 3 Velocity   | 24  Story Points                   |
+| Sum of Story Points | 24  Story Points                   |
 
 #### 5.2.3.2 Aspect Leaders and Collaborators
 
