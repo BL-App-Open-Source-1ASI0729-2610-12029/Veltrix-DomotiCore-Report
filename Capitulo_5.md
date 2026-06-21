@@ -2292,3 +2292,179 @@ En esta sección presentaremos el registro de cada entrevista de validación que
 <td>La entrevista refleja una percepción muy positiva de DomotiCore. Gabriel considera que la landing page es moderna, clara y profesional, y que la aplicación es fácil de usar y entender desde el primer momento. Reconoce su potencial para mejorar el control del negocio, optimizar costos operativos y reducir errores humanos, por lo que la ve como una herramienta viable e interesante para la gestión diaria de un negocio pequeño o empresa tecnológica.</td>
 </tr>
 </table>
+
+### 5.3.3.  Evaluaciones según heurísticas
+
+#### UX Heuristics & Principles Evaluation
+
+**Usability – Inclusive Design – Information Architecture**
+
+| Campo | Detalle |
+|---|---|
+| **CARRERA** | Ingeniería de Software |
+| **CURSO** | Desarrollo de Aplicaciones Open Source |
+| **SECCIÓN** | 12029 |
+| **PROFESOR** | Mori Paiva, Hugo Allan |
+| **AUDITOR** | Launchpad-PE |
+| **CLIENTE(S)** | Diana Li - Esperanza - Fabio - Carmen - Nickolay - Gabriel |
+
+**SITE o APP A EVALUAR:** DomotiCore
+
+---
+
+#### Tareas a Evaluar
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Navegación en la landing page de DomotiCore
+2. Comprensión de funcionalidades del sistema
+3. Registro e inicio de sesión en la plataforma
+4. Visualización del dashboard de consumo energético
+5. Gestión de dispositivos IoT
+6. Configuración de automatizaciones y escenas
+7. Monitoreo de consumo energético y costos
+8. Supervisión remota de dispositivos en tiempo real
+9. Gestión de usuarios y permisos (negocios)
+10. Generación e interpretación de reportes
+
+No están incluidas en esta versión de la evaluación:
+1. Integraciones externas avanzadas (cámaras, sensores adicionales)
+2. Configuración técnica del Gateway IoT
+3. Personalización avanzada de dashboards
+4. Sistema de IA predictiva de consumo
+---
+
+#### Escala de Severidad
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción |
+|---|---|
+| 1 | Problema superficial: no afecta significativamente la experiencia del usuario. |
+| 2 | Problema menor: afecta la eficiencia o comodidad, pero es superable. |
+| 3 | Problema mayor: impacta la experiencia y puede generar confusión o pérdida de eficiencia. |
+| 4 | Problema crítico: bloquea o impide el uso correcto del sistema. |
+---
+
+#### Tabla Resumen
+
+| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
+|---|---|---|---|
+| 1 | Algunos usuarios reportan baja legibilidad en ciertas secciones del dashboard (texto pequeño o poco contrastado). | 2 | Usability: Legibilidad y accesibilidad visual |
+| 2 | El sistema aún no ofrece reportes históricos avanzados de consumo energético. | 2 | Information Architecture: Visibilidad del estado del sistema |
+| 3 | Falta de integraciones con dispositivos IoT más avanzados (cámaras o sensores externos). | 2 | Usability: Flexibilidad y expansión del sistema |
+| 4 | No todos los usuarios identifican inicialmente todas las funciones sin exploración previa. | 1 | Usability: Reconocimiento en lugar de recuerdo |
+| 5 | Ausencia de alertas altamente configurables según comportamiento del consumo energético. | 3 | Usability: Prevención y control de errores |
+| 6 | Algunos usuarios no perciben suficiente profundidad en datos analíticos para toma de decisiones avanzadas. | 2 | Information Architecture: Soporte para decisiones |
+
+#### Descripción De Problemas
+
+**PROBLEMA #1:** Problemas de legibilidad en algunas secciones del dashboard
+
+**Severidad:** 2
+
+**Heurística violada:** Usability – Accesibilidad visual y legibilidad
+
+**Problema:**
+Algunos usuarios como Diana reportan que ciertos textos del sistema no son completamente legibles en todas las secciones del dashboard, lo que genera incomodidad visual y esfuerzo adicional durante la navegación.
+Esto no impide el uso del sistema, pero sí afecta la experiencia de lectura y fluidez.
+
+<img src="imagenes/images_Cap5/Problem-1-evidence-for-heuristics.png" alt="">
+
+**Recomendación:**
+Mejorar el contraste, tamaño de fuente y jerarquía visual en el dashboard para garantizar una lectura cómoda en todos los dispositivos.
+
+---
+**PROBLEMA #2:** Falta de reportes históricos avanzados de consumo energético
+
+**Severidad:** 2
+
+**Heurística violada:** Information Architecture – Visibilidad y análisis de datos
+
+**Problema:**
+Usuarios como Nickolay y Gabriel mencionan la necesidad de contar con reportes más detallados y datos históricos del consumo energético para realizar análisis más profundos y tomar mejores decisiones.
+
+<img src="imagenes/images_Cap5/Problem-2-evidence-for-heuristics.png" alt="">
+
+**Recomendación:**
+Implementar dashboards con historial de consumo, comparativas mensuales y exportación avanzada de datos.
+
+---
+**PROBLEMA #3:** Limitaciones en integraciones IoT externas
+
+**Severidad:** 2
+
+**Heurística violada:** Usability - Flexibilidad del sistema
+
+**Problema:**
+Usuarios del segmento de negocios (Carmen y Gabriel) muestran interés en integrar más dispositivos como cámaras, sensores o sistemas externos, pero perciben que la plataforma está limitada al Gateway actual.
+
+<img src="imagenes/images_Cap5/Problem-3-evidence-for-heuristics.png" alt="">
+
+**Recomendación:**
+Diseñar una arquitectura extensible que permita integración con dispositivos IoT de terceros.
+
+---
+**PROBLEMA #4:** Descubribilidad inicial de funciones
+
+**Severidad:** 1
+
+**Heurística violada:** Usability - Reconocimiento en lugar de recuerdo
+
+**Problema:**
+Algunos usuarios necesitan explorar la plataforma antes de entender completamente todas sus funcionalidades, aunque una vez explorada, la consideran intuitiva.
+
+<img src="imagenes/images_Cap5/Problem-4-evidence-for-heuristics.png" alt="">
+
+**Recomendación:**
+Incluir onboarding interactivo o tooltips explicativos en el primer uso.
+
+---
+**PROBLEMA #5:** Falta de alertas configurables avanzadas
+
+**Severidad:** 3
+
+**Heurística violada:** Usability - Prevención de errores
+
+**Problema:**
+Usuarios de negocios (Carmen y Gabriel) destacan la importancia de recibir alertas más configurables sobre consumo energético y comportamientos inusuales, lo cual actualmente es limitado.
+
+<img src="imagenes/images_Cap5/Problem-5-evidence-for-heuristics.png" alt="">
+
+**Recomendación:**
+Implementar sistema de alertas personalizables por umbral de consumo, horarios y tipos de dispositivo.
+
+---
+**PROBLEMA #6:** Necesidad de mayor profundidad analítica
+
+**Severidad:** 2
+
+**Heurística violada:** Information Architecture - Soporte para decisiones
+
+**Problema:**
+Aunque la plataforma es clara, algunos usuarios desean más análisis predictivo y métricas avanzadas para optimizar la gestión energética.
+
+<img src="imagenes/images_Cap5/Problem-6-evidence-for-heuristics.png" alt="">
+
+**Recomendación:**
+Agregar módulos de analítica avanzada y comparativas de eficiencia energética.
+
+---
+A partir de las entrevistas realizadas a usuarios de distintos perfiles (hogar y negocios), se validó que DomotiCore presenta una alta usabilidad general, destacando por su claridad, facilidad de navegación e intuición.
+Sin embargo, se identificaron oportunidades de mejora principalmente en la profundidad analítica, la extensibilidad del sistema IoT y la configuración avanzada de alertas.
+Los hallazgos permiten confirmar que la plataforma cumple adecuadamente con los principios de usabilidad, aunque requiere mejoras orientadas a usuarios más avanzados y escenarios de negocio.
+
+## 5.4. Video About-the-Product
+
+El video "About the Product" presenta de manera clara y atractiva la propuesta de valor de DomotiCore, los problemas que resuelve y cómo funciona la solución para ambos segmentos objetivo.
+
+| Título del Video      | DomotiCore Product           | 
+|-----------------------|------------------------------|
+| Duración              | 1 minuto y 13 segundos       |  
+| Fecha de Grabación    | 20/06/2026                   | 
+| URL YouTube           | https://youtu.be/S9vqfOn2H3Q | 
+| URL Microsoft Stream  | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411799_upc_edu_pe/IQAA40xPMqPOTLb8hgvhmoYZAaGeqy5ORKqc7tHol4OElIY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wKo22e    | 
+
+Screenshot del video "About the Product" :
+
+![Video About the product.png](imagenes/images_Cap5/about-the-product-evidence.png)
