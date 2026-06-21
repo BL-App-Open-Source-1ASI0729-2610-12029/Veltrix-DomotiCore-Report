@@ -1053,21 +1053,12 @@ En esta sección, se presentará la planificación de nuestro Sprint 3.
 | Location     | Reunión virtual mediante discord          |
 | Prepared By  | Esquicha Alcántara, Diego Alonso          |
 | Attendees    |Rocha Cotrina, Alvaro / Esquicha Alcántara, Diego Alonso / Quispe llacsahuanga, César Agusto / Tello Palacios, Fabrizio Rafael / Checa Burga, Oscar  / Véliz Martínez, Diego Alonso|
-<<<<<<< HEAD
-| Sprint n-3 Review Summary |  No aplica                   |
-| Sprint n-3 Retrospective Summary |  No aplica            |
-| **Sprint Goal & User Stories**                           |
-|**Sprint 3**  |Nos enfocamos en consolidar la estructura funcional e integrar las principales capacidades operativas de la plataforma DomotiCore, priorizando el acceso seguro, la comunicación con los dispositivos y la visualización de su estado en tiempo real. Consideramos que este avance fortalece la percepción de madurez del producto y permite demostrar de manera tangible el valor de una solución centralizada para la gestión inteligente del consumo energético y el control remoto de dispositivos en entornos residenciales y empresariales.|
-| Sprint 3 Velocity   | 18  Story Points                   |
-| Sum of Story Points | 18  Story Points                   |
-=======
 | Sprint n-3 Review Summary |  Durante el Sprint anterior, el equipo logró implementar las bases funcionales de la plataforma, incluyendo la estructura inicial del frontend, la gestión de usuarios y la visualización preliminar de dispositivos. Sin embargo, se identificaron oportunidades de mejora relacionadas con la integración de servicios, estabilidad del sistema y experiencia de usuario, las cuales fueron consideradas como insumos clave para la planificación del Sprint 3.      |
 | Sprint n-3 Retrospective Summary | En la retrospectiva se concluyó que el trabajo colaborativo fue efectivo, aunque se detectó la necesidad de mejorar la estimación de esfuerzo, la priorización de historias críticas y la validación temprana de integraciones. Como acciones de mejora, el equipo acordó reforzar las pruebas funcionales, mantener una comunicación más frecuente y enfocar el sprint en funcionalidades de alto impacto para el producto.|
 | **Sprint Goal & User Stories**                           |
 |**Sprint 3**  |Nos enfocamos en consolidar la estructura funcional e integrar las principales capacidades operativas de la plataforma DomotiCore, priorizando el acceso seguro, la comunicación con los dispositivos y la visualización de su estado en tiempo real. Consideramos que este avance fortalece la percepción de madurez del producto y permite demostrar de manera tangible el valor de una solución centralizada para la gestión inteligente del consumo energético y el control remoto de dispositivos en entornos residenciales y empresariales.|
 | Sprint 3 Velocity   | 24  Story Points                   |
 | Sum of Story Points | 24  Story Points                   |
->>>>>>> Sprint3
 
 #### 5.2.3.2 Aspect Leaders and Collaborators
 
@@ -1126,16 +1117,6 @@ En el Sprint Backlog 3 se consolidan las funcionalidades avanzadas del sistema D
 
 #### 5.2.3.4 Development Evidence for Sprint Review
 
-<<<<<<< HEAD
-#### 5.2.3.5 Execution Evidence for Sprint Review
-
-#### 5.2.3.6 Services Documentation Evidence for Sprint Review
-
-#### 5.2.3.7 Software Deployment Evidence for Sprint Review
-
-#### 5.2.3.8 Team Collaboration Insights during Sprint
-
-=======
 En esta sección se presentan los avances obtenidos durante la fase de implementación correspondientes al Sprint Backlog 03, el cual estuvo orientado a la integración funcional entre el Front-End desarrollado y los servicios del Back-End en implementación, con el objetivo de consolidar una versión operativa, estable y demostrable de la plataforma DomotiCore.
 
 Durante este sprint se implementaron funcionalidades relacionadas con la autenticación básica de la API, el consumo de endpoints para la consulta y actualización del estado de dispositivos IoT, la visualización de dispositivos conectados y desconectados, el registro y presentación del último estado de los dispositivos, la visualización básica del consumo energético total, así como la gestión de mensajes de éxito y error.
@@ -2502,4 +2483,3 @@ El video "About the Product" presenta de manera clara y atractiva la propuesta d
 Screenshot del video "About the Product" :
 
 ![Video About the product.png](imagenes/images_Cap5/about-the-product-evidence.png)
->>>>>>> Sprint3
