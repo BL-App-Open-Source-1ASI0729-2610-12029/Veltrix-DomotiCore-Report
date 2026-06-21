@@ -219,109 +219,220 @@ El desarrollo inicial fue realizado utilizando tecnologías frontend como **HTML
 
 ### 5.2.1. Sprint 1
 
-El Sprint 1 representa el primer ciclo de desarrollo ágil del proyecto DomotiCore. Durante esta iteración, el equipo se enfocó en la construcción inicial de la Landing Page, organización de repositorios y definición de lineamientos técnicos del proyecto.
-
 #### 5.2.1.1. Sprint Planning 1
 
-****Sprint Information****
+En esta sección, se presentará la planificación de nuestro Sprint 1.
 
-| Campo | Detalle |
-| :--- | :--- |
-| **Sprint #** | Sprint 1 |
-| **Date** | 2026-04-25 |
-| **Time** | 11:00 PM |
-| **Location** | Microsoft Teams (Reunión virtual) |
-| **Prepared By** | Equipo Veltrix |
-
-****Attendees (Planning Meeting)****
-
-| Participantes |
-| :--- |
-| Cesar Quispe |
-| Oscar Checa |
-| Diego Esquicha |
-| Fabrizio Rafael |
-| Alvaro Rocha |
-
-*****Sprint 1 – Review Summary****
-
-| Descripción |
-| :--- |
-| Durante el Sprint 1 se lograron avances importantes como la implementación completa de la Landing Page de DomotiCore, incluyendo secciones como Hero, Features, About y Contacto. Además, se organizó el repositorio en GitHub, se realizaron commits relacionados a wireframes, mockups y documentación, y se implementó una vista simulada del dashboard. Sin embargo, quedaron pendientes aspectos como la integración con backend, automatización real de dispositivos y despliegue final en producción. |
-
-****Sprint 1 – Retrospective Summary****
-
-| Descripción |
-| :--- |
-| El Sprint 1 evidenció problemas en la organización del equipo, como falta de comunicación, distribución ineficiente de tareas y dependencia de entregas de último momento. Como mejoras, se propuso realizar reuniones más frecuentes, utilizar herramientas como Trello para seguimiento, definir responsabilidades claras y mejorar la gestión del tiempo. |
-
-****Sprint Goal & User Stories****
-
-| Campo | Detalle |
-| :--- | :--- |
-| **Sprint 1 Goal** | Desarrollar y desplegar la Landing Page funcional de DomotiCore, estructurar el repositorio en GitHub y reflejar el avance en el tablero de tareas. |
-| **Sprint 1 Velocity** | 5 User Stories |
-| **Story Points por historia** | 5 puntos |
-| **Sum of Story Points** | 25 |
+| **Sprint #** |                 **Sprint 1**              |
+|--------------|-------------------------------------------|
+|**Sprint Planning Background**                            |
+| Date         | 2026/04/25                                |
+| Time         | 11:00 pm                                  |
+| Location     | Reunión virtual mediante Microsoft Teams       |
+| Prepared By  | Esquicha Alcántara, Diego Alonso |
+| Attendees    |Rocha Cotrina, Alvaro / Esquicha Alcántara, Diego Alonso / Quispe llacsahuanga, César Agusto / Tello Palacios, Fabrizio Rafael / Checa Burga, Oscar |
+| Sprint n-1 Review Summary |  Durante el Sprint 1 se lograron avances importantes como la implementación completa de la Landing Page de DomotiCore, incluyendo secciones como Hero, Features, About y Contacto. Además, se organizó el repositorio en GitHub, se realizaron commits relacionados a wireframes, mockups y documentación, y se implementó una vista simulada del dashboard. Sin embargo, quedaron pendientes aspectos como la integración con backend, automatización real de dispositivos y despliegue final en producción.           |
+| Sprint n-1 Retrospective Summary |  El Sprint 1 evidenció problemas en la organización del equipo, como falta de comunicación, distribución ineficiente de tareas y dependencia de entregas de último momento. Como mejoras, se propuso realizar reuniones más frecuentes, utilizar herramientas como Trello para seguimiento, definir responsabilidades claras y mejorar la gestión del tiempo.|
+| **Sprint Goal & User Stories**                           |
+|**Sprint 1**  |Desarrollar y desplegar la Landing Page funcional de DomotiCore, estructurar el repositorio en GitHub y reflejar el avance en el tablero de tareas.|
+| Sprint 1 Velocity   | 5  Story Points                   |
+| Sum of Story Points | 25  Story Points                   |
 
 #### 5.2.1.2 Aspect Leaders and Collaborators
 
-| Team Member (Last Name, First Name) | GitHub Username | Infrastructure & Repository | Landing Page Development | Documentation (Chapters 1-5) |
-| :--- | :--- | :---: | :---: | :---: |
-| Checa, Oscar | OscarCheca | **C** | **C** | **C** |
-| Quispe, Cesar | user20-bit | **C** | **L** | **L** |
-| Esquich, Diego | DiegoEsquich | **L** | **C** | **C** |
-| Tello, Fabrizio | F4bris | **C** | **C** | **C** |
-| Rocha , Alvaro | alvarorc24 | **C** | **C** | **C** |
+En el marco del Sprint Backlog 1, el equipo de desarrollo de DomotiCore orientó sus esfuerzos a la construcción y consolidación inicial de la Landing Page del proyecto, estableciendo la base visual, informativa y estructural que permite presentar la propuesta de valor de la plataforma a usuarios potenciales. Este sprint se enfocó en definir una experiencia inicial clara y atractiva, incorporando secciones informativas del producto, descripciones de funcionalidades principales, previsualización de características clave y una estructura responsive que garantice accesibilidad desde distintos dispositivos.
+
+Para asegurar una ejecución ordenada, colaborativa y trazable, se aplicó la Matriz de Liderazgo y Colaboración (LACX), mediante la cual se asignaron roles de liderazgo (L) y colaboración (C) a los integrantes del equipo en función de los componentes específicos abordados durante el sprint, tales como la estructura general de la Landing Page, el diseño visual, la sección informativa del producto, la previsualización de funcionalidades y la adaptación responsive.
+
+| Team Member (Last Name, First Name) | GitHub Username    | Landing Page Structure | Product Information Section | Features Preview | UI Design & Layout | Responsive UX | Component Reusability | Visual Consistency |
+| :---------------------------------- | :----------------- | :------------- | :--------------- | :------------------ | :-------------- | :----- | :----------- | :-------------- 
+| Rocha Cotrina, Alvaro               | alvarorc24 | C | C | L | C | C | L | C |
+| Esquicha Alcántara, Diego Alonso    | DiegoEsquich | C  | L | C | C | L | L | C |
+| Quispe Llacsahuanga, César Agusto   | user20-bit | L | C | L | C | C | C | L |      
+| Tello Palacios, Fabrizio Rafael     | F4bris | C | C | C | L | C | C | C |
+| Checa Burga, Oscar Diego            | OscarCheca | C | C | C | C | C | C | C |
+---------------
+*Leyenda: L = Lead (Líder), C = Collaborator (Colaborador)*
 
 #### 5.2.1.3 Sprint Backlog 1
 
-Las User Stories del proyecto fueron reorganizadas durante las actividades de Sprint Planning con el objetivo de mejorar la consistencia, trazabilidad y organización funcional del Product Backlog.
+En el Sprint Backlog 1 se abordó la construcción de las bases funcionales, visuales y estructurales de la plataforma DomotiCore, con el objetivo de transformar el proyecto en una solución inicial operativa orientada a la gestión y control inteligente de dispositivos IoT. Durante este sprint, el equipo se enfocó en la implementación de funcionalidades fundamentales que permiten establecer la conectividad inicial del sistema, la presentación del producto y la interacción básica del usuario con la plataforma.
 
-Las historias de usuario definidas previamente en la Sección 3.1 fueron estandarizadas siguiendo convenciones Scrum y criterios de aceptación basados en la estructura **Gherkin**, permitiendo una mejor comprensión y validación de funcionalidades durante el desarrollo del proyecto.
+### Screenshot del Board
 
-Durante el proceso de refinamiento del backlog se realizaron las siguientes mejoras:
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/5.2.1.3. Sprint Backlog 1.png" 
+       alt="Paleta de Colores">
+</div>
 
-* **Estandarización** de la nomenclatura de User Stories y Epics.
-* **Consolidación** de funcionalidades duplicadas.
-* **Reorganización** de Epics según dominios funcionales.
-* **Mejora** en la redacción de criterios de aceptación.
-* **Relación** entre Sprint Goals y funcionalidad.
+**Trello:** [Trello Sprint 1](https://trello.com/b/EYc1tzO0/domoticore-sprint-backlog-1) [https://trello.com/b/EYc1tzO0/domoticore-sprint-backlog-1]
 
-La siguiente tabla resume las principales User Stories consideradas durante las actividades de planificación de Sprint:
+### Sprint Backlog #01
 
-| User Story ID | Título | Epic |
-| :--- | :--- | :--- |
-| **US-01** | Vinculación de Gateway | Gateway Management |
-| **US-03** | Control remoto de dispositivos | Device Control |
-| **US-06** | Monitoreo energético en tiempo real | Energy Monitoring |
-| **US-09** | Notificación de dispositivos desconectados | Notifications |
-| **US-17** | Información del producto en la Landing Page | Website |
-| **US-19** | Autenticación básica de API | RESTful API |
-| **US-21** | Encendido general de dispositivos | Advanced Device Control |
-| **US-35** | Optimización automática de consumo | Energy Optimization |
-| **US-41** | Previsualización de funciones de la aplicación | Website |
-
+| User Story Id | Title | Task Id | Task Title | Description | Est. (h) | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :---: | :--- | :---: |
+| **US-01** | Vinculación de Gateway | T001 | Crear estructura base de vinculación | Permite establecer la base lógica para la vinculación de gateways con la plataforma DomotiCore. | 2h | Diego Esquicha | Done |
+| | | T002 | Formulario de conexión de gateway | Permite al usuario registrar y vincular un gateway desde la interfaz web. | 3h | Cesar Quispe | In-Process |
+| **US-03** | Control remoto de dispositivos | T001 | Lógica base de control remoto | Permite definir la estructura lógica para el control remoto de dispositivos IoT. | 2h | Fabrizio Tello | Done |
+| | | T002 | Botones ON/OFF de dispositivos | Permite encender o apagar dispositivos desde la interfaz de usuario. | 2h | Cesar Quispe | Done |
+| | | T003 | Actualización de estado en tiempo real | Permite reflejar cambios de estado del dispositivo en tiempo real. | 3h | Alvaro Rocha | To-Fix |
+| **US-06** | Monitoreo energético en tiempo real | T001 | Vista de monitoreo energético | Permite visualizar el consumo energético de los dispositivos en tiempo real. | 3h | Diego Esquicha | Done |
+| | | T002 | Mostrar consumo energético | Permite presentar gráficamente el consumo energético actual. | 2h | Fabrizio Tello | Done |
+| | | T003 | Revisión de visualización | Permite validar la correcta visualización del consumo energético. | 1h | Cesar Quispe | Done |
+| **US-09** | Notificación de dispositivos desconectados | T001 | Detección de dispositivos desconectados | Permite identificar dispositivos que no están conectados al sistema. | 2h | Alvaro Rocha | In-Process |
+| | | T002 | Alerta visual de desconexión | Permite mostrar una notificación visual cuando un dispositivo se desconecta. | 1h | Cesar Quispe | Done |
+| | | T003 | Validación de mensajes de alerta | Permite validar la correcta emisión de mensajes de desconexión. | 1h | Cesar Quispe | In-Process |
+| **US-17** | Información del producto en la Landing Page | T001 | Diseño sección informativa | Permite diseñar la sección informativa principal de la Landing Page de DomotiCore. | 2h | Fabrizio Tello | Done |
+| | | T002 | Descripción del producto y beneficios | Permite mostrar información clara sobre el producto y sus beneficios. | 2h | Diego Esquicha | Done |
+| | | T003 | Ajuste responsive de Landing Page | Permite adaptar la Landing Page a diferentes resoluciones de pantalla. | 2h | Cesar Quispe | To-Fix |
+| | | T004 | Estructura inicial de Landing Page | Permite establecer la estructura base de la Landing Page. | 2h | Alvaro Rocha | Done |
+| **US-19** | Autenticación básica de API | T001 | Configuración de autenticación | Permite validar credenciales básicas para el acceso a la API de DomotiCore. | 3h | Diego Esquicha | To-Review |
+| | | T002 | Validación de acceso inicial | Permite verificar el acceso mediante credenciales válidas. | 1h | Cesar Quispe | To-Review |
+| | | T003 | Revisión de autenticación | Permite corregir errores en el proceso de autenticación inicial. | 1h | Oscar Checa | To-Fix |
+| **US-21** | Encendido general de dispositivos | T001 | Funcionalidad de encendido general | Permite encender todos los dispositivos vinculados de manera simultánea. | 2h | Cesar Quispe | To-Review |
+| | | T002 | Activación simultánea de dispositivos | Permite ejecutar el encendido general desde la interfaz. | 2h | Fabrizio Tello | To-Review |
+| | | T003 | Validación de dispositivos conectados | Permite verificar que los dispositivos estén conectados antes del encendido. | 1h | Diego Esquicha | Done |
+| **US-35** | Optimización automática de consumo | T001 | Lógica base de optimización | Permite definir reglas básicas para optimizar el consumo energético. | 3h | Alvaro Rocha | To-Review |
+| | | T002 | Análisis de consumo energético | Permite analizar el consumo energético de los dispositivos registrados. | 2h | Cesar Quispe | To-Review |
+| **US-41** | Previsualización de funciones | T001 | Diseño sección de previsualización | Permite diseñar la sección de previsualización de funciones en la Landing Page. | 2h | Cesar Quispe | To-Review |
+| | | T002 | Mostrar funcionalidades principales | Permite mostrar las características clave de la aplicación DomotiCore. | 2h | Fabrizio Tello | To-Review |
+| | | T003 | Vista inicial de funciones | Permite implementar la vista inicial de las funciones principales. | 1h | Alvaro Rocha | Done |
 
 #### 5.2.1.4 Development Evidence for Sprint Review 
 
-La gestión del código fuente para el proyecto **DomotiCore** se realiza utilizando Git como sistema de control de versiones, permitiendo un flujo de trabajo colaborativo y un historial detallado de cambios realizados durante el Sprint.
+En esta sección se presentan los avances obtenidos durante la fase de implementación correspondientes al Sprint Backlog 1, el cual estuvo orientado principalmente a la construcción de la Landing Page de DomotiCore y la implementación de funcionalidades base iniciales del sistema, sentando las bases visuales, estructurales y funcionales necesarias para la evolución de la plataforma en siguientes iteraciones.
+
+Durante este sprint, el equipo se enfocó en la definición y desarrollo de la estructura inicial de la Landing Page, incorporando secciones informativas del producto, beneficios principales y previsualización de funcionalidades clave, con el objetivo de comunicar de manera clara la propuesta de valor de DomotiCore.
 
 La siguiente tabla resume los commits más relevantes realizados durante la implementación de los productos digitales:
 
-| Repository | Branch | Commit ID | Commit Message | Date |
-| :--- | :--- | :--- | :--- | :--- |
-| **domoticore-Business-Web-Page** | main | `53487ee` | feat: implement landing page structure | 2026-04-07 |
-| **domoticore-Business-Web-Page** | main | `36702da` | feat: add responsive design support | 2026-04-15 |
-| **domoticore-docs** | develop | `94d4937` | docs: update sprint 1 documentation | 2026-04-21 |
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Commited on (Date)</th>
+  </tr>
+
+<tr>
+  <td>OscarCheca/Veltrix-DomotiCore-Business-Web-Page</td>
+  <td>main</td>
+  <td>39b6b9c</td>
+  <td>feat: add landing page files</td>
+  <td>Se agregan los archivos iniciales de la landing page de DomotiCore.</td>
+  <td>09/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Business-Web-Page</td>
+  <td>main</td>
+  <td>5c5a6f5</td>
+  <td>refactor: add folders and project structure</td>
+  <td>Define la estructura inicial de carpetas y organización del proyecto web.</td>
+  <td>09/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Business-Web-Page</td>
+  <td>main</td>
+  <td>b1cb9b5</td>
+  <td>refactor: add modular code structure</td>
+  <td>Refactoriza el código para una estructura modular y mantenible.</td>
+  <td>09/05/2026</td>
+</tr>
+
+<tr>
+  <td>F4bris/Veltrix-DomotiCore-Business-Web-Page</td>
+  <td>main</td>
+  <td>c9f7301</td>
+  <td>feat: update icons and styles for improved visual consistency</td>
+  <td>Actualiza íconos y estilos para mejorar la consistencia visual de la landing page.</td>
+  <td>10/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Business-Web-Page</td>
+  <td>main</td>
+  <td>691e3f2</td>
+  <td>merge: pull request from develop branch</td>
+  <td>Integra cambios del branch develop consolidando funcionalidades iniciales.</td>
+  <td>10/05/2026</td>
+</tr>
+
+<tr>
+  <td>F4bris/Veltrix-DomotiCore-Business-Web-Page</td>
+  <td>main</td>
+  <td>787d652</td>
+  <td>feat: add pricing section with translations</td>
+  <td>Agrega la sección de precios con planes y soporte multilenguaje EN y ES.</td>
+  <td>10/05/2026</td>
+</tr>
+
+<tr>
+  <td>F4bris/Veltrix-DomotiCore-Business-Web-Page</td>
+  <td>main</td>
+  <td>a8a43b2</td>
+  <td>feat: update translations for improved user experience</td>
+  <td>Mejora las traducciones del sitio para una mejor experiencia de usuario.</td>
+  <td>14/05/2026</td>
+</tr>
+
+<tr>
+  <td>F4bris/Veltrix-DomotiCore-Business-Web-Page</td>
+  <td>main</td>
+  <td>080090e</td>
+  <td>feat: add team section with translations</td>
+  <td>Implementa la sección del equipo con imágenes, información y soporte multilenguaje.</td>
+  <td>14/05/2026</td>
+</tr>
+
+<tr>
+  <td>F4bris/Veltrix-DomotiCore-Business-Web-Page</td>
+  <td>main</td>
+  <td>3bee852</td>
+  <td>feat: update navigation CTA to dashboard</td>
+  <td>Actualiza el botón CTA del menú para redirigir al dashboard.</td>
+  <td>15/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Business-Web-Page</td>
+  <td>main</td>
+  <td>30b7053</td>
+  <td>feat: add dark mode section</td>
+  <td>Agrega soporte visual para el modo oscuro en la landing page.</td>
+  <td>25/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Business-Web-Page</td>
+  <td>main</td>
+  <td>149970f</td>
+  <td>style: improve landing page styles</td>
+  <td>Optimiza los estilos generales de la landing page para mejorar la presentación visual.</td>
+  <td>25/05/2026</td>
+</tr>
+</table>
 
 #### 5.2.1.5 Execution Evidence for Sprint Review
 
-Durante el **Sprint 1** se logró implementar correctamente la estructura visual de la **Landing Page** de DomotiCore, incluyendo navegación interactiva, diseño responsive y un formulario de contacto funcional. Esta entrega presenta las secciones clave que brindan información detallada sobre la propuesta de valor del producto.
+Durante el Sprint 1, el equipo de desarrollo de DomotiCore se enfocó en establecer las bases iniciales del proyecto, priorizando la construcción de la Landing Page corporativa y la definición de una estructura técnica y visual sólida que permita comunicar claramente el propósito, beneficios y alcance de la plataforma. Este sprint marcó el punto de partida del desarrollo, orientado a la validación temprana del producto y a la generación de una primera experiencia de usuario informativa y atractiva.
 
-****Capturas de Pantalla de la Implementación****
+### Resumen de Logros:
 
-A continuación, se presentan las evidencias visuales de los componentes desarrollados:
+* **Estructura Inicial de la Landing Page:** Se implementó la estructura base de la landing page de DomotiCore, definiendo secciones clave como presentación del producto, beneficios principales, propuesta de valor y vistas preliminares de la plataforma, asegurando una navegación clara y ordenada para los visitantes.
+* **Diseño Visual y Experiencia de Usuario:** Se desarrollaron estilos iniciales, iconografía y componentes visuales reutilizables, logrando una interfaz moderna y coherente con la identidad del producto. Asimismo, se realizaron ajustes de diseño responsive para garantizar una correcta visualización en dispositivos de escritorio.
+* **Secciones Informativas y Contenido Dinámico:** Se incorporaron secciones informativas como planes y precios, presentación del equipo, testimonios iniciales y footer informativo, reforzando la credibilidad del producto y facilitando el acceso a información relevante para potenciales usuarios.
+* **Configuraciones Iniciales de Navegación y Accesibilidad:** Se implementó el menú de navegación principal con enlaces funcionales a las distintas secciones de la landing page, así como llamadas a la acción (CTA) orientadas a redirigir a futuras funcionalidades del sistema, sentando las bases para la transición hacia la aplicación web.
+
+### Video de Demostración y Navegación
+Puedes acceder al video de la demostración funcional en el siguiente enlace:
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417405_upc_edu_pe/IQCPng9giTbzT7yPR6RganePARwt5TeTRUKmAmmGUib8n3E?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ZW7H6O
+
+### Screenshots de la Implementación
 
 * **Hero Section**: Primera impresión y propuesta de valor.
 
@@ -350,20 +461,37 @@ A continuación, se presentan las evidencias visuales de los componentes desarro
 <div style="text-align:center;"><img src="imagenes/images_Cap5/5.2.1.5. Execution Evidence(7).png">
 </div>
 
-****Demostración en Video****
-
-Asimismo, se adjunta un video demostrativo que recorre la navegación y las funcionalidades implementadas, validando la experiencia de usuario (UX) en diferentes resoluciones.
-
-**Enlace del Video**: [ Demostración de DomotiCore - Sprint 1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417405_upc_edu_pe/IQCPng9giTbzT7yPR6RganePARwt5TeTRUKmAmmGUib8n3E?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ZW7H6O) --- [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417405_upc_edu_pe/IQCPng9giTbzT7yPR6RganePARwt5TeTRUKmAmmGUib8n3E?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ZW7H6O] ---
-
 #### 5.2.1.6 Services Documentation Evidence for Sprint Review
 
-En este Sprint aún no se desarrollaron servicios backend completos. Sin embargo, se definieron preliminarmente los endpoints relacionados con monitoreo de dispositivos y automatización IoT.
+Durante el Sprint 1 del proyecto DomotiCore, el equipo se enfocó en el desarrollo e implementación de la Landing Page institucional, la cual constituye el primer punto de contacto entre el producto y los usuarios finales, permitiendo presentar de manera clara la propuesta de valor, funcionalidades principales y beneficios del sistema de gestión domótica.
 
-La documentación OpenAPI será incorporada en los siguientes Sprints.
+Dado que este sprint corresponde a la fase inicial del proyecto, no se desarrollaron aún servicios REST completos ni endpoints funcionales del backend. No obstante, se documenta el recurso web desplegado, incluyendo la URL de acceso, evidencias del proceso de despliegue, interacción básica del usuario y los commits realizados durante el desarrollo del Landing Page.
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <th>Recurso</th>
+    <th>Acción implementada</th>
+    <th>HTTP</th>
+    <th>URL / Endpoint</th>
+    <th>Link de repositorio</th>
+  </tr>
+  <tr>
+    <td>Landig Page</td>
+    <td>Vista inicial</td>
+    <td>GET</td>
+    <td><a href="https://bl-app-open-source-1asi0729-2610-12029.github.io/Veltrix-DomotiCore-Business-Web-Page/">https://bl-app-open-source-1asi0729-2610-12029.github.io/Veltrix-DomotiCore-Business-Web-Page/</a></td>
+    <td><a href="https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/Veltrix-DomotiCore-Business-Web-Page">https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/Veltrix-DomotiCore-Business-Web-Page</a></td>
+  </tr>
+</table>
+
 #### 5.2.1.7 Software Deployment Evidence for Sprint Review
 
 Durante este Sprint se realizaron las siguientes actividades clave relacionadas con el despliegue y  disponibilidad del producto:
+
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/5.2.1.7. Software Deployment Evidence 1.png" 
+       alt="Github Pages Evidence">
+</div>
 
 * **Configuración de GitHub Pages**: Establecimiento del entorno de despliegue automatizado para la rama principal.
 * **Publicación inicial de la Landing Page**: Lanzamiento de la primera versión funcional accesible vía web.
@@ -373,109 +501,512 @@ Durante este Sprint se realizaron las siguientes actividades clave relacionadas 
 
 #### 5.2.1.8 Team Collaboration Insights during Sprint
 
-El equipo utilizó las herramientas analíticas de **GitHub Insights** para monitorear la participación activa de cada integrante durante el **Sprint 1**. Estos datos permitieron realizar un seguimiento detallado de los commits, pull requests y merges realizados.
+La culminación del Sprint 1 del proyecto DomotiCore fue el resultado de un trabajo colaborativo y organizado, orientado a establecer las bases iniciales del producto mediante el desarrollo de la Landing Page institucional. Durante este sprint, el equipo adoptó un enfoque ágil que permitió transformar los requerimientos iniciales del proyecto en componentes funcionales y visuales de manera progresiva.
 
 La colaboración basada en estas métricas permitió mantener un flujo continuo de integración y control de versiones, fortaleciendo el trabajo colaborativo del equipo y asegurando la integridad del código fuente.
 
-****Evidencia de Colaboración en GitHub****
+* El progreso del desarrollo se registró de forma continua mediante un historial de commits estructurado, permitiendo evidenciar la evolución incremental del Landing Page, desde la creación de la estructura inicial hasta la incorporación de secciones informativas y mejoras visuales.
+* La integración del trabajo colaborativo se realizó a través del uso de ramas de desarrollo y procesos de merge hacia la rama principal, asegurando coherencia visual, consistencia en el código y alineación con los objetivos definidos para el sprint.
+* Se mantuvo una comunicación técnica constante entre los miembros del equipo para coordinar ajustes de diseño, validación de contenido y resolución temprana de inconsistencias.
+* Este enfoque metodológico permitió cumplir satisfactoriamente con el Sprint Goal, garantizando una contribución equilibrada del equipo.
 
-A continuación, se presenta la captura de los analíticos proporcionados por GitHub sobre la actividad del equipo:
+**Métricas de Actividad en el Repositorio**
+
+Como evidencia del dinamismo y la colaboración técnica, se adjuntan los indicadores de actividad (commits, merges y contribuciones) extraídos de GitHub:
 
 <div style="text-align:center;"><img src="imagenes/images_Cap5/5.2.1.8. Team Collaboration.png">
 </div>
 
-En estas métricas facilitó la identificación de cada apoyo de los colaboradores y ayudó a mejorar la distribución de tareas para los siguientes ciclos de desarrollo.
+Se evidencia la participación plena de los cinco integrantes en el desarrollo de la Landing Page. La distribución de las contribuciones técnicas valida una colaboración equitativa y constante por parte de todo el equipo durante el ciclo de trabajo inicial.
+
+| Integrante | Usuario GitHub | Commits |
+|---|---|---|
+| Checa Burga, Oscar Diego | `OscarCheca` | 12 |
+| Quispe Llacsahuanga, César Agusto | `user20-bit` | 10 |
+| Esquicha Alcántara, Diego Alonso | `DiegoEsquich` | 8 |
+| Tello Palacios, Fabrizio Rafael | `F4bris` | 6 |
+| Rocha Cotrina, Alvaro | `alvarorc24` | 5 |
+
+Se evidencia la colaboración constante y la sinergia grupal mediante la trazabilidad de los aportes individuales. Cada integrante sumó valor en áreas críticas del desarrollo, garantizando no solo el avance técnico del sistema, sino también el cumplimiento de los acuerdos establecidos durante la planificación del ciclo de trabajo.
+
 
 ### 5.2.2 Sprint 2
 
-| Campo | Detalle |
-| :--- | :--- |
-| **Sprint #** | Sprint 2 |
-| **Date** | 2026-05-09|
-| **Time** | 7:00 PM |
-| **Location** | Microsoft Teams (Reunión virtual) |
-| **Prepared By** | Equipo Veltrix |
+#### 5.2.2.1 Sprint Planning 2
+En esta sección, se presentará la planificación de nuestro Sprint 2.
 
-****Attendees (Planning Meeting)****
+| **Sprint #** |                 **Sprint 2**              |
+|--------------|-------------------------------------------|
+|**Sprint Planning Background**                            |
+| Date         | 2026/05/09                                |
+| Time         | 07:00 pm                                  |
+| Location     | Reunión virtual mediante Microsoft Teams       |
+| Prepared By  | Esquicha Alcántara, Diego Alonso          |
+| Attendees    |Rocha Cotrina, Alvaro / Esquicha Alcántara, Diego Alonso / Quispe llacsahuanga, César Agusto / Tello Palacios, Fabrizio Rafael / Checa Burga, Oscar |
+| Sprint n-2 Review Summary |  Durante el Sprint 2 se avanzó en el desarrollo y despliegue del Front-End de la Web App de DomotiCore. Se implementaron las principales vistas del sistema, incluyendo autenticación de usuarios, dashboard interactivo y módulos de monitoreo de dispositivos. Además, se configuró el entorno de despliegue para publicar la aplicación en un servicio cloud, se optimizó la estructura de componentes y se realizaron pruebas funcionales para validar la navegación y experiencia de usuario. Sin embargo, quedaron pendientes algunas integraciones avanzadas con backend y mejoras relacionadas con rendimiento y seguridad.           |
+| Sprint n-2 Retrospective Summary |  En el Sprint 2 el equipo mejoró la coordinación respecto al sprint anterior, logrando una distribución más equilibrada de tareas y mayor seguimiento del avance. No obstante, surgieron retrasos por conflictos en merges y cambios de último momento en algunas interfaces. Como acciones de mejora, se acordó fortalecer la revisión de código mediante pull requests, mantener reuniones breves de seguimiento y definir estándares visuales y de desarrollo desde el inicio del sprint.|
+| **Sprint Goal & User Stories**                           |
+|**Sprint 2**  |Desarrollar y desplegar el Front-End funcional de la Web App de DomotiCore, asegurando navegación operativa, vistas principales implementadas y publicación en un entorno cloud.|
+| Sprint 2 Velocity   | 10  Story Points                   |
+| Sum of Story Points | 50  Story Points                   |
 
-| Participantes |
-| :--- |
-| Cesar Quispe |
-| Oscar Checa |
-| Diego Esquich |
-| Fabrizio Rafael |
-| Alvaro Rocha |
-
-*****Sprint 2 – Review Summary****
-
-| Descripción |
-| :--- |
-| Durante el Sprint 2 se avanzó en el desarrollo y despliegue del Front-End de la Web App de DomotiCore. Se implementaron las principales vistas del sistema, incluyendo autenticación de usuarios, dashboard interactivo y módulos de monitoreo de dispositivos. Además, se configuró el entorno de despliegue para publicar la aplicación en un servicio cloud, se optimizó la estructura de componentes y se realizaron pruebas funcionales para validar la navegación y experiencia de usuario. Sin embargo, quedaron pendientes algunas integraciones avanzadas con backend y mejoras relacionadas con rendimiento y seguridad.|
-
-****Sprint 2 – Retrospective Summary****
-
-| Descripción |
-| :--- |
-| En el Sprint 2 el equipo mejoró la coordinación respecto al sprint anterior, logrando una distribución más equilibrada de tareas y mayor seguimiento del avance. No obstante, surgieron retrasos por conflictos en merges y cambios de último momento en algunas interfaces. Como acciones de mejora, se acordó fortalecer la revisión de código mediante pull requests, mantener reuniones breves de seguimiento y definir estándares visuales y de desarrollo desde el inicio del sprint.|
-
-****Sprint Goal & User Stories****
-
-| Campo | Detalle |
-| :--- | :--- |
-| **Sprint 2 Goal** | Desarrollar y desplegar el Front-End funcional de la Web App de DomotiCore, asegurando navegación operativa, vistas principales implementadas y publicación en un entorno cloud.|
-| **Sprint 2 Velocity** | 6 User Stories |
-| **Story Points por historia** | 10 puntos |
-| **Sum of Story Points** | 50 |
 #### 5.2.2.2 Aspect Leaders and Collaborators
 
-| Team Member (Last Name, First Name) | GitHub Username | Infrastructure & Repository | Web App Deployment | Documentation (Chapters 1-5) |
-| :--- | :--- | :---: | :---: | :---: |
-| Checa, Oscar | OscarCheca | **C** | **C** | **C** |
-| Quispe, Cesar | user20-bit | **C** | **L** | **L** |
-| Esquich, Diego | DiegoEsquich | **L** | **C** | **C** |
-| Tello, Fabrizio | F4bris | **C** | **C** | **C** |
-| Rocha , Alvaro | alvarorc24 | **C** | **C** | **C** |
+En el marco del Sprint Backlog 2, el equipo de desarrollo de DomotiCore ha enfocado sus esfuerzos en el inicio y consolidación parcial del Front-End de la plataforma, estableciendo la base visual, estructural y funcional necesaria para la interacción inicial del usuario con el sistema. Este sprint prioriza la implementación de los primeros flujos de navegación, la visualización centralizada de dispositivos IoT, el control básico desde el dashboard, y el monitoreo visual de estados, permitiendo una experiencia de uso operativa inicial a través de la interfaz web.
+
+Para asegurar una ejecución organizada, colaborativa y trazable, se continuó utilizando la Matriz de Liderazgo y Colaboración (LACX), mediante la cual se asignaron roles de liderazgo (L) y colaboración (C) a los integrantes del equipo según los componentes frontend abordados durante el sprint.
+
+| Team Member (Last Name, First Name) | GitHub Username    | Front-End Structure | Navigation & Routing | Device Dashboard  | Device Control (UI) | Status Visualization | UI Feedback (Success/Error) | Authentication UI | Responsive UX |
+| :---------------------------------- | :----------------- | :------------- | :--------------- | :------------------ | :-------------- | :----- | :----------- | :-------------- | :--------------- 
+| Rocha Cotrina, Alvaro               | alvarorc24 | C | C | C | C | C | L | C | C |
+| Esquicha Alcántara, Diego Alonso    | DiegoEsquich | C  | L | C | C | L | L | C | L  |
+| Quispe Llacsahuanga, César Agusto   | user20-bit | L | C | L | C | C | C | L | C |       
+| Tello Palacios, Fabrizio Rafael     | F4bris | C | C | C | L | C | C | C | C |
+| Checa Burga, Oscar Diego            | OscarCheca | C | C | C | C | C | C | C | C |
+---------------
+*Leyenda: L = Lead (Líder), C = Collaborator (Colaborador)*
 
 #### 5.2.2.3 Sprint Backlog 2
 
-Las User Stories del proyecto fueron reorganizadas y priorizadas durante las actividades de Sprint Planning del Sprint 2 con el objetivo de enfocar el desarrollo en la implementación y despliegue del Front-End funcional de la Web App de DomotiCore.
+El Sprint Backlog 2 tiene el objetivo de enfocar el desarrollo en la implementación y despliegue del Front-End funcional de la Web App de DomotiCore.
 Las historias de usuario definidas previamente en la Sección 3.1 fueron refinadas y alineadas con las necesidades funcionales de la interfaz web, considerando aspectos de navegación, visualización de dispositivos, autenticación y experiencia de usuario. Asimismo, se mantuvo la estructura de criterios de aceptación basada en Gherkin, facilitando la validación de funcionalidades implementadas durante el sprint.
 
 Durante el proceso de refinamiento del backlog del Sprint 2 se realizaron las siguientes mejoras:
-•	**Priorización** de funcionalidades relacionadas al Front-End y experiencia de usuario.
-•	**Integración** de componentes visuales reutilizables para la Web App.
-•	**Organización** de User Stories según módulos funcionales del sistema.
-•	**Optimización** de flujos de navegación y control de dispositivos.
-•	**Relación** entre Sprint Goal, despliegue cloud y funcionalidades implementadas.
+*	**Priorización** de funcionalidades relacionadas al Front-End y experiencia de usuario.
+*	**Integración** de componentes visuales reutilizables para la Web App.
+*	**Organización** de User Stories según módulos funcionales del sistema.
+*	**Optimización** de flujos de navegación y control de dispositivos.
+*	**Relación** entre Sprint Goal, despliegue cloud y funcionalidades implementadas.
 
-La siguiente tabla resume las principales User Stories consideradas durante las actividades de planificación del Sprint 2:
 
-La siguiente tabla resume las principales User Stories consideradas durante las actividades de planificación de Sprint:
+### Screenshot del Board
 
-| User Story ID | Título | Epic |
-| :--- | :--- | :--- |
-| **US-01** | Vinculación de inicio| Gateway Management |
-| **US-02** | Registro y sincronización de nodos| Device Management|
-| **US-03** | Control remoto de dispositivos | Device Control|
-| **US-10** | Cierre de sesión seguro| User Security |
-| **US-12** | Visualización de cantidad total de dispositivos| Dashboard |
-| **US-24** | Visualización de dispositivos desconectados| Device Monitoring|
-| **US-28** | Mensajes de éxito y error | User Experience|
-| **US-30** | Edición de nombre de dispositivos | Device Control |
-| **US-42** | Navegación por secciones| Website |
-| **US-45** | Footer informativo| Website |
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/5.2.2.3. Sprint Backlog 2.png" 
+       alt="Paleta de Colores">
+</div>
+
+**Trello:** [Trello Sprint 2](https://trello.com/b/y2sNWzhi/domoticore-sprint-backlog-2) [https://trello.com/b/y2sNWzhi/domoticore-sprint-backlog-2]
+
+### Sprint Backlog #02
+
+| User Story Id | Title | Task Id | Task Title | Description | Est. (h) | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :---: | :--- | :---: |
+| **US-01** | Vinculación de inicio | T001 | Flujo inicial de vinculación de gateway | Permite al usuario iniciar el proceso de vinculación del gateway desde la interfaz web. | 3h | Diego Esquicha | Done |
+| | | T002 | Validación visual de vinculación | Permite mostrar mensajes visuales de éxito o error durante el proceso de vinculación. | 2h | Cesar Quispe | Done |
+| **US-02** | Registro y sincronización de nodos | T001 | Registro visual de nodos | Permite mostrar los nodos detectados durante el proceso de registro inicial. | 2h | Fabrizio Tello | Done |
+| | | T002 | Sincronización inicial de dispositivos | Permite cargar y visualizar los dispositivos sincronizados en el dashboard. | 3h | Diego Esquicha | Done |
+| **US-03** | Control remoto de dispositivos | T001 | Controles ON/OFF en dashboard | Permite encender y apagar dispositivos desde el dashboard (capa visual). | 3h | Alvaro Rocha | Done |
+| | | T002 | Actualización visual de estados | Permite reflejar cambios de estado en tiempo real en la interfaz. | 2h | Diego Esquicha | Done |
+| **US-10** | Cierre de sesión seguro | T001 | Implementación de logout | Permite al usuario cerrar sesión de manera segura desde la interfaz. | 2h | Cesar Quispe | Done |
+| | | T002 | Redirección post logout | Permite redirigir al usuario a la pantalla inicial tras cerrar sesión. | 1h | Cesar Quispe | Done |
+| **US-12** | Visualización de cantidad total de dispositivos | T001 | Contador de dispositivos | Permite mostrar el número total de dispositivos registrados en el dashboard. | 1h | Alvaro Rocha | Done |
+| **US-24** | Visualización de dispositivos desconectados | T001 | Identificación visual de desconexión | Permite diferenciar dispositivos desconectados mediante indicadores visuales. | 2h | Fabrizio Tello | Done |
+| | | T002 | Renderizado de dispositivos inactivos | Permite mostrar dispositivos desconectados en el dashboard. | 1h | Diego Esquicha | In-Progress |
+| **US-28** | Mensajes de éxito y error | T001 | Mensajes de éxito | Permite mostrar confirmaciones visuales al ejecutar acciones correctamente. | 1h | Cesar Quispe | Done |
+| | | T002 | Mensajes de error | Permite mostrar errores ante fallos de interacción o conexión simulada. | 2h | Oscar Checa | To-Fix |
+| **US-30** | Edición de nombre de dispositivos | T001 | Edición dinámica de nombre | Permite modificar el nombre de un dispositivo desde la interfaz. | 2h | Alvaro Rocha | In-Progress |
+| | | T002 | Ajustes visuales de edición | Permite mejorar la experiencia visual del formulario de edición. | 1h | Oscar Checa | To-Review |
+| **US-42** | Navegación por secciones | T001 | Navegación entre secciones | Permite al usuario desplazarse entre los módulos principales de la Web App. | 3h | Fabrizio Tello | To-Fix |
+| | | T002 | Configuración de rutas | Permite definir rutas principales de navegación en el frontend. | 2h | Diego Esquicha | To-Review |
+| **US-45** | Footer informativo | T001 | Diseño de footer | Permite mostrar un footer con información general de DomotiCore. | 1h | Cesar Quispe | Done |
+| | | T002 | Información institucional en footer | Permite visualizar información básica del sistema en el footer. | 1h | Alvaro Rocha | To-Review |
 
 #### 5.2.2.4 Development Evidence for Sprint Review
-La gestión del código fuente para el proyecto DomotiCore continuó realizándose mediante Git como sistema de control de versiones, permitiendo mantener un flujo de trabajo colaborativo y organizado durante el desarrollo del Sprint 2. En este Sprint el enfoque principal estuvo orientado al desarrollo y despliegue del Front-End funcional de la Web App.
-La siguiente tabla resume los commits más relevantes realizados durante la implementación de funcionalidades del Sprint 2:
+
+En esta sección se presentan los avances obtenidos durante la fase de implementación correspondientes al Sprint Backlog 02, el cual estuvo orientado principalmente al inicio y desarrollo parcial del Front-End de la plataforma DomotiCore, sentando las bases visuales, estructurales y de navegación necesarias para las siguientes etapas del proyecto.
+
+Durante este sprint, el equipo se enfocó en la configuración inicial del entorno Front-End, la definición de la arquitectura de carpetas y componentes, la implementación de vistas base y layouts principales, así como en el desarrollo de los primeros flujos de interacción del usuario, incluyendo pantallas iniciales, estructura de autenticación visual y navegación entre módulos. Asimismo, se realizaron mejoras de diseño, ajustes de estilos CSS, validaciones básicas de formularios y pruebas preliminares de experiencia de usuario en distintos dispositivos.
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Commited on (Date)</th>
+  </tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>f33f173</td>
+  <td>docs: add css styles frontend</td>
+  <td>Se documentan y agregan estilos CSS base para el frontend.</td>
+  <td>10/05/2026</td>
+</tr>
+
+<tr>
+  <td>F4bri/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>15bc5c9</td>
+  <td>docs: add components vue</td>
+  <td>Se documentan componentes Vue utilizados en la interfaz.</td>
+  <td>10/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>743c3ba</td>
+  <td>docs: add value</td>
+  <td>Se añade contenido de valor descriptivo al proyecto frontend.</td>
+  <td>10/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>ebd42be</td>
+  <td>style: versel solution</td>
+  <td>Se aplica solución de estilos para despliegue en Vercel.</td>
+  <td>12/05/2026</td>
+</tr>
+
+<tr>
+  <td>alvarorc24/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>8885888</td>
+  <td>Revert "style: versel solution"</td>
+  <td>Se revierte la solución de estilos aplicada previamente.</td>
+  <td>12/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>1a3cba0</td>
+  <td>script: validation</td>
+  <td>Se implementan validaciones básicas en el frontend.</td>
+  <td>12/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>c30cc42</td>
+  <td>script: delete vercel</td>
+  <td>Se eliminan configuraciones relacionadas a Vercel.</td>
+  <td>12/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>acd448f</td>
+  <td>script: deploy</td>
+  <td>Se ejecuta configuración de despliegue inicial del frontend.</td>
+  <td>12/05/2026</td>
+</tr>
+
+<tr>
+  <td>alvarorc24/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>fcc288d</td>
+  <td>script: add layout and folders</td>
+  <td>Se agrega estructura de layouts y carpetas del frontend.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>6c6a690</td>
+  <td>script: IAM structure and smart-integrations</td>
+  <td>Se define estructura IAM y base de integraciones inteligentes.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>fa5da51</td>
+  <td>script: login system</td>
+  <td>Se implementa sistema de login a nivel de interfaz.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>73df345</td>
+  <td>Fix Angular frontend</td>
+  <td>Se corrigen errores en la implementación del frontend Angular.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>OscarCheca/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>c3f64fe</td>
+  <td>script: component array</td>
+  <td>Se reorganiza la gestión de componentes mediante arreglos.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>OscarCheca/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>6fb7958</td>
+  <td>script: design improvement</td>
+  <td>Se realizan mejoras visuales en el diseño del frontend.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>a432333</td>
+  <td>script: image addition</td>
+  <td>Se agregan recursos gráficos e imágenes a la interfaz.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>2e21bdf</td>
+  <td>feat: add dashboard bounded context</td>
+  <td>Se incorpora el contexto acotado del dashboard principal.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>4aaf464</td>
+  <td>feat(device-control): create bounded context structure and device model</td>
+  <td>Se define estructura DDD y modelo de dispositivos para control.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>DiegoEsquich/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>eb918e1</td>
+  <td>refactor(app): migrate to standalone architecture and update routing structure</td>
+  <td>Se migra la aplicación a arquitectura standalone y se ajustan rutas.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>88194d8</td>
+  <td>feat(device-control): add mock device dataset</td>
+  <td>Se agregan datos simulados de dispositivos para pruebas de UI.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>DiegoEsquich/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>4f09bce</td>
+  <td>chore: add IDE configuration and code formatting settings</td>
+  <td>Se añaden configuraciones del IDE y formato de código.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>ac4a405</td>
+  <td>feat(device-control): migrate features to ddd architecture structure</td>
+  <td>Se migran funcionalidades de control de dispositivos a DDD.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>a2a151d</td>
+  <td>feat(device-management): add domain, infrastructure and routing setup</td>
+  <td>Se agrega estructura base para gestión de dispositivos.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>DiegoEsquich/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>51ac095</td>
+  <td>feat(device-management): add presentation components for device crud</td>
+  <td>Se implementan componentes visuales para CRUD de dispositivos.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>d8513ff</td>
+  <td>feat(ui): add device management link to sidebar navigation</td>
+  <td>Se añade acceso a gestión de dispositivos desde el sidebar.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>a537a2d</td>
+  <td>script: remove components</td>
+  <td>Se eliminan componentes innecesarios del frontend.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>290efc4</td>
+  <td>script: functional part</td>
+  <td>Se consolida parte funcional del frontend.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>7b3060d</td>
+  <td>Merge branch 'feature/dashboard' into develop-final</td>
+  <td>Se integran cambios del dashboard al branch final.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>af45850</td>
+  <td>script: merge member folders</td>
+  <td>Se unifican carpetas de trabajo de los miembros del equipo.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>b63bab3</td>
+  <td>feat(automation): add automation center component and related infrastructure</td>
+  <td>Se implementa componente central de automatización.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>alvarorc24/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>abcad73</td>
+  <td>Merge branch 'feature/automation-gateway' into develop-final</td>
+  <td>Se integran cambios del gateway de automatización.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>e16d5be</td>
+  <td>script: correction code</td>
+  <td>Se realizan correcciones generales de código.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>192b96f</td>
+  <td>script: corrections final</td>
+  <td>Se aplican correcciones finales del frontend.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>cd1a10a</td>
+  <td>feat(automation): add route for automation center component</td>
+  <td>Se agrega ruta de navegación para el centro de automatización.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>d6a7f93</td>
+  <td>script: add translate front-end boundend context</td>
+  <td>Se agrega soporte de traducción al frontend.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>3a8153b</td>
+  <td>script: add fakeapi</td>
+  <td>Se incorpora API simulada para pruebas de frontend.</td>
+  <td>13/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>b42be5e</td>
+  <td>script: add dependencies</td>
+  <td>Se agregan dependencias necesarias para la configuración inicial del frontend.</td>
+  <td>14/05/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>877a6ae</td>
+  <td>docs: add install animation</td>
+  <td>Se añade animación ilustrativa al proceso de instalación del frontend.</td>
+  <td>14/05/2026</td>
+</tr>
+
+<tr>
+  <td>alvarorc24/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>944cb72</td>
+  <td>docs: add corrections fronted</td>
+  <td>Se realizan correcciones documentales relacionadas al frontend.</td>
+  <td>14/05/2026</td>
+</tr>
+
+</table>
 
 #### 5.2.2.5 Execution Evidence for Sprint Review
-Durante el Sprint 2 se logró implementar y desplegar el Front-End funcional de la Web App de DomotiCore, incluyendo navegación principal, dashboard interactivo y módulos relacionados con la administración de dispositivos inteligentes y monitoreo energético.
-Capturas de Pantalla de la Implementación
-A continuación, se presentan las evidencias visuales de los componentes desarrollados:
+
+Durante el Sprint 02, el equipo de desarrollo avanzó en la construcción inicial de la plataforma DomotiCore, enfocándose en el diseño, estructuración y desarrollo parcial del Front-End, con el objetivo de establecer una base funcional y visual sólida para las siguientes iteraciones del proyecto.
+
+### Resumen de Logros:
+
+* **Estructura y Navegación de la Plataforma:** Se implementó la arquitectura inicial del Front-End, incluyendo la definición de layouts principales, estructura de carpetas, componentes base y navegación entre vistas, permitiendo una experiencia de usuario coherente y escalable.
+
+* **Visualización Inicial de Dispositivos:** Se desarrollaron vistas preliminares para la presentación de dispositivos domóticos, contemplando estados básicos (conectado/desconectado) mediante datos simulados, lo que permitió validar el diseño y la interacción del usuario con el sistema.
+
+* **Diseño y Experiencia de Usuario:** Se realizaron ajustes visuales y mejoras de estilo CSS, así como la adaptación inicial de la interfaz para distintos tamaños de pantalla, fortaleciendo la usabilidad y accesibilidad de la plataforma.
+
+* **Preparación para Automatización e Integraciones:** Se sentaron las bases visuales y estructurales para futuros módulos de automatización, integraciones inteligentes y gestión empresarial, dejando preparados los puntos de extensión que serán completados en el Sprint Backlog 03.
+
+### Screenshots de la Implementación
+
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-2-evidence-segment-both.png" 
+       alt="Evidencia para seleccionar en base a tu preferencia">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-2-evidence-segment-1.png" 
+       alt="El usuario selecciono Usuarios de Hogares Inteligentes - Segmento 1">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-3-evidence-segment-2.png" 
+       alt="El usuario selecciono Pequeños Negocios y Emprendedores - Segmento 2">
+</div>
+
 #### 5.2.2.6 Services Documentation Evidence for Sprint Review
 Durante el Sprint 2 se avanzó en la definición preliminar de los servicios REST relacionados con autenticación de usuarios, gestión de dispositivos y monitoreo energético. Asimismo, se establecieron las estructuras base para futuras integraciones entre el Front-End y Backend.
 La documentación OpenAPI será complementada e integrada en los siguientes Sprints conforme se desarrollen los servicios backend definitivos.
+
+
+
 #### 5.2.2.7 Software Deployment Evidence for Sprint Review
 Durante este Sprint se realizaron las siguientes actividades clave relacionadas con el despliegue de la Web App de DomotiCore:
 •	Configuración del entorno cloud para despliegue del Front-End.
@@ -488,6 +1019,23 @@ Durante este Sprint se realizaron las siguientes actividades clave relacionadas 
 #### 5.2.2.8 Team Collaboration Insights during Sprint
 El equipo utilizó las herramientas analíticas de GitHub Insights para monitorear la participación activa de cada integrante durante el Sprint 2, permitiendo realizar seguimiento de commits, merges, issues y pull requests asociados al desarrollo del Front-End.
 Estas métricas ayudaron a fortalecer la colaboración entre los integrantes, mejorar la distribución de tareas y mantener una integración continua más estable durante el Sprint.
+
+### Analíticos de GitHub — Sprint 2
+**Analíticos de GitHub — Plataforma Interna**
+
+<p align="center">
+  <img src="imagenes/images_Cap5/screenshot-evidence-commits-sprint-backlog-2.png" alt="Top Committers — Sprint 2" width="600"/>
+</p>
+
+| Integrante | Usuario GitHub | Commits |
+| :--- | :--- | :---: |
+| Quispe Llacsahuanga, César Agusto | user20-bit | 32 |
+| Tello Palacios, Fabrizio Rafael | F4bris | 5 |
+| Rocha Cotrina, Alvaro | alvarorc24 | 5 |
+| Esquicha Alcántara, Diego Alonso | DiegoEsquich | 3 |
+| Checa Burga, Oscar Diego | OscarCheca | 3 |
+
+Se evidencia una participación activa y equilibrada de todos los integrantes del equipo durante el Sprint 3, reflejando un trabajo colaborativo de la plataforma DomotiCore.
 
 ****Evidencia de Colaboración en GitHub****
 A continuación, se presenta la captura de los analíticos proporcionados por GitHub sobre la actividad del equipo:
@@ -505,12 +1053,21 @@ En esta sección, se presentará la planificación de nuestro Sprint 3.
 | Location     | Reunión virtual mediante discord          |
 | Prepared By  | Esquicha Alcántara, Diego Alonso          |
 | Attendees    |Rocha Cotrina, Alvaro / Esquicha Alcántara, Diego Alonso / Quispe llacsahuanga, César Agusto / Tello Palacios, Fabrizio Rafael / Checa Burga, Oscar  / Véliz Martínez, Diego Alonso|
+<<<<<<< HEAD
 | Sprint n-3 Review Summary |  No aplica                   |
 | Sprint n-3 Retrospective Summary |  No aplica            |
 | **Sprint Goal & User Stories**                           |
 |**Sprint 3**  |Nos enfocamos en consolidar la estructura funcional e integrar las principales capacidades operativas de la plataforma DomotiCore, priorizando el acceso seguro, la comunicación con los dispositivos y la visualización de su estado en tiempo real. Consideramos que este avance fortalece la percepción de madurez del producto y permite demostrar de manera tangible el valor de una solución centralizada para la gestión inteligente del consumo energético y el control remoto de dispositivos en entornos residenciales y empresariales.|
 | Sprint 3 Velocity   | 18  Story Points                   |
 | Sum of Story Points | 18  Story Points                   |
+=======
+| Sprint n-3 Review Summary |  Durante el Sprint anterior, el equipo logró implementar las bases funcionales de la plataforma, incluyendo la estructura inicial del frontend, la gestión de usuarios y la visualización preliminar de dispositivos. Sin embargo, se identificaron oportunidades de mejora relacionadas con la integración de servicios, estabilidad del sistema y experiencia de usuario, las cuales fueron consideradas como insumos clave para la planificación del Sprint 3.      |
+| Sprint n-3 Retrospective Summary | En la retrospectiva se concluyó que el trabajo colaborativo fue efectivo, aunque se detectó la necesidad de mejorar la estimación de esfuerzo, la priorización de historias críticas y la validación temprana de integraciones. Como acciones de mejora, el equipo acordó reforzar las pruebas funcionales, mantener una comunicación más frecuente y enfocar el sprint en funcionalidades de alto impacto para el producto.|
+| **Sprint Goal & User Stories**                           |
+|**Sprint 3**  |Nos enfocamos en consolidar la estructura funcional e integrar las principales capacidades operativas de la plataforma DomotiCore, priorizando el acceso seguro, la comunicación con los dispositivos y la visualización de su estado en tiempo real. Consideramos que este avance fortalece la percepción de madurez del producto y permite demostrar de manera tangible el valor de una solución centralizada para la gestión inteligente del consumo energético y el control remoto de dispositivos en entornos residenciales y empresariales.|
+| Sprint 3 Velocity   | 24  Story Points                   |
+| Sum of Story Points | 24  Story Points                   |
+>>>>>>> Sprint3
 
 #### 5.2.3.2 Aspect Leaders and Collaborators
 
@@ -569,6 +1126,7 @@ En el Sprint Backlog 3 se consolidan las funcionalidades avanzadas del sistema D
 
 #### 5.2.3.4 Development Evidence for Sprint Review
 
+<<<<<<< HEAD
 #### 5.2.3.5 Execution Evidence for Sprint Review
 
 #### 5.2.3.6 Services Documentation Evidence for Sprint Review
@@ -577,3 +1135,1371 @@ En el Sprint Backlog 3 se consolidan las funcionalidades avanzadas del sistema D
 
 #### 5.2.3.8 Team Collaboration Insights during Sprint
 
+=======
+En esta sección se presentan los avances obtenidos durante la fase de implementación correspondientes al Sprint Backlog 03, el cual estuvo orientado a la integración funcional entre el Front-End desarrollado y los servicios del Back-End en implementación, con el objetivo de consolidar una versión operativa, estable y demostrable de la plataforma DomotiCore.
+
+Durante este sprint se implementaron funcionalidades relacionadas con la autenticación básica de la API, el consumo de endpoints para la consulta y actualización del estado de dispositivos IoT, la visualización de dispositivos conectados y desconectados, el registro y presentación del último estado de los dispositivos, la visualización básica del consumo energético total, así como la gestión de mensajes de éxito y error.
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Commited on (Date)</th>
+  </tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Back-End</td>
+  <td>main</td>
+  <td>22c2b70</td>
+  <td>release: v1.0.0 stable DomotiCore backend</td>
+  <td>Publica la versión estable inicial del backend DomotiCore.</td>
+  <td>12/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Back-End</td>
+  <td>main</td>
+  <td>562d759</td>
+  <td>feat: scope SME resources and operations hub to authenticated users</td>
+  <td>Restringe recursos SME al contexto del usuario autenticado.</td>
+  <td>12/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Back-End</td>
+  <td>main</td>
+  <td>6328374</td>
+  <td>feat: add business profile service and integration tests</td>
+  <td>Agrega servicio de perfil empresarial y pruebas de integración.</td>
+  <td>12/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Back-End</td>
+  <td>main</td>
+  <td>9a72b85</td>
+  <td>refactor: align IAM bounded context with DDD and CQRS architecture</td>
+  <td>Alinea IAM con patrones DDD y CQRS.</td>
+  <td>12/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Back-End</td>
+  <td>main</td>
+  <td>8ace4db</td>
+  <td>fix: align datasource defaults for local development profiles</td>
+  <td>Corrige configuración por defecto del datasource local.</td>
+  <td>12/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Back-End</td>
+  <td>main</td>
+  <td>ea4a391</td>
+  <td>feat: add authenticated user profile and self-scoped user endpoints</td>
+  <td>Agrega endpoints de perfil auto-gestionados.</td>
+  <td>12/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Back-End</td>
+  <td>main</td>
+  <td>d9f16ce</td>
+  <td>feat: add PostgreSQL profile, Flyway migrations and phase 3 modules</td>
+  <td>Incorpora soporte PostgreSQL y módulos de fase 3.</td>
+  <td>12/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Back-End</td>
+  <td>main</td>
+  <td>a61c744</td>
+  <td>feat: add SME automation operations and phase 2 demo data</td>
+  <td>Agrega operaciones automatizadas SME y datos demo.</td>
+  <td>12/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Back-End</td>
+  <td>main</td>
+  <td>af8862c</td>
+  <td>feat: add Spring Boot backend scaffold with IAM and phase 1 resources</td>
+  <td>Inicializa backend Spring Boot con IAM y recursos base.</td>
+  <td>12/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Back-End</td>
+  <td>main</td>
+  <td>31492a9</td>
+  <td>docs: expand README with architecture, endpoints and deployment guide</td>
+  <td>Amplía documentación de arquitectura, endpoints y despliegue.</td>
+  <td>12/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>develop</td>
+  <td>8fbab98</td>
+  <td>merge: integrate i18n assets and mock data</td>
+  <td>Integra recursos de internacionalización y datos simulados para pruebas locales.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>774c02e</td>
+  <td>release: v1.0.0 stable DomotiCore frontend baseline</td>
+  <td>Publica la versión estable inicial del frontend de DomotiCore.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>DiegoEsquich/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>0f4e7fe</td>
+  <td>feat: enable local mock authentication flow</td>
+  <td>Habilita un flujo de autenticación simulada para desarrollo local.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>DiegoEsquich/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>9e62c27</td>
+  <td>refactor: dark theme styles and update Google icon paths</td>
+  <td>Optimiza estilos del tema oscuro y corrige rutas de iconos.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>DiegoEsquich/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>f0445bb</td>
+  <td>refactor: report animations and dynamic footer year</td>
+  <td>Mejora animaciones de reportes y actualiza el año dinámico del footer.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>38e6877</td>
+  <td>merge: integrate smart integrations</td>
+  <td>Integra el módulo de integraciones inteligentes al sistema.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>8de32bc</td>
+  <td>feat(smart-integrations): add integration pages</td>
+  <td>Agrega vistas de integraciones inteligentes para hogar y negocio.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>0cd9208</td>
+  <td>feat: add smart home and business visual assets</td>
+  <td>Incorpora recursos visuales para escenarios de hogar y negocio.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>1383f8c</td>
+  <td>feat(smart-integrations): add integration domain and api</td>
+  <td>Implementa dominio y capa API para integraciones inteligentes.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>1af04e1</td>
+  <td>feat: add i18n translations</td>
+  <td>Agrega traducciones multilenguaje a la plataforma.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>bf5ce48</td>
+  <td>merge: integrate sme operations hub</td>
+  <td>Integra el módulo de operaciones para pequeñas y medianas empresas.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>df97ef3</td>
+  <td>merge: integrate team management</td>
+  <td>Integra el módulo de gestión de equipos.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>bbd2166</td>
+  <td>feat(sme-operations-hub): add operations hub page</td>
+  <td>Agrega la vista principal del centro de operaciones.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>0830da7</td>
+  <td>merge: integrate settings profile</td>
+  <td>Integra el módulo de configuración de perfil.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>a82e7fd</td>
+  <td>feat(team-management): add team management views</td>
+  <td>Agrega vistas para la administración de equipos.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>3f606c8</td>
+  <td>feat(sme-operations-hub): add operations hub store and api</td>
+  <td>Implementa store y API del centro de operaciones.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>56a56f9</td>
+  <td>feat(team-management): add team store and api</td>
+  <td>Agrega store y endpoints para gestión de equipos.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>ec29785</td>
+  <td>merge: integrate security access</td>
+  <td>Integra el módulo de control de acceso y seguridad.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>b1e9509</td>
+  <td>feat(settings): add settings profile view</td>
+  <td>Agrega la vista de configuración del perfil de usuario.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>bd55ecd</td>
+  <td>merge: integrate history reports</td>
+  <td>Integra el módulo de historial y reportes.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>91614f9</td>
+  <td>feat(security): add security access page</td>
+  <td>Agrega la vista de control de accesos de seguridad.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>0424504</td>
+  <td>feat(settings): add settings state and api</td>
+  <td>Implementa estado y API para configuraciones del sistema.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>b8361f5</td>
+  <td>feat(security): add security store and api</td>
+  <td>Agrega store y API para gestión de seguridad.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>a8c4239</td>
+  <td>feat(security): add security domain models</td>
+  <td>Define modelos de dominio para el módulo de seguridad.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>ac4347a</td>
+  <td>merge: integrate automation module</td>
+  <td>Integra el módulo de automatización inteligente.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>b06b0eb</td>
+  <td>feat(history): add business reports and cost analysis</td>
+  <td>Agrega reportes empresariales y análisis de costos.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>cff84a3</td>
+  <td>feat(history): add activity and notifications pages</td>
+  <td>Agrega vistas de actividad y notificaciones.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>cb7fa89</td>
+  <td>feat(history): add history api infrastructure</td>
+  <td>Implementa infraestructura API para historial.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>a650e4a</td>
+  <td>feat(history): add history stores</td>
+  <td>Agrega stores para gestión de historial.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>F4bris/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>59be3f5</td>
+  <td>feat(history): add history domain models</td>
+  <td>Define modelos de dominio para historial.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>F4bris/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>473903f</td>
+  <td>feat(automation): add builder and zone configuration</td>
+  <td>Agrega constructor y configuración de zonas automatizadas.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>5b9ce8c</td>
+  <td>feat(automation): add automation center pages</td>
+  <td>Agrega vistas del centro de automatización.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>F4bris/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>43f4c6b</td>
+  <td>feat(automation): add automation api infrastructure</td>
+  <td>Implementa infraestructura API del módulo de automatización.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>F4bris/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>89e8371</td>
+  <td>feat(automation): add automation stores</td>
+  <td>Agrega stores para automatización.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>F4bris/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>7bc3864</td>
+  <td>feat(automation): add automation domain models</td>
+  <td>Define modelos de dominio para automatización.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>201ef15</td>
+  <td>merge: integrate device-control module</td>
+  <td>Integra el módulo de control de dispositivos.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>05434a5</td>
+  <td>merge: integrate dashboard module</td>
+  <td>Integra el módulo principal de dashboard.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>alvarorc24/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>3fdad4f</td>
+  <td>feat(device-control): add business device management</td>
+  <td>Agrega gestión de dispositivos para entorno empresarial.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>alvarorc24/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>f026616</td>
+  <td>feat(device-control): add smart home device pages</td>
+  <td>Agrega vistas de dispositivos para hogares inteligentes.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>alvarorc24/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>1ce7ee2</td>
+  <td>feat(device-control): add device api infrastructure</td>
+  <td>Implementa infraestructura API para dispositivos.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>alvarorc24/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>3f66ee9</td>
+  <td>feat(device-control): add device stores</td>
+  <td>Agrega stores para gestión de dispositivos.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>alvarorc24/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>19bf3e7</td>
+  <td>feat(device-control): add device domain models</td>
+  <td>Define modelos de dominio para dispositivos.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>ce5ef98</td>
+  <td>merge: integrate iam onboarding</td>
+  <td>Integra el módulo de autenticación y onboarding.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>OscarCheca/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>989e50d</td>
+  <td>feat(dashboard): add dashboard view and routes</td>
+  <td>Agrega vistas y rutas del dashboard principal.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>5dd8374</td>
+  <td>feat(shared): add shared layouts and navigation components</td>
+  <td>Agrega layouts compartidos y navegación global.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>OscarCheca/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>5dc6cb8</td>
+  <td>feat(dashboard): add dashboard application store</td>
+  <td>Implementa store de estado para dashboard.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>2a071dc</td>
+  <td>feat(iam): add onboarding wizard and account shells</td>
+  <td>Agrega asistente de onboarding y estructura de cuentas.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>OscarCheca/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>a100d64</td>
+  <td>feat(dashboard): add dashboard domain models</td>
+  <td>Define modelos de dominio del dashboard.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>70e83d8</td>
+  <td>feat(iam): add login and register pages</td>
+  <td>Agrega vistas de inicio de sesión y registro.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>eeaebd3</td>
+  <td>merge: integrate project foundation</td>
+  <td>Integra la base estructural del proyecto frontend.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>961d0cf</td>
+  <td>feat(iam): add auth guards and onboarding state</td>
+  <td>Implementa guards de autenticación y estado de onboarding.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>f99ebaa</td>
+  <td>feat: add environment configuration for api client</td>
+  <td>Agrega configuración de entorno para el cliente API.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>723c6c2</td>
+  <td>feat(iam): add auth repository and endpoints</td>
+  <td>Implementa repositorio y endpoints de autenticación.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>fbaa847</td>
+  <td>style: add global styles and material theme</td>
+  <td>Agrega estilos globales y tema visual base.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>47defec</td>
+  <td>feat(iam): add account and auth domain models</td>
+  <td>Define modelos de dominio para cuentas y autenticación.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>d654550</td>
+  <td>feat: add application bootstrap and routing shell</td>
+  <td>Inicializa el arranque de la aplicación y el enrutamiento.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>04283cb</td>
+  <td>docs: initialize front_end repository</td>
+  <td>Inicializa la documentación base del repositorio frontend.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>8f90c54</td>
+  <td>feat: add build and deployment scripts</td>
+  <td>Agrega scripts de construcción y despliegue.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>23f07c3</td>
+  <td>feat: add angular project configuration</td>
+  <td>Configura la estructura base del proyecto Angular.</td>
+  <td>13/06/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>75fad06</td>
+  <td>Merge pull request #1 from DiegoEsquich/update-develop</td>
+  <td>Fusiona cambios del branch develop al main.</td>
+  <td>14/06/2026</td>
+</tr>
+</table>
+
+#### 5.2.3.5 Execution Evidence for Sprint Review
+
+Durante el Sprint 3 se consolidó la plataforma DomotiCore como un sistema funcional e integrado de gestión domótica, completando la interoperabilidad entre frontend y backend, y habilitando capacidades avanzadas de automatización, control de dispositivos y gestión segura de usuarios.
+
+### Resumen de Logros:
+
+* **Gestión y Control de Dispositivos:** Se implementaron vistas y servicios para la visualización y administración de dispositivos domóticos en entornos de hogar y negocio, permitiendo identificar su estado operativo, conexión y disponibilidad en tiempo real.
+
+* **Automatización Inteligente:** Se desarrolló el centro de automatización, incorporando configuraciones por zonas, reglas automatizadas y flujos de control, habilitando la ejecución de acciones inteligentes sobre dispositivos registrados.
+
+* **Integraciones y Perfil Empresarial:** Se integró el módulo de integraciones inteligentes junto con el perfil de negocio, permitiendo asociar servicios externos y centralizar operaciones para pequeñas y medianas empresas dentro de un mismo entorno.
+
+* **Historial, Reportes y Monitoreo:** Se incorporaron módulos de historial de actividades, notificaciones y reportes empresariales, incluyendo análisis de costos y trazabilidad de eventos para una supervisión integral del sistema.
+
+### Video de Demostración y Navegación
+Puedes acceder al video de la demostración funcional en el siguiente enlace:
+
+ https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411799_upc_edu_pe/IQCfFdiePZ2WSYDP5NAx09aaAU-75hAPHn83pfSqqKyIi3k?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=eawEVz
+
+### Screenshots de la Implementación
+
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-1-evidence-selection.png" 
+       alt="Evidencia para seleccionar en base a tu preferencia">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-2-evidence-segment-1.png" 
+       alt="El usuario selecciono Usuarios de Hogares Inteligentes - Segmento 1">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-3-evidence-segment-2.png" 
+       alt="El usuario selecciono Pequeños Negocios y Emprendedores - Segmento 2">
+</div>
+
+#### 5.2.3.6 Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 3 se ejecutaron actividades clave de configuración, integración y estabilización de servicios, orientadas a asegurar el correcto funcionamiento de DomotiCore en entornos de desarrollo y despliegue, así como la comunicación efectiva entre frontend y backend.
+
+**Las actividades realizadas incluyen:**
+* **Frontend Deployment:** Se consolidó el despliegue del frontend de DomotiCore como aplicación web, integrando módulos funcionales como dashboard, control de dispositivos, automatización, seguridad, historial y gestión de usuarios, garantizando una navegación fluida y coherente.
+
+* **Backend Services Configuration:** Se implementaron y documentaron servicios backend basados en Spring Boot, incluyendo módulos de automatización, control de dispositivos, historial y perfil empresarial, asegurando su correcta exposición mediante endpoints REST.
+
+* **Environment Configuration:** Se configuraron variables de entorno para la correcta conexión entre frontend y backend, incluyendo parámetros de cliente API, perfiles de ejecución y configuración de bases de datos PostgreSQL con migraciones Flyway.
+
+* **Security and Authentication Services:** Se documentó y validó el uso de mecanismos de autenticación y autorización, asegurando el acceso controlado a recursos mediante guards, perfiles de usuario y control de sesiones.
+
+### Detalle de Entornos de Despliegue
+
+| Componente | Plataforma / Herramienta | Estado | URL / Acceso |
+| :--- | :--- | :---: | :--- |
+| **Frontend Web** | Vercel / Netlify | `Live` | [https://veltrix-domoti-core-front-end-omega.vercel.app/] |
+| **Fake API**.    | Render | `Live` | [https://json-server-2mq3.onrender.com]
+| **Documentación** | Swagger UI | `Public` | `/api/docs` |
+----
+
+#### 5.2.3.7 Software Deployment Evidence for Sprint Review
+
+- Evidencia del despliegue en Swagger
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-1-sprint-backlog-3.png" 
+       alt="Frontend Evidence">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-1.1-sprint-backlog-3.png" 
+       alt="Frontend Evidence">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-1.2-sprint-backlog-3.png" 
+       alt="Frontend Evidence">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-1.3-sprint-backlog-3.png" 
+       alt="Frontend Evidence">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-1.4-sprint-backlog-3.png" 
+       alt="Frontend Evidence">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-1.5-sprint-backlog-3.png" 
+       alt="Frontend Evidence">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-1.6-sprint-backlog-3.png" 
+       alt="Frontend Evidence">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-1.7-sprint-backlog-3.png" 
+       alt="Frontend Evidence">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-1.8-sprint-backlog-3.png" 
+       alt="Frontend Evidence">
+</div>
+
+- Evidencia del despliegue de simulación de Backend
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-3-sprint-backlog-3.png" 
+       alt="Frontend Evidence">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-4-sprint-backlog-3.png" 
+       alt="Frontend Evidence">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-5-sprint-backlog-3.png" 
+       alt="Frontend Evidence">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-6-sprint-backlog-3.png" 
+       alt="Frontend Evidence">
+</div>
+
+- Evidencia del despliegue de la Fake API
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-2-sprint-backlog-3.png" 
+       alt="Frontend Evidence">
+</div>
+
+#### 5.2.3.8 Team Collaboration Insights during Sprint
+
+La ejecución del Sprint 3 se centró en la consolidación del frontend y su alineación con los servicios ya desplegados, fortaleciendo la estabilidad, mantenibilidad y experiencia de usuario del sistema. La colaboración del equipo se evidenció en los siguientes aspectos clave:
+
+* **Coordinación Técnica Continua:** El equipo trabajó de forma sincronizada para integrar mejoras visuales, ajustes funcionales y correcciones derivadas del Sprint anterior, asegurando una correcta interacción entre componentes frontend y servicios de autenticación.
+
+* **Gestión Eficiente del Control de Versiones:** Se mantuvo un flujo ordenado de trabajo mediante el uso de ramas de desarrollo, Pull Requests y revisiones de código, lo que permitió integrar cambios de manera segura y reducir errores en el entorno productivo.
+
+* **Refinamiento de la Experiencia de Usuario:** La colaboración grupal facilitó la estandarización de componentes UI, mejoras en la navegación y ajustes visuales en dashboards, formularios y vistas clave, garantizando coherencia visual y funcional.
+
+* **Enfoque en Calidad y Estabilidad:**
+Durante el sprint se priorizaron pruebas funcionales, validaciones manuales y corrección de incidencias, promoviendo una cultura orientada a la calidad del producto final.
+
+* **Comunicación y Resolución Ágil de Incidencias:** El equipo mantuvo una comunicación constante a través de herramientas colaborativas, permitiendo resolver rápidamente bloqueos técnicos, coordinar tareas y asegurar el cumplimiento de los objetivos del sprint.
+
+### Analíticos de GitHub — Sprint 3
+**Analíticos de GitHub — Plataforma Interna**
+
+<p align="center">
+  <img src="imagenes/images_Cap5/screenshot-evidence-commits-sprint-backlog-3.png" alt="Top Committers — Sprint 2" width="600"/>
+</p>
+
+| Integrante | Usuario GitHub | Commits |
+| :--- | :--- | :---: |
+| Guillen Giraldo, Fabrizio Tello | F4bris | 5 |
+| Quispe Llacsahuanga, César Agusto | user20-bit | 32 |
+| Esquicha Alcántara, Diego Alonso | DiegoEsquich | 2 |
+| Rocha Cotrina, Alvaro | alvarorc24 | 5 |
+| Véliz Martínez, Diego Alonso | Veliz-0912 | 0 |
+| Checa Burga, Oscar Diego | OscarCheca | 3 |
+
+Se evidencia una participación activa y equilibrada de todos los integrantes del equipo durante el Sprint 3, reflejando un trabajo colaborativo de la plataforma DomotiCore.
+
+## 5.3. Validation Interviews
+
+En esta sección se documentan y describen las actividades relacionadas con las entrevistas de validación realizadas a lo largo del desarrollo del proyecto. Estas entrevistas tienen como propósito principal recopilar retroalimentación directa, entender las necesidades y expectativas de los usuarios, y confirmar o descartar las hipótesis planteadas sobre el producto. Para ello, los participantes de ambos segmentos interactuarán tanto con la landing page como con la aplicación web.
+
+### 5.3.1. Diseño de Entrevistas
+
+**Preguntas Generales**
+
+- Al ingresar a la Landing Page, ¿Qué crees que ofrece DomotiCore?
+- ¿La información presentada en la Landing Page te resulta clara y fácil de entender? ¿Por qué?
+- ¿Consideras que el diseño visual de la Landing Page transmite confianza y profesionalismo?
+- ¿Te resultó sencillo identificar qué beneficios obtendrías al usar DomotiCore?
+- Durante la navegación en la plataforma web, ¿Encontraste fácilmente las funciones principales?
+- ¿Hubo algún momento en el que no supieras qué acción realizar o qué opción seleccionar?
+- ¿Qué tan intuitiva te pareció la interacción general con la aplicación (menús, botones, flujo)?
+- Después de usar la Landing Page y la plataforma, ¿Estarías interesado en utilizar DomotiCore? ¿Por qué?
+
+**Preguntas Segmento 1 - Usuarios de Hogares Inteligentes**
+
+- ¿Sientes que DomotiCore te ayudaría a simplificar tareas cotidianas dentro de tu hogar?
+- ¿Qué tan útil te resulta poder controlar tus dispositivos domésticos desde una sola plataforma?
+- ¿La plataforma te da la sensación de que podrías usarla sin conocimientos técnicos avanzados?
+- ¿Qué funciones relacionadas con seguridad y control remoto te llamaron más la atención?
+- ¿Consideras que el sistema podría ayudarte a reducir el consumo energético en tu hogar?
+- ¿Sientes que la plataforma transmite confianza y transparencia entre sus principales funciones?
+- ¿Hay alguna función que esperabas encontrar para el hogar y no viste reflejada?
+- En una escala del 1 al 10, ¿qué tan probable es que recomiendes DomotiCore a familiares o amigos?
+
+**Preguntas Segmento 2 - Pequeños Negocios y Emprendedores**
+
+- ¿Consideras que DomotiCore puede ayudarte a tener un mejor control de los dispositivos de tu negocio?
+- ¿Qué tan valiosa te parece la posibilidad de supervisar tu local cuando no estás presente?
+- ¿Crees que la plataforma podría contribuir a reducir costos operativos, como el consumo eléctrico?
+- ¿La información que muestra la plataforma te resulta útil para la toma de decisiones diarias?
+- ¿Qué tan fácil te resultó entender el funcionamiento del sistema desde el primer uso?
+- ¿Ves a DomotiCore como una inversión viable para un negocio pequeño o emprendimiento?
+- ¿Qué mejoras agregarías para que la plataforma se adapte mejor a las necesidades de tu negocio?
+- ¿Usarías DomotiCore como una herramienta de apoyo constante en la gestión de tu local? ¿Por qué?
+
+### 5.3.2. Registro de Entrevistas
+
+En esta sección presentaremos el registro de cada entrevista de validación que hemos realizado para cada segmento objetivo de nuestro proyecto.
+
+**Segmento 1: Usuarios de Hogares Inteligentes**
+
+<table>
+<tr>
+<th colspan="2">Entrevista #1</th>
+</tr>
+<tr>
+<td><b>Nombre</b></td>
+<td>Diana</td>
+</tr>
+<tr>
+<td><b>Apellidos</b></td>
+<td>Li Gayoso</td>
+</tr>
+<tr>
+<td><b>Edad</b></td>
+<td>21 años</td>
+</tr>
+<tr>
+<td><b>Distrito</b></td>
+<td>Chorrillos</td>
+</tr>
+<tr>
+<td><b>Aplicaciones Usadas</b></td>
+<td>WhatsApp, Google Drive, Google Meet, Microsoft Stream</td>
+</tr>
+<tr>
+<td><b>Motivación</b></td>
+<td>Diana se muestra motivada principalmente por la posibilidad de controlar y automatizar los dispositivos de su hogar desde una sola plataforma, valorando especialmente el control remoto y la facilidad de uso.</td>
+</tr>
+<tr>
+<td><b>Frustración</b></td>
+<td>Señala problemas de visibilidad en algunos textos y secciones de la interfaz, los cuales requieren mayor esfuerzo para ser leídos. También menciona una ligera confusión inicial durante la navegación, aunque aclara que la plataforma resulta entendible una vez explorada.</td>
+</tr>
+	<tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="imagenes/images_Cap5/Evidence-Interview-1.PNG" alt=""></div></td>
+  </tr>
+<tr>
+	 <tr>
+    <td>Link</td>
+   <td>
+		<p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411799_upc_edu_pe/IQB2BEwHJtxcTY91h7ODJjmeAU-lD9KgjNpff5boERsIc4c?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8Wh2pu" title="Title">Microsoft Stream</p>
+	</td>
+  </tr>
+  <tr>
+    <td>Duracion</td>
+   <td>
+		0: 00 min - 11: 37 min
+	</td>
+  </tr>
+  <tr>
+<td><b>Resumen</b></td>
+<td>La entrevista refleja una percepción positiva por parte de Diana hacia DomotiCore, tanto en su landing page como en la plataforma web. Identifica claramente la propuesta de valor del sistema, reconoce su utilidad para el control centralizado del hogar y muestra interés en utilizarlo e incluso recomendarlo. A pesar de algunos aspectos visuales que podrían optimizarse, considera que la solución transmite confianza, es accesible para usuarios sin conocimientos técnicos avanzados y tiene un alto potencial para mejorar la experiencia de gestión y automatización del hogar.</td>
+</tr>
+</table>
+
+-----
+<table>
+<tr>
+<th colspan="2">Entrevista #2</th>
+</tr>
+<tr>
+<td><b>Nombre</b></td>
+<td>Esperanza</td>
+</tr>
+<tr>
+<td><b>Apellidos</b></td>
+<td>Palacios Contreras</td>
+</tr>
+<tr>
+<td><b>Edad</b></td>
+<td>38 años</td>
+</tr>
+<tr>
+<td><b>Distrito</b></td>
+<td>Los Olivos</td>
+</tr>
+<tr>
+<td><b>Aplicaciones Usadas</b></td>
+<td>WhatsApp, Excel, Google Meet, Microsoft Stream</td>
+</tr>
+<tr>
+<td><b>Motivación</b></td>
+<td>Muestra una fuerte motivación por contar con una herramienta que le permita controlar los dispositivos de su hogar a distancia, especialmente aquellos relacionados con la seguridad y el consumo energético, como cámaras, luces y electrodomésticos. Motivada por su rutina familiar y los distintos horarios de sus hijos, lo que en ocasiones provoca que los dispositivos queden encendidos sin necesidad.</td>
+</tr>
+<tr>
+<td><b>Frustración</b></td>
+<td>Esperanza no expresa dificultades significativas durante su experiencia. Por el contrario, destaca que la información del sitio web es clara, transparente y fácil de entender, y que la aplicación resulta sencilla de usar, con funciones bien ubicadas y visibles. No menciona la ausencia de funcionalidades importantes ni problemas de navegación, lo que indica una experiencia mayormente satisfactoria.</td>
+</tr>
+<tr>
+	</tr>
+	<tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="imagenes/images_Cap5/Evidence-Interview-2.PNG" alt=""></div></td>
+  </tr>
+<tr>
+	 <tr>
+    <td>Link</td>
+   <td>
+		<p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113310_upc_edu_pe/IQDbBSrz8ZMZTbpP6qZg7GJtAcm5OVYXs8Cjnn4Xw2bp1c0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=RIktP8" title="Title">Microsoft Stream</p>
+	</td>
+  </tr>
+  <tr>
+    <td>Duracion</td>
+   <td>
+		0: 00 min - 07: 58 min
+	</td>
+  </tr>
+  <tr>
+<td><b>Resumen</b></td>
+<td>La entrevista refleja una percepción muy positiva hacia DomotiCore. Esperanza identifica claramente la propuesta de valor del sistema, considera que la aplicación ofrece las funciones necesarias para el control eficiente del hogar y reconoce su utilidad para generar ahorro energético y mejorar la gestión doméstica. Finalmente, manifiesta su disposición a recomendar la aplicación a familiares y amigos, al considerarla una solución práctica y beneficiosa para cualquier hogar.</td>
+</tr>
+</table>
+
+-----
+
+<table>
+<tr>
+<th colspan="2">Entrevista #3</th>
+</tr>
+<tr>
+<td><b>Nombre</b></td>
+<td>Fabio</td>
+</tr>
+<tr>
+<td><b>Apellidos</b></td>
+<td>Cordova Sanchez</td>
+</tr>
+<tr>
+<td><b>Edad</b></td>
+<td>20 años</td>
+</tr>
+<tr>
+<td><b>Distrito</b></td>
+<td>San Isidro</td>
+</tr>
+<tr>
+<td><b>Aplicaciones Usadas</b></td>
+<td>WhatsApp, Excel, Google Meet, Microsoft Stream</td>
+</tr>
+<tr>
+<td><b>Motivación</b></td>
+<td>Muestra motivación por utilizar una plataforma que le permita gestionar dispositivos inteligentes de manera clara y sin sobrecarga de información. Valora positivamente que tanto la landing page como la aplicación web sean fáciles de navegar, con botones y menús intuitivos, lo que le genera interés en el producto.</td>
+</tr>
+<tr>
+<td><b>Frustración</b></td>
+<td>Fabio no manifiesta dificultades relevantes durante la navegación ni en el uso de la aplicación web. Señala que la interfaz no resulta pesada ni confusa, y que la información presentada es la necesaria y fácil de comprender, por lo que no identifica puntos críticos de mejora desde su experiencia.</td>
+</tr>
+<tr>
+	</tr>
+	<tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="imagenes/images_Cap5/Evidence-Interview-3.PNG" alt=""></div></td>
+  </tr>
+<tr>
+	 <tr>
+    <td>Link</td>
+   <td>
+		<p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113310_upc_edu_pe/IQDPbwVGK5ieQ5oyDAp8vAkMATDPWoP74pTVmr2P4MEulGw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=xALqcp" title="Title">Microsoft Stream</p>
+	</td>
+  </tr>
+  <tr>
+    <td>Duracion</td>
+   <td>
+		0: 00 min - 04: 16 min
+	</td>
+  </tr>
+  <tr>
+<td><b>Resumen</b></td>
+<td>La entrevista refleja una percepción positiva de DomotiCore por parte de Fabio. Considera que el sitio web y la aplicación son intuitivos, transmiten confianza y transparencia, y cumplen con su objetivo de comunicar claramente el valor del producto. Asimismo, muestra una buena disposición a recomendar la aplicación a familiares o amigos, lo que indica un alto nivel de aceptación del sistema.</td>
+</tr>
+</table>
+
+**Segmento 2: Pequeños Negocios y Emprendedores**
+
+<table>
+<tr>
+<th colspan="2">Entrevista #1</th>
+</tr>
+<tr>
+<td><b>Nombre</b></td>
+<td>Carmen</td>
+</tr>
+<tr>
+<td><b>Apellidos</b></td>
+<td>Salazar de Paz</td>
+</tr>
+<tr>
+<td><b>Edad</b></td>
+<td>60 años</td>
+</tr>
+<tr>
+<td><b>Distrito</b></td>
+<td>San Isidro</td>
+</tr>
+<tr>
+<td><b>Aplicaciones Usadas</b></td>
+<td>WhatsApp, Excel, Google Meet, Microsoft Stream</td>
+</tr>
+<tr>
+<td><b>Motivación</b></td>
+<td>Muestra una alta motivación por utilizar una solución que le permita controlar y monitorear el consumo energético de su bodega, con el objetivo de reducir gastos operativos y llevar un mejor control de su negocio. Valora especialmente la posibilidad de supervisar su local a distancia, gestionar dispositivos desde el celular y acceder a información clara sobre consumo, costos y ahorro, lo cual le resulta útil para la toma de decisiones diarias y para orientar a sus empleados.</td>
+</tr>
+<tr>
+<td><b>Frustración</b></td>
+<td>Carmen no manifiesta dificultades relevantes durante el uso de la landing page ni de la aplicación web. Señala que la información es clara, el diseño es intuitivo y las funciones están bien ubicadas, por lo que no identifica confusión ni barreras en la navegación. Tampoco menciona la ausencia de funcionalidades importantes, indicando que, desde su perspectiva, la aplicación cumple adecuadamente con las necesidades actuales de su negocio.</td>
+</tr>
+<tr>
+	</tr>
+	<tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="imagenes/images_Cap5/Evidence-Interview-4.PNG" alt=""></div></td>
+  </tr>
+<tr>
+	 <tr>
+    <td>Link</td>
+   <td>
+		<p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231e492_upc_edu_pe/IQAc1nC7-HwNS6T17wypbiJZARcoNI6yijJoMZhZkFlzQbY?e=HAamWX" title="Title">Microsoft Stream</p>
+	</td>
+  </tr>
+  <tr>
+    <td>Duracion</td>
+   <td>
+		0: 00 min - 13: 19 min
+	</td>
+  </tr>
+  <tr>
+<td><b>Resumen</b></td>
+<td>La entrevista refleja una percepción muy positiva hacia DomotiCore. Carmen considera la plataforma como una inversión viable para pequeños negocios, resaltando su utilidad para el control diario, la reducción de costos energéticos y la gestión eficiente de recursos. Manifiesta una clara disposición a utilizarla de forma frecuente y constante, integrándola como una herramienta clave en la administración de su bodega.</td>
+</tr>
+</table>
+
+----
+<table>
+<tr>
+<th colspan="2">Entrevista #2</th>
+</tr>
+<tr>
+<td><b>Nombre</b></td>
+<td>Nickolay</td>
+</tr>
+<tr>
+<td><b>Apellidos</b></td>
+<td>Montero Medina</td>
+</tr>
+<tr>
+<td><b>Edad</b></td>
+<td>22 años</td>
+</tr>
+<tr>
+<td><b>Distrito</b></td>
+<td>Chorrillos</td>
+</tr>
+<tr>
+<td><b>Aplicaciones Usadas</b></td>
+<td>WhatsApp, Excel, Google Meet, Microsoft Stream</td>
+</tr>
+<tr>
+<td><b>Motivación</b></td>
+<td>Muestra una motivación clara por utilizar una plataforma que le permita centralizar la gestión de dispositivos IoT y optimizar el control operativo, especialmente en lo relacionado con la supervisión remota y el ahorro energético.</td>
+</tr>
+<tr>
+<td><b>Frustración</b></td>
+<td>Nickolay no presenta dificultades relevantes durante la navegación ni el uso de la plataforma, ya que considera que la interfaz es intuitiva, clara y bien organizada. Sin embargo, como mejora puntual, sugiere la necesidad de incluir información más detallada sobre el consumo energético, estadísticas históricas y alertas configurables, con el fin de anticipar mejor incidencias y tomar decisiones más informadas.</td>
+</tr>
+<tr>
+	</tr>
+	<tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="imagenes/images_Cap5/Evidence-Interview-5.PNG" alt=""></div></td>
+  </tr>
+<tr>
+	 <tr>
+    <td>Link</td>
+   <td>
+		<p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411243_upc_edu_pe/IQA8nzR_mP_vRLk2xyNHTgN-AfVZOrU9g87CM6YEZ2eoHUk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PnAaGM" title="Title">Microsoft Stream</p>
+	</td>
+  </tr>
+  <tr>
+    <td>Duracion</td>
+   <td>
+		0: 00 min - 16: 41 min
+	</td>
+  </tr>
+  <tr>
+<td><b>Resumen</b></td>
+<td>La entrevista refleja una percepción muy positiva de DomotiCore. Nickolay considera que la landing page es clara, profesional y fácil de entender, y que la aplicación web es intuitiva y funcional. Reconoce su potencial para mejorar la supervisión de dispositivos, reducir costos operativos y facilitar la toma de decisiones diarias, por lo que la ve como una herramienta viable e incluso recomendable como inversión para negocios pequeños o emprendimientos.</td>
+</tr>
+</table>
+
+-----
+
+<table>
+<tr>
+<th colspan="2">Entrevista #3</th>
+</tr>
+<tr>
+<td><b>Nombre</b></td>
+<td>Gabriel</td>
+</tr>
+<tr>
+<td><b>Apellidos</b></td>
+<td>Satornicio Salazar</td>
+</tr>
+<tr>
+<td><b>Edad</b></td>
+<td>25 años</td>
+</tr>
+<tr>
+<td><b>Distrito</b></td>
+<td>San Miguel</td>
+</tr>
+<tr>
+<td><b>Aplicaciones Usadas</b></td>
+<td>WhatsApp, Excel, Google Meet, Microsoft Stream</td>
+</tr>
+<tr>
+<td><b>Motivación</b></td>
+<td>Muestra una motivación principal por utilizar una solución que le permita centralizar el control y monitoreo de dispositivos en su negocio, especialmente con el objetivo de mejorar la gestión operativa, reducir costos y evitar descuidos en el consumo energético. Le resulta atractivo poder automatizar procesos, supervisar el local de forma remota y tener visibilidad del estado de sus equipos en tiempo real.</td>
+</tr>
+<tr>
+<td><b>Frustración</b></td>
+<td>Gabriel no presenta dificultades relevantes en la navegación ni en la comprensión del sistema, ya que percibe la plataforma como intuitiva, clara y bien estructurada. Sin embargo, como punto de mejora, sugiere la necesidad de contar con reportes más detallados, un historial de uso más profundo e integraciones adicionales con otros dispositivos como cámaras o sensores, lo que ampliaría las capacidades del sistema.</td>
+</tr>
+<tr>
+	</tr>
+	<tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="imagenes/images_Cap5/Evidence-Interview-6.PNG" alt=""></div></td>
+  </tr>
+<tr>
+	 <tr>
+    <td>Link</td>
+   <td>
+		<p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211b564_upc_edu_pe/IQANZREbuBMvRbbTzGlk3TliAT1hyI00UM-ZJf3mJhQlqBY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=q9Gytd" title="Title">Microsoft Stream</p>
+	</td>
+  </tr>
+  <tr>
+    <td>Duracion</td>
+   <td>
+		0: 00 min - 15: 00 min
+	</td>
+  </tr>
+  <tr>
+<td><b>Resumen</b></td>
+<td>La entrevista refleja una percepción muy positiva de DomotiCore. Gabriel considera que la landing page es moderna, clara y profesional, y que la aplicación es fácil de usar y entender desde el primer momento. Reconoce su potencial para mejorar el control del negocio, optimizar costos operativos y reducir errores humanos, por lo que la ve como una herramienta viable e interesante para la gestión diaria de un negocio pequeño o empresa tecnológica.</td>
+</tr>
+</table>
+
+### 5.3.3.  Evaluaciones según heurísticas
+
+#### UX Heuristics & Principles Evaluation
+
+**Usability – Inclusive Design – Information Architecture**
+
+| Campo | Detalle |
+|---|---|
+| **CARRERA** | Ingeniería de Software |
+| **CURSO** | Desarrollo de Aplicaciones Open Source |
+| **SECCIÓN** | 12029 |
+| **PROFESOR** | Mori Paiva, Hugo Allan |
+| **AUDITOR** | Veltrix |
+| **CLIENTE(S)** | Diana Li - Esperanza - Fabio - Carmen - Nickolay - Gabriel |
+
+**SITE o APP A EVALUAR:** DomotiCore
+
+---
+
+#### Tareas a Evaluar
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Navegación en la landing page de DomotiCore
+2. Comprensión de funcionalidades del sistema
+3. Registro e inicio de sesión en la plataforma
+4. Visualización del dashboard de consumo energético
+5. Gestión de dispositivos IoT
+6. Configuración de automatizaciones y escenas
+7. Monitoreo de consumo energético y costos
+8. Supervisión remota de dispositivos en tiempo real
+9. Gestión de usuarios y permisos (negocios)
+10. Generación e interpretación de reportes
+
+No están incluidas en esta versión de la evaluación:
+1. Integraciones externas avanzadas (cámaras, sensores adicionales)
+2. Configuración técnica del Gateway IoT
+3. Personalización avanzada de dashboards
+4. Sistema de IA predictiva de consumo
+---
+
+#### Escala de Severidad
+
+Los errores serán puntuados tomando en cuenta la siguiente escala de severidad:
+
+| Nivel | Descripción |
+|---|---|
+| 1 | Problema superficial: no afecta significativamente la experiencia del usuario. |
+| 2 | Problema menor: afecta la eficiencia o comodidad, pero es superable. |
+| 3 | Problema mayor: impacta la experiencia y puede generar confusión o pérdida de eficiencia. |
+| 4 | Problema crítico: bloquea o impide el uso correcto del sistema. |
+---
+
+#### Tabla Resumen
+
+| # | Problema | Escala de severidad | Heurística/Principio violada(o) |
+|---|---|---|---|
+| 1 | Algunos usuarios reportan baja legibilidad en ciertas secciones del dashboard (texto pequeño o poco contrastado). | 2 | Usability: Legibilidad y accesibilidad visual |
+| 2 | El sistema aún no ofrece reportes históricos avanzados de consumo energético. | 2 | Information Architecture: Visibilidad del estado del sistema |
+| 3 | Falta de integraciones con dispositivos IoT más avanzados (cámaras o sensores externos). | 2 | Usability: Flexibilidad y expansión del sistema |
+| 4 | No todos los usuarios identifican inicialmente todas las funciones sin exploración previa. | 1 | Usability: Reconocimiento en lugar de recuerdo |
+| 5 | Ausencia de alertas altamente configurables según comportamiento del consumo energético. | 3 | Usability: Prevención y control de errores |
+| 6 | Algunos usuarios no perciben suficiente profundidad en datos analíticos para toma de decisiones avanzadas. | 2 | Information Architecture: Soporte para decisiones |
+
+#### Descripción De Problemas
+
+**PROBLEMA #1:** Problemas de legibilidad en algunas secciones del dashboard
+
+**Severidad:** 2
+
+**Heurística violada:** Usability – Accesibilidad visual y legibilidad
+
+**Problema:**
+Algunos usuarios como Diana reportan que ciertos textos del sistema no son completamente legibles en todas las secciones del dashboard, lo que genera incomodidad visual y esfuerzo adicional durante la navegación.
+Esto no impide el uso del sistema, pero sí afecta la experiencia de lectura y fluidez.
+
+<img src="imagenes/images_Cap5/Problem-1-evidence-for-heuristics.png" alt="">
+
+**Recomendación:**
+Mejorar el contraste, tamaño de fuente y jerarquía visual en el dashboard para garantizar una lectura cómoda en todos los dispositivos.
+
+---
+**PROBLEMA #2:** Falta de reportes históricos avanzados de consumo energético
+
+**Severidad:** 2
+
+**Heurística violada:** Information Architecture – Visibilidad y análisis de datos
+
+**Problema:**
+Usuarios como Nickolay y Gabriel mencionan la necesidad de contar con reportes más detallados y datos históricos del consumo energético para realizar análisis más profundos y tomar mejores decisiones.
+
+<img src="imagenes/images_Cap5/Problem-2-evidence-for-heuristics.png" alt="">
+
+**Recomendación:**
+Implementar dashboards con historial de consumo, comparativas mensuales y exportación avanzada de datos.
+
+---
+**PROBLEMA #3:** Limitaciones en integraciones IoT externas
+
+**Severidad:** 2
+
+**Heurística violada:** Usability - Flexibilidad del sistema
+
+**Problema:**
+Usuarios del segmento de negocios (Carmen y Gabriel) muestran interés en integrar más dispositivos como cámaras, sensores o sistemas externos, pero perciben que la plataforma está limitada al Gateway actual.
+
+<img src="imagenes/images_Cap5/Problem-3-evidence-for-heuristics.png" alt="">
+
+**Recomendación:**
+Diseñar una arquitectura extensible que permita integración con dispositivos IoT de terceros.
+
+---
+**PROBLEMA #4:** Descubribilidad inicial de funciones
+
+**Severidad:** 1
+
+**Heurística violada:** Usability - Reconocimiento en lugar de recuerdo
+
+**Problema:**
+Algunos usuarios necesitan explorar la plataforma antes de entender completamente todas sus funcionalidades, aunque una vez explorada, la consideran intuitiva.
+
+<img src="imagenes/images_Cap5/Problem-4-evidence-for-heuristics.png" alt="">
+
+**Recomendación:**
+Incluir onboarding interactivo o tooltips explicativos en el primer uso.
+
+---
+**PROBLEMA #5:** Falta de alertas configurables avanzadas
+
+**Severidad:** 3
+
+**Heurística violada:** Usability - Prevención de errores
+
+**Problema:**
+Usuarios de negocios (Carmen y Gabriel) destacan la importancia de recibir alertas más configurables sobre consumo energético y comportamientos inusuales, lo cual actualmente es limitado.
+
+<img src="imagenes/images_Cap5/Problem-5-evidence-for-heuristics.png" alt="">
+
+**Recomendación:**
+Implementar sistema de alertas personalizables por umbral de consumo, horarios y tipos de dispositivo.
+
+---
+**PROBLEMA #6:** Necesidad de mayor profundidad analítica
+
+**Severidad:** 2
+
+**Heurística violada:** Information Architecture - Soporte para decisiones
+
+**Problema:**
+Aunque la plataforma es clara, algunos usuarios desean más análisis predictivo y métricas avanzadas para optimizar la gestión energética.
+
+<img src="imagenes/images_Cap5/Problem-6-evidence-for-heuristics.png" alt="">
+
+**Recomendación:**
+Agregar módulos de analítica avanzada y comparativas de eficiencia energética.
+
+---
+A partir de las entrevistas realizadas a usuarios de distintos perfiles (hogar y negocios), se validó que DomotiCore presenta una alta usabilidad general, destacando por su claridad, facilidad de navegación e intuición.
+Sin embargo, se identificaron oportunidades de mejora principalmente en la profundidad analítica, la extensibilidad del sistema IoT y la configuración avanzada de alertas.
+Los hallazgos permiten confirmar que la plataforma cumple adecuadamente con los principios de usabilidad, aunque requiere mejoras orientadas a usuarios más avanzados y escenarios de negocio.
+
+## 5.4. Video About-the-Product
+
+El video "About the Product" presenta de manera clara y atractiva la propuesta de valor de DomotiCore, los problemas que resuelve y cómo funciona la solución para ambos segmentos objetivo.
+
+| Título del Video      | DomotiCore Product           | 
+|-----------------------|------------------------------|
+| Duración              | 1 minuto y 13 segundos       |  
+| Fecha de Grabación    | 20/06/2026                   | 
+| URL YouTube           | https://youtu.be/S9vqfOn2H3Q | 
+| URL Microsoft Stream  | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411799_upc_edu_pe/IQAA40xPMqPOTLb8hgvhmoYZAaGeqy5ORKqc7tHol4OElIY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wKo22e    | 
+
+Screenshot del video "About the Product" :
+
+![Video About the product.png](imagenes/images_Cap5/about-the-product-evidence.png)
+>>>>>>> Sprint3
