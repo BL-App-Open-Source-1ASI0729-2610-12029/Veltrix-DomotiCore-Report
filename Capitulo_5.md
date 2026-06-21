@@ -1899,3 +1899,396 @@ Durante el sprint se priorizaron pruebas funcionales, validaciones manuales y co
 | Checa Burga, Oscar Diego | OscarCheca | 3 |
 
 Se evidencia una participación activa y equilibrada de todos los integrantes del equipo durante el Sprint 3, reflejando un trabajo colaborativo de la plataforma DomotiCore.
+
+## 5.3. Validation Interviews
+
+En esta sección se documentan y describen las actividades relacionadas con las entrevistas de validación realizadas a lo largo del desarrollo del proyecto. Estas entrevistas tienen como propósito principal recopilar retroalimentación directa, entender las necesidades y expectativas de los usuarios, y confirmar o descartar las hipótesis planteadas sobre el producto. Para ello, los participantes de ambos segmentos interactuarán tanto con la landing page como con la aplicación web.
+
+### 5.3.1. Diseño de Entrevistas
+
+**Preguntas Generales**
+
+- Al ingresar a la Landing Page, ¿Qué crees que ofrece DomotiCore?
+- ¿La información presentada en la Landing Page te resulta clara y fácil de entender? ¿Por qué?
+- ¿Consideras que el diseño visual de la Landing Page transmite confianza y profesionalismo?
+- ¿Te resultó sencillo identificar qué beneficios obtendrías al usar DomotiCore?
+- Durante la navegación en la plataforma web, ¿Encontraste fácilmente las funciones principales?
+- ¿Hubo algún momento en el que no supieras qué acción realizar o qué opción seleccionar?
+- ¿Qué tan intuitiva te pareció la interacción general con la aplicación (menús, botones, flujo)?
+- Después de usar la Landing Page y la plataforma, ¿Estarías interesado en utilizar DomotiCore? ¿Por qué?
+
+**Preguntas Segmento 1 - Usuarios de Hogares Inteligentes**
+
+- ¿Sientes que DomotiCore te ayudaría a simplificar tareas cotidianas dentro de tu hogar?
+- ¿Qué tan útil te resulta poder controlar tus dispositivos domésticos desde una sola plataforma?
+- ¿La plataforma te da la sensación de que podrías usarla sin conocimientos técnicos avanzados?
+- ¿Qué funciones relacionadas con seguridad y control remoto te llamaron más la atención?
+- ¿Consideras que el sistema podría ayudarte a reducir el consumo energético en tu hogar?
+- ¿Sientes que la plataforma transmite confianza y transparencia entre sus principales funciones?
+- ¿Hay alguna función que esperabas encontrar para el hogar y no viste reflejada?
+- En una escala del 1 al 10, ¿qué tan probable es que recomiendes DomotiCore a familiares o amigos?
+
+**Preguntas Segmento 2 - Pequeños Negocios y Emprendedores**
+
+- ¿Consideras que DomotiCore puede ayudarte a tener un mejor control de los dispositivos de tu negocio?
+- ¿Qué tan valiosa te parece la posibilidad de supervisar tu local cuando no estás presente?
+- ¿Crees que la plataforma podría contribuir a reducir costos operativos, como el consumo eléctrico?
+- ¿La información que muestra la plataforma te resulta útil para la toma de decisiones diarias?
+- ¿Qué tan fácil te resultó entender el funcionamiento del sistema desde el primer uso?
+- ¿Ves a DomotiCore como una inversión viable para un negocio pequeño o emprendimiento?
+- ¿Qué mejoras agregarías para que la plataforma se adapte mejor a las necesidades de tu negocio?
+- ¿Usarías DomotiCore como una herramienta de apoyo constante en la gestión de tu local? ¿Por qué?
+
+### 5.3.2. Registro de Entrevistas
+
+En esta sección presentaremos el registro de cada entrevista de validación que hemos realizado para cada segmento objetivo de nuestro proyecto.
+
+**Segmento 1: Usuarios de Hogares Inteligentes**
+
+<table>
+<tr>
+<th colspan="2">Entrevista #1</th>
+</tr>
+<tr>
+<td><b>Nombre</b></td>
+<td>Diana</td>
+</tr>
+<tr>
+<td><b>Apellidos</b></td>
+<td>Li Gayoso</td>
+</tr>
+<tr>
+<td><b>Edad</b></td>
+<td>21 años</td>
+</tr>
+<tr>
+<td><b>Distrito</b></td>
+<td>Chorrillos</td>
+</tr>
+<tr>
+<td><b>Aplicaciones Usadas</b></td>
+<td>WhatsApp, Google Drive, Google Meet, Microsoft Stream</td>
+</tr>
+<tr>
+<td><b>Motivación</b></td>
+<td>Diana se muestra motivada principalmente por la posibilidad de controlar y automatizar los dispositivos de su hogar desde una sola plataforma, valorando especialmente el control remoto y la facilidad de uso.</td>
+</tr>
+<tr>
+<td><b>Frustración</b></td>
+<td>Señala problemas de visibilidad en algunos textos y secciones de la interfaz, los cuales requieren mayor esfuerzo para ser leídos. También menciona una ligera confusión inicial durante la navegación, aunque aclara que la plataforma resulta entendible una vez explorada.</td>
+</tr>
+	<tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="imagenes/images_Cap5/Evidence-Interview-1.PNG" alt=""></div></td>
+  </tr>
+<tr>
+	 <tr>
+    <td>Link</td>
+   <td>
+		<p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411799_upc_edu_pe/IQB2BEwHJtxcTY91h7ODJjmeAU-lD9KgjNpff5boERsIc4c?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8Wh2pu" title="Title">Microsoft Stream</p>
+	</td>
+  </tr>
+  <tr>
+    <td>Duracion</td>
+   <td>
+		0: 00 min - 11: 37 min
+	</td>
+  </tr>
+  <tr>
+<td><b>Resumen</b></td>
+<td>La entrevista refleja una percepción positiva por parte de Diana hacia DomotiCore, tanto en su landing page como en la plataforma web. Identifica claramente la propuesta de valor del sistema, reconoce su utilidad para el control centralizado del hogar y muestra interés en utilizarlo e incluso recomendarlo. A pesar de algunos aspectos visuales que podrían optimizarse, considera que la solución transmite confianza, es accesible para usuarios sin conocimientos técnicos avanzados y tiene un alto potencial para mejorar la experiencia de gestión y automatización del hogar.</td>
+</tr>
+</table>
+
+-----
+<table>
+<tr>
+<th colspan="2">Entrevista #2</th>
+</tr>
+<tr>
+<td><b>Nombre</b></td>
+<td>Esperanza</td>
+</tr>
+<tr>
+<td><b>Apellidos</b></td>
+<td>Palacios Contreras</td>
+</tr>
+<tr>
+<td><b>Edad</b></td>
+<td>38 años</td>
+</tr>
+<tr>
+<td><b>Distrito</b></td>
+<td>Los Olivos</td>
+</tr>
+<tr>
+<td><b>Aplicaciones Usadas</b></td>
+<td>WhatsApp, Excel, Google Meet, Microsoft Stream</td>
+</tr>
+<tr>
+<td><b>Motivación</b></td>
+<td>Muestra una fuerte motivación por contar con una herramienta que le permita controlar los dispositivos de su hogar a distancia, especialmente aquellos relacionados con la seguridad y el consumo energético, como cámaras, luces y electrodomésticos. Motivada por su rutina familiar y los distintos horarios de sus hijos, lo que en ocasiones provoca que los dispositivos queden encendidos sin necesidad.</td>
+</tr>
+<tr>
+<td><b>Frustración</b></td>
+<td>Esperanza no expresa dificultades significativas durante su experiencia. Por el contrario, destaca que la información del sitio web es clara, transparente y fácil de entender, y que la aplicación resulta sencilla de usar, con funciones bien ubicadas y visibles. No menciona la ausencia de funcionalidades importantes ni problemas de navegación, lo que indica una experiencia mayormente satisfactoria.</td>
+</tr>
+<tr>
+	</tr>
+	<tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="imagenes/images_Cap5/Evidence-Interview-2.PNG" alt=""></div></td>
+  </tr>
+<tr>
+	 <tr>
+    <td>Link</td>
+   <td>
+		<p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113310_upc_edu_pe/IQDbBSrz8ZMZTbpP6qZg7GJtAcm5OVYXs8Cjnn4Xw2bp1c0?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=RIktP8" title="Title">Microsoft Stream</p>
+	</td>
+  </tr>
+  <tr>
+    <td>Duracion</td>
+   <td>
+		0: 00 min - 07: 58 min
+	</td>
+  </tr>
+  <tr>
+<td><b>Resumen</b></td>
+<td>La entrevista refleja una percepción muy positiva hacia DomotiCore. Esperanza identifica claramente la propuesta de valor del sistema, considera que la aplicación ofrece las funciones necesarias para el control eficiente del hogar y reconoce su utilidad para generar ahorro energético y mejorar la gestión doméstica. Finalmente, manifiesta su disposición a recomendar la aplicación a familiares y amigos, al considerarla una solución práctica y beneficiosa para cualquier hogar.</td>
+</tr>
+</table>
+
+-----
+
+<table>
+<tr>
+<th colspan="2">Entrevista #3</th>
+</tr>
+<tr>
+<td><b>Nombre</b></td>
+<td>Fabio</td>
+</tr>
+<tr>
+<td><b>Apellidos</b></td>
+<td>Cordova Sanchez</td>
+</tr>
+<tr>
+<td><b>Edad</b></td>
+<td>20 años</td>
+</tr>
+<tr>
+<td><b>Distrito</b></td>
+<td>San Isidro</td>
+</tr>
+<tr>
+<td><b>Aplicaciones Usadas</b></td>
+<td>WhatsApp, Excel, Google Meet, Microsoft Stream</td>
+</tr>
+<tr>
+<td><b>Motivación</b></td>
+<td>Muestra motivación por utilizar una plataforma que le permita gestionar dispositivos inteligentes de manera clara y sin sobrecarga de información. Valora positivamente que tanto la landing page como la aplicación web sean fáciles de navegar, con botones y menús intuitivos, lo que le genera interés en el producto.</td>
+</tr>
+<tr>
+<td><b>Frustración</b></td>
+<td>Fabio no manifiesta dificultades relevantes durante la navegación ni en el uso de la aplicación web. Señala que la interfaz no resulta pesada ni confusa, y que la información presentada es la necesaria y fácil de comprender, por lo que no identifica puntos críticos de mejora desde su experiencia.</td>
+</tr>
+<tr>
+	</tr>
+	<tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="imagenes/images_Cap5/Evidence-Interview-3.PNG" alt=""></div></td>
+  </tr>
+<tr>
+	 <tr>
+    <td>Link</td>
+   <td>
+		<p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113310_upc_edu_pe/IQDPbwVGK5ieQ5oyDAp8vAkMATDPWoP74pTVmr2P4MEulGw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=xALqcp" title="Title">Microsoft Stream</p>
+	</td>
+  </tr>
+  <tr>
+    <td>Duracion</td>
+   <td>
+		0: 00 min - 04: 16 min
+	</td>
+  </tr>
+  <tr>
+<td><b>Resumen</b></td>
+<td>La entrevista refleja una percepción positiva de DomotiCore por parte de Fabio. Considera que el sitio web y la aplicación son intuitivos, transmiten confianza y transparencia, y cumplen con su objetivo de comunicar claramente el valor del producto. Asimismo, muestra una buena disposición a recomendar la aplicación a familiares o amigos, lo que indica un alto nivel de aceptación del sistema.</td>
+</tr>
+</table>
+
+**Segmento 2: Pequeños Negocios y Emprendedores**
+
+<table>
+<tr>
+<th colspan="2">Entrevista #1</th>
+</tr>
+<tr>
+<td><b>Nombre</b></td>
+<td>Carmen</td>
+</tr>
+<tr>
+<td><b>Apellidos</b></td>
+<td>Salazar de Paz</td>
+</tr>
+<tr>
+<td><b>Edad</b></td>
+<td>60 años</td>
+</tr>
+<tr>
+<td><b>Distrito</b></td>
+<td>San Isidro</td>
+</tr>
+<tr>
+<td><b>Aplicaciones Usadas</b></td>
+<td>WhatsApp, Excel, Google Meet, Microsoft Stream</td>
+</tr>
+<tr>
+<td><b>Motivación</b></td>
+<td>Muestra una alta motivación por utilizar una solución que le permita controlar y monitorear el consumo energético de su bodega, con el objetivo de reducir gastos operativos y llevar un mejor control de su negocio. Valora especialmente la posibilidad de supervisar su local a distancia, gestionar dispositivos desde el celular y acceder a información clara sobre consumo, costos y ahorro, lo cual le resulta útil para la toma de decisiones diarias y para orientar a sus empleados.</td>
+</tr>
+<tr>
+<td><b>Frustración</b></td>
+<td>Carmen no manifiesta dificultades relevantes durante el uso de la landing page ni de la aplicación web. Señala que la información es clara, el diseño es intuitivo y las funciones están bien ubicadas, por lo que no identifica confusión ni barreras en la navegación. Tampoco menciona la ausencia de funcionalidades importantes, indicando que, desde su perspectiva, la aplicación cumple adecuadamente con las necesidades actuales de su negocio.</td>
+</tr>
+<tr>
+	</tr>
+	<tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="imagenes/images_Cap5/Evidence-Interview-4.PNG" alt=""></div></td>
+  </tr>
+<tr>
+	 <tr>
+    <td>Link</td>
+   <td>
+		<p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20231e492_upc_edu_pe/IQAc1nC7-HwNS6T17wypbiJZARcoNI6yijJoMZhZkFlzQbY?e=HAamWX" title="Title">Microsoft Stream</p>
+	</td>
+  </tr>
+  <tr>
+    <td>Duracion</td>
+   <td>
+		0: 00 min - 13: 19 min
+	</td>
+  </tr>
+  <tr>
+<td><b>Resumen</b></td>
+<td>La entrevista refleja una percepción muy positiva hacia DomotiCore. Carmen considera la plataforma como una inversión viable para pequeños negocios, resaltando su utilidad para el control diario, la reducción de costos energéticos y la gestión eficiente de recursos. Manifiesta una clara disposición a utilizarla de forma frecuente y constante, integrándola como una herramienta clave en la administración de su bodega.</td>
+</tr>
+</table>
+
+----
+<table>
+<tr>
+<th colspan="2">Entrevista #2</th>
+</tr>
+<tr>
+<td><b>Nombre</b></td>
+<td>Nickolay</td>
+</tr>
+<tr>
+<td><b>Apellidos</b></td>
+<td>Montero Medina</td>
+</tr>
+<tr>
+<td><b>Edad</b></td>
+<td>22 años</td>
+</tr>
+<tr>
+<td><b>Distrito</b></td>
+<td>Chorrillos</td>
+</tr>
+<tr>
+<td><b>Aplicaciones Usadas</b></td>
+<td>WhatsApp, Excel, Google Meet, Microsoft Stream</td>
+</tr>
+<tr>
+<td><b>Motivación</b></td>
+<td>Muestra una motivación clara por utilizar una plataforma que le permita centralizar la gestión de dispositivos IoT y optimizar el control operativo, especialmente en lo relacionado con la supervisión remota y el ahorro energético.</td>
+</tr>
+<tr>
+<td><b>Frustración</b></td>
+<td>Nickolay no presenta dificultades relevantes durante la navegación ni el uso de la plataforma, ya que considera que la interfaz es intuitiva, clara y bien organizada. Sin embargo, como mejora puntual, sugiere la necesidad de incluir información más detallada sobre el consumo energético, estadísticas históricas y alertas configurables, con el fin de anticipar mejor incidencias y tomar decisiones más informadas.</td>
+</tr>
+<tr>
+	</tr>
+	<tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="imagenes/images_Cap5/Evidence-Interview-5.PNG" alt=""></div></td>
+  </tr>
+<tr>
+	 <tr>
+    <td>Link</td>
+   <td>
+		<p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411243_upc_edu_pe/IQA8nzR_mP_vRLk2xyNHTgN-AfVZOrU9g87CM6YEZ2eoHUk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PnAaGM" title="Title">Microsoft Stream</p>
+	</td>
+  </tr>
+  <tr>
+    <td>Duracion</td>
+   <td>
+		0: 00 min - 16: 41 min
+	</td>
+  </tr>
+  <tr>
+<td><b>Resumen</b></td>
+<td>La entrevista refleja una percepción muy positiva de DomotiCore. Nickolay considera que la landing page es clara, profesional y fácil de entender, y que la aplicación web es intuitiva y funcional. Reconoce su potencial para mejorar la supervisión de dispositivos, reducir costos operativos y facilitar la toma de decisiones diarias, por lo que la ve como una herramienta viable e incluso recomendable como inversión para negocios pequeños o emprendimientos.</td>
+</tr>
+</table>
+
+-----
+
+<table>
+<tr>
+<th colspan="2">Entrevista #3</th>
+</tr>
+<tr>
+<td><b>Nombre</b></td>
+<td>Gabriel</td>
+</tr>
+<tr>
+<td><b>Apellidos</b></td>
+<td>Satornicio Salazar</td>
+</tr>
+<tr>
+<td><b>Edad</b></td>
+<td>25 años</td>
+</tr>
+<tr>
+<td><b>Distrito</b></td>
+<td>San Miguel</td>
+</tr>
+<tr>
+<td><b>Aplicaciones Usadas</b></td>
+<td>WhatsApp, Excel, Google Meet, Microsoft Stream</td>
+</tr>
+<tr>
+<td><b>Motivación</b></td>
+<td>Muestra una motivación principal por utilizar una solución que le permita centralizar el control y monitoreo de dispositivos en su negocio, especialmente con el objetivo de mejorar la gestión operativa, reducir costos y evitar descuidos en el consumo energético. Le resulta atractivo poder automatizar procesos, supervisar el local de forma remota y tener visibilidad del estado de sus equipos en tiempo real.</td>
+</tr>
+<tr>
+<td><b>Frustración</b></td>
+<td>Gabriel no presenta dificultades relevantes en la navegación ni en la comprensión del sistema, ya que percibe la plataforma como intuitiva, clara y bien estructurada. Sin embargo, como punto de mejora, sugiere la necesidad de contar con reportes más detallados, un historial de uso más profundo e integraciones adicionales con otros dispositivos como cámaras o sensores, lo que ampliaría las capacidades del sistema.</td>
+</tr>
+<tr>
+	</tr>
+	<tr>
+    <td>Evidencia</td>
+    <td><div align="center"><img src="imagenes/images_Cap5/Evidence-Interview-6.PNG" alt=""></div></td>
+  </tr>
+<tr>
+	 <tr>
+    <td>Link</td>
+   <td>
+		<p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211b564_upc_edu_pe/IQANZREbuBMvRbbTzGlk3TliAT1hyI00UM-ZJf3mJhQlqBY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=q9Gytd" title="Title">Microsoft Stream</p>
+	</td>
+  </tr>
+  <tr>
+    <td>Duracion</td>
+   <td>
+		0: 00 min - 15: 00 min
+	</td>
+  </tr>
+  <tr>
+<td><b>Resumen</b></td>
+<td>La entrevista refleja una percepción muy positiva de DomotiCore. Gabriel considera que la landing page es moderna, clara y profesional, y que la aplicación es fácil de usar y entender desde el primer momento. Reconoce su potencial para mejorar el control del negocio, optimizar costos operativos y reducir errores humanos, por lo que la ve como una herramienta viable e interesante para la gestión diaria de un negocio pequeño o empresa tecnológica.</td>
+</tr>
+</table>
