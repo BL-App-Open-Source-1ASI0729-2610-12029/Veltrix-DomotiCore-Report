@@ -986,29 +986,27 @@ Durante el Sprint 02, el equipo de desarrollo avanzó en la construcción inicia
 
 * **Preparación para Automatización e Integraciones:** Se sentaron las bases visuales y estructurales para futuros módulos de automatización, integraciones inteligentes y gestión empresarial, dejando preparados los puntos de extensión que serán completados en el Sprint Backlog 03.
 
-### Video de Demostración y Navegación
-Puedes acceder al video de la demostración funcional en el siguiente enlace:
-
-**enlace pendiente**
-
 ### Screenshots de la Implementación
 
 <div style="text-align:center;">
-  <img src="imagenes/images_Cap5/pendiente" 
+  <img src="imagenes/images_Cap5/screenshot-2-evidence-segment-both.png" 
        alt="Evidencia para seleccionar en base a tu preferencia">
 </div>
 <div style="text-align:center;">
-  <img src="imagenes/images_Cap5/pendiente" 
+  <img src="imagenes/images_Cap5/screenshot-2-evidence-segment-1.png" 
        alt="El usuario selecciono Usuarios de Hogares Inteligentes - Segmento 1">
 </div>
 <div style="text-align:center;">
-  <img src="pendiente" 
+  <img src="imagenes/images_Cap5/screenshot-3-evidence-segment-2.png" 
        alt="El usuario selecciono Pequeños Negocios y Emprendedores - Segmento 2">
 </div>
 
 #### 5.2.2.6 Services Documentation Evidence for Sprint Review
 Durante el Sprint 2 se avanzó en la definición preliminar de los servicios REST relacionados con autenticación de usuarios, gestión de dispositivos y monitoreo energético. Asimismo, se establecieron las estructuras base para futuras integraciones entre el Front-End y Backend.
 La documentación OpenAPI será complementada e integrada en los siguientes Sprints conforme se desarrollen los servicios backend definitivos.
+
+
+
 #### 5.2.2.7 Software Deployment Evidence for Sprint Review
 Durante este Sprint se realizaron las siguientes actividades clave relacionadas con el despliegue de la Web App de DomotiCore:
 •	Configuración del entorno cloud para despliegue del Front-End.
@@ -1021,6 +1019,23 @@ Durante este Sprint se realizaron las siguientes actividades clave relacionadas 
 #### 5.2.2.8 Team Collaboration Insights during Sprint
 El equipo utilizó las herramientas analíticas de GitHub Insights para monitorear la participación activa de cada integrante durante el Sprint 2, permitiendo realizar seguimiento de commits, merges, issues y pull requests asociados al desarrollo del Front-End.
 Estas métricas ayudaron a fortalecer la colaboración entre los integrantes, mejorar la distribución de tareas y mantener una integración continua más estable durante el Sprint.
+
+### Analíticos de GitHub — Sprint 2
+**Analíticos de GitHub — Plataforma Interna**
+
+<p align="center">
+  <img src="imagenes/images_Cap5/screenshot-evidence-commits-sprint-backlog-2.png" alt="Top Committers — Sprint 2" width="600"/>
+</p>
+
+| Integrante | Usuario GitHub | Commits |
+| :--- | :--- | :---: |
+| Quispe Llacsahuanga, César Agusto | user20-bit | 32 |
+| Tello Palacios, Fabrizio Rafael | F4bris | 5 |
+| Rocha Cotrina, Alvaro | alvarorc24 | 5 |
+| Esquicha Alcántara, Diego Alonso | DiegoEsquich | 3 |
+| Checa Burga, Oscar Diego | OscarCheca | 3 |
+
+Se evidencia una participación activa y equilibrada de todos los integrantes del equipo durante el Sprint 3, reflejando un trabajo colaborativo de la plataforma DomotiCore.
 
 ****Evidencia de Colaboración en GitHub****
 A continuación, se presenta la captura de los analíticos proporcionados por GitHub sobre la actividad del equipo:
@@ -2305,7 +2320,7 @@ En esta sección presentaremos el registro de cada entrevista de validación que
 | **CURSO** | Desarrollo de Aplicaciones Open Source |
 | **SECCIÓN** | 12029 |
 | **PROFESOR** | Mori Paiva, Hugo Allan |
-| **AUDITOR** | Launchpad-PE |
+| **AUDITOR** | Veltrix |
 | **CLIENTE(S)** | Diana Li - Esperanza - Fabio - Carmen - Nickolay - Gabriel |
 
 **SITE o APP A EVALUAR:** DomotiCore
