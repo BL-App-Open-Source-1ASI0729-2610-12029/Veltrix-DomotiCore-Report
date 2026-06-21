@@ -24,3 +24,13 @@
 11. Desde el punto de vista técnico, el proyecto consolidó una arquitectura bien estructurada, con una adecuada integración entre backend y frontend. Esta separación permitió un desarrollo ordenado, escalable y mantenible, facilitando la implementación de funcionalidades clave como el control remoto de dispositivos, la automatización por horarios, el monitoreo energético y la gestión de usuarios.
 
 12. DomotiCore no solo representa un producto tecnológico funcional, sino también un proyecto formativo integral, que permitió a los integrantes del equipo fortalecer competencias fundamentales como el desarrollo de software, el trabajo en equipo, la gestión de proyectos ágiles, la comunicación técnica y la aplicación de buenas prácticas de ingeniería de software.
+
+## Video About the Team
+
+El video "About the Team" presenta de manera clara y conciso, la sinceridad de los integrantes en la participacion del proyecto.
+
+| Título del Video      | DomotiCore Product           | 
+|-----------------------|------------------------------|
+| Duración              | 15 minutos y 30 segundos       |  
+| Fecha de Grabación    | 20/06/2026                   | 
+| URL Microsoft Stream  | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411799_upc_edu_pe/IQCnPI_KSCGjRanQqCC2lwHNAW_rZZVTFSZjinQtxYj9a4s?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=CuRNN1    | 
