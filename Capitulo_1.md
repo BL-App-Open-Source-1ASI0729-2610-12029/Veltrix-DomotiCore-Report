@@ -90,116 +90,124 @@ Los usuarios pueden perder entre un 15% y 25% de eficiencia energética debido a
 ### 1.2.2 Lean UX Process
 
 #### 1.2.2.1 Lean UX Problem Statements
-El estado actual de la gestión de dispositivos electrónicos en hogares y pequeñas empresas depende en gran medida de controles manuales y soluciones aisladas, lo que genera falta de automatización, desperdicio energético y dificultad para ejercer control remoto.  
+DomotiCore fue diseñado para permitir que los usuarios de hogares inteligentes y pequeños negocios gestionen sus dispositivos electrónicos de manera centralizada, automatizada y eficiente.
 
-Los productos actuales no resuelven de manera eficiente la necesidad de una plataforma centralizada, accesible y fácil de usar que permita integrar y gestionar dispositivos IoT sin requerir conocimientos técnicos especializados.  
+Sin embargo, hemos observado que muchos usuarios continúan dependiendo de controles manuales o de soluciones aisladas para administrar sus dispositivos, lo que dificulta el monitoreo en tiempo real, incrementa el consumo energético y limita la automatización de las tareas cotidianas.
 
-DomotiCore abordará esta problemática mediante una plataforma web que centraliza el control de dispositivos, permite su automatización mediante horarios programados y proporciona monitoreo en tiempo real desde cualquier ubicación.  
+Esta situación genera pérdida de tiempo, mayores costos de energía y una experiencia de gestión poco eficiente, afectando tanto la comodidad de los usuarios como la eficiencia operativa de sus hogares y negocios.
 
-Nuestro enfoque inicial estará dirigido a usuarios domésticos y pequeños negocios que buscan optimizar su consumo energético y mejorar la gestión de sus dispositivos. Sabremos que hemos tenido éxito cuando observemos una reducción en el consumo eléctrico, una mayor adopción de automatizaciones y un uso recurrente de la plataforma.  
+**¿Cómo podríamos** ofrecer una plataforma web intuitiva que centralice el control, monitoreo y automatización de dispositivos IoT para reducir la intervención manual, optimizar el consumo energético y mejorar la experiencia de los usuarios?
 
 #### 1.2.2.2 Lean UX Assumptions
 
 **A. Business Assumptions**
 
 - Creemos que nuestros clientes necesitan:  
-Centralizar el control de sus dispositivos electrónicos, monitorear el consumo energético y automatizar tareas repetitivas para optimizar recursos y reducir errores operativos.  
+Centralizar el control de sus dispositivos electrónicos, monitorear el consumo energético y automatizar tareas repetitivas para optimizar recursos y reducir errores operativos.
 
-- Estas necesidades se resuelven con:  
-Una plataforma web de domótica (DomotiCore) que integre monitoreo energético, control remoto y automatización programada en una única interfaz intuitiva y accesible.  
+- Creemos que estas necesidades se resolverán mediante:  
+Una plataforma web de domótica (DomotiCore) que integre monitoreo energético, control remoto y automatización programada en una única interfaz intuitiva y accesible.
 
-- Nuestros primeros clientes serán:  
-Usuarios de hogares inteligentes y pequeños negocios que buscan reducir consumo eléctrico, mejorar el control operativo y evitar soluciones complejas o costosas.  
+- Creemos que nuestros primeros clientes serán:  
+Usuarios de hogares inteligentes y pequeños negocios que buscan reducir el consumo eléctrico, mejorar el control operativo y evitar soluciones complejas o costosas.
 
-- Valor #1 esperado:  
-Control centralizado y monitoreo energético en tiempo real mediante una plataforma simple y accesible.  
+- Creemos que el principal valor para nuestros clientes será:  
+El control centralizado y el monitoreo energético en tiempo real mediante una plataforma simple y accesible.
 
-- Beneficios adicionales:  
-Reducción del consumo energético, ahorro económico, mayor tranquilidad, automatización de tareas y supervisión remota eficiente.  
+- Creemos que los usuarios obtendrán beneficios adicionales como:  
+La reducción del consumo energético, el ahorro económico, una mayor tranquilidad, la automatización de tareas y una supervisión remota eficiente.
 
-- Adquisición:  
-Difusión mediante redes sociales, demostraciones funcionales, validación académica y pruebas con usuarios reales pertenecientes a los segmentos objetivo.  
+- Creemos que adquiriremos nuestros primeros usuarios mediante:  
+La difusión en redes sociales, demostraciones funcionales, validación académica y pruebas con usuarios reales pertenecientes a los segmentos objetivo.
 
-- Ingresos:  
-Modelo freemium con funcionalidades básicas gratuitas y herramientas avanzadas bajo suscripción.  
+- Creemos que nuestro modelo de ingresos será:  
+Un modelo freemium con funcionalidades básicas gratuitas y herramientas avanzadas bajo suscripción.
 
-- Competencia principal:  
-Soluciones de domótica como Google Nest, Amazon Alexa y plataformas de automatización propietarias.  
+- Creemos que nuestros principales competidores serán:  
+Soluciones de domótica como Google Nest, Amazon Alexa y plataformas de automatización propietarias.
 
-- Ventaja competitiva:  
-Plataforma web accesible, intuitiva y enfocada en usuarios sin experiencia técnica, priorizando el ahorro energético y el control centralizado sin depender de ecosistemas cerrados o hardware costoso.  
+- Creemos que nuestra principal ventaja competitiva será:  
+Una plataforma web accesible, intuitiva y enfocada en usuarios sin experiencia técnica, priorizando el ahorro energético y el control centralizado sin depender de ecosistemas cerrados o hardware costoso.
 
-- Mayor riesgo de producto:  
-Complejidad en la integración con distintos dispositivos físicos IoT y adopción inicial por parte de usuarios no técnicos.  
+- Creemos que el mayor riesgo del producto será:  
+La complejidad en la integración con distintos dispositivos físicos IoT y la adopción inicial por parte de usuarios no técnicos.
 
-- Mitigación:  
-Uso de dispositivos estándar (ESP32/Arduino), simulación de hardware, interfaz intuitiva y arquitectura escalable orientada a facilidad de uso.  
+- Creemos que podremos mitigar este riesgo mediante:  
+El uso de dispositivos estándar (ESP32/Arduino), la simulación de hardware, una interfaz intuitiva y una arquitectura escalable orientada a la facilidad de uso.
 
 **B. User Assumptions**
 
-- ¿Quién es el usuario?  
-Usuarios domésticos y emprendedores que desean controlar y automatizar dispositivos electrónicos de manera simple, accesible y centralizada.  
+- Creemos que los usuarios serán:  
+Usuarios domésticos y emprendedores que desean controlar y automatizar dispositivos electrónicos de manera simple, accesible y centralizada.
 
-- ¿Dónde encaja el producto?  
-En la gestión diaria del hogar o negocio, especialmente en tareas relacionadas con control remoto, supervisión y ahorro energético.  
+- Creemos que el producto formará parte de:  
+La gestión diaria del hogar o negocio, especialmente en tareas relacionadas con el control remoto, la supervisión y el ahorro energético.
 
-- Problema a resolver:  
-Falta de monitoreo centralizado, dependencia de procesos manuales y dificultad para supervisar dispositivos cuando el usuario no está presente.  
+- Creemos que el principal problema que desean resolver es:  
+La falta de monitoreo centralizado, la dependencia de procesos manuales y la dificultad para supervisar dispositivos cuando el usuario no está presente.
 
-- Uso típico:  
-Encender/apagar dispositivos, programar horarios automáticos, monitorear consumo energético y verificar estados en tiempo real.  
+- Creemos que el uso más frecuente del producto será:  
+Encender y apagar dispositivos, programar horarios automáticos, monitorear el consumo energético y verificar estados en tiempo real.
 
-- Características importantes:  
-Dashboard centralizado, monitoreo energético por dispositivo, automatización programada, alertas inteligentes y control remoto.  
+- Creemos que las características más importantes para los usuarios serán:  
+Un dashboard centralizado, monitoreo energético por dispositivo, automatización programada, alertas inteligentes y control remoto.
 
-- Look & feel:  
-Interfaz moderna, intuitiva, accesible y fácil de utilizar desde navegador web y dispositivos móviles.  
+- Creemos que los usuarios esperarán una interfaz:  
+Moderna, intuitiva, accesible y fácil de utilizar desde navegadores web y dispositivos móviles.
 
 **C. User Outcome & Benefit Assumptions**
 
-- Visibilidad centralizada del estado y consumo de los dispositivos  
-- Reducción del consumo energético y costos operativos  
-- Automatización de tareas repetitivas  
-- Mayor tranquilidad y control remoto desde cualquier ubicación  
-- Reducción de errores humanos relacionados con olvidos o supervisión manual  
+- Creemos que los usuarios podrán visualizar de forma centralizada el estado y consumo de sus dispositivos.
+
+- Creemos que los usuarios reducirán su consumo energético y sus costos operativos.
+
+- Creemos que los usuarios automatizarán tareas repetitivas con mayor frecuencia.
+
+- Creemos que los usuarios experimentarán una mayor tranquilidad gracias al control remoto desde cualquier ubicación.
+
+- Creemos que los usuarios disminuirán los errores humanos relacionados con olvidos o supervisión manual.
 
 **D. Business Outcome Assumptions**
 
-- Reducción del 20% en el consumo energético durante los primeros meses de uso  
-- Incremento del 30% en el uso de automatizaciones programadas  
-- Alcanzar 100 usuarios activos en el primer año  
-- Retención superior al 80% mediante una experiencia simple e intuitiva  
-- Diferenciación frente a soluciones complejas mediante accesibilidad y facilidad de uso  
+- Creemos que DomotiCore permitirá reducir aproximadamente un 20% el consumo energético durante los primeros meses de uso.
+
+- Creemos que el uso de automatizaciones programadas incrementará aproximadamente un 30%.
+
+- Creemos que alcanzaremos al menos 100 usuarios activos durante el primer año.
+
+- Creemos que lograremos una retención superior al 80% gracias a una experiencia simple e intuitiva.
+
+- Creemos que nos diferenciaremos de soluciones más complejas mediante la accesibilidad y facilidad de uso de la plataforma.
 
 **E. Feature Assumptions**
 
-- Dashboard Centralizado: permitirá visualizar dispositivos, estados y consumo energético en una sola interfaz  
+- Creemos que un Dashboard Centralizado permitirá visualizar dispositivos, estados y consumo energético en una sola interfaz.
 
-- Automatización Programada: reducirá la intervención manual y mejorará la eficiencia operativa  
+- Creemos que la Automatización Programada reducirá la intervención manual y mejorará la eficiencia operativa.
 
-- Monitoreo Energético: permitirá identificar dispositivos con mayor consumo eléctrico  
+- Creemos que el Monitoreo Energético permitirá identificar los dispositivos con mayor consumo eléctrico.
 
-- Control Remoto: aumentará la sensación de control, comodidad y seguridad del usuario  
+- Creemos que el Control Remoto aumentará la sensación de control, comodidad y seguridad del usuario.
 
-- Alertas Inteligentes: reducirán errores humanos relacionados con dispositivos encendidos innecesariamente  
+- Creemos que las Alertas Inteligentes reducirán los errores humanos relacionados con dispositivos encendidos innecesariamente.
 
 #### 1.2.2.3 Lean UX Hypothesis Statements
 
 **Control Centralizado**
 
-Creemos que al ofrecer un dashboard centralizado con información en tiempo real sobre dispositivos y consumo energético, reduciremos la interacción manual de los usuarios en un 25% y aumentaremos su capacidad de supervisión y control operativo. Sabremos que estamos bien cuando observemos comentarios como: “Ahora puedo controlar y supervisar todos mis dispositivos desde un solo lugar” y/o cuando los registros del sistema reflejen un uso recurrente del dashboard para monitoreo diario.  
+Creemos que al ofrecer un dashboard centralizado con información en tiempo real sobre dispositivos y consumo energético **para los usuarios de hogares inteligentes y pequeños negocios**, estos podrán gestionar sus dispositivos desde una única plataforma, **logrando reducir la interacción manual en un 25% y aumentar su capacidad de supervisión y control operativo**. **Sabremos que tenemos razón cuando** observemos comentarios como: *"Ahora puedo controlar y supervisar todos mis dispositivos desde un solo lugar"* y/o cuando los registros del sistema reflejen un uso recurrente del dashboard para el monitoreo diario.
 
 **Automatización de Dispositivos**
 
-Creemos que al permitir automatizaciones programadas y configuraciones inteligentes, los usuarios podrán optimizar el uso de sus dispositivos y reducir el desperdicio energético en un 20%. Sabremos que estamos bien cuando los usuarios comenten: “Ya no necesito preocuparme por apagar dispositivos manualmente” y/o cuando las estadísticas de uso reflejen una alta frecuencia de automatizaciones configuradas.  
+Creemos que al permitir automatizaciones programadas y configuraciones inteligentes **para los usuarios de hogares inteligentes y pequeños negocios**, estos optimizarán el uso de sus dispositivos, **logrando reducir el desperdicio energético en un 20% y disminuyendo la necesidad de realizar acciones manuales repetitivas**. **Sabremos que tenemos razón cuando** los usuarios comenten: *"Ya no necesito preocuparme por apagar dispositivos manualmente"* y/o cuando las estadísticas de uso reflejen una alta frecuencia de automatizaciones configuradas.
 
 **Acceso Remoto**
 
-Creemos que al ofrecer acceso remoto desde cualquier ubicación, incrementaremos la satisfacción y tranquilidad de los usuarios al permitirles supervisar y controlar sus dispositivos en tiempo real. Sabremos que estamos bien cuando observemos comentarios como: “Puedo supervisar mi hogar o negocio aunque no esté presente” y/o cuando el sistema registre accesos frecuentes fuera de la red local.  
+Creemos que al ofrecer acceso remoto desde cualquier ubicación **para los usuarios de hogares inteligentes y pequeños negocios**, estos podrán supervisar y controlar sus dispositivos en tiempo real, **logrando incrementar su satisfacción, tranquilidad y sensación de control sobre su hogar o negocio**. **Sabremos que tenemos razón cuando** observemos comentarios como: *"Puedo supervisar mi hogar o negocio aunque no esté presente"* y/o cuando el sistema registre accesos frecuentes realizados fuera de la red local.
 
 **Optimización Energética**
 
-Creemos que al incorporar monitoreo energético individual por dispositivo y alertas inteligentes, los usuarios lograrán identificar consumos innecesarios y optimizar sus recursos eléctricos. Sabremos que estamos bien cuando observemos comentarios como: “Ahora sé qué dispositivos consumen más energía y puedo controlarlos mejor” y/o cuando se evidencien patrones de consumo más eficientes dentro de la plataforma.
+Creemos que al incorporar monitoreo energético individual por dispositivo y alertas inteligentes **para los usuarios de hogares inteligentes y pequeños negocios**, estos identificarán consumos innecesarios y tomarán mejores decisiones sobre el uso de sus dispositivos, **logrando optimizar sus recursos eléctricos y reducir el consumo energético**. **Sabremos que tenemos razón cuando** observemos comentarios como: *"Ahora sé qué dispositivos consumen más energía y puedo controlarlos mejor"* y/o cuando se evidencien patrones de consumo más eficientes dentro de la plataforma.
 
 #### 1.2.2.4 Lean UX Canvas
 
