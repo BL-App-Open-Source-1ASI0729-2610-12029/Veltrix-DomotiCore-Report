@@ -183,7 +183,7 @@ La Landing Page institucional se despliega mediante **GitHub Pages**, utilizando
 5.  **Validación:** Se verifica la correcta visualización y funcionamiento responsivo en múltiples navegadores (Chrome, Edge, Safari).
     <div style="text-align:center;"><img src="imagenes/images_Cap5/5.1.4(lading parte3).png" width="500"></div>
 
-**Deployment URL:** **[DomotiCore – Landing Page Veltrix](https://bl-app-open-source-1asi0729-2610-12029.github.io/Veltrix-DomotiCore-Business-Web-Page/)**  --- [https://oscarcheca.github.io/domoticore-landing/] ---
+**Deployment URL:** **[DomotiCore – Landing Page Veltrix](https://bl-app-open-source-1asi0729-2610-12029.github.io/Veltrix-DomotiCore-Business-Web-Page/)** 
 
 
 #### 5.1.4.2 Frontend Web Application Deployment
