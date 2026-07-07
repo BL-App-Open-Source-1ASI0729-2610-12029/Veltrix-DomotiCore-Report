@@ -1,29 +1,25 @@
 ## Conclusiones
 <a id="Conclusiones"></a>
 
-1. El desarrollo del proyecto permitió integrar de manera coherente herramientas como User Stories, wireframes y control de versiones con Git, logrando una base sólida tanto a nivel de análisis como de implementación.
+1. El desarrollo de DomotiCore permitió integrar de manera efectiva las fases de análisis, diseño, implementación y validación, obteniendo una solución funcional orientada a la gestión inteligente de dispositivos IoT para hogares y pequeños negocios.
 
-2. Asimismo, se evidenció la importancia de una comunicación clara, tanto escrita como visual, para transmitir efectivamente las ideas del proyecto a distintos tipos de audiencia, facilitando la comprensión y el trabajo colaborativo.
+2. La aplicación de metodologías ágiles, mediante la planificación y ejecución de sprints, facilitó el seguimiento del proyecto, la distribución de tareas y la incorporación progresiva de funcionalidades de acuerdo con los objetivos establecidos.
 
-3. En términos generales, DomotiCore logró cumplir con los objetivos planteados, validando su utilidad y viabilidad como una herramienta tecnológica enfocada en la eficiencia energética y la automatización inteligente.
+3.La arquitectura basada en Bounded Contexts y principios de separación de responsabilidades permitió desarrollar un backend organizado, escalable y mantenible, favoreciendo la integración entre los distintos módulos del sistema.
 
-4. Las entrevistas evidenciaron que los usuarios perciben la plataforma como intuitiva, fácil de usar y con una estructura bien organizada, lo que facilita su comprensión desde el primer uso. Tanto usuarios domésticos como dueños de pequeños negocios coincidieron en que la solución aporta valor en la supervisión remota y en la toma de decisiones basada en consumo energético.
+4.El desarrollo del frontend y de la Landing Page permitió construir una interfaz intuitiva y responsiva, mejorando la experiencia del usuario y facilitando la comprensión de las funcionalidades ofrecidas por la plataforma.
 
-5. El desarrollo de DomotiCore permitió validar una solución orientada a la gestión y automatización de dispositivos IoT en hogares y pequeños negocios, demostrando un alto nivel de aceptación por parte de los usuarios entrevistados.
+5. Las entrevistas de validación evidenciaron un alto nivel de aceptación por parte de los usuarios, quienes destacaron la facilidad de uso, la claridad de la interfaz y la utilidad de las funciones de monitoreo y control remoto de dispositivos.
 
-6. El desarrollo del backend de DomotiCore permitió consolidar una arquitectura sólida y escalable, orientada a la gestión eficiente de dispositivos IoT y al manejo centralizado de la información. La aplicación de principios de arquitectura limpia y separación de responsabilidades, junto con el uso de bounded contexts, facilitó la mantenibilidad del código y la correcta integración con el frontend.
+6. Las evaluaciones heurísticas permitieron identificar oportunidades de mejora relacionadas con la incorporación de reportes más detallados, analítica avanzada, configuraciones personalizadas e integración con nuevos dispositivos IoT, proporcionando una base para futuras versiones del sistema.
 
-7. El backend demostró ser lo suficientemente flexible para soportar futuras mejoras, como la integración de nuevos dispositivos, la incorporación de reportes avanzados y la ampliación de funcionalidades relacionadas con automatización y monitoreo en tiempo real.
+7.La implementación de funcionalidades como la gestión de dispositivos, automatizaciones, monitoreo del consumo energético y notificaciones demuestra la viabilidad de una plataforma orientada a optimizar el uso de la energía y mejorar la supervisión de los dispositivos conectados.
 
-8. Los ajustes realizados en el frontend durante el proyecto contribuyeron a mejorar la claridad visual, la jerarquía de la información y la interacción con los dispositivos, permitiendo a los usuarios gestionar acciones críticas de forma rápida y sencilla.
+8.El uso de herramientas de desarrollo colaborativo, como Git, GitHub y GitFlow, contribuyó a mantener un adecuado control de versiones, facilitar el trabajo en equipo y garantizar la trazabilidad de los cambios realizados durante el desarrollo del proyecto.
 
-9. La correcta elaboración de los Sprint Backlogs, especialmente durante el Sprint 3, facilitó la planificación, asignación de tareas y seguimiento del progreso del equipo. La definición clara de historias de usuario, criterios de aceptación y evidencias de desarrollo permitió mantener la trazabilidad entre requerimientos, implementación y validación.
+9.La documentación generada durante el proyecto, incluyendo User Stories, Product Backlog, Sprint Backlogs, diagramas de arquitectura, modelos de diseño y evidencias de implementación, permitió mantener la coherencia entre los requerimientos, el desarrollo y la validación de la solución.
 
-10. Las ceremonias ágiles como el Sprint Planning, Sprint Review y Sprint Retrospective fortalecieron la comunicación, colaboración y alineación del equipo, permitiendo identificar riesgos, corregir desviaciones y mejorar continuamente el proceso de desarrollo.
-
-11. Desde el punto de vista técnico, el proyecto consolidó una arquitectura bien estructurada, con una adecuada integración entre backend y frontend. Esta separación permitió un desarrollo ordenado, escalable y mantenible, facilitando la implementación de funcionalidades clave como el control remoto de dispositivos, la automatización por horarios, el monitoreo energético y la gestión de usuarios.
-
-12. DomotiCore no solo representa un producto tecnológico funcional, sino también un proyecto formativo integral, que permitió a los integrantes del equipo fortalecer competencias fundamentales como el desarrollo de software, el trabajo en equipo, la gestión de proyectos ágiles, la comunicación técnica y la aplicación de buenas prácticas de ingeniería de software.
+10.Los resultados obtenidos permiten concluir que DomotiCore constituye una solución tecnológica viable para la gestión inteligente del consumo energético, con una arquitectura preparada para incorporar nuevas funcionalidades, ampliar la integración con dispositivos IoT y responder a las necesidades de futuros usuarios y escenarios de mayor complejidad.
 
 ## Video About the Team
 
