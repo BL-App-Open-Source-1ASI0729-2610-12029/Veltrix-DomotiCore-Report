@@ -855,6 +855,7 @@ En la implementación final se puede apreciar el uso consistente de la paleta de
   <img src="imagenes/imagenes_Cap4/userflows-small-business-mobile/userflow-settings-actions-mobile.png"
        alt="Settings">
 
+
 ## 4.5. Web Applications 
 
 **En esta sección se presentan los prototipos de la aplicación web, tanto para navegador de escritorio como para navegador móvil, los cuales permiten simular la interacción y navegación del usuario dentro del sistema. Estos prototipos están directamente basados en los User Flow Diagrams, asegurando que los recorridos diseñados puedan ser experimentados de forma visual y práctica.**
@@ -1029,53 +1030,59 @@ Garantiza:
 
 ![Container-Diagram](imagenes/imagenes_Cap4/software-arquitecture-diagrams/container-diagram.png)
 
+***
+
 ### 4.6.4 Software Architecture Components Diagrams
 
 <a id="4-6-4-software-architecture-components-diagrams"></a>
 
 Este nivel descompone el contenedor principal de la **API Application** en componentes internos responsables de la lógica de negocio, monitoreo IoT, automatización y gestión de datos dentro de **DomotiCore**.
 
-***Device Management Module***
+***1. Gateway Management***
+- Gestiona la vinculación, estado y conectividad del gateway Veltrix en la plataforma.
+- Permite establecer de forma segura el puente de comunicación entre los dispositivos físicos locales y la nube de DomotiCore.
+- Monitorea la estabilidad de la red y el aprovisionamiento inicial de los Hubs centrales.
 
-- Gestión de dispositivos IoT conectados.
-- Registro, actualización y control de estado.
-- Monitoreo en tiempo real.
+***2. Device Management***
+- Administra el registro, organización estructural (por ambientes u hogares) y configuración básica de los dispositivos inteligentes asociados a un gateway.
+- Controla el inventario lógico de sensores y actuadores vinculados por el usuario dentro de su entorno residencial o comercial.
 
-***Automation Module***
+***3. Device Control***
+- Permite el control remoto interactivo y en tiempo real de los dispositivos inteligentes integrados.
+- Gestiona la transmisión e interpretación inmediata de comandos operativos críticos como encendido, apagado, regulación y cambios de estado desde la interfaz web.
 
-- Creación de reglas de automatización.
-- Ejecución de acciones inteligentes.
-- Gestión de eventos programados.
+***4. Automation & Scenes***
+- Gestiona las reglas automáticas personalizadas y la creación de escenas complejas en el ecosistema.
+- Permite ejecutar acciones concurrentes sobre múltiples dispositivos IoT de forma síncrona basándose en horarios fijos, condiciones lógicas o eventos ambientales definidos.
 
-***Energy Monitoring Module***
+***5. Energy Monitoring***
+- Registra, analiza y procesa métricas de consumo energético provenientes de los nodos de medición eléctrica acoplados.
+- Brinda información analítica detallada tanto en tiempo real como histórica para facilitar la toma de decisiones enfocadas en la eficiencia.
 
-- Recolección de métricas de consumo energético.
-- Análisis de datos de uso.
-- Generación de reportes.
+***6. Notifications***
+- Administra el ciclo completo de envío de alertas automáticas y notificaciones prioritarias del sistema.
+- Despacha advertencias inmediatas ante eventos relevantes del entorno como picos de consumo inusuales, dispositivos desconectados de la red o ejecuciones críticas de seguridad.
 
-***Notification Module***
+***7. IAM (User & Access Management)***
+- Gestiona las cuentas de usuarios, perfiles operativos, asignación de roles y control de directivas de seguridad.
+- Asegura un acceso controlado, cifrado y totalmente restringido a las funcionalidades de administración del sistema según el tipo de usuario (hogar o pyme).
 
-- Envío de alertas y notificaciones.
-- Integración con Firebase Cloud Messaging.
-- Notificaciones en tiempo real.
+***8. Smart Integrations***
+- Maneja la capa de abstracción, conexión y sincronización nativa con servicios, APIs o plataformas domóticas externas.
+- Permite expandir el alcance y las capacidades de interoperabilidad del ecosistema global de DomotiCore con terceros.
 
-***Authentication Module***
-- Gestión de autenticación de usuarios.
-- Validación de credenciales.
-- Control de sesiones.
+***9. Analytics & Dashboard***
+- Consolida y procesa la información clave recopilada de todo el entorno inteligente para estructurar métricas visuales inteligibles.
+- Alimenta los dashboards interactivos facilitando una supervisión gerencial e intuitiva sobre el estado del hogar o negocio.
 
-***Persistence Layer***
+***10. History & Audit***
+- Registra, secuencia y conserva de forma estructurada el historial completo de acciones de usuarios, cambios de estado físicos y eventos del sistema.
+- Provee un registro inmutable orientado a fines de trazabilidad operativa, auditoría de seguridad y control retroactivo.
 
-- Comunicación con Firebase Firestore.
-- Lectura y escritura de datos.
-- Gestión de información persistente.
-
-***Shared Module***
-- Funciones reutilizables del sistema.
-- Validaciones globales.
-- Manejo centralizado de errores.
 
 ![Components-Diagram](imagenes/imagenes_Cap4/software-arquitecture-diagrams/components-diagram.png)
+
+***
 
 ## 4.7 Software Object-Oriented Design
 
