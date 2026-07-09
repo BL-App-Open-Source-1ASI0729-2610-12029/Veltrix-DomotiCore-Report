@@ -29,4 +29,4 @@ El video "About the Team" presenta de manera clara y conciso, la sinceridad de l
 |-----------------------|------------------------------|
 | Duración              | 6 minutos y 08 segundos      |  
 | Fecha de Grabación    | 08/07/2026                   | 
-| URL Microsoft Stream  | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411799_upc_edu_pe/IQCJUWzcyx-ERIKLe_TjUPY6AVkMajnDEv8CAij5P2bUUBk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=l1j8Ej | 
+| URL Microsoft Stream  | <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411799_upc_edu_pe/IQCJUWzcyx-ERIKLe_TjUPY6AVkMajnDEv8CAij5P2bUUBk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=l1j8Ej> | 
