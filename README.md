@@ -37,8 +37,6 @@ Proyecto<br>
 
 </div>
 
----
-
 </div> 
 
 <div class="page"></div>
