@@ -125,7 +125,6 @@ A continuación se presenta la captura de los analíticos de colaboración y com
 | Fabrizio Rafael Tello Palacios | `F4bris` | 21 | 794 | 112 |
 | Oscar Diego Checa Burga | `OscarCheca` | 20 | 229 | 76 |
 | Alvaro Rocha Cotrina | `alvarorc24` | 15 | 746 | 163 |
-| Diego Alonso Véliz Martínez | `Diego Véliz` | - | - | - |
 
 La colaboración fue activa y equitativa, con aportes sustanciales de todos los integrantes en la redacción y organización del informe.
 
@@ -150,6 +149,7 @@ A continuación se presenta la captura de los analíticos de colaboración y com
 | Fabrizio Rafael Tello Palacios | `F4bris` | 24 | 800 | 116 |
 | Oscar Diego Checa Burga | `OscarCheca` | 20 | 229 | 76 |
 | Alvaro Rocha Cotrina | `alvarorc24` | 16 | 746 | 183 |
+| Diego Alonso Véliz Martínez | `Diego Véliz` | - | - | - |
 
 La colaboración fue parcialmente activa, con aportes sustanciales de algunos integrantes en la redacción y organización del informe.
 
@@ -176,6 +176,7 @@ Durante esta fase, el equipo elaboró el **informe para la entrega final**, que 
 | Oscar Diego Checa Burga | `OscarCheca` | - | - | - |
 | Alvaro Rocha Cotrina | `alvarorc24` | - | - | - |
 | Diego Alonso Véliz Martínez | `Diego Véliz` | - | - | - |
+
 La colaboración fue totalmene activa, con aportes sustanciales de algunos integrantes en la redacción y organización del informe.
 
 # Tabla de Contenidos

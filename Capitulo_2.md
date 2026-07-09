@@ -1,3 +1,5 @@
+# Capítulo II: Requirements Elicitation & Analysis
+
 ## 2.1 Competidores
 En la siguiente sección se presentarán los principales competidores de nuestra solución, así como un análisis general de sus características en comparación con el servicio propuesto.
 

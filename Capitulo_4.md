@@ -1,3 +1,5 @@
+# Capítulo IV: Product Design
+
 ## 4.1 Style Guidelines
 
 El diseño de la plataforma se enfoca en ofrecer una interfaz intuitiva que facilite la exploración, selección y contribución de manera visual en DomotiCore. Se busca garantizar una experiencia fluida para desarrolladores de distintos niveles.
@@ -354,26 +356,6 @@ En la implementación final se puede apreciar el uso consistente de la paleta de
 
 <div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-web/wireframe-settings.png" alt="texto"></div>
 
-
-**Wireframes Versión Mobile - Usuarios de Hogares Inteligentes** 
-
-<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-mobile/wireframe_mobile_security_hub.png" alt="texto"></div>
-
-<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-mobile/wireframe_mobile_automations_list.png" alt="texto"></div>
-
-<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-mobile/wireframe_mobile_living_room_view.png" alt="texto"></div>
-
-<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-mobile/wireframe_mobile_ac_control.png" alt="texto"></div>
-
-<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-mobile/wireframe_mobile_automation_builder.png" alt="texto"></div>
-
-<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-mobile/wireframe_mobile_energy_analytics.png" alt="texto"></div>
-
-<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-mobile/wireframe_mobile_history_log.png" alt="texto"></div>
-
-<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-smart-home-users-mobile/wireframe_mobile_profile_settings.png" alt="texto"></div>
-
-
 **Wireframes Versión Desktop - Pequeños Negocios y Emprendedores**
 
 <div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-web/wireframe_device_explorer.png" alt="texto"></div>
@@ -391,29 +373,6 @@ En la implementación final se puede apreciar el uso consistente de la paleta de
 <div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-web/wireframe_business_automations.png" alt="texto"></div>
 
 <div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-web/wireframe_bulk_device_management.png" alt="texto"></div>
-
-**Wireframes Versión Mobile - Pequeños Negocios y Emprendedores** 
-
-<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-mobile/wireframe_operations_overview.png" alt="texto"></div>
-
-<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-mobile/wireframe_bulk_control.png" alt="texto"></div>
-
-<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-mobile/wireframe_reports_summary.png" alt="texto"></div>
-
-<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-mobile/wireframe_zone_monitoring.png" alt="texto"></div>
-
-<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-mobile/wireframe_utility_status.png" alt="texto"></div>
-
-<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-mobile/wireframe_alert_center.png" alt="texto"></div>
-
-<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-mobile/wireframe_team_directory.png" alt="texto"></div>
-
-<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-mobile/wireframe_inventory_explorer.png" alt="texto"></div>
-
-<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-mobile/wireframe_automation_rules.png" alt="texto"></div>
-
-<div style="text-align:center;"><img src="imagenes/imagenes_Cap4/wireframes-small-business-mobile/wireframe_business_profile.png" alt="texto"></div>
-
 
 ### 4.4.2 Web Applications Wireflow Diagrams
 
@@ -464,43 +423,6 @@ En la implementación final se puede apreciar el uso consistente de la paleta de
   <img src="imagenes/imagenes_Cap4/wireflows-smart-home-users-web/wireflow-notifications-history-log-web.png"
        alt="Notifications">
 
-**Wireflow Versión Mobile - Usuarios de Hogares Inteligentes**
-
-**El usuario ingresa y aparece la pantalla principal**
-<div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/wireflows-smart-home-users-mobile/wireflow-system-status-mobile.png"
-       alt="Home">
-
-**El usuario se dirige al apartado de Automations**
-<div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/wireflows-smart-home-users-mobile/wireflow-automations-mobile.png"
-       alt="Automations">
-
-**El usuario se dirige al apartado de New Automation**
-<div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/wireflows-smart-home-users-mobile/wireflow-new-automation-mobile.png"
-       alt="New Automation">
-
-**El usuario puede revisar la cantidad de energía y dirigirse a Activity History**
-<div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/wireflows-smart-home-users-mobile/wireflow-energy-activity-history-mobile.png"
-       alt="Energy">
-
-**El usuario puede dirigirse a su Profile para configurarlo**
-<div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/wireflows-smart-home-users-mobile/wireflow-profile-mobile.png"
-       alt="Profile">
-
-**El usuario se dirige a Devices**
-<div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/wireflows-smart-home-users-mobile/wireflow-devices-mobile.png"
-       alt="Devices">
-
-**El usuario se dirige a un espacio de su sistema de control**
-<div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/wireflows-smart-home-users-mobile/wireflow-selected-room-mobile.png"
-       alt="Selected Room">
-
 **Wireflow Versión Desktop - Pequeños Negocios y Emprendedores**
 
 **El usuario puede ingresar a la pantalla principal**
@@ -522,34 +444,6 @@ En la implementación final se puede apreciar el uso consistente de la paleta de
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/wireflows-small-business-web/wireflow-devices-action-web.png"
        alt="Devices action">
-
-**Wireflow Versión Mobile - Pequeños Negocios y Emprendedores**
-
-**El usuario ingresa y puede acceder a la pantalla principal**
-<div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/wireflows-small-business-mobile/wireflows-dashboard-overview-mobile.png"
-       alt="Dashboard Overview">
-
-**El usuario puede dirigirse a Devices y gestionar diversas acciones como Office y View All Devices**
-<div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/wireflows-small-business-mobile/wireflows-devices-actions-mobile.png"
-       alt="Devices actions">
-
-**El usuario puede dirigirse a Logs y gestionar diversas acciones como Business Protocols**
-<div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/wireflows-small-business-mobile/wireflows-logs-actions-mobile.png"
-       alt="Logs actions">
-
-**El usuario puede dirigirse a Settings y gestionar diversas acciones como Business Profile**
-<div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/wireflows-small-business-mobile/wireflows-settings-actions-mobile.png"
-       alt="Settings actions">
-
-**El usuario puede dirigirse a Reports y gestionar diversas acciones como Alert Center**
-<div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/wireflows-small-business-mobile/wireflows-reports-actions-mobile.png"
-       alt="Reports actions">
-
 
 ### 4.4.3 Web Applications Mock-ups
 
@@ -595,52 +489,6 @@ En la implementación final se puede apreciar el uso consistente de la paleta de
   <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-web/automation-builder-domoticore.png"
        alt="Automation Builder"></div>
 
-**Versión Mobile Mockups - Usuarios de Hogares Inteligentes**
-
-  <div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-mobile/mobile-dashboard-domoticore.png"
-       alt="Dashboard"></div>
-
-  <div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-mobile/mobile-alerts-domoticore.png"
-       alt="Alerts"></div>
-
-  <div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-mobile/mobile-devices-domoticore.png"
-       alt="Devices"></div>
-
-  <div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-mobile/mobile-automation-builder.png"
-       alt="Automation Builder"></div>
-
-  <div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-mobile/mobile-automations.png"
-       alt="Automation"></div>
-
-  <div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-mobile/mobile-energy-analytics.png"
-       alt=" Energy Analytics"></div>
-
-  <div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-mobile/mobile-ac-control.png"
-       alt="AC Control"></div>
-
-  <div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-mobile/mobile-security-hub.png"
-       alt="Security Hub"></div>
-
-  <div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-mobile/mobile-profile-settings.png"
-       alt="Profile & Settings"></div>
-
-  <div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-mobile/mobile-history-log.png"
-       alt="History Log"></div>
-
-  <div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/mockups-smart-home-users-mobile/mobile-living-room-view.png"
-       alt="Living Room View"></div>
-  
 **Versión Desktop Mockups - Pequeños Negocios y Emprendedores** 
 
   <div style="text-align:center;">
@@ -683,48 +531,6 @@ En la implementación final se puede apreciar el uso consistente de la paleta de
   <img src="imagenes/imagenes_Cap4/mockups-small-business-web/business-integration-settings.png"
        alt="Business Integration Settings"></div>
        
-**Versión Mobile Mockups - Pequeños Negocios y Emprendedores**
-
-  <div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/mockups-small-business-mobile/bulk-device-control.png"
-       alt="Device Control"></div>
-
-  <div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/mockups-small-business-mobile/sme-mobile-dashboard.png"
-       alt="Dashboard"></div>
-
-  <div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/mockups-small-business-mobile/business-alert-center.png"
-       alt="Alert Center"></div>
-
-  <div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/mockups-small-business-mobile/reports-summary.png"
-       alt="Reports Summary"></div>
-
-  <div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/mockups-small-business-mobile/zone-monitoring.png"
-       alt="Zone Monitoring"></div>
-
-  <div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/mockups-small-business-mobile/automation-rules.png"
-       alt="Automation Rules"></div>
-
-  <div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/mockups-small-business-mobile/role-team-access.png"
-       alt="Role & Team Access"></div>
-
-  <div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/mockups-small-business-mobile/inventory-explorer.png"
-       alt="Inventory Explorer"></div>
-
-  <div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/mockups-small-business-mobile/utility-api-status.png"
-       alt="Utility & API Status"></div>
-
-  <div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/mockups-small-business-mobile/business-settings.png"
-       alt="Business Settings"></div>
-
 ### 4.4.4 Web Applications User Flow Diagrams
 
 **User Flow Versión Desktop - Usuarios de Hogares Inteligentes**
@@ -764,38 +570,6 @@ En la implementación final se puede apreciar el uso consistente de la paleta de
   <img src="imagenes/imagenes_Cap4/userflows-smart-home-users-web/userflow-notifications-history-log-web.png"
        alt="Notifications">
 
-**User Flow Versión Mobile - Usuarios de Hogares Inteligentes**
-
-**El usuario aparece en la pantalla principal y puede seleccionar una habitación de su preferencia**
-<div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/userflows-smart-home-users-mobile/userflow-home-mobile.png"
-       alt="Home">
-
-**El usuario puede dirigirse a la sección de Automation y presionar New Automation**
-<div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/userflows-smart-home-users-mobile/userflow-automation-actions-mobile.png"
-       alt="Automation">
-
-**El usuario se dirige a la sección de Devices y puede seleccionar la habitación de su interés**
-<div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/userflows-smart-home-users-mobile/userflow-devices-mobile.png"
-       alt="Devices">
-
-**El usuario al seleccionar la habitación puede gestionarla y puede agregar dispositivos de seguridad**
-<div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/userflows-smart-home-users-mobile/userflow-selected-room-mobile.png"
-       alt="Selected Room">
-
-**El usuario puede dirigirse a la sección de Notifications, asimismo puede dirigirse a su Profile**
-<div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/userflows-smart-home-users-mobile/userflow-notifications-actions-mobile.png"
-       alt="Notifications">
-
-**El usuario puede revisar la energía que consumen sus dispositivos**
-<div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/userflows-smart-home-users-mobile/userflow-energy-mobile.png"
-       alt="Energy">
-
 **User Flow Versión Desktop - Pequeños Negocios y Emprendedores**
 
 **El usuario ingresa a la pantalla principal, Dashboard**
@@ -827,34 +601,6 @@ En la implementación final se puede apreciar el uso consistente de la paleta de
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/userflows-small-business-web/userflow-users-actions-web.png"
        alt="Users">
-
-**User Flow Versión Mobile - Pequeños Negocios y Emprendedores**
-
-**El usuario aparece en la pantalla principal, Dashboard**
-<div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/userflows-small-business-mobile/userflow-dashboard-mobile.png"
-       alt="Dashboard">
-
-**El usuario se puede dirigir a la sección de Devices y acceder a las funcionalidades**
-<div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/userflows-small-business-mobile/userflow-devices-actions-mobile.png"
-       alt="Devices">
-
-**El usuario se puede dirigir a la sección de Reports y también puede ver  el Alert Center**
-<div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/userflows-small-business-mobile/userflow-reports-actions-mobile.png"
-       alt="Reports">
-
-**El usuario continuando con los Reports puede ver los Summary y acceder a otras funcionalidades**
-<div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/userflows-small-business-mobile/userflow-reports--summary-actions-mobile.png"
-       alt="Reports Summary">
-
-**El usuario se puede dirigir a la sección de Settings y a Team Directory**
-<div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/userflows-small-business-mobile/userflow-settings-actions-mobile.png"
-       alt="Settings">
-
 
 ## 4.5. Web Applications 
 
