@@ -25,5 +25,5 @@
 |---------------------------------------|--------|
 | Landing Page           | https://bl-app-open-source-1asi0729-2610-12029.github.io/Veltrix-DomotiCore-Business-Web-Page/ |  
 | Web Application          | https://veltrix-domoti-core-front-end-omega.vercel.app/ | 
-| Swagger  | pendiente | 
-
+| Swagger  | https://domoticore-api.onrender.com/swagger-ui.html | 
+| Open API Documentation  | https://domoticore-api.onrender.com/v3/api-docs | 

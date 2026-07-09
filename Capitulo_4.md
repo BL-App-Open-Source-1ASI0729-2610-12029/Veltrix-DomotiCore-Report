@@ -382,46 +382,55 @@ En la implementación final se puede apreciar el uso consistente de la paleta de
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/wireflows-smart-home-users-web/wireflow-dashboard-web.png"
        alt="Dashboard">
+</div>
 
 **El usuario puede ingresar a security**
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/wireflows-smart-home-users-web/wireflow-security-web.png"
        alt="Security">
+</div>
 
 **El usuario puede ingresar a settings**
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/wireflows-smart-home-users-web/wireflow-settings-web.png"
        alt="Settings">
+</div>
 
 **El usuario puede ingresar a devices**
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/wireflows-smart-home-users-web/wireflow-devices-web.png"
        alt="Devices">
+</div>
 
 **El usuario puede revisar la habitación que ha seleccionado para monitorear sus dispositivos**
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/wireflows-smart-home-users-web/wireflow-room-selected-web.png"
        alt="Room selected">
+</div>
 
 **El usuario puede ingresar a Smart Automations**
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/wireflows-smart-home-users-web/wireflow-smart-automations-web.png"
        alt="Smart Automations">
+</div>
 
 **El usuario puede añadir a new automation**
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/wireflows-smart-home-users-web/wireflow-new-automation-web.png"
        alt="New Automation">
+</div>
 
 **El usuario puede ingresar a history**
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/wireflows-smart-home-users-web/wireflow-history-web.png"
        alt="History">
+</div>
 
 **El usuario puede ingresar tanto a la sección de Notifications y a su History Log**
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/wireflows-smart-home-users-web/wireflow-notifications-history-log-web.png"
        alt="Notifications">
+</div>
 
 **Wireflow Versión Desktop - Pequeños Negocios y Emprendedores**
 
@@ -429,21 +438,25 @@ En la implementación final se puede apreciar el uso consistente de la paleta de
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/wireflows-small-business-web/wireflow-automation-center-web.png"
        alt="Automatization center">
+</div>
 
 **El usuario puede dirigirse a Users y gestionar diversas acciones como Business Profile & API Settings**
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/wireflows-small-business-web/wireflow-users-action-web.png"
        alt="Users action">
+</div>
 
 **El usuario puede dirigirse a Reports y gestionar diversas acciones como Cost Analysis Details**
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/wireflows-small-business-web/wireflow-reports-action-web.png"
        alt="Reports action">
+</div>
 
 **El usuario puede dirigirse a Devices y gestionar diversas acciones como Device Explorer**
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/wireflows-small-business-web/wireflow-devices-action-web.png"
        alt="Devices action">
+</div>
 
 ### 4.4.3 Web Applications Mock-ups
 
@@ -539,36 +552,43 @@ En la implementación final se puede apreciar el uso consistente de la paleta de
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/userflows-smart-home-users-web/userflow-dashboard-web.png"
        alt="Dashboard">
+</div>
 
 **El usuario se dirige a la sección de Security**
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/userflows-smart-home-users-web/userflow-security-web.png"
        alt="Security">
+</div>
 
 **El usuario se dirige a la sección de Settings**
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/userflows-smart-home-users-web/userflow-settings-web.png"
        alt="Settings">
+</div>
 
 **El usuario se dirige a la sección de Devices y puede acceder a revisar sus habitaciones**
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/userflows-smart-home-users-web/userflow-devices-web.png"
        alt="Devices">
+</div>
 
 **El usuario se dirige a la sección de Automations y puede darle a New Automation**
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/userflows-smart-home-users-web/userflow-automations-web.png"
        alt="Automation">
+</div>
 
 **El usuario se dirige a la sección de History**
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/userflows-smart-home-users-web/userflow-history-web.png"
        alt="History">
+</div>
 
 **El usuario puede presionar Notifications Center o puede dirigirse a History Log**
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/userflows-smart-home-users-web/userflow-notifications-history-log-web.png"
        alt="Notifications">
+</div>
 
 **User Flow Versión Desktop - Pequeños Negocios y Emprendedores**
 
@@ -576,31 +596,37 @@ En la implementación final se puede apreciar el uso consistente de la paleta de
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/userflows-small-business-web/userflow-dashboard-web.png"
        alt="Dashboard">
+</div>
 
 **El usuario se dirige a la sección de Automation y con esta sus gestiones**
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/userflows-small-business-web/userflow-automation-actions-web.png"
        alt="Automations">
+</div>
 
 **El usuario se dirige a la sección de Reportes y con esta sus gestiones**
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/userflows-small-business-web/userflow-reports-actions-web.png"
        alt="Reports">
+</div>
 
 **El usuario se dirige a la sección de Alerts & History**
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/userflows-small-business-web/userflow-alerts-history-web.png"
        alt="Alerts & History">
+</div>
 
 **El usuario se dirige a la sección de Devices y con esta sus gestiones**
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/userflows-small-business-web/userflow-devices-actions-web.png"
        alt="Devices">
+</div>
 
 **El usuario se dirige a la sección de Users y con esta sus gestiones**
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/userflows-small-business-web/userflow-users-actions-web.png"
        alt="Users">
+</div>
 
 ## 4.5. Web Applications 
 
@@ -622,11 +648,15 @@ Global
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/EventStorming/Global.png"
        alt="Global">
+</div>
 
 *Leyenda*
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/EventStorming/Leyenda.png"
        alt="Leyenda">
+</div>
+
+</br>
 
 **Gateway Management:**
 
@@ -634,6 +664,7 @@ Gestiona la vinculación, estado y conectividad del gateway Veltrix, permitiendo
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/EventStorming/gateway-management.png"
        alt="Gateway Management">
+</div>
 
 **Device Management:**
 
@@ -641,6 +672,7 @@ Administra el registro, organización y configuración básica de los dispositiv
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/EventStorming/device-management.png"
        alt="Device Management">
+</div>
 
 **Device Control:**
 
@@ -648,6 +680,7 @@ Permite el control remoto en tiempo real de los dispositivos, gestionando accion
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/EventStorming/device-control.png"
        alt="Device Control">
+</div>
 
 **Automation & Scenes:**
 
@@ -655,6 +688,7 @@ Gestiona reglas automáticas y escenas que permiten ejecutar acciones sobre múl
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/EventStorming/automation-scenes.png"
        alt="Automation & Scenes">
+</div>
 
 **Energy Monitoring:**
 
@@ -662,6 +696,7 @@ Registra, analiza y visualiza el consumo energético de los dispositivos, brinda
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/EventStorming/energy-monitoring.png"
        alt="Energy Monitoring">
+</div>
 
 **Notifications:**
 
@@ -669,6 +704,7 @@ Administra el envío de alertas y notificaciones automáticas ante eventos relev
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/EventStorming/notifications.png"
        alt="Notifications">
+</div>
 
 **IAM (User & Access Management):**
 
@@ -676,6 +712,7 @@ Gestiona usuarios, roles y permisos, asegurando un acceso controlado y seguro a 
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/EventStorming/user-access-management.png"
        alt="User & Access Management">
+</div>
 
 **Smart Integrations:**
 
@@ -683,6 +720,7 @@ Permite la conexión y sincronización con servicios o plataformas externas para
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/EventStorming/smart-integrations.png"
        alt="Smart Integrations">
+</div>
 
 **Analytics & Dashboard:**
 
@@ -691,6 +729,7 @@ Consolida información clave del sistema en dashboards y métricas visuales que 
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/EventStorming/analytics-dashboard.png"
   alt="Analytics & Dashboard">
+</div>
 
 **History & Audit:**
 
@@ -698,6 +737,7 @@ Registra y conserva el historial de acciones, estados y eventos del sistema para
 <div style="text-align:center;">
   <img src="imagenes/imagenes_Cap4/EventStorming/history-audit.png"
        alt="History & Audit">
+</div>
 
 ### 4.6.2 Software Architecture Context Diagram
 
@@ -870,7 +910,9 @@ Para la elaboración de los diagramas de base de datos se utilizará Lucidchart 
        alt="texto">
 </div>
 
-- Se definieron las tablas Usuario, Permiso y UsuarioPermiso, encargadas de almacenar la información relacionada con autenticación, control de acceso y permisos del sistema. La relación entre usuarios y permisos se implementa mediante una tabla intermedia, permitiendo gestionar distintos niveles de autorización dentro de la plataforma.
+<br>
+
+-  Se definieron las tablas Usuario, Permiso y UsuarioPermiso, encargadas de almacenar la información relacionada con autenticación, control de acceso y permisos del sistema. La relación entre usuarios y permisos se implementa mediante una tabla intermedia, permitiendo gestionar distintos niveles de autorización dentro de la plataforma.
 
 - En administración de dispositivos, las tablas Gateway, NodoIoT, Dispositivo, Ambiente y EstadoDispositivo permiten representar la infraestructura IoT utilizada. Estas entidades gestionan la sincronización de nodos, control remoto de dispositivos electrónicos y almacenamiento del estado operativo de cada equipo conectado. Asimismo, las relaciones establecidas mediante claves foráneas permiten representar la asociación entre usuarios, nodos y dispositivos dentro del sistema.
 
@@ -880,4 +922,4 @@ Para la elaboración de los diagramas de base de datos se utilizará Lucidchart 
 
 - El contexto de notificaciones incluye las tablas EventoSistema, Alerta y Notificacion, encargadas de registrar eventos operativos, consumos anómalos y alertas generadas automáticamente por la plataforma.
 
-- Las tablas Historial y Exportacion permiten gestionar acciones realizadas dentro del sistema y exportación de reportes energéticos, contribuyendo a mejorar el control operativo y análisis de información.
+* Las tablas Historial y Exportacion permiten gestionar acciones realizadas dentro del sistema y exportación de reportes energéticos, contribuyendo a mejorar el control operativo y análisis de información.
