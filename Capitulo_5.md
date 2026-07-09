@@ -1982,9 +1982,239 @@ En el Sprint Backlog 4 se consolidan las mejoras de usabilidad, accesibilidad y 
 
 #### 5.2.4.4. Development Evidence for Sprint Review
 
+En esta sección se presentan los avances obtenidos durante la fase de implementación correspondientes al Sprint Backlog 04, el cual estuvo orientado al fortalecimiento de la arquitectura de la plataforma DomotiCore, la optimización de la experiencia de usuario y la incorporación de funcionalidades avanzadas para la gestión inteligente de dispositivos IoT, con el objetivo de consolidar una versión más robusta, escalable y preparada para su despliegue.
 
+Durante este sprint se implementaron funcionalidades relacionadas con el control de acceso basado en roles y segmentos de usuario, la reorganización de la arquitectura del proyecto bajo principios de Domain-Driven Design (DDD), la integración de nuevos controladores y servicios para la gestión de invitaciones y notificaciones, la incorporación de mecanismos de auditoría de recursos, la optimización de la autenticación y de los procesos de despliegue.
+
+<table border="1" cellspacing="0" cellpadding="5">
+  <tr>
+    <th>Repository</th>
+    <th>Branch</th>
+    <th>Commit Id</th>
+    <th>Commit Message</th>
+    <th>Commit Message Body</th>
+    <th>Commited on (Date)</th>
+  </tr>
+  <tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>a3d91bf</td>
+  <td>Add active-segment header in auth interceptor</td>
+  <td>Incorpora el encabezado del segmento activo en el interceptor de autenticación para mejorar el control de acceso según el tipo de usuario.</td>
+  <td>03/07/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>f91bc72</td>
+  <td>Add: role-based permissions and account segments</td>
+  <td>Implementa permisos basados en roles y segmentación de cuentas para fortalecer la gestión de usuarios dentro de la plataforma.</td>
+  <td>03/07/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>c8e4d1a</td>
+  <td>Add maintenance API, automation prefs, gateway</td>
+  <td>Integra servicios relacionados con mantenimiento, preferencias de automatización y configuración del gateway IoT.</td>
+  <td>03/07/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>e51f2c7</td>
+  <td>feat: Add maintenance hub, device search, and energy optimization features</td>
+  <td>Agrega el módulo de mantenimiento, búsqueda de dispositivos y funcionalidades orientadas a la optimización del consumo energético.</td>
+  <td>03/07/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>b7a39de</td>
+  <td>feature: Add gateway management and device priority system</td>
+  <td>Desarrolla la administración del gateway y el sistema de prioridades para la gestión inteligente de dispositivos.</td>
+  <td>03/07/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>91da7bc</td>
+  <td>refactor: Reorganize app structure into app subfolder</td>
+  <td>Reestructura el proyecto organizando los módulos dentro del subdirectorio principal de la aplicación para mejorar su mantenibilidad.</td>
+  <td>08/07/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>4ab8ce2</td>
+  <td>refactor: Reorganize project structure under app namespace</td>
+  <td>Refactoriza la arquitectura del proyecto utilizando un espacio de nombres común para los componentes de la aplicación.</td>
+  <td>08/07/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>d82af19</td>
+  <td>refactor: Move dashboard and settings into app folder</td>
+  <td>Reubica los módulos de dashboard y configuración para mantener una estructura organizada por funcionalidades.</td>
+  <td>08/07/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>6fc5b13</td>
+  <td>refactor: Move features into src/app and update imports</td>
+  <td>Migra las funcionalidades al directorio src/app y actualiza las referencias necesarias del proyecto.</td>
+  <td>08/07/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>ef61c9b</td>
+  <td>Move src modules into src/app and update imports</td>
+  <td>Traslada los módulos principales al nuevo directorio de la aplicación y ajusta las importaciones correspondientes.</td>
+  <td>08/07/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>18bc7de</td>
+  <td>Refactor: Reorganize app structure by layer and domain</td>
+  <td>Reorganiza el proyecto siguiendo una arquitectura basada en capas y dominios para facilitar su escalabilidad.</td>
+  <td>08/07/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>da6e2f1</td>
+  <td>feat: Add permission-based access control and export preferences</td>
+  <td>Implementa el control de acceso basado en permisos y la configuración de preferencias para exportación de información.</td>
+  <td>08/07/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>fa93d72</td>
+  <td>feat: Add device categorization and action confirmations</td>
+  <td>Agrega la categorización de dispositivos y confirmaciones visuales para acciones críticas del usuario.</td>
+  <td>08/07/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>5bd71e8</td>
+  <td>feat; Add segment-based access control system</td>
+  <td>Desarrolla el sistema de control de acceso basado en segmentos para diferenciar funcionalidades según el perfil del usuario.</td>
+  <td>08/07/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>bc42f9d</td>
+  <td>refactor: Add i18n support and enhance UI layouts</td>
+  <td>Mejora la internacionalización del sistema y optimiza la distribución visual de la interfaz de usuario.</td>
+  <td>08/07/2026</td>
+</tr>
+
+<tr>
+  <td>user20-bit/Veltrix-DomotiCore-Front-End</td>
+  <td>main</td>
+  <td>7ea5d8f</td>
+  <td>refactor: Add i18n keys, UI tweaks, mocks & store updates</td>
+  <td>Actualiza las claves de internacionalización, mejora componentes visuales y sincroniza los cambios del store y datos simulados.</td>
+  <td>08/07/2026</td>
+</tr>
+  <tr>
+    <td>user20-bit/Veltrix-DomotiCore-Back-End</td>
+    <td>main</td>
+    <td>b4d9a7e</td>
+    <td>feat: add new controller</td>
+    <td>Implementa un nuevo controlador para ampliar la gestión de solicitudes y mejorar la organización de los servicios del backend.</td>
+    <td>09/07/2026</td>
+  </tr>
+
+  <tr>
+    <td>user20-bit/Veltrix-DomotiCore-Back-End</td>
+    <td>main</td>
+    <td>8fa3c1d</td>
+    <td>refactor: error deploy</td>
+    <td>Refactoriza la configuración del despliegue corrigiendo errores detectados durante la publicación del backend.</td>
+    <td>09/07/2026</td>
+  </tr>
+
+  <tr>
+    <td>DiegoEsquich/Veltrix-DomotiCore-Back-End</td>
+    <td>main</td>
+    <td>98d5894</td>
+    <td>feat: add refactor reorganize codebase to DDD layer structure</td>
+    <td>Reestructura los archivos de DomotiCore adaptandolas a Learning Center.</td>
+    <td>09/07/2026</td>
+  </tr>
+
+  <tr>
+    <td>user20-bit/Veltrix-DomotiCore-Back-End</td>
+    <td>main</td>
+    <td>1be7fd8</td>
+    <td>delete: endpoints no usable</td>
+    <td>Elimina endpoints obsoletos o sin uso para mantener una API más limpia y fácil de mantener.</td>
+    <td>09/07/2026</td>
+  </tr>
+
+  <tr>
+    <td>user20-bit/Veltrix-DomotiCore-Back-End</td>
+    <td>main</td>
+    <td>7dc8a2f</td>
+    <td>feat: add to controller</td>
+    <td>Agrega nuevas funcionalidades a los controladores para ampliar las operaciones disponibles en la API.</td>
+    <td>09/07/2026</td>
+  </tr>
+
+  <tr>
+    <td>user20-bit/Veltrix-DomotiCore-Back-End</td>
+    <td>main</td>
+    <td>af51d9c</td>
+    <td>refactor: service invitation to user and notific</td>
+    <td>Refactoriza los servicios de invitación de usuarios y notificaciones para mejorar la reutilización del código.</td>
+    <td>09/07/2026</td>
+  </tr>
+
+  <tr>
+    <td>user20-bit/Veltrix-DomotiCore-Back-End</td>
+    <td>main</td>
+    <td>53be1a9</td>
+    <td>refactor: to deploy team invitation</td>
+    <td>Optimiza el proceso de despliegue relacionado con la funcionalidad de invitaciones a equipos.</td>
+    <td>09/07/2026</td>
+  </tr>
+
+  <tr>
+    <td>user20-bit/Veltrix-DomotiCore-Back-End</td>
+    <td>main</td>
+    <td>d81f4bc</td>
+    <td>add: InvitacionResponse controller</td>
+    <td>Implementa un controlador dedicado para gestionar las respuestas de invitaciones entre usuarios.</td>
+    <td>09/07/2026</td>
+  </tr>
+
+</table>
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
+
+
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
