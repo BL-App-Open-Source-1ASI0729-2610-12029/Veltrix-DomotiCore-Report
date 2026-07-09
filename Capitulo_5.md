@@ -1915,6 +1915,83 @@ Durante el sprint se priorizaron pruebas funcionales, validaciones manuales y co
 
 Se evidencia una participación activa y equilibrada de todos los integrantes del equipo durante el Sprint 3, reflejando un trabajo colaborativo de la plataforma DomotiCore.
 
+### 5.2.4 Sprint 4
+
+#### 5.2.4.1 Sprint Planning 4
+
+En esta sección, se presentará la planificación de nuestro Sprint 3.
+
+| **Sprint #** |                **Sprint 4**              |
+|--------------|------------------------------------------|
+|**Sprint Planning Background**                            |
+| Date         | 2026/07/08                |
+| Time         | 20:00 pm                  |
+| Location     | Reunión virtual mediante discord          |
+| Prepared By  | Esquicha Alcántara, Diego Alonso          |
+| Attendees    |Rocha Cotrina, Alvaro / Esquicha Alcántara, Diego Alonso / Quispe llacsahuanga, César Agusto / Tello Palacios, Fabrizio Rafael / Checa Burga, Oscar  / Véliz Martínez, Diego Alonso|
+| Sprint n-4 Review Summary |  Durante el Sprint anterior, el equipo logró consolidar las funcionalidades principales de DomotiCore, incluyendo la autenticación de usuarios, la gestión de dispositivos inteligentes, la automatización de procesos y la visualización del consumo energético. Asimismo, las entrevistas de validación y la evaluación heurística permitieron identificar oportunidades de mejora relacionadas con la accesibilidad visual, la incorporación de reportes históricos, la configuración de alertas inteligentes, la experiencia de nuevos usuarios y el rendimiento general de la plataforma. Estos hallazgos fueron priorizados para su implementación en el Sprint 4.     |
+| Sprint n-4 Retrospective Summary | En la retrospectiva, el equipo concluyó que la integración de las funcionalidades principales fue satisfactoria; sin embargo, se identificó la necesidad de fortalecer la experiencia de usuario mediante mejoras de usabilidad y optimización del rendimiento. Como acciones de mejora, se acordó priorizar las recomendaciones obtenidas durante las pruebas con usuarios, realizar validaciones funcionales continuas y optimizar aquellos componentes que impactan directamente en la calidad y eficiencia de la plataforma antes de su entrega final.|
+| **Sprint Goal & User Stories**                           |
+|**Sprint 4**  | Implementar y consolidar las mejoras funcionales y de usabilidad priorizadas a partir de la retroalimentación obtenida durante las entrevistas de validación con los usuarios y la evaluación heurística realizada sobre la plataforma DomotiCore. Durante este sprint se buscará optimizar la accesibilidad visual del dashboard mediante mejoras en la legibilidad de la interfaz, incorporar reportes históricos de consumo energético que faciliten el análisis de información, desarrollar un sistema de alertas inteligentes y personalizables para mejorar el monitoreo de dispositivos, implementar una guía interactiva que facilite el aprendizaje y la adaptación de nuevos usuarios, así como optimizar el rendimiento general de la plataforma mediante la corrección de incidencias detectadas. |
+| Sprint 4 Velocity   | 21  Story Points                   |
+| Sum of Story Points | 21  Story Points                   |
+
+#### 5.2.4.2. Aspect Leaders and Collaborators
+
+En el marco del Sprint Backlog 4, el equipo de desarrollo de DomotiCore ha enfocado sus esfuerzos en la optimización de la experiencia de usuario y el perfeccionamiento de las funcionalidades implementadas en los sprints anteriores. Este sprint prioriza la mejora de la accesibilidad visual del dashboard, la incorporación de reportes históricos de consumo energético, la implementación de alertas inteligentes y personalizables, el desarrollo de una guía interactiva para nuevos usuarios y la optimización del rendimiento general de la plataforma.
+
+Para asegurar una ejecución organizada y trazable, se continúa utilizando la Matriz de Liderazgo y Colaboración (LACX), mediante la cual se han asignado roles de liderazgo (L) y colaboración (C) a los integrantes del equipo según cada componente técnico abordado en el sprint.
+
+| Team Member (Last Name, First Name) | GitHub Username    | Dashboard Accessibility | Historical Reports | Smart Alerts | Interactive Onboarding | Performance Optimization |
+| :---------------------------------- | :----------------- | :------------- | :--------------- | :------------------ | :-------------- | :----- |
+| Rocha Cotrina, Alvaro              | alvarorc24 | C | C | C | C | L |
+| Esquicha Alcántara, Diego Alonso | DiegoEsquich | C | L | C | L | C |
+| Quispe Llacsahuanga, César Agusto  | user20-bit | L | C | L | C | C |    
+| Tello Palacios, Fabrizio Rafael    | F4bris     | C | C | C | C | C |
+| Véñiz Martínez, Diego Alonso       | Veliz-0912 | C | C | C | C | C |
+| Checa Burga, Oscar Diego           | OscarCheca | C | C | C | C | C |
+---------
+*Leyenda: L = Lead (Líder), C = Collaborator (Colaborador)*
+
+#### 5.2.4.3. Sprint Backlog 4
+
+En el Sprint Backlog 4 se consolidan las mejoras de usabilidad, accesibilidad y rendimiento de la plataforma DomotiCore a partir de los resultados obtenidos durante las entrevistas de validación y la evaluación heurística. El equipo trabajó en la optimización de la legibilidad y accesibilidad visual del dashboard, la implementación de reportes históricos de consumo energético, el desarrollo de alertas inteligentes y personalizables, la incorporación de una guía interactiva para nuevos usuarios y la optimización del rendimiento general de la plataforma mediante la corrección de incidencias detectadas.
+
+### Screenshot del Board
+
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/Sprint-Backlog04.png" 
+       alt="Paleta de Colores">
+</div>
+
+**Trello:** [Trello Sprint 4](https://trello.com/b/uWQwtxQM/domoticore-sprint-backlog-4) [https://trello.com/b/uWQwtxQM/domoticore-sprint-backlog-4]
+
+### Sprint Backlog 04
+
+| User Story Id | Title | Task Id | Task Title | Description | Est. (h) | Assigned To | Status |
+| :--- | :--- | :--- | :--- | :--- | :---: | :--- | :---: |
+| **US-041** | Mejorar la legibilidad y accesibilidad visual del dashboard | T001 | Mejorar contraste y tipografía | Permite optimizar el contraste de colores y el tamaño de fuente para mejorar la legibilidad del dashboard. | 4h | Diego Esquicha | Done |
+| | | T002 | Validación de accesibilidad | Permite verificar que las mejoras de accesibilidad cumplan con una experiencia de usuario adecuada. | 4h | Alvaro Rocha | Done |
+| **US-042** | Implementar reportes históricos de consumo energético | T001 | Implementación del historial de consumo | Permite almacenar y visualizar el historial del consumo energético de los dispositivos. | 4h | Cesar Quispe | Done |
+| | | T002 | Validación de reportes históricos | Permite comprobar la correcta generación y visualización de los reportes históricos. | 4h | Diego Esquicha | Done |
+| **US-043** | Configurar alertas inteligentes y personalizables | T001 | Configuración de alertas | Permite definir alertas personalizadas según el consumo energético de los dispositivos. | 4h | Alvaro Rocha |
+| | | T002 | Validación del sistema de alertas | Permite verificar el correcto funcionamiento de las alertas configuradas por el usuario. | 6h | Diego Esquicha | Done |
+| **US-044** | Incorporar una guía interactiva para nuevos usuarios | T001 | Implementación del recorrido interactivo | Permite guiar al usuario durante el primer acceso a la plataforma mediante un recorrido interactivo. | 5h | Alvaro Rocha | Done |
+| **US-045** | Optimizar el rendimiento y corregir errores de la plataforma | T001 | Optimización del rendimiento | Permite reducir los tiempos de carga y mejorar el desempeño general de la plataforma. | 5h | Cesar Quispe | Done |
+| | | T002 | Corrección de incidencias | Permite corregir los errores funcionales detectados durante las pruebas del sistema. | 6h | Cesar Quispe | Done |
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+
+
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint
+
 ## 5.3. Validation Interviews
 
 En esta sección se documentan y describen las actividades relacionadas con las entrevistas de validación realizadas a lo largo del desarrollo del proyecto. Estas entrevistas tienen como propósito principal recopilar retroalimentación directa, entender las necesidades y expectativas de los usuarios, y confirmar o descartar las hipótesis planteadas sobre el producto. Para ello, los participantes de ambos segmentos interactuarán tanto con la landing page como con la aplicación web.
