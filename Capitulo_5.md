@@ -273,8 +273,8 @@ En el Sprint Backlog 1 se abordó la construcción de las bases funcionales, vis
 
 | User Story Id | Title | Task Id | Task Title | Description | Est. (h) | Assigned To | Status |
 | :--- | :--- | :--- | :--- | :--- | :---: | :--- | :---: |
-| **US-01** | Inicio de sesión | T001 | Configuración inicial del acceso | Permite establecer la base lógica para el acceso del usuario a la plataforma DomotiCore. | 2h | Diego Esquicha | Done |
-| | | T002 | Formulario de inicio de sesión | Permite al usuario ingresar a la plataforma mediante la interfaz web. | 3h | Cesar Quispe | In-Process |
+| **US-01** | Inicio de sesión | T001 | Crear estructura base de vinculación | Permite establecer la base lógica para la vinculación de gateways con la plataforma DomotiCore. | 2h | Diego Esquicha | Done |
+| | | T002 | Formulario de conexión de gateway | Permite al usuario registrar y vincular un gateway desde la interfaz web. | 3h | Cesar Quispe | In-Process |
 | **US-03** | Control remoto de dispositivos | T001 | Lógica base de control remoto | Permite definir la estructura lógica para el control remoto de dispositivos IoT. | 2h | Fabrizio Tello | Done |
 | | | T002 | Botones ON/OFF de dispositivos | Permite encender o apagar dispositivos desde la interfaz de usuario. | 2h | Cesar Quispe | Done |
 | | | T003 | Actualización de estado en tiempo real | Permite reflejar cambios de estado del dispositivo en tiempo real. | 3h | Alvaro Rocha | To-Fix |
@@ -594,10 +594,10 @@ Durante el proceso de refinamiento del backlog del Sprint 2 se realizaron las si
 
 | User Story Id | Title | Task Id | Task Title | Description | Est. (h) | Assigned To | Status |
 | :--- | :--- | :--- | :--- | :--- | :---: | :--- | :---: |
-| **US-01** | Inicio de sesión | T001 | Flujo inicial de acceso | Permite al usuario iniciar el proceso de acceso a la plataforma desde la interfaz web. | 3h | Diego Esquicha | Done |
-| | | T002 | Validación visual de acceso | Permite mostrar mensajes visuales de éxito o error durante el proceso de inicio de sesión. | 2h | Cesar Quispe | Done |
-| **US-02** | Registro de dispositivos | T001 | Registro visual de dispositivos | Permite mostrar los dispositivos detectados durante el proceso de registro inicial. | 2h | Fabrizio Tello | Done |
-| | | T002 | Sincronización inicial de dispositivos | Permite cargar y visualizar los dispositivos registrados en el dashboard. | 3h | Diego Esquicha | Done |
+| **US-01** | Inicio de sesión | T001 | Flujo inicial de vinculación de gateway | Permite al usuario iniciar el proceso de vinculación del gateway desde la interfaz web. | 3h | Diego Esquicha | Done |
+| | | T002 | Validación visual de vinculación | Permite mostrar mensajes visuales de éxito o error durante el proceso de vinculación. | 2h | Cesar Quispe | Done |
+| **US-02** | Registro de dispositivos | T001 | Registro visual de nodos | Permite mostrar los nodos detectados durante el proceso de registro inicial. | 2h | Fabrizio Tello | Done |
+| | | T002 | Sincronización inicial de dispositivos | Permite cargar y visualizar los dispositivos sincronizados en el dashboard. | 3h | Diego Esquicha | Done |
 | **US-03** | Control remoto de dispositivos | T001 | Controles ON/OFF en dashboard | Permite encender y apagar dispositivos desde el dashboard (capa visual). | 3h | Alvaro Rocha | Done |
 | | | T002 | Actualización visual de estados | Permite reflejar cambios de estado en tiempo real en la interfaz. | 2h | Diego Esquicha | Done |
 | **US-10** | Cierre de sesión seguro | T001 | Implementación de logout | Permite al usuario cerrar sesión de manera segura desde la interfaz. | 2h | Cesar Quispe | Done |
@@ -1099,9 +1099,7 @@ En el Sprint Backlog 3 se consolidan las funcionalidades avanzadas del sistema D
 | **US-19** | Autenticación básica de API | T001 | Validación de token API | Permite validar credenciales básicas para el acceso a los endpoints de DomotiCore. | 3h | Diego Esquicha | Done |
 | | | T002 | Manejo de errores de autenticación | Permite mostrar mensajes de error cuando las credenciales son inválidas. | 1h | Cesar Quispe | Done |
 | **US-20** | Consulta de estado de dispositivos vía API | T001 | Endpoint de consulta de estado | Permite obtener el estado actual de los dispositivos desde el backend. | 3h | Diego Esquicha | Done |
-| | | T002 | Consumo de endpoint desde frontend | Permite mostrar el estado recibido desde la API en la interfaz. | 2h | Alvaro Rocha | Done |
-| **US-23** | Visualización del nivel de batería de dispositivos recargables | T001 | Visualización de nivel de batería | Permite mostrar el porcentaje de batería disponible de los dispositivos recargables registrados en el sistema. | 2h | Fabrizio Tello | Done |
-| | | T002 | Indicador visual de batería | Permite representar visualmente el nivel de batería de los dispositivos mediante indicadores en la interfaz. | 3h | Diego Véliz | Done |
+| | | T002 | Consumo de endpoint desde frontend | Permite mostrar el estado recibido desde la API en la interfaz. | 2h | Alvaro Rocha | Done | 
 | **US-24** | Visualización de dispositivos desconectados | T001 | Detección de dispositivos inactivos | Permite identificar dispositivos que no responden o están desconectados. | 2h | Cesar Quispe | Done |
 | | | T002 | Indicador visual de desconexión | Permite mostrar visualmente el estado de desconexión en la interfaz. | 1h | Alvaro Rocha | Done |
 | **US-25** | Actualización manual del estado de dispositivos | T001 | Acción manual de actualización | Permite actualizar manualmente el estado de un dispositivo desde la UI. | 2h | Fabrizio Tello | Done |
@@ -2480,7 +2478,7 @@ El video "About the Product" presenta de manera clara y atractiva la propuesta d
 | Duración              | 1 minuto y 13 segundos       |  
 | Fecha de Grabación    | 20/06/2026                   | 
 | URL YouTube           | https://youtu.be/S9vqfOn2H3Q | 
-| URL Microsoft Stream  | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411799_upc_edu_pe/IQAA40xPMqPOTLb8hgvhmoYZAaGeqy5ORKqc7tHol4OElIY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wKo22e    | 
+| URL Microsoft Stream  | <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411799_upc_edu_pe/IQAA40xPMqPOTLb8hgvhmoYZAaGeqy5ORKqc7tHol4OElIY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wKo22e>    | 
 
 Screenshot del video "About the Product" :
 

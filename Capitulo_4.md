@@ -879,7 +879,7 @@ La solución fue modelada considerando un enfoque basado en bounded contexts, pe
 ### 4.7.1 Class Diagrams
 
 <div style="text-align:center;">
-  <img src="imagenes/imagenes_Cap4/Class-diagrams/Domoticore.svg"
+  <img src="imagenes/imagenes_Cap4/Class-diagrams/Class diagram.png"
        alt="texto">
 </div>
 
