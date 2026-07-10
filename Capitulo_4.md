@@ -923,3 +923,5 @@ Para la elaboración de los diagramas de base de datos se utilizará Lucidchart 
 - El contexto de notificaciones incluye las tablas EventoSistema, Alerta y Notificacion, encargadas de registrar eventos operativos, consumos anómalos y alertas generadas automáticamente por la plataforma.
 
 * Las tablas Historial y Exportacion permiten gestionar acciones realizadas dentro del sistema y exportación de reportes energéticos, contribuyendo a mejorar el control operativo y análisis de información.
+
+<div style="page-break-after: always;"></div>

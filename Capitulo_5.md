@@ -2940,6 +2940,8 @@ A partir de las entrevistas realizadas a usuarios de distintos perfiles (hogar y
 Sin embargo, se identificaron oportunidades de mejora principalmente en la profundidad analítica, la extensibilidad del sistema IoT y la configuración avanzada de alertas.
 Los hallazgos permiten confirmar que la plataforma cumple adecuadamente con los principios de usabilidad, aunque requiere mejoras orientadas a usuarios más avanzados y escenarios de negocio.
 
+<div style="page-break-after: always;"></div>
+
 ## 5.4. Video About-the-Product
 
 El video "About the Product" presenta de manera clara y atractiva la propuesta de valor de DomotiCore, los problemas que resuelve y cómo funciona la solución para ambos segmentos objetivo.

@@ -21,6 +21,8 @@
 
 10. Los resultados obtenidos permiten concluir que DomotiCore constituye una solución tecnológica viable para la gestión inteligente del consumo energético, con una arquitectura preparada para incorporar nuevas funcionalidades, ampliar la integración con dispositivos IoT y responder a las necesidades de futuros usuarios y escenarios de mayor complejidad.
 
+<div style="page-break-after: always;"></div>
+
 ## Video About the Team
 
 El video "About the Team" presenta de manera clara y conciso, la sinceridad de los integrantes en la participacion del proyecto.

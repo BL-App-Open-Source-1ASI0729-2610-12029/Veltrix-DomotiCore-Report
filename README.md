@@ -177,6 +177,8 @@ Durante esta fase, el equipo elaboró el **informe para la entrega final**, que 
 
 La colaboración fue totalmene activa, con aportes sustanciales de algunos integrantes en la redacción y organización del informe.
 
+<div style="page-break-after: always;"></div>
+
 # Tabla de Contenidos
 
 ## [Capítulo I: Introducción](Capitulo_1.md)
@@ -328,6 +330,8 @@ La colaboración fue totalmene activa, con aportes sustanciales de algunos integ
 ---
 <br>
 
+<div style="page-break-after: always;"></div>
+
 # Student Outcome
 
 El curso contribuye al cumplimiento del Student Outcome **ABET: ABET – EAC - Student Outcome 3** 
@@ -350,3 +354,5 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 | | **Esquicha Alcántara, Diego Alonso**<br>**AV1**<br>Asimismo, los avances fueron documentados por escrito de forma ordenada y precisa, detallando el flujo de trabajo en Git. Esta documentación permitió presentar la información de manera adaptable, resultando clara tanto para perfiles técnicos como para quienes no cuentan con formación técnica. <br><br> **TB1**<br> En el TB1 documentó los resultados del EventStorming, la definición de los Bounded Context y el capítulo 4 con Wireflows y Userflows, además de estructurar el contenido del PPT de presentación.<br><br> **AV2**<br>En el AV2 documentó de manera estructurada las conclusiones del proyecto, los resultados obtenidos de las entrevistas de validación y la planificación final de los sprints. Además, explicó por escrito las decisiones de arquitectura adoptadas, facilitando su comprensión para audiencias técnicas y académicas.<br><br>**TB2**<br>Durante el TB2 consolidó la documentación final del proyecto, revisó la estructura general del informe y documentó las decisiones finales relacionadas con la arquitectura, la planificación y la integración de los distintos componentes del sistema. | |
 | | **Rocha Cotrina, Alvaro** <br>**AV1**<br>A lo largo del proyecto, participé en la redacción y organización de distintas secciones del documento, como User Stories, Product Backlog, Style Guidelines y Architecture, asegurando una estructura clara, coherente y alineada con los requerimientos del curso. Además, se utilizaron recursos como tablas, listas y descripciones detalladas que facilitaron la comprensión tanto para lectores técnicos como no técnicos. De esta manera, se logró transmitir la información de forma ordenada y precisa, permitiendo entender el funcionamiento, diseño y alcance de la solución propuesta.<br><br> **TB1**<br> Durante el TB1 documentó los *Software Architecture Diagrams* y la descripción de los Bounded Context *Devices Control* y *Device Management*, asegurando claridad y coherencia en la información técnica presentada.<br><br> **AV2**<br>Durante el AV2 participó en la redacción de las conclusiones generales del proyecto y en la documentación de los ajustes realizados en el frontend y backend.<br><br>**TB2**<br>Durante el TB2 documentó las mejoras realizadas en los Software Architecture Diagrams, los Sprint Backlogs, las User Stories y el Product Backlog, asegurando la consistencia entre la documentación y la implementación final de los Bounded Context desarrollados en el frontend. | |
 | | **Véliz Martínez Diego Alonso** <br>**AV2**<br>En el AV2 pudo colaborar con el registro de entrevistas de validación así como el video About the Team<br><br>**TB2**<br>Durante el TB2 participó en la correcion de errores del reporte asi como en los ultimos entregables. Asimismo, participó en la revisión y corrección del documento final, colaboró en la actualización de los entregables pendientes y verificó la consistencia de la documentación antes de la entrega final. | |
+
+<div style="page-break-after: always;"></div>

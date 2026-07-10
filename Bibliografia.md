@@ -11,3 +11,5 @@
 International Telecommunication Union. (2012). Overview of the Internet of Things (Recommendation ITU-T Y.2060). https://www.itu.int
 - Scrum Alliance. (2020). The Scrum Guide. https://scrumguides.org
 - World Energy Council. (2020). Energy efficiency indicators. https://www.worldenergy.org
+
+<div style="page-break-after: always;"></div>

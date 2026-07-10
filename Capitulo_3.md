@@ -124,3 +124,4 @@ El Impact Mapping es una herramienta que nos permitió estructurar y visualizar 
 | **49** | **US40** | Configuración personalizada del formato de exportación de datos | **Como** administrador de un pequeño negocio, **quiero** seleccionar el formato de exportación de datos **para** análisis externo. | **5** |
 | **50** | **US05** | Activación de escenas | **Como** Dueño de Negocio, **quiero** activar una escena de cierre **para** apagar equipos rápidamente. | **5** |
 
+<div style="page-break-after: always;"></div>

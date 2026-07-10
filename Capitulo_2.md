@@ -670,3 +670,5 @@ Establece un lenguaje común entre todos los miembros del equipo, facilitando la
 - The development team ensures that the **Telemetry** sent by the **Gateway** is correctly processed to trigger an **Alert** if consumption limits are exceeded.
 - By activating a "Energy Saving" **Scene**, the configured **Automation** changes the **Device Status** of all non-essential nodes to "Off".
 - The user relies on **Real-time Monitoring** to verify that the **Energy Consumption** of their facility has successfully decreased after business hours.
+
+<div style="page-break-after: always;"></div>
