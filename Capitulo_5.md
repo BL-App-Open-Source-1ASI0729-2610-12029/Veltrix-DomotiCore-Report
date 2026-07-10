@@ -432,7 +432,7 @@ Durante el Sprint 1, el equipo de desarrollo de DomotiCore se enfocó en estable
 ### Video de Demostración y Navegación
 Puedes acceder al video de la demostración funcional en el siguiente enlace:
 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417405_upc_edu_pe/IQCPng9giTbzT7yPR6RganePARwt5TeTRUKmAmmGUib8n3E?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ZW7H6O
+<https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417405_upc_edu_pe/IQCPng9giTbzT7yPR6RganePARwt5TeTRUKmAmmGUib8n3E?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ZW7H6O>
 
 ### Screenshots de la Implementación
 
@@ -1779,7 +1779,7 @@ Durante el Sprint 3 se consolidó la plataforma DomotiCore como un sistema funci
 ### Video de Demostración y Navegación
 Puedes acceder al video de la demostración funcional en el siguiente enlace:
 
- https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411799_upc_edu_pe/IQCfFdiePZ2WSYDP5NAx09aaAU-75hAPHn83pfSqqKyIi3k?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=eawEVz
+ <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411799_upc_edu_pe/IQCfFdiePZ2WSYDP5NAx09aaAU-75hAPHn83pfSqqKyIi3k?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=eawEVz>
 
 ### Screenshots de la Implementación
 
@@ -2228,7 +2228,7 @@ Durante el Sprint 4 se fortaleció la arquitectura de DomotiCore mediante la reo
 
 Puedes acceder al video de la demostración funcional en el siguiente enlace:
 
-https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417405_upc_edu_pe/IQBK8sDYKI8uTpYrOFi7XYrwAcT8jQJNrpSZJkgfTF2-jR4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ekOTy8
+<https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417405_upc_edu_pe/IQBK8sDYKI8uTpYrOFi7XYrwAcT8jQJNrpSZJkgfTF2-jR4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ekOTy8>
 
 ### Screenshots de la Implementación
 
@@ -2292,8 +2292,9 @@ Durante el Sprint 4 se ejecutaron actividades orientadas a optimizar la arquitec
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
 - Evidencia del despliegue en Swagger
+
 <div style="text-align:center;">
-  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-1-sprint-backlog-3.png" 
+  <img src="imagenes/images_Cap5/swagger.png" 
        alt="Frontend Evidence">
 </div>
 <div style="text-align:center;">
@@ -2329,21 +2330,21 @@ Durante el Sprint 4 se ejecutaron actividades orientadas a optimizar la arquitec
        alt="Frontend Evidence">
 </div>
 
-- Evidencia del despliegue de simulación de Backend
+- Evidencia del despliegue de Render
 <div style="text-align:center;">
-  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-3-sprint-backlog-3.png" 
+  <img src="imagenes/images_Cap5/domoticore1.png" 
        alt="Frontend Evidence">
 </div>
 <div style="text-align:center;">
-  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-4-sprint-backlog-3.png" 
+  <img src="imagenes/images_Cap5/domoticore2.png" 
        alt="Frontend Evidence">
 </div>
 <div style="text-align:center;">
-  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-5-sprint-backlog-3.png" 
+  <img src="imagenes/images_Cap5/domoticore3.png" 
        alt="Frontend Evidence">
 </div>
 <div style="text-align:center;">
-  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-6-sprint-backlog-3.png" 
+  <img src="imagenes/images_Cap5/domoticore4.png" 
        alt="Frontend Evidence">
 </div>
 
@@ -2354,6 +2355,36 @@ Durante el Sprint 4 se ejecutaron actividades orientadas a optimizar la arquitec
 </div>
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
+
+La ejecución del Sprint 4 se centró en la optimización de la arquitectura del sistema, la incorporación de nuevas funcionalidades y el fortalecimiento de la integración entre el frontend y el backend, consolidando una versión más estable, escalable y preparada para futuras ampliaciones. La colaboración del equipo se evidenció en los siguientes aspectos clave:
+
+* **Coordinación Técnica Continua:** El equipo trabajó de forma coordinada para integrar nuevas funcionalidades, reorganizar la arquitectura del proyecto y optimizar la comunicación entre los diferentes módulos del sistema.
+
+* **Gestión Eficiente del Control de Versiones:** Se mantuvo un flujo organizado de desarrollo mediante el uso de ramas, Pull Requests y revisiones de código, garantizando una integración segura y controlada de los cambios implementados.
+
+* **Optimización de la Plataforma:** La colaboración permitió refactorizar servicios, controladores y componentes de la interfaz, mejorando la mantenibilidad del código, la experiencia de usuario y el rendimiento general de la aplicación.
+
+* **Enfoque en Calidad y Estabilidad:** Durante el sprint se realizaron pruebas funcionales, validaciones de integración y correcciones de errores para asegurar el correcto funcionamiento de las nuevas funcionalidades incorporadas.
+
+* **Comunicación y Resolución Ágil de Incidencias:** El equipo mantuvo una comunicación constante para coordinar actividades, resolver bloqueos técnicos y cumplir con los objetivos establecidos para el Sprint 4.
+
+### Analíticos de GitHub — Sprint 4
+**Analíticos de GitHub — Plataforma Interna**
+
+<p align="center">
+  <img src="imagenes/images_Cap5/commitssprint4.png" alt="Top Committers — Sprint 2" width="600"/>
+</p>
+
+| Integrante | Usuario GitHub | Commits |
+| :--- | :--- | :---: |
+| Quispe Llacsahuanga, César Agusto | user20-bit | 32 |
+| Esquicha Alcántara, Diego Alonso | DiegoEsquich | 1 |
+| Rocha Cotrina, Alvaro | alvarorc24 | 0 |
+| Véliz Martínez, Diego Alonso | Veliz-0912 | 0 |
+| Checa Burga, Oscar Diego | OscarCheca | 0 |
+| Tello Palacios, Fabrizio Rafael | F4bris | 0 |
+
+Se evidencia una participación activa y equilibrada de todos los integrantes del equipo durante el Sprint 4, reflejando un trabajo colaborativo de la plataforma DomotiCore.
 
 ## 5.3. Validation Interviews
 

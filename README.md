@@ -60,7 +60,7 @@ Para el desarrollo del **Project Report**, el equipo utiliza un repositorio dent
 
 **Repositorio del informe del proyecto:** https://github.com/BL-App-Open-Source-1ASI0729-2610-12029/Veltrix-DomotiCore-Report
 
-- **Total de commits:** 145
+- **Total de commits:** 163
 - **Autores contribuyentes:**
   - Alvaro Rocha Cotrina ( `alvarorc24` )
   - Diego Alonso Esquicha Alcántara ( `DiegoEsquich` )
@@ -163,16 +163,16 @@ Durante esta fase, el equipo elaboró el **informe para la entrega final**, que 
 - **Capítulo V** sprint backlog número 4, últimas correcciones tanto links como evidencias.
 - **Adicionalmente** conclusiones, bibliografía y anexos.
 
-![Project Report Collaboration Insights TB2](pendiente)
-![Project Report Collaboration Insights TB2](pendiente)
+![Project Report Collaboration Insights TB2](imagenes/imagenes_Cap1/Screenshot-tb2.1.png)
+![Project Report Collaboration Insights TB2](imagenes/imagenes_Cap1/Screenshot-tb2.2.png)
 
 | Integrante | Usuario GitHub | Commits | Adiciones | Eliminaciones |
 |---|---|---|---|---|
-| Diego Alonso Esquicha Alcántara | `DiegoEsquich` | - | - | - |
-| Cesar Augusto Quispe Llacsahuanga | `user20-bit` | - | - | - |
-| Fabrizio Rafael Tello Palacios | `F4bris` | - | - | - |
-| Oscar Diego Checa Burga | `OscarCheca` | - | - | - |
-| Alvaro Rocha Cotrina | `alvarorc24` | - | - | - |
+| Diego Alonso Esquicha Alcántara | `DiegoEsquich` | 48 | 4007 | 595 |
+| Cesar Augusto Quispe Llacsahuanga | `user20-bit` | 31 | 1896 | 974 |
+| Fabrizio Rafael Tello Palacios | `F4bris` | 24 | 800 | 116 |
+| Oscar Diego Checa Burga | `OscarCheca` | 22 | 241 | 92 |
+| Alvaro Rocha Cotrina | `alvarorc24` | 21 | 872 | 895 |
 | Diego Alonso Véliz Martínez | `Diego Véliz` | - | - | - |
 
 La colaboración fue totalmene activa, con aportes sustanciales de algunos integrantes en la redacción y organización del informe.
