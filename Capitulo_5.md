@@ -1919,7 +1919,7 @@ Se evidencia una participación activa y equilibrada de todos los integrantes de
 
 #### 5.2.4.1 Sprint Planning 4
 
-En esta sección, se presentará la planificación de nuestro Sprint 3.
+En esta sección, se presentará la planificación de nuestro Sprint 4.
 
 | **Sprint #** |                **Sprint 4**              |
 |--------------|------------------------------------------|
@@ -1974,8 +1974,7 @@ En el Sprint Backlog 4 se consolidan las mejoras de usabilidad, accesibilidad y 
 | | | T002 | Validación de accesibilidad | Permite verificar que las mejoras de accesibilidad cumplan con una experiencia de usuario adecuada. | 4h | Alvaro Rocha | Done |
 | **US-042** | Implementar reportes históricos de consumo energético | T001 | Implementación del historial de consumo | Permite almacenar y visualizar el historial del consumo energético de los dispositivos. | 4h | Cesar Quispe | Done |
 | | | T002 | Validación de reportes históricos | Permite comprobar la correcta generación y visualización de los reportes históricos. | 4h | Diego Esquicha | Done |
-| **US-043** | Configurar alertas inteligentes y personalizables | T001 | Configuración de alertas | Permite definir alertas personalizadas según el consumo energético de los dispositivos. | 4h | Alvaro Rocha |
-| | | T002 | Validación del sistema de alertas | Permite verificar el correcto funcionamiento de las alertas configuradas por el usuario. | 6h | Diego Esquicha | Done |
+| **US-043** | Configurar alertas inteligentes y personalizables | T001 | Configuración de alertas | Permite definir alertas personalizadas según el consumo energético de los dispositivos. | 4h | Alvaro Rocha | Done  | T002 | Validación del sistema de alertas | Permite verificar el correcto funcionamiento de las alertas configuradas por el usuario. | 6h | Diego Esquicha | Done |
 | **US-044** | Incorporar una guía interactiva para nuevos usuarios | T001 | Implementación del recorrido interactivo | Permite guiar al usuario durante el primer acceso a la plataforma mediante un recorrido interactivo. | 5h | Alvaro Rocha | Done |
 | **US-045** | Optimizar el rendimiento y corregir errores de la plataforma | T001 | Optimización del rendimiento | Permite reducir los tiempos de carga y mejorar el desempeño general de la plataforma. | 5h | Cesar Quispe | Done |
 | | | T002 | Corrección de incidencias | Permite corregir los errores funcionales detectados durante las pruebas del sistema. | 6h | Cesar Quispe | Done |
@@ -2214,11 +2213,145 @@ Durante este sprint se implementaron funcionalidades relacionadas con el control
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
+Durante el Sprint 4 se fortaleció la arquitectura de DomotiCore mediante la reorganización del proyecto, la incorporación de nuevos servicios y la optimización de funcionalidades clave, logrando una plataforma más robusta, escalable y preparada para su despliegue.
 
+### Resumen de Logros:
+* **Arquitectura y Organización del Proyecto:** Se reorganizó la estructura del sistema siguiendo una arquitectura por capas y principios de Domain-Driven Design (DDD), mejorando la mantenibilidad y escalabilidad del proyecto.
+
+* **Control de Acceso y Gestión de Usuarios:** Se implementó el control de acceso basado en roles y segmentos, además de funcionalidades para la gestión de invitaciones, permisos y administración de usuarios.
+
+* **Optimización de la Plataforma:** Se refactorizaron servicios, controladores y procesos de autenticación, corrigiendo errores de despliegue y mejorando la estabilidad general del sistema.
+
+* **Experiencia de Usuario e Integración:** Se mejoró la interfaz mediante internacionalización (i18n), Material Icons y animaciones, además de incorporar nuevas integraciones con la API para el control de dispositivos, automatizaciones y optimización energética.
+
+### Video de Demostración y Navegación
+
+Puedes acceder al video de la demostración funcional en el siguiente enlace:
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202417405_upc_edu_pe/IQBK8sDYKI8uTpYrOFi7XYrwAcT8jQJNrpSZJkgfTF2-jR4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ekOTy8
+
+### Screenshots de la Implementación
+
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/sprint4-evidence1.1.png" 
+       alt="evidencia">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/sprint4-evidence1.2.png" 
+       alt="evidencia">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/sprint4-evidence1.3.png" 
+       alt="evidencia">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/sprint4-evidence1.4.png" 
+       alt="evidencia">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/sprint4-evidence1.5.png" 
+       alt="evidencia">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/sprint4-evidence1.6.png" 
+       alt="evidencia">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/sprint4-evidence1.7.png" 
+       alt="evidencia">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/sprint4-evidence1.8.png" 
+       alt="evidencia">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/sprint4-evidence1.9.png" 
+       alt="evidencia">
+</div>
 
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
+Durante el Sprint 4 se ejecutaron actividades orientadas a optimizar la arquitectura del sistema, fortalecer los servicios del backend y mejorar la experiencia de usuario, asegurando una plataforma más estable, organizada y preparada para futuras funcionalidades.
+
+**Las actividades realizadas incluyen:**
+
+* Arquitectura y Refactorización: Se reorganizó la estructura del proyecto siguiendo una arquitectura por capas (DDD), mejorando la organización del código y facilitando el mantenimiento de la aplicación.
+* Servicios Backend: Se implementaron nuevos controladores, servicios e integraciones para la gestión de usuarios, invitaciones, notificaciones y auditoría, optimizando la comunicación entre los distintos módulos del sistema.
+* Integración y Configuración: Se optimizó la integración entre frontend y backend mediante mejoras en la autenticación, los procesos de despliegue y la comunicación con los servicios de la API.
+* Interfaz y Experiencia de Usuario: Se incorporaron mejoras en la interfaz, incluyendo internacionalización (i18n), Material Icons, animaciones y optimizaciones visuales que incrementan la usabilidad y consistencia de la plataforma.
+
+### Detalle de Entornos de Despliegue
+
+| Componente | Plataforma / Herramienta | Estado | URL / Acceso |
+| :--- | :--- | :---: | :--- |
+| **Frontend Final** | Vercel | `Live` | [https://veltrix-domoti-core-front-end-omega.vercel.app/] |
+| **Fake API** | Render | `Live` | [https://json-server-2mq3.onrender.com]
+| **API Documentación** | Swagger UI | `Public` | [https://domoticore-api.onrender.com/v3/api-docs] |
+----
+
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+- Evidencia del despliegue en Swagger
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-1-sprint-backlog-3.png" 
+       alt="Frontend Evidence">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-1.1-sprint-backlog-3.png" 
+       alt="Frontend Evidence">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-1.2-sprint-backlog-3.png" 
+       alt="Frontend Evidence">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-1.3-sprint-backlog-3.png" 
+       alt="Frontend Evidence">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-1.4-sprint-backlog-3.png" 
+       alt="Frontend Evidence">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-1.5-sprint-backlog-3.png" 
+       alt="Frontend Evidence">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-1.6-sprint-backlog-3.png" 
+       alt="Frontend Evidence">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-1.7-sprint-backlog-3.png" 
+       alt="Frontend Evidence">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-1.8-sprint-backlog-3.png" 
+       alt="Frontend Evidence">
+</div>
+
+- Evidencia del despliegue de simulación de Backend
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-3-sprint-backlog-3.png" 
+       alt="Frontend Evidence">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-4-sprint-backlog-3.png" 
+       alt="Frontend Evidence">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-5-sprint-backlog-3.png" 
+       alt="Frontend Evidence">
+</div>
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-6-sprint-backlog-3.png" 
+       alt="Frontend Evidence">
+</div>
+
+- Evidencia del despliegue de la Fake API
+<div style="text-align:center;">
+  <img src="imagenes/images_Cap5/screenshot-software-deployment-evidence-2-sprint-backlog-3.png" 
+       alt="Frontend Evidence">
+</div>
 
 #### 5.2.4.8. Team Collaboration Insights during Sprint
 
@@ -2541,7 +2674,7 @@ En esta sección presentaremos el registro de cada entrevista de validación que
 	 <tr>
     <td>Link</td>
    <td>
-		<p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411243_upc_edu_pe/IQA8nzR_mP_vRLk2xyNHTgN-AfVZOrU9g87CM6YEZ2eoHUk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PnAaGM" title="Title">Microsoft Stream</p>
+		<p><a target="_blank"  href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411243_upc_edu_pe/IQA8nzR_mP_vRLk2xyNHTgN-AfVZOrU9g87CM6YEZ2eoHUk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PnAaGM" title="Title">Microsoft Stream </p>
 	</td>
   </tr>
   <tr>
@@ -2782,10 +2915,10 @@ El video "About the Product" presenta de manera clara y atractiva la propuesta d
 
 | Título del Video      | DomotiCore Product           | 
 |-----------------------|------------------------------|
-| Duración              | 1 minuto y 13 segundos       |  
-| Fecha de Grabación    | 20/06/2026                   | 
-| URL YouTube           | https://youtu.be/S9vqfOn2H3Q | 
-| URL Microsoft Stream  | <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411799_upc_edu_pe/IQAA40xPMqPOTLb8hgvhmoYZAaGeqy5ORKqc7tHol4OElIY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wKo22e>    | 
+| Duración              | 1 minuto y 24 segundos       |  
+| Fecha de Grabación    | 09/07/2026                   | 
+| URL YouTube           | https://youtu.be/2I0HJ5Be-lw | 
+| URL Microsoft Stream  | <https://upcedupe-my.sharepoint.com/:v:/g/personal/u202411799_upc_edu_pe/IQDv9kysO-zNTqT-eKEEMGl5AVG-dD0Sq9TYvOkATjw6Ip8?e=NRVg1a&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D>    | 
 
 Screenshot del video "About the Product" :
 
